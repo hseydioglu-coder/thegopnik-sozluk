@@ -19,7 +19,7 @@ const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0
 const db = getFirestore(app);
 
 export default function Home() {
-  const [lang, setLang] = useState("tr");
+  const [lang, setLang] = useState<"tr" | "ru">("tr");
   const [searchQuery, setSearchQuery] = useState("");
   const [results, setResults] = useState<any[]>([]);
 
