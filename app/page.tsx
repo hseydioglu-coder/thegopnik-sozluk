@@ -166,29 +166,39 @@ export default function Home() {
         </div>
 
         {/* Sonuç Listesi */}
-        {results.length > 0 && (
-          <div className="w-full max-w-lg px-4 text-left space-y-4 mb-12">
-            {results.map((item: any, index: number) => (
-              <div key={index} className="p-5 rounded-xl bg-[#1F1F1F] border border-[#222] shadow-md">
-                <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-bold text-white">{item.word_ru} <span className="text-xs font-normal text-gray-500">({item.word_latin})</span></h3>
-                  <span className="text-[10px] px-2 py-0.5 rounded bg-[#C61010]/20 text-[#C61010] border border-[#C61010]/30 font-bold">
-                    Seviye: {item.severity_level}
-                  </span>
-                </div>
-                <p className="text-sm text-gray-400 mb-1"><span className="text-xs text-gray-600 font-bold">Anlamı:</span> {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}</p>
-                <p className="text-xs text-gray-500 italic mb-3"><span className="text-[10px] text-gray-600 font-bold">Mecaz/Birebir:</span> {item.literal_translation_tr}</p>
-                
-                {item.examples && item.examples.length > 0 && (
-                  <div className="p-3 bg-[#121212] rounded border border-[#252525] text-xs">
-                    <p className="text-gray-300 font-serif mb-1">“{item.examples[0].ru}”</p>
-                    <p className="text-gray-500">→ {item.examples[0].tr}</p>
-                  </div>
-                )}
-              </div>
-            ))}
+{results.length > 0 && (
+  <div className="w-full max-w-lg px-4 text-left space-y-4 mb-12">
+    {results.map((item: any, index: number) => (
+      <div key={index} className="p-5 rounded-xl bg-[#1F1F1F] border border-[#222] shadow-md">
+        <div className="flex justify-between items-start mb-2">
+          {/* 1. Değişiklik: Okunuşu hemen altında parantez içinde */}
+          <div className="flex flex-col">
+            <h3 className="text-xl font-bold text-white">{item.word_ru}</h3>
+            <span className="text-sm text-gray-500 font-mono">({item.word_latin})</span>
+          </div>
+          
+          <span className="text-[10px] px-2 py-0.5 rounded bg-[#C61010]/20 text-[#C61010] border border-[#C61010]/30 font-bold">
+            Seviye: {item.severity_level}
+          </span>
+        </div>
+
+        {/* 2. Değişiklik: Kültürel Açıklama başlığı */}
+        <p className="text-sm text-gray-300 mb-3">
+          <span className="text-xs text-[#C61010] font-bold block mb-0.5">Kültürel Açıklama:</span> 
+          {item.cultural_context || "Bu ifade için özel bir kültürel not bulunmuyor."}
+        </p>
+        
+        {/* 3. Değişiklik: Örnek kutusu renkleri ve okunabilirlik */}
+        {item.examples && item.examples.length > 0 && (
+          <div className="p-4 bg-[#161616] rounded border border-[#333] text-sm">
+            <p className="text-[#E0E0E0] font-serif mb-2 italic">“{item.examples[0].ru}”</p>
+            <p className="text-[#A0A0A0]">→ {item.examples[0].tr}</p>
           </div>
         )}
+      </div>
+    ))}
+  </div>
+)}
       </main>
 
       {/* Footer */}
