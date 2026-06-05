@@ -21,7 +21,7 @@ const db = getFirestore(app);
 export default function Home() {
   const [lang, setLang] = useState("tr");
   const [searchQuery, setSearchQuery] = useState("");
-  const [results, setResults] = useState([]);
+  const [results, setResults] = useState<any[]>([]);
 
   const content = {
     tr: {
