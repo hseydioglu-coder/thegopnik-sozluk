@@ -1,0 +1,411 @@
+[
+  {
+    "word_ru": "Целая",
+    "word_latin": "Tselaya",
+    "meaning_tr": [
+      "Bakire",
+      "El değmemiş kız"
+    ],
+    "literal_translation_tr": "Bütün / Tam",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Говорят, она еще целая.",
+        "tr": "Diyorlar ki o hala bakire (bütün/el değmemiş)."
+      }
+    ],
+    "cultural_context": "Kadınlar için daha önce hiç cinsel ilişkiye girmemiş, 'bozulmamış, bütün' anlamında kullanılan sokak jargonu.",
+    "search_keywords": [
+      "bakire",
+      "el değmemiş kız",
+      "tselaya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целая",
+        "alternateName": [
+          "Bakire",
+          "El değmemiş kız"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bakire. Hiç cinsel ilişkiye girmemiş kadınları tanımlayan, bozulmamış/bütün anlamında sokak jargonu."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целина",
+    "word_latin": "Tselina",
+    "meaning_tr": [
+      "Bakire",
+      "El değmemiş kız"
+    ],
+    "literal_translation_tr": "İşlenmemiş toprak / Bakir toprak",
+    "category": "Argo / Mecaz",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Там сплошная целина, никто ее не трогал.",
+        "tr": "O tamamen işlenmemiş toprak (bakire), kimse ona dokunmadı."
+      }
+    ],
+    "cultural_context": "Tarımsal bir terim olan 'işlenmemiş, sürülmemiş toprak' (tselina) kelimesinin bakire kızlar için kullanılan argo/mecazi formudur.",
+    "search_keywords": [
+      "bakire",
+      "el değmemiş kız",
+      "tselina"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целина",
+        "alternateName": [
+          "Bakire",
+          "El değmemiş kız"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bakire. İşlenmemiş tarım toprağı teriminin bakire kadınlar için kullanılan mecazi argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целка",
+    "word_latin": "Tselka",
+    "meaning_tr": [
+      "Bakire",
+      "Kızlık zarı"
+    ],
+    "literal_translation_tr": "Bütünlük (Argo/Küçültme eki)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Не строй из себя целку.",
+        "tr": "Kendine bakire (masum kız) süsü verme / Masum ayaklarına yatma."
+      }
+    ],
+    "cultural_context": "Rusçadaki en yaygın 'bakire' ve 'kızlık zarı' argosudur. Fiziksel anlamının yanı sıra, 'строить целку' (bakire taklidi yapmak) kalıbıyla sahte masumiyet sergileyenler için kinayeli olarak kullanılır.",
+    "search_keywords": [
+      "bakire",
+      "kızlık zarı",
+      "tselka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целка",
+        "alternateName": [
+          "Bakire",
+          "Kızlık zarı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bakire, Kızlık zarı. En yaygın bakire argosudur, aynı zamanda sahte masumiyet sergileyenler için de kinayeli kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целку ломать",
+    "word_latin": "Tselku lomat'",
+    "meaning_tr": [
+      "Kızlığını bozmak",
+      "Bekaretini bozmak"
+    ],
+    "literal_translation_tr": "Bütünlüğünü (Kızlık zarını) kırmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он обещал ей целку не ломать до свадьбы.",
+        "tr": "Ona düğüne kadar kızlığını bozmayacağına söz vermişti."
+      }
+    ],
+    "cultural_context": "Bir kızın bekaretini almayı fiziksel bir 'kırma/bozma' eylemiyle ifade eden kaba bir cinsel argodur.",
+    "search_keywords": [
+      "kızlığını bozmak",
+      "bekaretini bozmak",
+      "tselku lomat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целку ломать",
+        "alternateName": [
+          "Kızlığını bozmak",
+          "Bekaretini bozmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kızlığını bozmak. Bir kızın bekaretini almayı fiziksel bir 'kırma' eylemiyle ifade eden cinsel argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целку проломить",
+    "word_latin": "Tselku prolomit'",
+    "meaning_tr": [
+      "Kızlık zarını yırtmak",
+      "Bekaretini almak"
+    ],
+    "literal_translation_tr": "Kızlık zarını yarıp geçmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Ему наконец-то удалось целку проломить.",
+        "tr": "Sonunda onun kızlık zarını yırtmayı (bekaretini bozmayı) başardı."
+      }
+    ],
+    "cultural_context": "'Целку ломать' eyleminin daha sert, agresif ve fiziksel olarak 'yarıp geçme' anlamı taşıyan tamamlanmış (perfective) formudur.",
+    "search_keywords": [
+      "kızlık zarını yırtmak",
+      "bekaretini almak",
+      "tselku prolomit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целку проломить",
+        "alternateName": [
+          "Kızlık zarını yırtmak",
+          "Bekaretini almak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kızlık zarını yırtmak. Bekaret bozma eyleminin daha sert ve fiziksel/yarıp geçme anlamı taşıyan formudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целку сломать",
+    "word_latin": "Tselku slomat'",
+    "meaning_tr": [
+      "Kızlığını bozmak",
+      "Bakireyle yatmak"
+    ],
+    "literal_translation_tr": "Kızlık zarını kırmak (Tamamlanmış)",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Кто-то же должен был эту целку сломать.",
+        "tr": "Birisinin bu kızlığı bozması gerekiyordu sonuçta."
+      }
+    ],
+    "cultural_context": "Bekaret bozma eyleminin, sonucun elde edildiğini gösteren standart tamamlanmış (perfective) argo fiilidir.",
+    "search_keywords": [
+      "kızlığını bozmak",
+      "bakireyle yatmak",
+      "tselku slomat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целку сломать",
+        "alternateName": [
+          "Kızlığını bozmak",
+          "Bakireyle yatmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kızlığını bozmak. Bekaret bozma eyleminin sonucun elde edildiğini gösteren tamamlanmış fiilidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Сидеть за целку",
+    "word_latin": "Sidet' za tselku",
+    "meaning_tr": [
+      "Bakireye tecavüzden yatmak",
+      "Küçük kızla ilişkiden dolayı hapis yatmak"
+    ],
+    "literal_translation_tr": "Bakire için (hapiste) oturmak",
+    "category": "Suç Argosu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Он уже десять лет будет сидеть за целку.",
+        "tr": "O on yıl boyunca bakireye tecavüzden hapis yatacak."
+      }
+    ],
+    "cultural_context": "Cezaevi jargonu. Reşit olmayan veya bakire bir kıza cinsel saldırı (tecavüz) suçundan hüküm giymiş kişileri tanımlar. Hapishane hiyerarşisinde aşağılanan bir durumdur.",
+    "search_keywords": [
+      "bakireye tecavüzden yatmak",
+      "hapiste yatmak",
+      "sidet za tselku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Сидеть за целку",
+        "alternateName": [
+          "Bakireye tecavüzden yatmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bakireye tecavüzden yatmak. Cezaevi jargonunda reşit olmayan veya bakire bir kıza cinsel saldırıdan hüküm giyenler için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целочка",
+    "word_latin": "Tselochka",
+    "meaning_tr": [
+      "Bakirecik"
+    ],
+    "literal_translation_tr": "Küçük bütün / Küçük bakire",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Посмотри на эту целочку, как она краснеет.",
+        "tr": "Şu bakireciğe bak, nasıl da kızarıyor."
+      }
+    ],
+    "cultural_context": "'Целка' kelimesinin küçültme ve şefkat eki (-чка) almış halidir. Genç bakire kızlar için okşayıcı, bazen de sahte masumiyet sergileyenlere karşı kinayeli olarak kullanılır.",
+    "search_keywords": [
+      "bakirecik",
+      "tselochka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целочка",
+        "alternateName": [
+          "Bakirecik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bakirecik. Tselka kelimesinin küçültme ve şefkat eki almış, bazen de kinayeli kullanılan halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Целочник",
+    "word_latin": "Tselochnik",
+    "meaning_tr": [
+      "Tecavüzcü (Özellikle bakirelere/çocuklara)",
+      "Sübyancı"
+    ],
+    "literal_translation_tr": "Bakireci",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "На зоне целочников никто не уважает.",
+        "tr": "Hapishanede tecavüzcülere (bakirecilere) kimse saygı duymaz."
+      }
+    ],
+    "cultural_context": "Hapishane (Fenya) argosunda, bakire kadınlara veya küçük yaştaki kızlara tecavüz eden mahkumları tanımlar. Yeraltı dünyası kurallarına göre cezaevi hiyerarşisinin en alt tabakasıdırlar.",
+    "search_keywords": [
+      "tecavüzcü",
+      "sübyancı",
+      "tselochnik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Целочник",
+        "alternateName": [
+          "Tecavüzcü",
+          "Sübyancı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tecavüzcü. Hapishane argosunda bakire kadınlara veya küçük yaştaki kızlara tecavüz eden mahkumları tanımlayan ağır kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Цирк",
+    "word_latin": "Tsirk",
+    "meaning_tr": [
+      "Grup seks",
+      "Cümbüş",
+      "Toplu sikiş",
+      "Alem"
+    ],
+    "literal_translation_tr": "Sirk",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Вчера на хате был настоящий цирк.",
+        "tr": "Dün evde tam bir cümbüş (grup seks / alem) vardı."
+      }
+    ],
+    "cultural_context": "Çok sayıda kişinin katıldığı, gürültülü, izlemelik ve farklı (akrobatik) pozisyonların döndüğü grup seks ortamlarını ve cinsel alemleri 'sirk' eğlencesine benzeterek anlatan argodur.",
+    "search_keywords": [
+      "grup seks",
+      "cümbüş",
+      "toplu sikiş",
+      "alem",
+      "tsirk"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Цирк",
+        "alternateName": [
+          "Grup seks",
+          "Cümbüş",
+          "Alem"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Grup seks, Cümbüş. Çok sayıda kişinin katıldığı seks ortamlarını sirke benzeterek anlatan argo kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Цирковать",
+    "word_latin": "Tsirkovat'",
+    "meaning_tr": [
+      "Grup sekse katılmak",
+      "Toplu halde sikişmek",
+      "Alem yapmak"
+    ],
+    "literal_translation_tr": "Sirkçilik yapmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Они любят цирковать по выходным в загородном доме.",
+        "tr": "Hafta sonları yazlık evde grup sekse katılmayı (alem yapmayı) seviyorlar."
+      }
+    ],
+    "cultural_context": "'Sirk' (grup seks) isminden türetilen fiildir. Bu tür kalabalık ve sınır tanımaz cinsel eğlencelere, partilere dahil olmayı ve oynamayı ifade eder.",
+    "search_keywords": [
+      "grup sekse katılmak",
+      "alem yapmak",
+      "tsirkovat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Цирковать",
+        "alternateName": [
+          "Grup sekse katılmak",
+          "Alem yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Grup sekse katılmak, Alem yapmak. Sirk isminden türetilen ve kalabalık cinsel partilere katılmayı ifade eden fiildir."
+      }
+    ]
+  }
+]

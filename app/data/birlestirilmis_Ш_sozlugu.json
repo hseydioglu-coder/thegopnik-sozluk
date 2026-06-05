@@ -1,0 +1,1566 @@
+[
+  {
+    "word_ru": "Шалава",
+    "word_latin": "Shalava",
+    "meaning_tr": [
+      "Orospu",
+      "Sürtük",
+      "Kaltak"
+    ],
+    "literal_translation_tr": "Sürtük",
+    "category": "Hakaret / Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта шалава постоянно меняет парней.",
+        "tr": "Bu sürtük sürekli sevgili değiştiriyor."
+      }
+    ],
+    "cultural_context": "Kolayca cinsel ilişkiye giren, sadakatsiz veya ahlaki sınırları esnek kadınları aşağılamak için kullanılan çok yaygın bir sokak argosudur.",
+    "search_keywords": [
+      "orospu",
+      "sürtük",
+      "kaltak",
+      "shalava"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шалава",
+        "alternateName": [
+          "Orospu",
+          "Sürtük"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Orospu, Sürtük. Kolayca cinsel ilişkiye giren kadınları aşağılamak için kullanılan yaygın argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шалашовка",
+    "word_latin": "Shalashovka",
+    "meaning_tr": [
+      "Ucuz fahişe",
+      "Sokak orospusu",
+      "Kaltak"
+    ],
+    "literal_translation_tr": "Kulübe kızı / Çadır kızı",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Она обычная шалашовка с вокзала.",
+        "tr": "O sadece gar civarından sıradan bir ucuz fahişe (sokak orospusu)."
+      }
+    ],
+    "cultural_context": "'Шалаш' (kulübe/çadır) kelimesinden türemiştir. Tarihsel olarak inşaat alanlarında, çadırlarda veya sokaklarda yaşayan en ucuz ve en alt tabaka hayat kadınlarını tanımlar.",
+    "search_keywords": [
+      "ucuz fahişe",
+      "sokak orospusu",
+      "kaltak",
+      "shalashovka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шалашовка",
+        "alternateName": [
+          "Ucuz fahişe",
+          "Sokak orospusu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ucuz fahişe. Çadırlarda veya sokaklarda yatan en alt tabaka hayat kadınlarını tanımlayan ağır hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шампур",
+    "word_latin": "Shampur",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis"
+    ],
+    "literal_translation_tr": "Kebap şişi / Şiş",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Посадил её на свой шампур.",
+        "tr": "Onu kendi şişine (yarrağına) oturttu."
+      }
+    ],
+    "cultural_context": "Düz anlamda mangalda et pişirmek için kullanılan metal şiş demektir. İnce uzun şekli ve 'saplama/batırma' eylemi sebebiyle erkek cinsel organı için kullanılan görsel bir metafordur.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "şiş",
+      "shampur"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шампур",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Mangal şişi kelimesinin ince uzun yapısı sebebiyle erkek organı için kullanıldığı metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шанкр",
+    "word_latin": "Shankr",
+    "meaning_tr": [
+      "Şankr",
+      "Zührevi hastalık yarası",
+      "Frengi"
+    ],
+    "literal_translation_tr": "Şankr (Chancre)",
+    "category": "Tıbbi / Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Подцепил шанкр после той вечеринки.",
+        "tr": "O partiden sonra şankr (frengi/zührevi hastalık) kaptı."
+      }
+    ],
+    "cultural_context": "Sifiliz (frengi) hastalığının ilk evresinde cinsel organlarda çıkan açık yaraya (şankr) verilen tıbbi isimdir. Argoda genel olarak cinsel yolla bulaşan hastalıkları temsil eder.",
+    "search_keywords": [
+      "şankr",
+      "zührevi hastalık",
+      "frengi",
+      "shankr"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шанкр",
+        "alternateName": [
+          "Şankr",
+          "Zührevi hastalık"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Şankr, Zührevi hastalık. Frengi hastalığında oluşan yaranın adının genel cinsel hastalıklar için argoda kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шахна",
+    "word_latin": "Shakhna",
+    "meaning_tr": [
+      "Am",
+      "Vajina"
+    ],
+    "literal_translation_tr": "Şahna",
+    "category": "Eski Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Закрой свою шахну.",
+        "tr": "Kapat şu amını."
+      }
+    ],
+    "cultural_context": "Kadın cinsel organını ifade eden, kökeni eski suç jargonuna (Fenya) veya yöresel ağızlara dayanan spesifik ve kaba bir kelimedir.",
+    "search_keywords": [
+      "am",
+      "vajina",
+      "shakhna"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шахна",
+        "alternateName": [
+          "Am",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am, Vajina. Kadın cinsel organını ifade eden, kökeni eski suç jargonuna dayanan spesifik bir kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шашлык",
+    "word_latin": "Shashlyk",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis",
+      "Şaşlık (Kebap)"
+    ],
+    "literal_translation_tr": "Şaşlık kebabı",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Приходи, будем жарить шашлык.",
+        "tr": "Gel de şaşlık (kebap / mecazen yarrak) pişirelim."
+      }
+    ],
+    "cultural_context": "Şişe geçirilmiş et parçaları (şaşlık) üzerinden yapılan esprili bir cinsel metafordur. Bazen hem erkeğin organını hem de cinsel ilişki eylemini (şişe geçirme) şakacı bir yolla ima eder.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "kebap",
+      "shashlyk"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шашлык",
+        "alternateName": [
+          "Yarrak",
+          "Penis",
+          "Kebap"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Şiş kebap üzerinden yapılan, erkek organını veya cinsel eylemi ima eden esprili metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шваба",
+    "word_latin": "Shvaba",
+    "meaning_tr": [
+      "Fahişe",
+      "Orospu",
+      "Paspas"
+    ],
+    "literal_translation_tr": "Paspas (Şvabra)",
+    "category": "Argo / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта шваба стоит дешево.",
+        "tr": "Bu orospu (paspas) ucuza gidiyor."
+      }
+    ],
+    "cultural_context": "Yerleri temizlemekte kullanılan kirli 'paspas' (швабра - shvabra) kelimesinden türetilmiştir. Kadınları, özellikle de hayat kadınlarını, kirli ve değersiz bir temizlik aracı gibi nesneleştirerek aşağılar.",
+    "search_keywords": [
+      "fahişe",
+      "orospu",
+      "paspas",
+      "shvaba"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шваба",
+        "alternateName": [
+          "Fahişe",
+          "Orospu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Fahişe, Orospu. Hayat kadınlarını kirli bir temizlik aracı (paspas) metaforuyla aşağılayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шваркнуть на растяжку",
+    "word_latin": "Shvarknut' na rastyazhku",
+    "meaning_tr": [
+      "Tecavüz etmek",
+      "Bacaklarını ayırıp zorla sahip olmak"
+    ],
+    "literal_translation_tr": "Gererek fırlatmak / Gerdirip çarpmak",
+    "category": "Suç Argosu / Şiddet",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Бандиты грозились шваркнуть ее на растяжку.",
+        "tr": "Haydutlar onu bacaklarını ayırıp zorla becermekle (tecavüz etmekle) tehdit etti."
+      }
+    ],
+    "cultural_context": "Son derece karanlık ve şiddet içerikli bir yeraltı/hapishane jargonu. Bir kadını (veya bazen mahkumu) zorla, kolları ve bacakları iki yana gerilmiş halde etkisiz bırakıp cinsel saldırıda bulunmayı tasvir eder.",
+    "search_keywords": [
+      "tecavüz etmek",
+      "zorla sahip olmak",
+      "shvarknut na rastyazhku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шваркнуть на растяжку",
+        "alternateName": [
+          "Tecavüz etmek",
+          "Zorla sahip olmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tecavüz etmek. Bir kurbanı zorla bacaklarından gererek etkisiz bırakıp cinsel saldırıda bulunmayı anlatan suç argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шведская модель",
+    "word_latin": "Shvedskaya model'",
+    "meaning_tr": [
+      "Grup seks",
+      "Bir kadının üç erkekle sikişmesi"
+    ],
+    "literal_translation_tr": "İsveç modeli",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У них там настоящая шведская модель была.",
+        "tr": "Onların orada tam bir İsveç modeli (grup seks) vardı."
+      }
+    ],
+    "cultural_context": "Batılı (özellikle İsveç kaynaklı) porno filmlerinden veya 70'ler/80'lerdeki 'serbest cinsellik' kalıplarından (İsveç ailesi - шведская семья) esinlenerek, bir kadının birden fazla erkekle aynı anda cinsel ilişkiye girmesini tanımlar.",
+    "search_keywords": [
+      "grup seks",
+      "isveç modeli",
+      "shvedskaya model"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шведская модель",
+        "alternateName": [
+          "Grup seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Grup seks. Bir kadının birden fazla erkekle cinsel ilişkiye girmesini İsveç serbestliği atfıyla tanımlayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шворин тупик",
+    "word_latin": "Shvorin tupik",
+    "meaning_tr": [
+      "Vajina",
+      "Am"
+    ],
+    "literal_translation_tr": "Shvorin Çıkmazı (Çiftleşme çıkmaz sokağı)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он нашел свой путь в шворин тупик.",
+        "tr": "O, Shvorin çıkmazına (vajinaya) giden yolu buldu."
+      }
+    ],
+    "cultural_context": "'Шворить' (Sikmek/Çiftleşmek) fiilinden ve 'Tupik' (Çıkmaz sokak) kelimesinden türetilmiş anatomik ve mekansal bir kelime oyunudur. Kadın cinsel organının anatomik yapısını esprili bir sokak adı gibi tasvir eder.",
+    "search_keywords": [
+      "vajina",
+      "am",
+      "shvorin tupik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шворин тупик",
+        "alternateName": [
+          "Vajina",
+          "Am"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Vajina, Am. Sikmek fiili ve çıkmaz sokak kelimelerinin birleşimiyle vajinayı esprili bir yer adı gibi tasvir eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шворить",
+    "word_latin": "Shvorit'",
+    "meaning_tr": [
+      "Sikmek",
+      "Becermek"
+    ],
+    "literal_translation_tr": "Birbirine bağlamak / Sürtmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он любил шворить её на столе.",
+        "tr": "Onu masanın üzerinde sikmeyi (becermeyi) severdi."
+      }
+    ],
+    "cultural_context": "Kökü muhtemelen 'шворка' (ip/bağ) veya sürtünme seslerinden gelen, cinsel birleşmeyi ifade eden ritmik ve kaba bir eylem fiilidir.",
+    "search_keywords": [
+      "sikmek",
+      "becermek",
+      "shvorit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шворить",
+        "alternateName": [
+          "Sikmek",
+          "Becermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Becermek. Sürtünme veya bağlama köklerinden türeyen ve cinsel ilişkiyi ifade eden eylem fiilidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шворка",
+    "word_latin": "Shvorka",
+    "meaning_tr": [
+      "Sikiş",
+      "Seks",
+      "Cinsel ilişki"
+    ],
+    "literal_translation_tr": "İp / Bağ / Sikiş",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Ночная шворка была громкой.",
+        "tr": "Geceki sikiş gürültülüydü."
+      }
+    ],
+    "cultural_context": "'Шворить' (sikmek) fiilinden türetilmiş, cinsel ilişkinin veya eylemin kendisini (ебля) adlandıran isimdir.",
+    "search_keywords": [
+      "sikiş",
+      "seks",
+      "shvorka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шворка",
+        "alternateName": [
+          "Sikiş",
+          "Seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikiş, Seks. Shvorit (sikmek) fiilinden türetilen ve cinsel ilişkinin kendisini adlandıran kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шерстяная кража",
+    "word_latin": "Sherstyanaya krazha",
+    "meaning_tr": [
+      "Tecavüz",
+      "Zorla sahip olma"
+    ],
+    "literal_translation_tr": "Yünlü hırsızlık / Kıllı hırsızlık",
+    "category": "Suç Argosu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Он сел за шерстяную кражу.",
+        "tr": "O yünlü hırsızlıktan (tecavüzden) hapse girdi."
+      }
+    ],
+    "cultural_context": "Cezaevi ve suç argosunda (Fenya), genital bölgedeki kıllara ('yün') ve bekaretin/namusun zorla alınmasına ('hırsızlık') atıfta bulunarak tecavüz suçunu şifreli bir şekilde anlatan eski bir terimdir.",
+    "search_keywords": [
+      "tecavüz",
+      "zorla sahip olma",
+      "sherstyanaya krazha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шерстяная кража",
+        "alternateName": [
+          "Tecavüz",
+          "Zorla sahip olma"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tecavüz. Cezaevi argosunda genital kıllara ve namusun zorla alınmasına atıfta bulunarak tecavüzü anlatan şifreli terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шебла-ебла",
+    "word_latin": "Shebla-yebla",
+    "meaning_tr": [
+      "Çapulcu sürüsü",
+      "Serseri takımı",
+      "Sikik kumpanya"
+    ],
+    "literal_translation_tr": "Şebla-Yebla (Kafiyeli argo uydurma)",
+    "category": "Mat / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На углу собралась вся эта шебла-ебла.",
+        "tr": "Köşede bütün bu çapulcu sürüsü toplanmış."
+      }
+    ],
+    "cultural_context": "'Ебать' (sikmek) köküyle uydurma bir kelimenin ('shebla' / belki şablon veya kalabalıktan türeme) kafiyelenmesidir. Serserilerden, holiganlardan veya pislik insanlardan oluşan kalabalık grupları aşağılar.",
+    "search_keywords": [
+      "çapulcu sürüsü",
+      "serseri takımı",
+      "shebla-yebla"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шебла-ебла",
+        "alternateName": [
+          "Çapulcu sürüsü",
+          "Serseri takımı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çapulcu sürüsü, Serseri takımı. Holiganlardan veya işe yaramaz insanlardan oluşan grupları aşağılayan kafiyeli uydurma kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шерстяной вор",
+    "word_latin": "Sherstyanoy vor",
+    "meaning_tr": [
+      "Tecavüzcü"
+    ],
+    "literal_translation_tr": "Yünlü hırsız / Kıllı hırsız",
+    "category": "Suç Argosu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На зоне шерстяной вор уважения не имеет.",
+        "tr": "Hapishanede yünlü hırsız (tecavüzcü) saygı görmez."
+      }
+    ],
+    "cultural_context": "'Шерстяная кража' (tecavüz) işleyen faili tanımlar. Cezaevi hiyerarşisinde cinsel suçlular alt tabakada görüldüğü için, bu isim onları diğer 'saygın' hırsızlardan ayırmak için küçümseyici bir şifredir.",
+    "search_keywords": [
+      "tecavüzcü",
+      "sherstyanoy vor"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шерстяной вор",
+        "alternateName": [
+          "Tecavüzcü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tecavüzcü. Cezaevi hiyerarşisinde cinsel suçluları sıradan hırsızlardan ayırıp aşağılamak için kullanılan şifreli terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шершавый",
+    "word_latin": "Shershavyy",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis"
+    ],
+    "literal_translation_tr": "Pürüzlü / Tırtıklı (şey)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Засунул ей своего шершавого.",
+        "tr": "Ona kendi pürüzlüsünü (yarrağını) soktu."
+      }
+    ],
+    "cultural_context": "Düz anlamı pürüzlü, tırtıklı veya sert yüzeylidir. Cinsel organın anatomik dokusuna, damarlarına veya kuru hissiyatına atıfta bulunan nesneleştirici bir argodur.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "shershavyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шершавый",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Cinsel organın anatomik dokusuna ve pürüzlü hissiyatına atıfta bulunan sıfat tabanlı argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шесть часов",
+    "word_latin": "Shest' chasov",
+    "meaning_tr": [
+      "Dimdik yarrak",
+      "Ereksiyon",
+      "Tam kalkmış"
+    ],
+    "literal_translation_tr": "Saat altı",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Проснулся, а у него шесть часов.",
+        "tr": "Bir uyandı ki durumu saat altı (yarrağı dimdik olmuş)."
+      }
+    ],
+    "cultural_context": "Analog bir saatte akrep ve yelkovanın saat 6'yı gösterirken oluşturduğu dümdüz dikey (12'den 6'ya) çizgi metaforudur. Erkeklik organının tam bir diklikte, maksimum ereksiyon halinde olduğunu esprili bir dille anlatır.",
+    "search_keywords": [
+      "dimdik yarrak",
+      "ereksiyon",
+      "shest chasov"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шесть часов",
+        "alternateName": [
+          "Dimdik yarrak",
+          "Ereksiyon"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Dimdik yarrak. Analog saatte ibrelerin oluşturduğu dikey çizgiden yola çıkarak tam ereksiyon halini anlatan metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шестьдесят девять",
+    "word_latin": "Shest'desyat devyat'",
+    "meaning_tr": [
+      "69 pozisyonu",
+      "Karşılıklı oral seks"
+    ],
+    "literal_translation_tr": "Altmış dokuz",
+    "category": "Genel / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Им очень нравится шестьдесят девять.",
+        "tr": "Altmış dokuz (69 pozisyonu) onların çok hoşuna gidiyor."
+      }
+    ],
+    "cultural_context": "Tüm dünyada olduğu gibi, 6 ve 9 rakamlarının görsel olarak ters duruşundan yola çıkarak iki partnerin karşılıklı olarak oral seks yaptığı cinsel pozisyonun adıdır.",
+    "search_keywords": [
+      "69 pozisyonu",
+      "karşılıklı oral seks",
+      "shestdesyat devyat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шестьдесят девять",
+        "alternateName": [
+          "69 pozisyonu",
+          "Karşılıklı oral seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: 69 pozisyonu. Rakamların ters duruşundan yola çıkarak karşılıklı oral seks pozisyonunu tanımlayan evrensel tabirdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шибздик",
+    "word_latin": "Shibzdik",
+    "meaning_tr": [
+      "Bücür",
+      "Ufaklık",
+      "Cüce"
+    ],
+    "literal_translation_tr": "Bücür / Osuruk (Eski argo)",
+    "category": "Argo / Hakaret",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Что этот шибздик тут делает?",
+        "tr": "Bu bücürün burada ne işi var?"
+      }
+    ],
+    "cultural_context": "Boyu çok kısa olan, çelimsiz ancak genellikle hareketli ve sinir bozucu olan erkekleri (парень маленького роста) alaycı bir şekilde küçümsemek için kullanılır. (Kökü küçük ve sessiz osuruk anlamına gelen 'şibzdet' fiilinden gelir).",
+    "search_keywords": [
+      "bücür",
+      "ufaklık",
+      "cüce",
+      "shibzdik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шибздик",
+        "alternateName": [
+          "Bücür",
+          "Ufaklık"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bücür, Ufaklık. Boyu çok kısa olan çelimsiz ve sinir bozucu erkekleri küçümsemek için kullanılan kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шишка",
+    "word_latin": "Shishka",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis",
+      "Bamya"
+    ],
+    "literal_translation_tr": "Kozalak / Şişlik",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У него в штанах торчала шишка.",
+        "tr": "Pantolonunda bir kozalak (yarrak) kabarmıştı."
+      }
+    ],
+    "cultural_context": "Düz anlamda çam kozalağı veya kafaya alınan darbe sonucu oluşan şişlik demektir. Şekilsel benzerliği ve kabarma özelliği sebebiyle erekte olmuş erkek organını tanımlamak için kullanılan argodur.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "kozalak",
+      "shishka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шишка",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Çam kozalağı veya şişlik anlamına gelen kelimenin erekte olmuş erkek organı için kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шишь",
+    "word_latin": "Shish'",
+    "meaning_tr": [
+      "1) Nah (İşaret)",
+      "2) Yarrak, Penis"
+    ],
+    "literal_translation_tr": "Nah (El işareti)",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ничего не получил, только шишь.",
+        "tr": "Hiçbir şey alamadı, sadece nah aldı."
+      }
+    ],
+    "cultural_context": "'Кукиш' veya 'Фига' (başparmağın diğer parmaklar arasına sıkıştırıldığı el işareti) ile aynı anlamdadır. Bu el hareketinin penis başına benzemesi sebebiyle cinsel organı (хуй) belirtmek veya 'hiçbir şey / avucunu yalama' durumunu ifade etmek için kullanılır.",
+    "search_keywords": [
+      "nah",
+      "yarrak",
+      "shish"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шишь",
+        "alternateName": [
+          "Nah",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Nah, Yarrak. Nah işareti anlamına gelen kelimenin reddetme veya penis anlamında kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шкворень",
+    "word_latin": "Shkvoren'",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis",
+      "Malafafat"
+    ],
+    "literal_translation_tr": "Dingil pimi / Bağlantı çivisi",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У него шкворень что надо.",
+        "tr": "Onun dingil pimi (malı) yerinde."
+      }
+    ],
+    "cultural_context": "Vagonları veya römorkları birbirine bağlayan kalın, sağlam metal pim (kingpin). Girdiği deliği doldurması ve bağlayıcı sağlamlığı sebebiyle erkeklik organı (хуй) için türetilmiş mekanik bir benzetmedir.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "malafat",
+      "shkvoren"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шкворень",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. İki aracı bağlayan kalın metal pimin (dingil pimi) erkek organı için mekanik bir benzetme olarak kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шкура",
+    "word_latin": "Shkura",
+    "meaning_tr": [
+      "Kaşar",
+      "Para avcısı kadın",
+      "Sürtük"
+    ],
+    "literal_translation_tr": "Deri / Post",
+    "category": "Argo / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эти шкуры только на дорогие тачки смотрят.",
+        "tr": "Bu kaşarlar (para avcıları) sadece pahalı arabalara bakıyorlar."
+      }
+    ],
+    "cultural_context": "Modern Rus argosunda; sadece para, lüks ve menfaat için erkeklerle birlikte olan, duygusuz ve satılık (проститутка) kadınları tanımlamak için çok popüler olan aşağılayıcı bir terimdir. Kadını sadece bir 'deri/et parçası' seviyesine indirger.",
+    "search_keywords": [
+      "kaşar",
+      "para avcısı kadın",
+      "sürtük",
+      "shkura"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шкура",
+        "alternateName": [
+          "Kaşar",
+          "Para avcısı kadın",
+          "Sürtük"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kaşar, Para avcısı. Sadece menfaat ve lüks için erkeklerle birlikte olan kadınları aşağılamak için kullanılan çok popüler argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шкурку гонять",
+    "word_latin": "Shkurku gonyat'",
+    "meaning_tr": [
+      "Otuzbir çekmek",
+      "Mastürbasyon yapmak"
+    ],
+    "literal_translation_tr": "Deriyi kovalamak / Deriyi çekiştirmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Сидит дома один, шкурку гоняет.",
+        "tr": "Evde tek başına oturuyor, otuzbir çekiyor (deriyi çekiştiriyor)."
+      }
+    ],
+    "cultural_context": "Erkek sünnet derisinin (шкурка) ileri geri hareket ettirilmesi fiziksel eylemine atıfta bulunarak mastürbasyon yapmayı (заниматься онанизмом) tanımlayan çok yaygın sokak argosudur.",
+    "search_keywords": [
+      "otuzbir çekmek",
+      "mastürbasyon yapmak",
+      "shkurku gonyat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шкурку гонять",
+        "alternateName": [
+          "Otuzbir çekmek",
+          "Mastürbasyon yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Otuzbir çekmek. Sünnet derisinin ileri geri hareket ettirilmesi eylemine atıfta bulunarak mastürbasyonu tanımlayan sokak argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шланг",
+    "word_latin": "Shlang",
+    "meaning_tr": [
+      "Hortum",
+      "Yarrak",
+      "Penis"
+    ],
+    "literal_translation_tr": "Hortum",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Какой-то мужик достал свой шланг на улице.",
+        "tr": "Adamın teki sokakta hortumunu (yarrağını) çıkardı."
+      }
+    ],
+    "cultural_context": "Uzunluğu, esnekliği ve sıvı akıtma işlevi sebebiyle erkek cinsel organı için kullanılan çok klasik ve evrensel bir nesne benzetmesidir.",
+    "search_keywords": [
+      "hortum",
+      "yarrak",
+      "penis",
+      "shlang"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шланг",
+        "alternateName": [
+          "Hortum",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hortum, Penis. Uzunluğu ve sıvı akıtma işlevi sebebiyle erkek cinsel organı için kullanılan klasik nesne benzetmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шлюха",
+    "word_latin": "Shlyukha",
+    "meaning_tr": [
+      "Sürtük",
+      "Orospu",
+      "Fahişe"
+    ],
+    "literal_translation_tr": "Sürtük",
+    "category": "Hakaret / Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Она повела себя как последняя шлюха.",
+        "tr": "Tam bir aşağılık orospu (sürtük) gibi davrandı."
+      }
+    ],
+    "cultural_context": "'Блядь' veya 'Шалава' ile eşanlamlıdır. Para karşılığı seks yapan kadınları veya cinsel hayatı çok serbest olan, ahlaken kınanan kadınları tanımlayan standart Rusça hakaretlerden biridir.",
+    "search_keywords": [
+      "sürtük",
+      "orospu",
+      "fahişe",
+      "shlyukha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шлюха",
+        "alternateName": [
+          "Sürtük",
+          "Orospu",
+          "Fahişe"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürtük, Orospu. Ahlaken kınanan veya para karşılığı seks yapan kadınları tanımlayan standart hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмайсер",
+    "word_latin": "Shmayser",
+    "meaning_tr": [
+      "Makinalı tüfek",
+      "Yarrak",
+      "Penis"
+    ],
+    "literal_translation_tr": "Schmeisser (Alman silah markası)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Достал свой шмайсер и приготовился.",
+        "tr": "Makinalısını (yarrağını) çıkardı ve hazırlandı."
+      }
+    ],
+    "cultural_context": "İkinci Dünya Savaşı'nda Almanların kullandığı meşhur 'Schmeisser' makineli tabancasının (MP40) adıdır. Silahın ölümcüllüğü, şekli veya atış yapmasıyla erkek organı arasında kurulan agresif bir askeri metafordur.",
+    "search_keywords": [
+      "makinalı tüfek",
+      "yarrak",
+      "penis",
+      "shmayser"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмайсер",
+        "alternateName": [
+          "Makinalı tüfek",
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Makinalı tüfek, Penis. Meşhur Alman silah markası isminin erkek organı için agresif bir askeri metafor olarak kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмара",
+    "word_latin": "Shmara",
+    "meaning_tr": [
+      "Kaltak",
+      "Orospu",
+      "Pislik kadın"
+    ],
+    "literal_translation_tr": "Pislik / Su yosunu (Eski köken)",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта шмара украла у меня деньги.",
+        "tr": "Bu kaltak (orospu) paramı çaldı."
+      }
+    ],
+    "cultural_context": "Suç dünyası argosundan (Fenya) gelme bir kelimedir. Hırsızların sevgilileri, yeraltı dünyasına bulaşmış pislik kadınlar veya ucuz fahişeler (блядь) için kullanılır. Oldukça sert bir tonu vardır.",
+    "search_keywords": [
+      "kaltak",
+      "orospu",
+      "pislik kadın",
+      "shmara"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмара",
+        "alternateName": [
+          "Kaltak",
+          "Orospu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kaltak, Orospu. Suç dünyasına bulaşmış ucuz kadınları veya hırsız sevgililerini tanımlayan sert suç argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмарить",
+    "word_latin": "Shmarit'",
+    "meaning_tr": [
+      "Sikmek",
+      "Becermek"
+    ],
+    "literal_translation_tr": "Şmarlamak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он любил шмарить её каждый вечер.",
+        "tr": "Onu her akşam sikmeyi (becermeyi) severdi."
+      }
+    ],
+    "cultural_context": "'Шмара' (kaltak/fahişe) isminden türetilen eylem fiilidir. Bir kadınla cinsel ilişkiye girmeyi (ебать) kaba bir sokak ağzıyla ifade eder.",
+    "search_keywords": [
+      "sikmek",
+      "becermek",
+      "shmarit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмарить",
+        "alternateName": [
+          "Sikmek",
+          "Becermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Becermek. Fahişe anlamına gelen Shmara kökünden türetilen ve cinsel ilişkiye girmeyi kaba bir şekilde ifade eden fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмариться",
+    "word_latin": "Shmarit'sya",
+    "meaning_tr": [
+      "Sikişmek",
+      "Sürtük gibi takılmak",
+      "Sevişmek"
+    ],
+    "literal_translation_tr": "Kendi kendini şmarlamak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Они пошли в номер шмариться.",
+        "tr": "Odaya sikişmeye (sevişmeye) gittiler."
+      }
+    ],
+    "cultural_context": "'Шмарить' fiilinin dönüşlü (reflexive) formudur. İki kişinin karşılıklı sikişmesini veya bir kadının fahişe/sürtük gibi hayat yaşayarak erkeklerle düşüp kalkmasını (ебаться) belirtir.",
+    "search_keywords": [
+      "sikişmek",
+      "sürtük gibi takılmak",
+      "shmaritsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмариться",
+        "alternateName": [
+          "Sikişmek",
+          "Sürtük gibi takılmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikişmek. İki kişinin karşılıklı sikişmesini veya bir kadının fahişe gibi erkeklerle düşüp kalkmasını belirten dönüşlü fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмондя",
+    "word_latin": "Shmondya",
+    "meaning_tr": [
+      "Am",
+      "Vajina"
+    ],
+    "literal_translation_tr": "Şmondya (Argo/Yöresel)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У неё мокрая шмондя.",
+        "tr": "Onun ıslak bir amı var."
+      }
+    ],
+    "cultural_context": "Kadın cinsel organını kaba ve argovari bir şekilde niteleyen kelimedir. 'Шмонька' kelimesiyle kökteştir.",
+    "search_keywords": [
+      "am",
+      "vajina",
+      "shmondya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмондя",
+        "alternateName": [
+          "Am",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am, Vajina. Kadın cinsel organını kaba bir şekilde niteleyen yöresel ve sokak argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шмонка",
+    "word_latin": "Shmonka",
+    "meaning_tr": [
+      "1) Am, Vajina",
+      "2) Genç fahişe, Sürtük"
+    ],
+    "literal_translation_tr": "Şmonka",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта малолетняя шмонка стоит на трассе.",
+        "tr": "Bu reşit olmayan genç fahişe (sürtük) otoyolda bekliyor."
+      }
+    ],
+    "cultural_context": "Suç dünyası jargonu (fenya) kökenlidir. Hem kadın cinsel organını doğrudan nitelemek için hem de genç, deneyimsiz fahişeleri aşağılamak için kullanılır.",
+    "search_keywords": [
+      "genç fahişe",
+      "sürtük",
+      "am",
+      "shmonka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шмонка",
+        "alternateName": [
+          "Genç fahişe",
+          "Am"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Genç fahişe, Am. Suç argosunda kadın cinsel organını veya deneyimsiz genç fahişeleri aşağılamak için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шпилить",
+    "word_latin": "Shpilit'",
+    "meaning_tr": [
+      "Sikmek",
+      "Becermek",
+      "Çakmak"
+    ],
+    "literal_translation_tr": "Oynamak / Çivi çakmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он шпилит её каждый день.",
+        "tr": "Onu her gün sikiyor (beceriyor)."
+      }
+    ],
+    "cultural_context": "Aslen Almanca 'spielen' (oynamak) veya 'шпилька' (çivi/firteke) kelimelerinden türetilmiştir. Argoda, ritmik hareket veya 'çakma' metaforu üzerinden cinsel birleşme (ебать) için kullanılır.",
+    "search_keywords": [
+      "sikmek",
+      "becermek",
+      "çakmak",
+      "shpilit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шпилить",
+        "alternateName": [
+          "Sikmek",
+          "Becermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Becermek. Oynamak veya çivi çakmak kelimelerinden türetilen ve cinsel birleşmeyi ifade eden ritmik argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шпокнуть",
+    "word_latin": "Shpoknut'",
+    "meaning_tr": [
+      "Çakmak",
+      "Becermek",
+      "Gümletmek"
+    ],
+    "literal_translation_tr": "Şpoklatmak / 'Şpok' sesi çıkarmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он шпокнул её на первом же свидании.",
+        "tr": "İlk buluşmada ona çaktı (becerdi)."
+      }
+    ],
+    "cultural_context": "Şişe tıpası açılırken veya bir şey patlarken/girerken çıkan anlık ve tok 'şpok' (шпок) yansıma sesinden türetilmiştir. Birini hızlıca ve tek seferde becermeyi anlatan argo fiildir.",
+    "search_keywords": [
+      "çakmak",
+      "becermek",
+      "gümletmek",
+      "shpoknut"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шпокнуть",
+        "alternateName": [
+          "Çakmak",
+          "Becermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çakmak, Becermek. Şişe tıpası patlama sesinden (şpok) yola çıkarak birini hızlıca becermeyi anlatan fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шоколадная дырка",
+    "word_latin": "Shokoladnaya dyrka",
+    "meaning_tr": [
+      "Çikolata deliği",
+      "Anüs",
+      "Göt deliği"
+    ],
+    "literal_translation_tr": "Çikolatalı delik",
+    "category": "Argo / Anatomi / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он мечтает добраться до её шоколадной дырки.",
+        "tr": "Onun çikolata deliğine (anüsüne) ulaşmanın hayalini kuruyor."
+      }
+    ],
+    "cultural_context": "Tüm dünyada olduğu gibi, dışkının rengine atıfta bulunarak anüs için (анальное отверстие, жопа) kullanılan evrensel, mizahi ve kaba bir metafordur.",
+    "search_keywords": [
+      "çikolata deliği",
+      "anüs",
+      "göt deliği",
+      "shokoladnaya dyrka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шоколадная дырка",
+        "alternateName": [
+          "Çikolata deliği",
+          "Anüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çikolata deliği, Anüs. Dışkı rengine atıfta bulunularak anüs için kullanılan evrensel ve kaba/mizahi metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шоколадница",
+    "word_latin": "Shokoladnitsa",
+    "meaning_tr": [
+      "Göt",
+      "Kıç",
+      "Çikolata fabrikası (Mecaz)"
+    ],
+    "literal_translation_tr": "Çikolatacı kız / Çikolata kabı",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Какая у неё аппетитная шоколадница.",
+        "tr": "Ne kadar iştah açıcı bir çikolatacısı (kıçı) var."
+      }
+    ],
+    "cultural_context": "Düz anlamda ünlü bir Rus kafe zincirinin adıdır veya çikolata sunum kabı/çikolata yapan kadın demektir. Anatomik argoda rengi ve anal bölge ('çikolata deliği') bağlantısı sebebiyle kalçayı veya götü temsil eder.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "çikolata fabrikası",
+      "shokoladnitsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шоколадница",
+        "alternateName": [
+          "Göt",
+          "Kıç"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt, Kıç. Çikolata deliği metaforundan türetilerek kalçayı veya götü temsil eden isimlendirmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Штуцер",
+    "word_latin": "Shtutser",
+    "meaning_tr": [
+      "Rakor",
+      "Penis",
+      "Yarrak"
+    ],
+    "literal_translation_tr": "Boru ucu / Rakor",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Вытащил свой штуцер из штанов.",
+        "tr": "Pantolonundan rakorunu (yarrağını) çıkardı."
+      }
+    ],
+    "cultural_context": "Düz anlamda boruları birleştiren veya bir makineye sıvı/gaz akışı sağlayan kısa bağlantı borusu (rakor, nip) demektir. Boru benzeri şekli ve 'takılma/bağlanma' işlevi sebebiyle penis için kullanılan mekanik bir argodur.",
+    "search_keywords": [
+      "rakor",
+      "penis",
+      "yarrak",
+      "shtutser"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Штуцер",
+        "alternateName": [
+          "Rakor",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Rakor, Penis. Boruları birleştiren bağlantı borusunun, şekli ve takılma işlevi sebebiyle erkek organı için mekanik benzetmesi."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шулята",
+    "word_latin": "Shulyata",
+    "meaning_tr": [
+      "Taşaklar",
+      "Testisler"
+    ],
+    "literal_translation_tr": "Taşaklar",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он получил сильный удар по шулятам.",
+        "tr": "Taşaklarına sert bir darbe aldı."
+      }
+    ],
+    "cultural_context": "Erkek testisleri (мужские яйца) için kullanılan, kökeni eski köy ağızlarına, yerel şivelere veya ses benzetmelerine dayanan kaba bir anatomik isimlendirmedir.",
+    "search_keywords": [
+      "taşaklar",
+      "testisler",
+      "shulyata"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шулята",
+        "alternateName": [
+          "Taşaklar",
+          "Testisler"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklar, Testisler. Erkek yumurtaları için kullanılan, kökeni eski köy ağızlarına dayanan anatomik argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шурик, Шурин",
+    "word_latin": "Shurik, Shurin",
+    "meaning_tr": [
+      "Pasif gey",
+      "İbne"
+    ],
+    "literal_translation_tr": "Şurik (Aleksandr) / Kayınbirader",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На зоне все знали, что он местный шурик.",
+        "tr": "Hapishanede herkes onun oranın yerel şurik'i (pasif geyi) olduğunu bilirdi."
+      }
+    ],
+    "cultural_context": "Şurik, Aleksandr isminin sevimli halidir; Şurin ise eşin erkek kardeşi (kayınbirader) demektir. Cezaevi jargonu (fenya) veya alt kültürlerde bu isimler pasif eşcinselleri kodlamak, şifrelemek ve aşağılamak için kullanılır.",
+    "search_keywords": [
+      "pasif gey",
+      "ibne",
+      "shurik",
+      "shurin"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шурик, Шурин",
+        "alternateName": [
+          "Pasif gey",
+          "İbne"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif gey, İbne. Kayınbirader veya Aleksandr kelimesinin kısaltması olup, cezaevi jargonunda pasif eşcinselleri şifrelemek için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шуровать",
+    "word_latin": "Shurovat'",
+    "meaning_tr": [
+      "Pompalamak",
+      "Sikmek",
+      "Hızlı hızlı becermek"
+    ],
+    "literal_translation_tr": "Karıştırmak / Eşelemek / Hızlı iş yapmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Всю ночь он её шуровал без остановки.",
+        "tr": "Bütün gece onu durmaksızın pompaladı (sikti)."
+      }
+    ],
+    "cultural_context": "Düz anlamda bir sobadaki kömürü maşayla karıştırmak, eşelemek veya çok hızlı ve aktif bir şekilde çalışmak demektir. Ritmik 'sokup çıkarma' ve mekanik eylemden dolayı cinsel ilişkiyi betimlemek için kullanılır.",
+    "search_keywords": [
+      "pompalamak",
+      "sikmek",
+      "becermek",
+      "shurovat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шуровать",
+        "alternateName": [
+          "Pompalamak",
+          "Sikmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pompalamak, Sikmek. Ateşi karıştırmak veya hızlı çalışmak fiilinden türeyip ritmik cinsel eylemi betimleyen kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Шутковать",
+    "word_latin": "Shutkovat'",
+    "meaning_tr": [
+      "Oynaşmak",
+      "Sikmek",
+      "Becermek"
+    ],
+    "literal_translation_tr": "Şakalaşmak",
+    "category": "Eufemizm / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они заперлись в спальне и шуткуют.",
+        "tr": "Yatak odasına kilitlendiler ve oynaşıyorlar (sikişiyorlar)."
+      }
+    ],
+    "cultural_context": "Düz anlamı 'şaka yapmak' veya 'şakalaşmak' olan kelimenin, aralarında cinsel yakınlaşma ve birleşme olan çiftlerin bu durumunu örtbas etmek veya muzipçe ifade etmek (eufemizm) için kullanılmasıdır.",
+    "search_keywords": [
+      "oynaşmak",
+      "sikmek",
+      "becermek",
+      "shutkovat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Шутковать",
+        "alternateName": [
+          "Oynaşmak",
+          "Sikmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Oynaşmak, Sikmek. Şakalaşmak fiilinin, cinsel yakınlaşmayı ve birleşmeyi muzipçe örtbas etmek için kullanılmasıdır."
+      }
+    ]
+  }
+]

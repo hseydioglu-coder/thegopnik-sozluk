@@ -1,0 +1,122 @@
+[
+  {
+    "word_ru": "Лезть под юбку",
+    "word_latin": "Lezt' pod yubku",
+    "meaning_tr": [
+      "Eteğin altına girmek",
+      "Bacak arasını ellemek",
+      "Oynaşmak"
+    ],
+    "literal_translation_tr": "Eteğin altına girmek / tırmanmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он пытался лезть под юбку на первом же свидании.",
+        "tr": "Daha ilk buluşmada eteğin altına girmeye (oynaşmaya) çalıştı."
+      }
+    ],
+    "cultural_context": "Kadının cinsel organına (vagina) dokunmak, onu okşamak veya izinsiz bir şekilde ellemek eylemini anlatan oldukça görsel ve yaygın bir deyimdir.",
+    "search_keywords": [
+      "eteğin altına girmek",
+      "ellemek",
+      "oynaşmak",
+      "lezt pod yubku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Лезть под юбку",
+        "alternateName": [
+          "Eteğin altına girmek",
+          "Bacak arasını ellemek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Eteğin altına girmek, Ellemek. Bir kadının cinsel organına dokunmayı veya oynaşmayı ifade eden görsel deyimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Юбочник",
+    "word_latin": "Yubochnik",
+    "meaning_tr": [
+      "Zampara",
+      "Uçkuruna düşkün",
+      "Karı kız peşinde koşan"
+    ],
+    "literal_translation_tr": "Etekçi",
+    "category": "Argo / Hakaret",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Этот старый юбочник ни одной юбки не пропустит.",
+        "tr": "Bu yaşlı zampara hiçbir eteği es geçmez."
+      }
+    ],
+    "cultural_context": "'Юбка' (Etek) kelimesinden türetilmiştir. Sürekli kadınların peşinde koşan, çapkın ve iradesiz (блядун) erkekleri tanımlamak için kullanılan alaycı bir kelimedir.",
+    "search_keywords": [
+      "zampara",
+      "uçkuruna düşkün",
+      "karı kız peşinde koşan",
+      "etekçi",
+      "yubochnik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Юбочник",
+        "alternateName": [
+          "Zampara",
+          "Etekçi",
+          "Uçkuruna düşkün"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zampara, Etekçi. Sürekli kadınların peşinde koşan ve uçkuruna düşkün olan erkekleri tanımlayan alaycı kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Юлда, Юлдак",
+    "word_latin": "Yulda, Yuldak",
+    "meaning_tr": [
+      "Yarrak",
+      "Malafat",
+      "Alet"
+    ],
+    "literal_translation_tr": "Yulda / Yuldak (Argo isimlendirme)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Вытащил свой юлдак и показал всем.",
+        "tr": "Malafatını (yarrağını) çıkardı ve herkese gösterdi."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını (Хуй) tanımlamak için kullanılan, kökeni muhtemelen Türkî/Tatar dillerine ('yoldaş/yuldaş' benzerliği) veya şiveli argo bozmalara dayanan spesifik bir isimlendirmedir.",
+    "search_keywords": [
+      "yarrak",
+      "malafat",
+      "alet",
+      "yulda",
+      "yuldak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Юлда, Юлдак",
+        "alternateName": [
+          "Yarrak",
+          "Malafat"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Malafat. Erkek cinsel organını tanımlamak için kullanılan, bölgesel şivelerden veya eski jargonlardan gelen spesifik argo isimlendirmedir."
+      }
+    ]
+  }
+]

@@ -1,0 +1,801 @@
+[
+  {
+    "word_ru": "Чебурашка",
+    "word_latin": "Cheburashka",
+    "meaning_tr": [
+      "Küçük gey",
+      "Reşit olmayan eşcinsel"
+    ],
+    "literal_translation_tr": "Çeburaşka (Rus çizgi film karakteri)",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На зоне его называли чебурашкой.",
+        "tr": "Hapishanede ona çeburaşka (küçük gey) diyorlardı."
+      }
+    ],
+    "cultural_context": "Popüler ve sevimli bir Sovyet çizgi film karakteri olan Çeburaşka'nın (küçük, savunmasız ve peluş), hapishane argosunda reşit olmayan veya genç, savunmasız pasif eşcinselleri tanımlamak için ironik ve karanlık bir şekilde kullanılmasıdır.",
+    "search_keywords": [
+      "küçük gey",
+      "reşit olmayan eşcinsel",
+      "cheburashka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чебурашка",
+        "alternateName": [
+          "Küçük gey",
+          "Reşit olmayan eşcinsel"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Küçük gey. Çizgi film karakteri isminin, cezaevi jargonunda genç pasif eşcinselleri tanımlamak için ironik kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Через задний проход",
+    "word_latin": "Cherez zadniy prokhod",
+    "meaning_tr": [
+      "Tersten yapmak",
+      "Götünden anlamak/yapmak",
+      "Boktan bir yolla"
+    ],
+    "literal_translation_tr": "Arka geçitten (Götten)",
+    "category": "Argo / Deyim",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У нас все законы пишутся через задний проход.",
+        "tr": "Bizde bütün kanunlar tersten (götünden/yanlış yoldan) yazılır."
+      }
+    ],
+    "cultural_context": "Bir işin kuralına uygun, mantıklı veya doğru yoldan değil; en zor, en saçma ve en yanlış yoldan (tersten/götten) yapıldığını anlatan klasik Rus deyimidir.",
+    "search_keywords": [
+      "tersten yapmak",
+      "götünden anlamak",
+      "yanlış yoldan",
+      "cherez zadniy prokhod"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Через задний проход",
+        "alternateName": [
+          "Tersten yapmak",
+          "Götünden yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tersten yapmak. Bir işin mantıklı yoldan değil, en saçma ve yanlış yoldan (götten) yapıldığını anlatan deyimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Червь",
+    "word_latin": "Cherv'",
+    "meaning_tr": [
+      "Solucan (Penis)",
+      "Yarrak"
+    ],
+    "literal_translation_tr": "Solucan",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он достал своего червя.",
+        "tr": "Solucanını (penisini) çıkardı."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını, şekli veya kıvrılması sebebiyle solucana benzeten, genellikle küçümseyici veya iğrençleyici bir anatomi argosudur.",
+    "search_keywords": [
+      "solucan",
+      "penis",
+      "yarrak",
+      "cherv"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Червь",
+        "alternateName": [
+          "Solucan",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Solucan, Penis. Erkek cinsel organını şekilsel benzerliği sebebiyle solucana benzeten argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Черная дырка",
+    "word_latin": "Chernaya dyrka",
+    "meaning_tr": [
+      "Kara delik (Anüs)",
+      "Göt deliği"
+    ],
+    "literal_translation_tr": "Kara delik",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У него шило в черной дырке.",
+        "tr": "Onun kara deliğinde (göt deliğinde) diken var."
+      }
+    ],
+    "cultural_context": "Anüsün uzaydaki 'kara delik' kavramıyla eşleştirildiği, karanlık ve dipsiz bir delik olduğunu ima eden kaba saba bir sözcük oyunudur.",
+    "search_keywords": [
+      "kara delik",
+      "anüs",
+      "göt deliği",
+      "chernaya dyrka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Черная дырка",
+        "alternateName": [
+          "Kara delik",
+          "Anüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara delik, Anüs. Anüsün uzaydaki kara delik kavramıyla eşleştirildiği görsel bir argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Черножопые",
+    "word_latin": "Chernozhopyye",
+    "meaning_tr": [
+      "Kara götlüler",
+      "Kafkasyalılar / Asyalılar (Irkçı hakaret)"
+    ],
+    "literal_translation_tr": "Siyah kıçlılar",
+    "category": "Irkçı Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Опять эти черножопые на рынке торгуют.",
+        "tr": "Yine bu kara götlüler pazarda satış yapıyor."
+      }
+    ],
+    "cultural_context": "Rusya'da genellikle Kafkasya kökenli (Çeçen, Dağıstanlı, Ermeni vb.) veya Orta Asya kökenli koyu tenli göçmenleri aşağılamak için kullanılan son derece yaygın ve ağır ırkçı (ksenofobik) bir hakarettir.",
+    "search_keywords": [
+      "kara götlüler",
+      "ırkçı hakaret",
+      "kafkasyalılar",
+      "chernozhopyye"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Черножопые",
+        "alternateName": [
+          "Kara götlüler",
+          "Irkçı hakaret"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara götlüler. Rusya'da Kafkasya veya Orta Asya kökenli kişileri aşağılamak için kullanılan ağır ırkçı hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чернозадый",
+    "word_latin": "Chernozadyy",
+    "meaning_tr": [
+      "Kara kıçlı",
+      "Kafkasyalı (Irkçı hakaret)"
+    ],
+    "literal_translation_tr": "Kara arkalı",
+    "category": "Irkçı Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Этот чернозадый не умеет водить.",
+        "tr": "Bu kara kıçlı araba kullanmayı bilmiyor."
+      }
+    ],
+    "cultural_context": "'Черножопый' kelimesinin bir tık yumuşatılmış ama hala aynı ırkçı nefreti barındıran eşanlamlısıdır ('göt' yerine 'arka' kullanılarak oluşturulur).",
+    "search_keywords": [
+      "kara kıçlı",
+      "ırkçı hakaret",
+      "chernozadyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чернозадый",
+        "alternateName": [
+          "Kara kıçlı",
+          "Irkçı hakaret"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara kıçlı. Chernozhopyy kelimesinin bir tık yumuşatılmış ancak hala aynı nefreti barındıran ırkçı formudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Черный месяц",
+    "word_latin": "Chernyy mesyats",
+    "meaning_tr": [
+      "Kara ay (Anüs)",
+      "Göt deliği"
+    ],
+    "literal_translation_tr": "Siyah ay",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он получил удар прямо в черный месяц.",
+        "tr": "Tam kara aya (göt deliğine) bir darbe aldı."
+      }
+    ],
+    "cultural_context": "İnsan kalçaları arasındaki karanlık bölgeyi, gökyüzündeki 'karanlık ay'a (dolunayın zıddı) benzeten şiirsel ama kaba bir anatomi metaforudur.",
+    "search_keywords": [
+      "kara ay",
+      "anüs",
+      "göt deliği",
+      "chernyy mesyats"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Черный месяц",
+        "alternateName": [
+          "Kara ay",
+          "Anüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara ay, Anüs. İnsan kalçaları arasındaki bölgeyi karanlık aya benzeten şiirsel ama kaba bir metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Черный треугольник",
+    "word_latin": "Chernyy treugol'nik",
+    "meaning_tr": [
+      "Kara üçgen (Vajina)"
+    ],
+    "literal_translation_tr": "Siyah üçgen",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Ее манил этот черный треугольник.",
+        "tr": "Onu bu kara üçgen (vajina) cezbediyordu."
+      }
+    ],
+    "cultural_context": "Kadın genital bölgesinin (özellikle pubik kılların şeklinin) üçgen biçimine ve karanlığına/gizlemine atıfta bulunan geometrik argo isimlendirmesidir.",
+    "search_keywords": [
+      "kara üçgen",
+      "vajina",
+      "chernyy treugolnik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Черный треугольник",
+        "alternateName": [
+          "Kara üçgen",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara üçgen, Vajina. Kadın genital bölgesinin geometrik şekline ve kıllara atıfta bulunan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Черный чемодан",
+    "word_latin": "Chernyy chemodan",
+    "meaning_tr": [
+      "Kara bavul (Vajina)"
+    ],
+    "literal_translation_tr": "Siyah bavul",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Открой свой черный чемодан.",
+        "tr": "Kara bavulunu (vajinanı) aç."
+      }
+    ],
+    "cultural_context": "İçine bir şeyler sokulabilen ve gizemli olan kadın cinsel organını bagaj/bavul metaforuyla anlatan, oldukça kaba ve nesneleştirici bir ifadedir.",
+    "search_keywords": [
+      "kara bavul",
+      "vajina",
+      "chernyy chemodan"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Черный чемодан",
+        "alternateName": [
+          "Kara bavul",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kara bavul, Vajina. İçine bir şeyler konabilen kadın organını bavul metaforuyla anlatan kaba ifadedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Отнять честь",
+    "word_latin": "Otnyat' chest'",
+    "meaning_tr": [
+      "Namusunu almak",
+      "Tecavüz etmek",
+      "Zorla bekaretini bozmak"
+    ],
+    "literal_translation_tr": "Onurunu almak",
+    "category": "Eufemizm / Şiddet",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Бандиты отняли у неё честь.",
+        "tr": "Haydutlar onun namusunu aldı (tecavüz ettiler)."
+      }
+    ],
+    "cultural_context": "Tecavüz veya zorla bekaret bozma eylemini örtbas etmek için kullanılan geleneksel ve edebi örtmecedir (eufemizm). Kadının bekaretini onun 'şerefi/onuru' olarak gören eski zihniyetten gelir.",
+    "search_keywords": [
+      "namusunu almak",
+      "tecavüz etmek",
+      "otnyat chest"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Отнять честь",
+        "alternateName": [
+          "Namusunu almak",
+          "Tecavüz etmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Namusunu almak, Tecavüz etmek. Tecavüz eylemini örtbas etmek için kullanılan geleneksel ve edebi örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Честь потерять",
+    "word_latin": "Chest' poteryat'",
+    "meaning_tr": [
+      "Namusunu kaybetmek",
+      "Bekaretini vermek",
+      "Sikişmek"
+    ],
+    "literal_translation_tr": "Onurunu kaybetmek",
+    "category": "Eufemizm / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Она потеряла честь еще в школе.",
+        "tr": "Namusunu (bekaretini) daha okuldayken kaybetti."
+      }
+    ],
+    "cultural_context": "Bir kadının evlilik öncesi kendi rızasıyla bekaretini kaybetmesini veya cinsel ilişki yaşamasını toplumsal bir 'onur kaybı' olarak niteleyen eski moda bir ifadedir.",
+    "search_keywords": [
+      "namusunu kaybetmek",
+      "bekaretini vermek",
+      "chest poteryat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Честь потерять",
+        "alternateName": [
+          "Namusunu kaybetmek",
+          "Bekaretini vermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Namusunu kaybetmek. Bir kadının bekaretini kaybetmesini onur kaybı olarak niteleyen eski moda eufemizmdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чертыхан",
+    "word_latin": "Chertykhan",
+    "meaning_tr": [
+      "Şeytanın aleti (Yarrak)",
+      "Penis"
+    ],
+    "literal_translation_tr": "Şeytansı (Şeytanlı şey)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Спрячь свой чертыхан.",
+        "tr": "Şu şeytanın aletini (yarrağını) sakla."
+      }
+    ],
+    "cultural_context": "'Черт' (Şeytan) kökünden türetilmiştir. Cinselliği günah ve şeytan işi olarak gören dini alt metinli halk ağzının, penisi isimlendirirken kullandığı argovari örtmecedir.",
+    "search_keywords": [
+      "şeytanın aleti",
+      "yarrak",
+      "chertykhan"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чертыхан",
+        "alternateName": [
+          "Şeytanın aleti",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Şeytanın aleti, Penis. Cinselliği günah gören halk ağzının penisi isimlendirirken kullandığı argovari örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чипиздончик",
+    "word_latin": "Chipizdonchik",
+    "meaning_tr": [
+      "Kipa",
+      "Yahudi takkesi"
+    ],
+    "literal_translation_tr": "Sikindirik minik şey",
+    "category": "Argo / Hakaret / Irkçı",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он носит на голове этот чипиздончик.",
+        "tr": "Kafasında bu kipayı (sikindirik şeyi) taşıyor."
+      }
+    ],
+    "cultural_context": "'Пизда' kelimesinden üretilen anlamsız bir 'küçük/absürt nesne' nitelemesidir. Yahudilerin taktığı küçük şapkayı (Yermolka/Kipa) alaya almak ve küçümsemek için kullanılan argo isimlendirmedir.",
+    "search_keywords": [
+      "kipa",
+      "yahudi takkesi",
+      "chipizdonchik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чипиздончик",
+        "alternateName": [
+          "Kipa",
+          "Yahudi takkesi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kipa. Yahudilerin taktığı küçük şapkayı (Kipa) alaya almak için 'pizda' kökünden üretilen argo isimlendirmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чирышек",
+    "word_latin": "Chiryshek",
+    "meaning_tr": [
+      "Küçük çük",
+      "Pipicik",
+      "Çıban gibi sik"
+    ],
+    "literal_translation_tr": "Küçük çıban / Sivilce",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У него в штанах какой-то чирышек.",
+        "tr": "Pantolonunun içinde çıban gibi (küçük) bir pipicik var."
+      }
+    ],
+    "cultural_context": "'Чирей' (Çıban / Deri iltihabı) kelimesinin küçültme halidir. Erkeğin cinsel organını sivilce veya ufak bir çıbana benzeterek boyutunu küçümseyen argodur.",
+    "search_keywords": [
+      "küçük çük",
+      "pipicik",
+      "chiryshek"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чирышек",
+        "alternateName": [
+          "Küçük çük",
+          "Pipicik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Küçük çük. Erkeğin cinsel organını sivilceye veya çıbana benzeterek boyutunu küçümseyen argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чичеряка, Чичиряка",
+    "word_latin": "Chicheryaka, Chichiryaka",
+    "meaning_tr": [
+      "Gey",
+      "İbne",
+      "Eşcinsel erkek"
+    ],
+    "literal_translation_tr": "Chicheryaka (Anlamsız ses yansıması)",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Тут ходят слухи, что он чичиряка.",
+        "tr": "Onun gey (ibne) olduğuna dair dedikodular var."
+      }
+    ],
+    "cultural_context": "Anlamı olmayan, çocuksu veya yeraltı jargonuna ait bir ses türetmesidir. Hapishanede veya argo dilde eşcinsel erkekleri alaya almak için takılan isimlerden biridir.",
+    "search_keywords": [
+      "gey",
+      "ibne",
+      "eşcinsel erkek",
+      "chicheryaka",
+      "chichiryaka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чичеряка, Чичиряка",
+        "alternateName": [
+          "Gey",
+          "İbne"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Gey, İbne. Hapishanede veya argo dilde eşcinsel erkekleri alaya almak için takılan uydurma isimlerden biridir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Член",
+    "word_latin": "Chlen",
+    "meaning_tr": [
+      "Erkeklik organı",
+      "Penis",
+      "Üye"
+    ],
+    "literal_translation_tr": "Üye / Organ / Uzuv",
+    "category": "Genel / Tıbbi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Мужской половой член.",
+        "tr": "Erkek cinsel organı (penis)."
+      },
+      {
+        "ru": "Он член нашей партии.",
+        "tr": "O partimizin bir üyesidir."
+      }
+    ],
+    "cultural_context": "Rusçada bir grubun/partinin 'üyesi' veya vücudun herhangi bir 'uzvu' demektir. Ancak 'половой член' (cinsel uzuv) tamlamasının kısaltması olarak günlük dilde ve tıpta doğrudan 'penis' anlamında kullanılan standart kelimedir.",
+    "search_keywords": [
+      "erkeklik organı",
+      "penis",
+      "chlen"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Член",
+        "alternateName": [
+          "Penis",
+          "Erkeklik organı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Penis, Erkeklik organı. Vücut uzvu veya üye anlamına gelen bu kelime, günlük dilde ve tıpta penis anlamında kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чмень",
+    "word_latin": "Chmen'",
+    "meaning_tr": [
+      "Göt",
+      "Kıç"
+    ],
+    "literal_translation_tr": "Chmen' (Argo türetme)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Упал прямо на чмень.",
+        "tr": "Doğrudan götünün üstüne düştü."
+      }
+    ],
+    "cultural_context": "Kıç veya kalça anlamına gelen, muhtemelen ses benzerliklerinden veya yöresel şivelerden ('chmo' gibi kelimelerden) türetilmiş bir anatomi argosudur.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "chmen"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чмень",
+        "alternateName": [
+          "Göt",
+          "Kıç"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt, Kıç. Yöresel şivelerden veya ses yansımalarından türetildiği düşünülen bir anatomi argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чмызать",
+    "word_latin": "Chmyzat'",
+    "meaning_tr": [
+      "Sakso çekmek",
+      "Emmek",
+      "Yalamak"
+    ],
+    "literal_translation_tr": "Höpürdetmek / Şapırdatmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Она заставила его чмызать.",
+        "tr": "Onu emmeye (sakso çekmeye) mecbur etti."
+      }
+    ],
+    "cultural_context": "Bir şeyler yerken veya içerken ağızdan çıkan şapırtı/höpürtü seslerinin ('chmokat') cinsel bir eyleme (oral seks) uyarlanmış argo fiilidir.",
+    "search_keywords": [
+      "sakso çekmek",
+      "emmek",
+      "chmyzat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чмызать",
+        "alternateName": [
+          "Sakso çekmek",
+          "Emmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sakso çekmek, Emmek. Yemek yerken çıkan şapırtı seslerinin oral sekse uyarlanmış argo fiilidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чудильник",
+    "word_latin": "Chudil'nik",
+    "meaning_tr": [
+      "Aktif gey",
+      "Tokmakçı"
+    ],
+    "literal_translation_tr": "Tuhaf şeyler yapan (Kişi/Alet/Yer)",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В этой зоне он известен как чудильник.",
+        "tr": "Bu hapishanede o aktif gey (tokmakçı) olarak bilinir."
+      }
+    ],
+    "cultural_context": "'Чудить' (Tuhaf/garip şeyler yapmak) kelimesinden türetilmiştir. Cezaevi hiyerarşisinde eşcinsel ilişkiye aktif olarak giren tarafı tanımlar (Pasif olanlara kıyasla hapishanede statüleri daha yüksektir).",
+    "search_keywords": [
+      "aktif gey",
+      "tokmakçı",
+      "chudilnik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чудильник",
+        "alternateName": [
+          "Aktif gey",
+          "Tokmakçı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif gey. Cezaevi hiyerarşisinde eşcinsel ilişkiye aktif olarak giren tarafı tanımlayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чухануть",
+    "word_latin": "Chukhanut'",
+    "meaning_tr": [
+      "Bir erkeği götten sikmek (Tecavüz)",
+      "İtibarını iki paralık etmek",
+      "Pasif duruma düşürmek"
+    ],
+    "literal_translation_tr": "Pisliğe bulamak / Çuhan yapmak",
+    "category": "Suç Argosu / Şiddet",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "За такой проступок его могут чухануть.",
+        "tr": "Böyle bir hata yüzünden onu götten sikebilirler (itibarını iki paralık edip alt tabakaya düşürebilirler)."
+      }
+    ],
+    "cultural_context": "'Чухан' (Hapishanede pislik içinde yaşayan, dışlanmış alt tabaka) kelimesinden türeyen fiildir. Bir mahkumu zorla tecavüz ederek onu resmen 'chuhan' veya 'pasif/hor görülen' statüsüne düşürme eylemidir.",
+    "search_keywords": [
+      "götten sikmek",
+      "itibarını iki paralık etmek",
+      "pasif duruma düşürmek",
+      "chukhanut"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чухануть",
+        "alternateName": [
+          "Bir erkeği götten sikmek",
+          "İtibarını iki paralık etmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Götten sikmek, İtibarını iki paralık etmek. Cezaevinde bir mahkuma tecavüz ederek onu dışlanmış alt tabaka statüsüne düşürme eylemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Чушок, Чушкарь",
+    "word_latin": "Chushok, Chushkar'",
+    "meaning_tr": [
+      "Pasif gey (Hapiste)",
+      "Tecavüz edilmiş mahkum",
+      "Pislik, Dışlanmış kişi"
+    ],
+    "literal_translation_tr": "Domuz yavrusu / Pis adam",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "С чушкарями никто не общается.",
+        "tr": "Tecavüze uğramış pasif mahkumlarla (dışlanmışlarla) kimse muhatap olmaz."
+      }
+    ],
+    "cultural_context": "Fenya (Hapishane) argosunda 'Чушка' (domuz/pis) kelimesinden gelir. Hapishane hiyerarşisinin en altında bulunan, temizlik vb. pis işleri yapan ve genellikle tecavüze uğrayarak 'pasif' eşcinsel rolüne düşürülmüş mahkumları (Petukh / Opushchennyy) ifade eder.",
+    "search_keywords": [
+      "pasif gey",
+      "tecavüz edilmiş mahkum",
+      "dışlanmış kişi",
+      "chushok",
+      "chushkar"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Чушок, Чушкарь",
+        "alternateName": [
+          "Pasif gey",
+          "Tecavüz edilmiş mahkum",
+          "Dışlanmış kişi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif gey, Dışlanmış kişi. Hapishane hiyerarşisinde en alt tabakada bulunan ve tecavüze uğramış mahkumları ifade eden ağır hakarettir."
+      }
+    ]
+  }
+]

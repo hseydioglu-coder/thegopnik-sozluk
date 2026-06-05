@@ -1,0 +1,4883 @@
+[
+  {
+    "word_ru": "Кабан",
+    "word_latin": "Kaban",
+    "meaning_tr": [
+      "Aktif lezbiyen"
+    ],
+    "literal_translation_tr": "Yaban domuzu",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В этой тусовке ее все знают как кабана.",
+        "tr": "Bu ortamda herkes onu aktif lezbiyen (kaban) olarak bilir."
+      }
+    ],
+    "cultural_context": "Normalde 'yaban domuzu' anlamına gelir. Lezbiyen ilişkilerde erkeksi ve aktif rolü üstlenen, genellikle maskülen görünümlü kadınlar için kullanılan argo tabirdir.",
+    "search_keywords": [
+      "aktif lezbiyen",
+      "kaban",
+      "кабан"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кабан",
+        "alternateName": [
+          "Aktif lezbiyen"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif lezbiyen. Lezbiyen ilişkilerde erkeksi ve aktif rolü üstlenen kadınlar için kullanılan argo tabirdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кабацкая блядь",
+    "word_latin": "Kabatskaya blyad'",
+    "meaning_tr": [
+      "Pavyon orospusu",
+      "Meyhane kaltağı",
+      "Bar sürtüğü"
+    ],
+    "literal_translation_tr": "Meyhane orospusu",
+    "category": "Hakaret / Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Она ведет себя как дешевая кабацкая блядь.",
+        "tr": "Ucuz bir pavyon orospusu gibi davranıyor."
+      }
+    ],
+    "cultural_context": "'Кабак' (eski meyhane/pavyon) kelimesinden türemiştir. Akşamlarını restoranlarda, meyhanelerde geçirerek bedavaya içki içen veya müşteri arayan kadınlar için kullanılır.",
+    "search_keywords": [
+      "pavyon orospusu",
+      "meyhane kaltağı",
+      "kabatskaya blyad"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кабацкая блядь",
+        "alternateName": [
+          "Pavyon orospusu",
+          "Meyhane kaltağı",
+          "Bar sürtüğü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pavyon orospusu, Meyhane kaltağı. Akşamlarını restoran ve barlarda geçirerek müşteri arayan kadınlar için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кака",
+    "word_latin": "Kaka",
+    "meaning_tr": [
+      "Kaka",
+      "Pis şey",
+      "Pislik"
+    ],
+    "literal_translation_tr": "Kaka",
+    "category": "Gündelik / Çocukça",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Не трогай это, это кака!",
+        "tr": "Buna dokunma, bu kaka (pis)!"
+      }
+    ],
+    "cultural_context": "Tıpkı Türkçedeki gibi çocuk dilinde 'kaka' veya pis, iğrenç, dokunulmaması gereken şeyleri belirtmek için kullanılır. Küfür değildir.",
+    "search_keywords": [
+      "kaka",
+      "pislik",
+      "pis şey",
+      "kaka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кака",
+        "alternateName": [
+          "Kaka",
+          "Pis şey",
+          "Pislik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kaka, Pis şey, Pislik. Çocuk dilinde pis ve dokunulmaması gereken iğrenç şeyleri belirtmek için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Какаруша",
+    "word_latin": "Kakarusha",
+    "meaning_tr": [
+      "Donmuş bok",
+      "Taş gibi kaka"
+    ],
+    "literal_translation_tr": "Donmuş kaka",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Во дворе собачьи какаруши лежат.",
+        "tr": "Avluda donmuş köpek bokları yatıyor."
+      }
+    ],
+    "cultural_context": "Kışın soğuktan donmuş, taşlaşmış veya kurumuş dışkı parçasını anlatan komik/iğrenç sokak argosudur.",
+    "search_keywords": [
+      "donmuş bok",
+      "taş gibi kaka",
+      "kakarusha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Какаруша",
+        "alternateName": [
+          "Donmuş bok",
+          "Taş gibi kaka"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Donmuş bok. Soğuktan donmuş, taşlaşmış veya kurumuş dışkı parçasını anlatan sokak argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Какать",
+    "word_latin": "Kakat'",
+    "meaning_tr": [
+      "Kaka yapmak",
+      "Büyük tuvaletini yapmak"
+    ],
+    "literal_translation_tr": "Kaka yapmak",
+    "category": "Gündelik",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Малыш хочет какать.",
+        "tr": "Ufaklık kaka yapmak istiyor."
+      }
+    ],
+    "cultural_context": "Dışkılamak anlamına gelen, 'срать' (sıçmak) küfrüne kıyasla daha naif, çocuksu ve gündelik hayatta rahatça kullanılabilen bir fiildir.",
+    "search_keywords": [
+      "kaka yapmak",
+      "tuvaletini yapmak",
+      "kakat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Какать",
+        "alternateName": [
+          "Kaka yapmak",
+          "Büyük tuvaletini yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kaka yapmak. Dışkılamak anlamına gelen, 'срать' küfrüne kıyasla daha naif ve çocuksu bir fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Какашка",
+    "word_latin": "Kakashka",
+    "meaning_tr": [
+      "Bok parçası",
+      "Pislik",
+      "Kaka"
+    ],
+    "literal_translation_tr": "Küçük kaka",
+    "category": "Argo / Hakaret",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ах ты мелкая какашка!",
+        "tr": "Seni gidi küçük bok parçası (pislik)!"
+      }
+    ],
+    "cultural_context": "Kelime anlamıyla dışkı parçası demektir. Mecazi olarak; huysuz, değersiz, kötü karakterli insanlar için sevimli/hafif bir hakaret olarak da kullanılır.",
+    "search_keywords": [
+      "bok parçası",
+      "kaka",
+      "pislik",
+      "kakashka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Какашка",
+        "alternateName": [
+          "Bok parçası",
+          "Pislik",
+          "Kaka"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bok parçası, Pislik. Dışkı parçası anlamına geldiği gibi, mecazi olarak kötü ve değersiz insanlar için hafif hakaret olarak kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Какого хуя",
+    "word_latin": "Kakogo khuya",
+    "meaning_tr": [
+      "Hangi sikime",
+      "Ne bok yemeye",
+      "Ne sikime"
+    ],
+    "literal_translation_tr": "Hangi yarrağın",
+    "category": "Mat",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Какого хуя ты здесь делаешь?",
+        "tr": "Hangi sikime (ne bok yemeye) burada duruyorsun?"
+      }
+    ],
+    "cultural_context": "'Neden?', 'Ne diye?', 'Hangi amaçla?' sorularının son derece isyankar, küfürlü, şaşkınlık ve öfke barındıran karşılığıdır.",
+    "search_keywords": [
+      "hangi sikime",
+      "ne bok yemeye",
+      "ne diye",
+      "kakogo khuya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Какого хуя",
+        "alternateName": [
+          "Hangi sikime",
+          "Ne bok yemeye",
+          "Ne sikime"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hangi sikime, Ne bok yemeye. 'Neden' ve 'hangi amaçla' sorularının isyankar, öfkeli ve küfürlü karşılığıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кал",
+    "word_latin": "Kal",
+    "meaning_tr": [
+      "Dışkı",
+      "Gaita",
+      "Bok"
+    ],
+    "literal_translation_tr": "Dışkı",
+    "category": "Tıbbi / Gündelik",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Анализ кала показал инфекцию.",
+        "tr": "Dışkı (gaita) tahlili enfeksiyon gösterdi."
+      },
+      {
+        "ru": "Этот фильм — полный кал.",
+        "tr": "Bu film tam bir dışkı (bok)."
+      }
+    ],
+    "cultural_context": "Tıbbi ve resmi dilde dışkı/gaita anlamına gelir. Argo olmamakla birlikte, gençler arasında mecazi olarak kalitesiz (boktan) eserler veya durumlar için kullanılır.",
+    "search_keywords": [
+      "dışkı",
+      "gaita",
+      "bok",
+      "kal"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кал",
+        "alternateName": [
+          "Dışkı",
+          "Gaita",
+          "Bok"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Dışkı, Bok. Tıbbi dilde dışkı anlamına gelirken, mecazi olarak kalitesiz ve kötü şeyler için de kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Капрон рвать",
+    "word_latin": "Kapron rvat'",
+    "meaning_tr": [
+      "Götten sikmek",
+      "Erkeğe arkadan basmak",
+      "Naylonu yırtmak"
+    ],
+    "literal_translation_tr": "Kapron (naylon) yırtmak",
+    "category": "Cezaevi Jargonu",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "На зоне за такое могут и капрон порвать.",
+        "tr": "Hapishanede böyle bir şey için adama arkadan basabilirler (naylonunu yırtarlar)."
+      }
+    ],
+    "cultural_context": "Kapron (bir tür sert naylon/polimer) yırtmak anlamına gelen bu deyim, hapishane argosunda bir erkeği zorla ve belirli bir pozisyonda (yüzüstü yatıp bacakları arkaya atılmış şekilde) arkadan sikmeyi ifade eder.",
+    "search_keywords": [
+      "götten sikmek",
+      "hapishane argosu",
+      "erkeğe basmak",
+      "kapron rvat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Капрон рвать",
+        "alternateName": [
+          "Götten sikmek",
+          "Erkeğe arkadan basmak",
+          "Naylonu yırtmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Götten sikmek, Erkeğe arkadan basmak. Hapishane argosunda bir erkeği belirli bir pozisyonda zorla arkadan sikmeyi ifade eden deyim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кара",
+    "word_latin": "Kara",
+    "meaning_tr": [
+      "Yarrak",
+      "Erkek cinsel organı"
+    ],
+    "literal_translation_tr": "Ceza (Normal anlamı) / Yarrak (Argo)",
+    "category": "Argo / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Он достал свою кару.",
+        "tr": "Yarrağını çıkardı."
+      }
+    ],
+    "cultural_context": "Normalde edebi dilde 'ceza/ilahi ceza' anlamına gelen kelimenin, cinsel argoda erkeğin cinsel organını ('cezalandırıcı alet' metaforuyla) tanımlamak için kullanılmasıdır.",
+    "search_keywords": [
+      "yarrak",
+      "cinsel organ",
+      "kara",
+      "кара"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кара",
+        "alternateName": [
+          "Yarrak",
+          "Erkek cinsel organı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak. Normalde 'ceza' anlamına gelen kelimenin, argoda erkek cinsel organını ('cezalandırıcı alet') tanımlamak için kullanılması."
+      }
+    ]
+  },
+  {
+    "word_ru": "Каравай",
+    "word_latin": "Karavay",
+    "meaning_tr": [
+      "Göt",
+      "Kıç",
+      "Popo"
+    ],
+    "literal_translation_tr": "Geleneksel yuvarlak ekmek",
+    "category": "Argo / Mizah",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У нее такой огромный каравай!",
+        "tr": "Öyle kocaman bir göte sahip ki!"
+      }
+    ],
+    "cultural_context": "Yuvarlak ve dolgun bir Rus somun ekmeği olan 'Karavay' kelimesinin, şekil benzerliğinden dolayı iri kalçalar (göt) için kullanılan mizahi bir argo tabiridir.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "popo",
+      "kalça",
+      "karavay"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Каравай",
+        "alternateName": [
+          "Göt",
+          "Kıç",
+          "Popo"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt, Kıç. Yuvarlak bir Rus somun ekmeği olan 'Karavay' kelimesinin şekil benzerliğinden dolayı kalçalar (göt) için kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "На карачках",
+    "word_latin": "Na karachkakh",
+    "meaning_tr": [
+      "Dört ayak üstünde",
+      "Domalarak",
+      "Emekleyerek"
+    ],
+    "literal_translation_tr": "Dört ayak üzerinde",
+    "category": "Gündelik / Cinsel Bağlam",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Пьяный в хлам, он полз домой на карачках.",
+        "tr": "Zil zurna sarhoştu, eve dört ayak üstünde (emekleyerek) süründü."
+      },
+      {
+        "ru": "Я взял ее на карачках.",
+        "tr": "Onu domaltarak (dört ayak üstünde) siktim."
+      }
+    ],
+    "cultural_context": "Yere elleri ve dizleri üzerinde çömelmeyi ifade eder. Hem sarhoşluktan sürünme bağlamında hem de cinsel ilişkide 'doggy style' (köpek pozisyonu) pozisyonunu belirtmek için çok sık kullanılır.",
+    "search_keywords": [
+      "domalarak",
+      "dört ayak üstünde",
+      "emekleyerek",
+      "na karachkakh"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "На карачках",
+        "alternateName": [
+          "Dört ayak üstünde",
+          "Domalarak",
+          "Emekleyerek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Dört ayak üstünde, Domalarak. Elleri ve dizleri üzerinde durmayı ifade eder. Sarhoşlukta sürünmeyi veya cinsel ilişkideki doggy pozisyonunu belirtir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Карусель",
+    "word_latin": "Karusel'",
+    "meaning_tr": [
+      "Grup seks",
+      "Gangbang",
+      "Atlıkarınca"
+    ],
+    "literal_translation_tr": "Atlıkarınca",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Они устроили настоящую карусель в бане.",
+        "tr": "Hamamda tam bir grup seks (atlıkarınca) partisi verdiler."
+      }
+    ],
+    "cultural_context": "Lunaparktaki dönen atlıkarınca anlamına gelen bu kelime, argoda sırayla veya döne döne yapılan grup seks (gangbang) aktivitelerini tasvir etmek için kullanılır.",
+    "search_keywords": [
+      "grup seks",
+      "gangbang",
+      "atlıkarınca",
+      "karusel"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Карусель",
+        "alternateName": [
+          "Grup seks",
+          "Gangbang",
+          "Atlıkarınca"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Grup seks, Gangbang. Atlıkarınca anlamına gelen kelimenin argoda sırayla veya döne döne yapılan grup seks partilerini tasvir etmesi."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кастрат",
+    "word_latin": "Kastrat",
+    "meaning_tr": [
+      "Taşaksız",
+      "Hadım edilmiş",
+      "Kısır"
+    ],
+    "literal_translation_tr": "Hadım",
+    "category": "Tıbbi / Hakaret",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Веди себя как мужчина, а не как кастрат!",
+        "tr": "Taşaksız (hadım edilmiş) biri gibi değil, bir erkek gibi davran!"
+      }
+    ],
+    "cultural_context": "Testisleri alınmış kişi veya hayvanı ifade eden tıbbi terimdir. Argoda iktidarsız, cesaretsiz, pısırık ve gücünü yitirmiş erkekler için aşağılayıcı bir hakarettir.",
+    "search_keywords": [
+      "taşaksız",
+      "hadım",
+      "kastrat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кастрат",
+        "alternateName": [
+          "Taşaksız",
+          "Hadım edilmiş",
+          "Kısır"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaksız, Hadım edilmiş. Testisleri alınmış kişi/hayvanı ifade ettiği gibi argoda cesaretsiz ve pısırık erkekler için hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кастрировать",
+    "word_latin": "Kastrirovat'",
+    "meaning_tr": [
+      "Hadım etmek",
+      "Taşaklarını kesmek"
+    ],
+    "literal_translation_tr": "Kısırlaştırmak",
+    "category": "Tıbbi / Tehdit",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Я тебя кастрирую, если еще раз подойдешь к ней!",
+        "tr": "Ona bir daha yaklaşırsan senin taşaklarını keserim (hadım ederim)!"
+      }
+    ],
+    "cultural_context": "Erkeklik bezlerini (testisleri) cerrahi olarak alma işlemidir. Sözlü tartışmalarda bir erkeği gücünden/erkekliğinden etmekle tehdit etmek amacıyla kullanılır.",
+    "search_keywords": [
+      "hadım etmek",
+      "taşaklarını kesmek",
+      "kastrirovat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кастрировать",
+        "alternateName": [
+          "Hadım etmek",
+          "Taşaklarını kesmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hadım etmek, Taşaklarını kesmek. Testisleri alma işlemi olup, tartışmalarda bir erkeği erkekliğinden etmekle tehdit amacıyla kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Катиться к ебаной матери",
+    "word_latin": "Katit'sya k yobanoy materi",
+    "meaning_tr": [
+      "Siktir olup gitmek",
+      "Anasının amına yuvarlanıp gitmek",
+      "Cehenneme kadar yolu olmak"
+    ],
+    "literal_translation_tr": "Sikilmiş ananın yanına yuvarlanmak",
+    "category": "Mat",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Пусть катится к ебаной матери, мне плевать.",
+        "tr": "Anasının amına kadar siktir olup gitsin (yolu var), umurumda değil."
+      }
+    ],
+    "cultural_context": "'Иди к ёбаной матери' (Ananın amına git) küfrünün 'катиться' (yuvarlanmak/gitmek) fiiliyle birleşmiş halidir. Birini tamamen gözden çıkardığını ve nereye giderse gitsin umrunda olmadığını belirten çok ağır küfürdür.",
+    "search_keywords": [
+      "siktir olup gitmek",
+      "cehenneme kadar yolu var",
+      "katitsya k yobanoy materi"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Катиться к ебаной матери",
+        "alternateName": [
+          "Siktir olup gitmek",
+          "Anasının amına yuvarlanıp gitmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Siktir olup gitmek. Birini ağır bir anne küfrüyle umursamazca kovmayı ifade eden 'yuvarlanıp gitmek' deyimidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Качать",
+    "word_latin": "Kachat'",
+    "meaning_tr": [
+      "Pompalamak (Sikmek)",
+      "31 çekmek",
+      "Sallamak"
+    ],
+    "literal_translation_tr": "Sallamak / Pompalamak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он качал её всю ночь.",
+        "tr": "Bütün gece onu pompaladı (sikti)."
+      }
+    ],
+    "cultural_context": "Normalde beşik sallamak, su/hava pompalamak veya kas yapmak (ağırlık kaldırmak) anlamına gelir. Argoda, ileri-geri veya yukarı-aşağı ritmik hareketlerden dolayı cinsel birleşmeyi veya mastürbasyonu anlatır.",
+    "search_keywords": [
+      "pompalamak",
+      "sikmek",
+      "31 çekmek",
+      "kachat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Качать",
+        "alternateName": [
+          "Pompalamak",
+          "Sikmek",
+          "31 çekmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pompalamak, 31 çekmek. Normalde 'sallamak' anlamına gelen kelimenin argoda cinsel ilişki veya mastürbasyon ritmini anlatmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Качели с висом",
+    "word_latin": "Kacheli s visom",
+    "meaning_tr": [
+      "Ayakta sikiş",
+      "Havada sikiş",
+      "Asılı salıncak pozisyonu"
+    ],
+    "literal_translation_tr": "Asılı kalarak salıncak",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Попробовали качели с висом, чуть спину не сломал.",
+        "tr": "Asılı salıncak pozisyonunu (ayakta sikişmeyi) denedik, az kalsın belimi kırıyordum."
+      }
+    ],
+    "cultural_context": "Erkeğin ayakta durduğu ve kadının kollarını/bacaklarını erkeğe dolayarak havada asılı kaldığı cinsel ilişki pozisyonunu betimleyen 'sallanan salıncak' metaforudur.",
+    "search_keywords": [
+      "ayakta sikiş",
+      "pozisyon",
+      "kacheli s visom"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Качели с висом",
+        "alternateName": [
+          "Ayakta sikiş",
+          "Havada sikiş",
+          "Asılı salıncak pozisyonu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ayakta sikiş. Partnerin havada asılı kaldığı, ayakta gerçekleşen cinsel ilişki pozisyonunu betimleyen 'salıncak' metaforudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кентавр",
+    "word_latin": "Kentavr",
+    "meaning_tr": [
+      "Hem aktif hem pasif gey",
+      "Çift yönlü (Biseksüel)",
+      "Sentor"
+    ],
+    "literal_translation_tr": "Sentor (Mitolojik yaratık)",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В их тусовке он известен как кентавр.",
+        "tr": "Kendi ortamlarında o, kentavr (hem aktif hem pasif gey) olarak bilinir."
+      }
+    ],
+    "cultural_context": "Yunan mitolojisinde yarı insan yarı at olan 'Sentor' (Kentavr) yaratığından yola çıkarak, eşcinsel ilişkilerde 'yarı öyle yarı böyle' olan, her iki rolü (aktif/pasif) de üstlenen erkekler için kullanılır.",
+    "search_keywords": [
+      "aktif pasif",
+      "çift yönlü",
+      "gey",
+      "kentavr"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кентавр",
+        "alternateName": [
+          "Hem aktif hem pasif gey",
+          "Çift yönlü (Biseksüel)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hem aktif hem pasif gey. Yarı insan yarı at olan yaratıktan yola çıkarak, ilişkilerde her iki rolü de üstlenen erkekler için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кинуть палку",
+    "word_latin": "Kinut' palku",
+    "meaning_tr": [
+      "Bir posta çakmak",
+      "Sikişmek",
+      "Bir el atmak"
+    ],
+    "literal_translation_tr": "Çomak / Sopa fırlatmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Мы пошли к ней и я кинул палку.",
+        "tr": "Onun evine gittik ve ben bir posta çaktım."
+      }
+    ],
+    "cultural_context": "Rusçadaki en meşhur seks argolarından biridir. 'Палка' (sopa/çomak) kelimesi erkek organını simgeler. 'Кинуть' (atmak/fırlatmak) ile birleşince bir kadınla tek seferlik, hızlı seks yapmayı ifade eder.",
+    "search_keywords": [
+      "bir posta çakmak",
+      "sikişmek",
+      "bir el atmak",
+      "kinut palku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кинуть палку",
+        "alternateName": [
+          "Bir posta çakmak",
+          "Sikişmek",
+          "Bir el atmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bir posta çakmak, Sikişmek. 'Çomak fırlatmak' anlamına gelen bu meşhur deyim, argoda bir kadınla tek seferlik hızlı seks yapmayı ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кифирить",
+    "word_latin": "Kifirit'",
+    "meaning_tr": [
+      "Sakso çekmek",
+      "Oral seks yapmak"
+    ],
+    "literal_translation_tr": "Kefir/Çifir (Sert çay) demlemek",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Заставили его кифирить всю ночь.",
+        "tr": "Bütün gece ona zorla sakso çektirdiler."
+      }
+    ],
+    "cultural_context": "Normalde cezaevi argosunda çok sert çay (çifir) demlemek anlamına gelir, ancak bazı cinsel ve aşağılayıcı bağlamlarda oral seks (sakso) yapmak anlamında argo bir kayma yaşamıştır.",
+    "search_keywords": [
+      "sakso çekmek",
+      "oral seks",
+      "kifirit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кифирить",
+        "alternateName": [
+          "Sakso çekmek",
+          "Oral seks yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sakso çekmek, Oral seks yapmak. Normalde sert çay demlemek anlamına gelen kelimenin argoda oral seks için kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кишкоправ",
+    "word_latin": "Kishkoprav",
+    "meaning_tr": [
+      "Yarma yarrak",
+      "Bağırsak düzeltici (Büyük malafat)"
+    ],
+    "literal_translation_tr": "Bağırsak düzelten / Bağırsak doktoru",
+    "category": "Argo / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "У этого парня не член, а настоящий кишкоправ.",
+        "tr": "Bu adamınki organ değil, resmen bağırsak düzeltici (yarma yarrak)."
+      }
+    ],
+    "cultural_context": "Çok büyük ve kalın erkek cinsel organını tasvir etmek için kullanılan mizahi ve abartılı bir argodur. İnsanın iç organlarını (bağırsaklarını) yerinden oynatacak kadar büyük olduğunu ima eder.",
+    "search_keywords": [
+      "büyük yarrak",
+      "malafat",
+      "kishkoprav"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кишкоправ",
+        "alternateName": [
+          "Yarma yarrak",
+          "Bağırsak düzeltici"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarma yarrak. İnsanın bağırsaklarını yerinden oynatacak kadar büyük ve kalın erkek cinsel organını tasvir eden mizahi argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клизма",
+    "word_latin": "Klizma",
+    "meaning_tr": [
+      "Sürtük",
+      "Fahişe",
+      "Lavman"
+    ],
+    "literal_translation_tr": "Lavman",
+    "category": "Hakaret / Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Эта клизма опять стоит на трассе.",
+        "tr": "Şu sürtük (lavman) yine otoyolda dikiliyor."
+      }
+    ],
+    "cultural_context": "Normalde 'lavman' anlamına gelen tıbbi bir kelimeyken, argoda iğrenç, pis veya hastalıklı fahişeleri aşağılamak için kullanılır.",
+    "search_keywords": [
+      "sürtük",
+      "fahişe",
+      "klizma"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клизма",
+        "alternateName": [
+          "Sürtük",
+          "Fahişe",
+          "Lavman"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürtük, Fahişe. Normalde lavman anlamına gelen tıbbi kelimenin, argoda pis veya iğrenç fahişeleri aşağılamak için kullanılması."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клитор",
+    "word_latin": "Klitor",
+    "meaning_tr": [
+      "Klitoris",
+      "Bızır"
+    ],
+    "literal_translation_tr": "Klitoris",
+    "category": "Anatomi / Tıbbi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Она любит стимуляцию клитора.",
+        "tr": "Klitoris uyarılmasını seviyor."
+      }
+    ],
+    "cultural_context": "Kadın anatomisindeki klitoris organının karşılığıdır. Sokak argosunda bunun yerine daha kaba olan 'секель' (sekel) kullanılabilir.",
+    "search_keywords": [
+      "klitoris",
+      "bızır",
+      "klitor"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клитор",
+        "alternateName": [
+          "Klitoris",
+          "Bızır"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Klitoris, Bızır. Kadın anatomisindeki klitoris organının tıbbi ve standart karşılığıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клиторман",
+    "word_latin": "Klitorman",
+    "meaning_tr": [
+      "Bızır emici",
+      "Bızır yalamayı seven erkek"
+    ],
+    "literal_translation_tr": "Klitoris adamı",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Мой новый парень — настоящий клиторман.",
+        "tr": "Benim yeni erkek arkadaşım tam bir bızır emici (oral seks aşığı)."
+      }
+    ],
+    "cultural_context": "Kadınlara oral seks yapmayı ve özellikle klitoris yalamayı çok seven erkekler için kullanılan, sonuna İngilizce kökenli '-man' eki getirilmiş uydurma argo kelime.",
+    "search_keywords": [
+      "bızır emici",
+      "oral seks aşığı",
+      "klitorman"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клиторман",
+        "alternateName": [
+          "Bızır emici",
+          "Bızır yalamayı seven erkek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bızır emici, Bızır yalamayı seven erkek. Kadınlara oral seks yapmayı çok seven erkekler için oluşturulmuş uydurma argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клиторник",
+    "word_latin": "Klitornik",
+    "meaning_tr": [
+      "Bızır yalayıcı",
+      "Bızır emen adam"
+    ],
+    "literal_translation_tr": "Klitorisçi",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Известный клиторник района.",
+        "tr": "Mahallenin bilinen bızır yalayıcısı."
+      }
+    ],
+    "cultural_context": "'Клиторман' ile eşanlamlıdır. Sonuna Rusçada meslek veya alışkanlık bildiren '-ник' (-nik) eki getirilerek oluşturulmuş, oral seks düşkünü erkeği anlatan argodur.",
+    "search_keywords": [
+      "bızır yalayıcı",
+      "klitornik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клиторник",
+        "alternateName": [
+          "Bızır yalayıcı",
+          "Bızır emen adam"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bızır yalayıcı. 'Клиторман' ile eşanlamlıdır. Sonuna meslek/alışkanlık bildiren '-ник' eki getirilerek oluşturulmuş argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клоака",
+    "word_latin": "Kloaka",
+    "meaning_tr": [
+      "Lağım çukuru",
+      "Am (Aşağılayıcı)",
+      "Porsuk amı"
+    ],
+    "literal_translation_tr": "Kloak / Lağım / Ortak boşaltım kanalı",
+    "category": "Hakaret / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "У этой грязной шлюхи не пизда, а клоака.",
+        "tr": "Bu pis orospununki am değil, resmen lağım çukuru."
+      }
+    ],
+    "cultural_context": "Normalde kuşların ve sürüngenlerin boşaltım/üreme organı veya lağım çukuru anlamına gelir. Argoda kadın cinsel organını (vajinayı) pis, hastalıklı ve iğrenç bir şekilde aşağılamak için kullanılır.",
+    "search_keywords": [
+      "lağım çukuru",
+      "am",
+      "kloaka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клоака",
+        "alternateName": [
+          "Lağım çukuru",
+          "Am (Aşağılayıcı)",
+          "Porsuk amı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lağım çukuru, Am. Argoda kadın cinsel organını pis ve iğrenç bir şekilde aşağılamak için kullanılan zoolojik/altyapı terimi."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клозетная девка",
+    "word_latin": "Klozetnaya devka",
+    "meaning_tr": [
+      "Tuvalet karısı",
+      "Tuvalet ibnesi"
+    ],
+    "literal_translation_tr": "Tuvalet (Klozet) kızı",
+    "category": "Homofobik Argo / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Полиция часто гоняет клозетных девок из парка.",
+        "tr": "Polis sık sık tuvalet karılarını (ibneleri) parktan kovuyor."
+      }
+    ],
+    "cultural_context": "(Ayrıca: Массандра, Сортирная девка, Туалетная девка). Umumi tuvaletlerde (klozet/sortir) ilişkiye girecek aktif partner arayan pasif eşcinselleri aşağılamak için kullanılan homofobik terim kümesidir.",
+    "search_keywords": [
+      "tuvalet karısı",
+      "tuvalet ibnesi",
+      "klozetnaya devka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клозетная девка",
+        "alternateName": [
+          "Tuvalet karısı",
+          "Tuvalet ibnesi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tuvalet karısı, Tuvalet ibnesi. Umumi tuvaletlerde partner arayan pasif eşcinselleri aşağılamak için kullanılan homofobik terim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клубничка",
+    "word_latin": "Klubnichka",
+    "meaning_tr": [
+      "Frengi yarası (Mecazi)",
+      "Çilek",
+      "Erotik içerik"
+    ],
+    "literal_translation_tr": "Küçük çilek",
+    "category": "Tıbbi Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Подцепил клубничку после той ночи.",
+        "tr": "O geceden sonra frengi yarası (çilek) kaptı."
+      }
+    ],
+    "cultural_context": "Normalde 'çilek' veya '+18 erotik/pornografik içerik' anlamına gelirken, cinsel yolla bulaşan frengi (sifiliz) yaralarının görünüm olarak çileğe benzetilmesiyle oluşan tıbbi argodur.",
+    "search_keywords": [
+      "frengi yarası",
+      "çilek",
+      "erotik içerik",
+      "klubnichka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клубничка",
+        "alternateName": [
+          "Frengi yarası (Mecazi)",
+          "Çilek",
+          "Erotik içerik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Frengi yarası, Erotik içerik. Frengi yaralarının çileğe benzetilmesiyle oluşan veya genel olarak erotik içeriği temsil eden argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Клюшка",
+    "word_latin": "Klyushka",
+    "meaning_tr": [
+      "Sürtük",
+      "Paspal fahişe",
+      "Karı"
+    ],
+    "literal_translation_tr": "Hokey sopası / Baston",
+    "category": "Argo / Hakaret",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Где ты подцепил эту старую клюшку?",
+        "tr": "Bu yaşlı sürtüğü (bastonu) nereden bulup taktın peşine?"
+      }
+    ],
+    "cultural_context": "Genelde zayıf, çirkin, yaşlanmış (baston/hokey sopası gibi) fahişeleri veya genel olarak paspal, huysuz yaşlı kadınları tanımlamak için kullanılan aşağılayıcı kelime.",
+    "search_keywords": [
+      "sürtük",
+      "paspal fahişe",
+      "klyushka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Клюшка",
+        "alternateName": [
+          "Sürtük",
+          "Paspal fahişe",
+          "Karı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürtük, Paspal fahişe. Zayıf, yaşlanmış (baston gibi) fahişeleri veya huysuz yaşlı kadınları tanımlamak için kullanılan aşağılayıcı kelime."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кляп",
+    "word_latin": "Klyap",
+    "meaning_tr": [
+      "Ağız tıkacı",
+      "Yarrak (Ağız dolduran)"
+    ],
+    "literal_translation_tr": "Tıkaç / Ağız tıkacı",
+    "category": "Argo / BDSM",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Она охотно взяла его кляп в рот.",
+        "tr": "Onun tıkacını (yarrağını) isteyerek ağzına aldı."
+      }
+    ],
+    "cultural_context": "Normalde ağzı kapatmak için kullanılan 'tıkaç' (gag) demektir. Argoda oral seks bağlamında veya boyutu sebebiyle (ağız dolduran) erkek cinsel organı için metafor olarak kullanılır.",
+    "search_keywords": [
+      "ağız tıkacı",
+      "yarrak",
+      "klyap"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кляп",
+        "alternateName": [
+          "Ağız tıkacı",
+          "Yarrak (Ağız dolduran)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ağız tıkacı, Yarrak. Normalde ağzı kapatmak için kullanılan tıkaç demektir. Argoda oral seks bağlamında erkek cinsel organı için metafor olarak kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кнахт",
+    "word_latin": "Knakht",
+    "meaning_tr": [
+      "Yarrak",
+      "Malafat"
+    ],
+    "literal_translation_tr": "Baba (Gemi halatı bağlanan demir)",
+    "category": "Denizci Argosu / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Моряк потер свой кнахт.",
+        "tr": "Denizci malafatını (babayı) sıvazladı."
+      }
+    ],
+    "cultural_context": "Gemilerde halat bağlamak için kullanılan kalın, kısa demir direklere (baba/koçboynuzu - кнехт) şekil benzerliğinden dolayı erkek organına verilen isim.",
+    "search_keywords": [
+      "yarrak",
+      "malafat",
+      "knakht"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кнахт",
+        "alternateName": [
+          "Yarrak",
+          "Malafat"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Malafat. Gemilerde halat bağlanan demir direklere (baba) benzemesinden dolayı erkek organına verilen isim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кобел",
+    "word_latin": "Kobel",
+    "meaning_tr": [
+      "Aktif lezbiyen",
+      "Erkeksi lezbiyen"
+    ],
+    "literal_translation_tr": "Erkek köpek",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Она в их паре настоящий кобел.",
+        "tr": "İkili ilişkilerinde o tam bir aktif lezbiyen (erkek köpek)."
+      }
+    ],
+    "cultural_context": "'Кобель' (erkek köpek/zampara erkek) kelimesinden türetilmiştir. Lezbiyen ilişkilerde erkek rolünü oynayan kadınlar için kullanılır.",
+    "search_keywords": [
+      "aktif lezbiyen",
+      "erkeksi lezbiyen",
+      "kobel"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кобел",
+        "alternateName": [
+          "Aktif lezbiyen",
+          "Erkeksi lezbiyen"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif lezbiyen, Erkeksi lezbiyen. 'Erkek köpek' kelimesinden türetilmiştir. Lezbiyen ilişkilerde erkek rolünü oynayan kadınlar için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кобелить",
+    "word_latin": "Kobelit'",
+    "meaning_tr": [
+      "Karı kız peşinde koşmak",
+      "Zamparalık yapmak",
+      "Uçkurunun peşinden gitmek"
+    ],
+    "literal_translation_tr": "Erkek köpek gibi davranmak",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Хватит кобелить, возвращайся к семье.",
+        "tr": "Karı kız peşinde koşmayı (zamparalığı) bırak, ailene dön."
+      }
+    ],
+    "cultural_context": "Bir erkeğin sürekli hafifmeşrep kadınlarla takılması, çapkınlık yapması ve sadakatsiz olmasını köpeklerin çiftleşme güdüsüne benzeterek anlatır.",
+    "search_keywords": [
+      "karı kız peşinde koşmak",
+      "zamparalık yapmak",
+      "kobelit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кобелить",
+        "alternateName": [
+          "Karı kız peşinde koşmak",
+          "Zamparalık yapmak",
+          "Uçkurunun peşinden gitmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Karı kız peşinde koşmak, Zamparalık yapmak. Erkeğin sürekli hafifmeşrep kadınlarla takılmasını köpeklerin çiftleşme güdüsüne benzeterek anlatır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кобель",
+    "word_latin": "Kobel'",
+    "meaning_tr": [
+      "Zampara",
+      "Sübyancı (Bağlama göre)"
+    ],
+    "literal_translation_tr": "Erkek köpek",
+    "category": "Hakaret / Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Этот старый кобель снова ищет себе жертву.",
+        "tr": "Bu yaşlı zampara (erkek köpek) yine kendine bir kurban arıyor."
+      }
+    ],
+    "cultural_context": "Normalde durmadan kadın peşinde koşan 'zampara/uçkuruna düşkün' erkekler için kullanılırken, bazı alt kültür argolarında küçük kızlara düşkün olan sapkınlar için de kullanılır.",
+    "search_keywords": [
+      "zampara",
+      "sübyancı",
+      "erkek köpek",
+      "kobel"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кобель",
+        "alternateName": [
+          "Zampara",
+          "Sübyancı (Bağlama göre)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zampara, Sübyancı. Normalde durmadan kadın peşinde koşan erkekler için kullanılırken, argoda küçük kızlara düşkün sapkınlar için de kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Коблуха",
+    "word_latin": "Koblukha",
+    "meaning_tr": [
+      "Pasif lezbiyen"
+    ],
+    "literal_translation_tr": "Erkeksi (Dişi formu)",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Коблуха во всем слушалась свою партнершу.",
+        "tr": "Pasif lezbiyen her şeyde partnerinin sözünü dinliyordu."
+      }
+    ],
+    "cultural_context": "'Кобель' kökünden türetilmiş bir argodur. Verilen anlama göre lezbiyen ilişkilerde pasif konumda olan kadınları tasvir eder.",
+    "search_keywords": [
+      "pasif lezbiyen",
+      "koblukha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Коблуха",
+        "alternateName": [
+          "Pasif lezbiyen"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif lezbiyen. 'Кобель' kökünden türetilmiş argodur. Lezbiyen ilişkilerde pasif konumda olan kadınları tasvir eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кобра",
+    "word_latin": "Kobra",
+    "meaning_tr": [
+      "Kobra",
+      "Grup sekse düşkün kaltak"
+    ],
+    "literal_translation_tr": "Kobra yılanı",
+    "category": "Argo / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта кобра не пропускает ни одной групповухи.",
+        "tr": "Bu kobra hiçbir grup seks partisini kaçırmaz."
+      }
+    ],
+    "cultural_context": "Kobra yılanı gibi kıvrak veya tehlikeli olmasına atıfta bulunarak, argoda grup seks partilerine (gangbang) katılmayı seven fahişeler için kullanılır.",
+    "search_keywords": [
+      "kobra",
+      "grup seks",
+      "kaltak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кобра",
+        "alternateName": [
+          "Kobra",
+          "Grup sekse düşkün kaltak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kobra, Grup sekse düşkün kaltak. Kobra yılanının kıvraklığına atıfla, argoda grup seks partilerine katılmayı seven fahişeler için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кобыле под хвост",
+    "word_latin": "Kobyle pod khvost",
+    "meaning_tr": [
+      "Boşa gitmek",
+      "Heba olmak",
+      "Kısrağın kuyruğu altına gitmek"
+    ],
+    "literal_translation_tr": "Kısrağın kuyruğunun altına",
+    "category": "Deyim",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Все наши планы полетели кобыле под хвост.",
+        "tr": "Bütün planlarımız heba oldu (kısrağın kuyruğunun altına gitti)."
+      }
+    ],
+    "cultural_context": "'К коту под хвост' (kedinin kuyruğu altına) deyiminin at/kısrak versiyonudur. Yapılan işin, emeğin veya paranın tamamen boşa gitmesi, ziyan olması anlamına gelir.",
+    "search_keywords": [
+      "boşa gitmek",
+      "heba olmak",
+      "kobyle pod khvost"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кобыле под хвост",
+        "alternateName": [
+          "Boşa gitmek",
+          "Heba olmak",
+          "Kısrağın kuyruğu altına gitmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Boşa gitmek, Heba olmak. 'Kedinin kuyruğu altına' deyiminin at/kısrak versiyonudur. Yapılan işin veya paranın tamamen boşa gitmesi anlamına gelir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ковырялка",
+    "word_latin": "Kovyryalka",
+    "meaning_tr": [
+      "Lezbiyen",
+      "Kendi kendini tatmin eden kadın (Mastürbatör)"
+    ],
+    "literal_translation_tr": "Kurcalayıcı / Kazıyıcı",
+    "category": "Argo / Hakaret",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Забудь про нее, она известная ковырялка.",
+        "tr": "Onu unut, o bilinen bir lezbiyen (kurcalayıcı)."
+      }
+    ],
+    "cultural_context": "'Ковырять' (kurcalamak) fiilinden türetilmiştir. Kadınların kendi cinsel organlarıyla 'oynamasını/kurcalamasını' (mastürbasyon) veya lezbiyen ilişkileri aşağılayıcı bir dille anlatır.",
+    "search_keywords": [
+      "lezbiyen",
+      "mastürbatör",
+      "kovyryalka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ковырялка",
+        "alternateName": [
+          "Lezbiyen",
+          "Kendi kendini tatmin eden kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lezbiyen, Mastürbatör. Kadınların kendi cinsel organlarıyla 'kurcalamasını' veya lezbiyen ilişkileri aşağılayıcı bir dille anlatır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ковырять в жопе",
+    "word_latin": "Kovyryat' v zhope",
+    "meaning_tr": [
+      "Göt kurcalamak",
+      "Boş işlerle uğraşmak"
+    ],
+    "literal_translation_tr": "Göte parmak atmak / Götü kurcalamak",
+    "category": "Deyim / Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Хватит ковырять в жопе, займись делом!",
+        "tr": "Göt kurcalamayı (boş işlerle uğraşmayı) bırak, bir işin ucundan tut!"
+      }
+    ],
+    "cultural_context": "Vakti boşa harcamayı, hiçbir işe yaramayan faydasız, ipe sapa gelmez veya saçma sapan işlerle meşgul olmayı anlatan argo deyimdir.",
+    "search_keywords": [
+      "göt kurcalamak",
+      "boş işlerle uğraşmak",
+      "kovyryat v zhope"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ковырять в жопе",
+        "alternateName": [
+          "Göt kurcalamak",
+          "Boş işlerle uğraşmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt kurcalamak, Boş işlerle uğraşmak. Vakti boşa harcamayı, faydasız veya saçma sapan işlerle meşgul olmayı anlatan argo deyimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ковыряться в пизде",
+    "word_latin": "Kovyryat'sya v pizde",
+    "meaning_tr": [
+      "Am kurcalamak",
+      "Anlamsız boş işlerle uğraşmak"
+    ],
+    "literal_translation_tr": "Amın içinde kurcalanmak",
+    "category": "Mat",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Что ты там ковыряешься в пизде полдня?",
+        "tr": "Yarım gündür orada am mı kurcalıyorsun (boş işlerle mi uğraşıyorsun)?"
+      }
+    ],
+    "cultural_context": "'Ковырять в жопе' deyiminin daha kaba, 'am' kelimesi kullanılarak oluşturulmuş küfürlü varyasyonudur. Tamamen anlamsız, boş işlerle uğraşmayı belirtir.",
+    "search_keywords": [
+      "am kurcalamak",
+      "boş işler",
+      "kovyryatsya v pizde"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ковыряться в пизде",
+        "alternateName": [
+          "Am kurcalamak",
+          "Anlamsız boş işlerle uğraşmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am kurcalamak, Anlamsız boş işlerle uğraşmak. 'Göt kurcalamak' deyiminin 'am' kelimesiyle oluşturulmuş küfürlü varyasyonudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ковыряться",
+    "word_latin": "Kovyryat'sya",
+    "meaning_tr": [
+      "Parmak atmak (Mastürbasyon)",
+      "Makaslama yapmak (Lezbiyenlik)",
+      "Kürtaj yapmak (Merdivenaltı)"
+    ],
+    "literal_translation_tr": "Kurcalanmak",
+    "category": "Argo / Cinsel / Tıbbi Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Пойду к бабке ковыряться.",
+        "tr": "Kocakarıya gidip kurcalattıracağım (merdivenaltı kürtaj olacağım)."
+      }
+    ],
+    "cultural_context": "Vajinayı 'kurcalanmak' fiilinin argo anlamlarıdır. Kadın mastürbasyonunu, lezbiyen seksini veya ilkel/tehlikeli yöntemlerle gizlice çocuk düşürmeyi (kürtajı) ifade eder.",
+    "search_keywords": [
+      "parmak atmak",
+      "kürtaj yapmak",
+      "makaslama",
+      "kovyryatsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ковыряться",
+        "alternateName": [
+          "Parmak atmak (Mastürbasyon)",
+          "Makaslama yapmak",
+          "Kürtaj yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Parmak atmak, Makaslama yapmak, Kürtaj yapmak. Vajinayı 'kurcalanmak' eylemi üzerinden kadın mastürbasyonunu, lezbiyenliği veya merdivenaltı kürtajı ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кодеш",
+    "word_latin": "Kodesh",
+    "meaning_tr": [
+      "Eşcinsel",
+      "İbne"
+    ],
+    "literal_translation_tr": "İbne",
+    "category": "Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "В их тюрьме кодешей держат отдельно.",
+        "tr": "Onların hapishanesinde eşcinselleri (ibneleri) ayrı tutuyorlar."
+      }
+    ],
+    "cultural_context": "Eşcinsel erkekleri tanımlamak için kullanılan, genellikle cezaevi kökenli veya bölgesel eski bir argo kelimedir.",
+    "search_keywords": [
+      "eşcinsel",
+      "ibne",
+      "kodesh"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кодеш",
+        "alternateName": [
+          "Eşcinsel",
+          "İbne"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Eşcinsel, İbne. Eşcinsel erkekleri tanımlamak için kullanılan cezaevi kökenli argo kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кожа",
+    "word_latin": "Kozha",
+    "meaning_tr": [
+      "Fahişe",
+      "Et",
+      "Karı"
+    ],
+    "literal_translation_tr": "Deri / Cilt",
+    "category": "Argo / Aşağılayıcı",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "На углу стоит дешевая кожа.",
+        "tr": "Köşede ucuz bir et (fahişe) dikiliyor."
+      }
+    ],
+    "cultural_context": "Hayat kadınlarının 'beden/et/deri' satması üzerinden oluşturulmuş bir metonimidir. Kadını sadece satılık bir et parçası (deri) olarak gören kaba argodur.",
+    "search_keywords": [
+      "fahişe",
+      "et",
+      "karı",
+      "kozha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кожа",
+        "alternateName": [
+          "Fahişe",
+          "Et",
+          "Karı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Fahişe, Et. Kadını sadece satılık bir et parçası (deri) olarak gören ve bedenini satan hayat kadınları için kullanılan kaba argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кожаная игла",
+    "word_latin": "Kozhanaya igla",
+    "meaning_tr": [
+      "Deri iğne",
+      "Yarrak",
+      "Erkek cinsel organı"
+    ],
+    "literal_translation_tr": "Deri iğne",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он предложил ей свою кожаную иглу.",
+        "tr": "Ona kendi deri iğnesini (yarrağını) teklif etti."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını şekil itibarıyla bir iğneye, doku olarak deriye benzeterek kullanılan mecazi argo tabir.",
+    "search_keywords": [
+      "deri iğne",
+      "yarrak",
+      "kozhanaya igla"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кожаная игла",
+        "alternateName": [
+          "Deri iğne",
+          "Yarrak",
+          "Erkek cinsel organı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Deri iğne, Yarrak. Erkek cinsel organını şekil itibarıyla iğneye benzeterek kullanılan mecazi argo tabir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кожаный движок",
+    "word_latin": "Kozhanyy dvizhok",
+    "meaning_tr": [
+      "Deri motor",
+      "Yarrak",
+      "Malafat"
+    ],
+    "literal_translation_tr": "Deri motor",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Его кожаный движок работал без перебоев.",
+        "tr": "Onun deri motoru (malafatı) hiç teklemeden çalışıyordu."
+      }
+    ],
+    "cultural_context": "Erkek organını piston/motor gibi mekanik bir hareket sağlayıcısı olarak gören ve 'deri' sıfatıyla birleştiren mizahi argo.",
+    "search_keywords": [
+      "deri motor",
+      "malafat",
+      "kozhanyy dvizhok"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кожаный движок",
+        "alternateName": [
+          "Deri motor",
+          "Yarrak",
+          "Malafat"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Deri motor, Malafat. Erkek organını piston/motor gibi mekanik bir güç olarak gören mizahi argo."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кожаная флейта",
+    "word_latin": "Kozhanaya fleyta",
+    "meaning_tr": [
+      "Etten kaval",
+      "Deri flüt",
+      "Yarrak"
+    ],
+    "literal_translation_tr": "Deri flüt",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Она любит играть на кожаной флейте.",
+        "tr": "Etten kaval çalmayı (sakso çekmeyi) seviyor."
+      }
+    ],
+    "cultural_context": "Oral seks (sakso) eyleminde erkek organının flüte benzetilmesiyle oluşan, Türkçedeki 'etten kaval' tabirinin birebir Rusça karşılığıdır.",
+    "search_keywords": [
+      "etten kaval",
+      "deri flüt",
+      "kozhanaya fleyta"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кожаная флейта",
+        "alternateName": [
+          "Etten kaval",
+          "Deri flüt",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Etten kaval, Deri flüt, Yarrak. Oral sekste erkek organının flüte benzetilmesiyle oluşan yaygın argo tabir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Козел",
+    "word_latin": "Kozyol",
+    "meaning_tr": [
+      "İbne",
+      "Eşcinsel",
+      "Şerefsiz (Genel)"
+    ],
+    "literal_translation_tr": "Erkek keçi",
+    "category": "Hakaret / Cezaevi Jargonu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Этот козел только и думает о мужиках.",
+        "tr": "Bu ibne (keçi) sadece erkekleri düşünüyor."
+      }
+    ],
+    "cultural_context": "Normalde hapishane argosunda yönetimle işbirliği yapan ispiyoncular için kullanılırken, bazı argo alt gruplarında eşcinselleri aşağılamak için 'ibne' anlamında da kullanılır.",
+    "search_keywords": [
+      "ibne",
+      "eşcinsel",
+      "keçi",
+      "kozyol"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Козел",
+        "alternateName": [
+          "İbne",
+          "Eşcinsel",
+          "Şerefsiz"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: İbne, Eşcinsel. Normalde cezaevinde ispiyoncular için kullanılırken, argoda eşcinselleri aşağılamak için de kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кокотка",
+    "word_latin": "Kokotka",
+    "meaning_tr": [
+      "Kokot",
+      "Lüks fahişe",
+      "Metres"
+    ],
+    "literal_translation_tr": "Kokot",
+    "category": "Argo / Tarihi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Она жила как настоящая французская кокотка.",
+        "tr": "Gerçek bir Fransız kokotu (lüks fahişesi) gibi yaşıyordu."
+      }
+    ],
+    "cultural_context": "Fransızca 'cocotte' kelimesinden Rusçaya geçmiştir. Zengin erkekler tarafından bakılan lüks, sosyetik hayat kadınlarını ve metresleri ifade eder.",
+    "search_keywords": [
+      "kokot",
+      "lüks fahişe",
+      "metres",
+      "kokotka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кокотка",
+        "alternateName": [
+          "Kokot",
+          "Lüks fahişe",
+          "Metres"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kokot, Lüks fahişe. Fransızcadan geçen bu kelime, zengin erkekler tarafından bakılan sosyetik hayat kadınlarını ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кокушки",
+    "word_latin": "Kokushki",
+    "meaning_tr": [
+      "Taşaklar",
+      "Yumurtalar"
+    ],
+    "literal_translation_tr": "Küçük guguk kuşları / Yumurtacıklar",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Мяч ударил ему прямо по кокушкам.",
+        "tr": "Top doğrudan onun taşaklarına (yumurtalarına) çarptı."
+      }
+    ],
+    "cultural_context": "Erkek testisleri için kullanılan naif, komik ve çocuksu bir argo tabirdir.",
+    "search_keywords": [
+      "taşaklar",
+      "yumurtalar",
+      "kokushki"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кокушки",
+        "alternateName": [
+          "Taşaklar",
+          "Yumurtalar"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklar, Yumurtalar. Erkek testisleri için kullanılan naif ve komik argo tabir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колбаса",
+    "word_latin": "Kolbasa",
+    "meaning_tr": [
+      "Sosis",
+      "Yarrak",
+      "Salam"
+    ],
+    "literal_translation_tr": "Sucuk / Sosis",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он любит показывать свою колбасу.",
+        "tr": "O sosisini (yarrağını) göstermeyi sever."
+      }
+    ],
+    "cultural_context": "Türkçedeki 'sosis' veya 'salam' esprisine benzer şekilde erkek organının şekli nedeniyle yiyeceğe benzetildiği argo kelimedir.",
+    "search_keywords": [
+      "sosis",
+      "salam",
+      "yarrak",
+      "kolbasa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колбаса",
+        "alternateName": [
+          "Sosis",
+          "Yarrak",
+          "Salam"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sosis, Yarrak. Erkek organının şekli nedeniyle sucuğa veya sosise benzetildiği argo kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колбасина",
+    "word_latin": "Kolbasina",
+    "meaning_tr": [
+      "Kocaman sosis",
+      "Malafat",
+      "Yarma yarrak"
+    ],
+    "literal_translation_tr": "Büyük sosis / sucuk parçası",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У него в штанах настоящая колбасина.",
+        "tr": "Pantolonunun içinde gerçek bir malafat (kocaman sosis) var."
+      }
+    ],
+    "cultural_context": "'Колбаса' kelimesinin büyütme eki almış halidir. Çok büyük ve kalın cinsel organları tasvir etmek için kullanılır.",
+    "search_keywords": [
+      "kocaman sosis",
+      "malafat",
+      "kolbasina"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колбасина",
+        "alternateName": [
+          "Kocaman sosis",
+          "Malafat",
+          "Yarma yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kocaman sosis, Malafat. 'Колбаса' kelimesinin büyütme halidir, çok büyük ve kalın cinsel organları tasvir eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колебать",
+    "word_latin": "Kolebat'",
+    "meaning_tr": [
+      "Sallamak (Sikmek)",
+      "Pompalamak"
+    ],
+    "literal_translation_tr": "Sallamak / Dalgalandırmak",
+    "category": "Eufemizm / Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он ее колебал всю ночь напролет.",
+        "tr": "Bütün gece boyunca onu pompaladı (salladı/sikti)."
+      }
+    ],
+    "cultural_context": "Normalde beşik sallamak, titreşmek anlamındadır. 'Ебать' kelimesine fonetik olarak benzemesi ve ritmik eyleminden dolayı cinsel ilişki anlamında yumuşatılmış argo olarak kullanılır.",
+    "search_keywords": [
+      "sallamak",
+      "pompalamak",
+      "sikmek",
+      "kolebat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колебать",
+        "alternateName": [
+          "Sallamak (Sikmek)",
+          "Pompalamak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sallamak, Pompalamak. 'Ебать' kelimesine fonetik olarak benzemesi ve ritmik eyleminden dolayı cinsel ilişkiyi anlatan yumuşatılmış argo."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колеса",
+    "word_latin": "Kolesa",
+    "meaning_tr": [
+      "Tekerlekler",
+      "Taşaklar",
+      "Haplar (Uyuşturucu)"
+    ],
+    "literal_translation_tr": "Tekerlekler",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ударили между ног, прямо по колесам.",
+        "tr": "Bacak arasına, tam tekerleklere (taşaklara) vurdular."
+      }
+    ],
+    "cultural_context": "Kelimenin asıl anlamı tekerlek veya araba lastiği olsa da, testislerin şekli itibarıyla argo anatomide (tıpkı haplar gibi) taşakları ifade eder.",
+    "search_keywords": [
+      "tekerlekler",
+      "taşaklar",
+      "kolesa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колеса",
+        "alternateName": [
+          "Tekerlekler",
+          "Taşaklar"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tekerlekler, Taşaklar. Testislerin şekli itibarıyla argo anatomide taşakları ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колода",
+    "word_latin": "Koloda",
+    "meaning_tr": [
+      "Kütük",
+      "Odun (Cinsellikte)",
+      "Frijit kadın"
+    ],
+    "literal_translation_tr": "Kütük / Tomruk",
+    "category": "Argo / Aşağılayıcı",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В постели она как колода — ни эмоций, ни движений.",
+        "tr": "Yatakta resmen kütük (frijit) gibi; ne duygu var ne hareket."
+      }
+    ],
+    "cultural_context": "Yatakta hiçbir tepki vermeyen, hareketsiz ve cinsel olarak soğuk (frijit) olan kadınları bir oduna/kütüğe benzeterek aşağılayan argo kelimedir.",
+    "search_keywords": [
+      "kütük",
+      "odun",
+      "frijit",
+      "koloda"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колода",
+        "alternateName": [
+          "Kütük",
+          "Odun",
+          "Frijit kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kütük, Frijit kadın. Yatakta hiçbir tepki vermeyen, hareketsiz ve cinsel olarak soğuk olan kadınları oduna benzeterek aşağılayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колокольчики",
+    "word_latin": "Kolokol'chiki",
+    "meaning_tr": [
+      "Çıngıraklar",
+      "Çanlar",
+      "Taşaklar"
+    ],
+    "literal_translation_tr": "Küçük çanlar",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "На морозе колокольчики звенят.",
+        "tr": "Soğukta çıngıraklar (taşaklar) birbirine çarpıp çalıyor."
+      }
+    ],
+    "cultural_context": "Erkek testislerinin bacak arasında sallanmasından yola çıkılarak komik ve alaycı bir dille onlara 'çıngıraklar/küçük çanlar' denilmesidir.",
+    "search_keywords": [
+      "çıngıraklar",
+      "çanlar",
+      "taşaklar",
+      "kolokolchiki"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колокольчики",
+        "alternateName": [
+          "Çıngıraklar",
+          "Taşaklar"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çıngıraklar, Taşaklar. Erkek testislerinin bacak arasında sallanmasından yola çıkılarak komik bir dille 'çıngıraklar' denilmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Колупаться в пизде",
+    "word_latin": "Kolupat'sya v pizde",
+    "meaning_tr": [
+      "Am kurcalamak",
+      "Boş işlerle uğraşmak",
+      "Oyalanıp durmak"
+    ],
+    "literal_translation_tr": "Amın içinde kurcalanmak/eşelenmek",
+    "category": "Mat",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Хватит колупаться в пизде, давай работай!",
+        "tr": "Am kurcalamayı (boş yapmayı) bırak, çalışmaya başla!"
+      }
+    ],
+    "cultural_context": "'Ковыряться в пизде' ile eşanlamlıdır. Vakti tamamen boşa harcamak, işe yaramaz veya anlamsız detaylarla uğraşarak asıl işi savsaklamak demektir.",
+    "search_keywords": [
+      "am kurcalamak",
+      "boş işlerle uğraşmak",
+      "kolupatsya v pizde"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Колупаться в пизде",
+        "alternateName": [
+          "Am kurcalamak",
+          "Boş işlerle uğraşmak",
+          "Oyalanıp durmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am kurcalamak, Boş işlerle uğraşmak. Vakti boşa harcamak, anlamsız detaylarla uğraşarak asıl işi savsaklamak demektir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Конаебиться",
+    "word_latin": "Konayebit'sya",
+    "meaning_tr": [
+      "Sikko işlerle uğraşmak",
+      "Oyalanmak",
+      "Bokla püsürle uğraşmak"
+    ],
+    "literal_translation_tr": "Sikişip eşelenmek",
+    "category": "Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Весь день конаебился с этой старой машиной.",
+        "tr": "Bütün gün bu eski arabayla bokla püsürle uğraştım (oyalandım)."
+      }
+    ],
+    "cultural_context": "Kişinin aşırı detaycı, sıkıcı, gereksiz veya yorucu bir işle anlamsızca vakit kaybetmesini anlatan argo bir eylemdir.",
+    "search_keywords": [
+      "sikko işlerle uğraşmak",
+      "oyalanmak",
+      "konayebitsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Конаебиться",
+        "alternateName": [
+          "Sikko işlerle uğraşmak",
+          "Oyalanmak",
+          "Bokla püsürle uğraşmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikko işlerle uğraşmak, Oyalanmak. Aşırı detaycı, sıkıcı veya yorucu bir işle anlamsızca vakit kaybetmeyi anlatan eylemdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Коноебица",
+    "word_latin": "Konoyebitsa",
+    "meaning_tr": [
+      "Sikko iş",
+      "Angarya",
+      "Can sıkan boş uğraş"
+    ],
+    "literal_translation_tr": "At sikişi / Sıkıcı iş",
+    "category": "Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Заполнение этих бумаг — настоящая коноебица.",
+        "tr": "Bu evrakları doldurmak tam bir sikko iş (angarya)."
+      }
+    ],
+    "cultural_context": "Bireye hiçbir fayda sağlamayan, sadece zaman çalan ve sinir bozan can sıkıcı süreç veya faaliyetler bütünüdür.",
+    "search_keywords": [
+      "sikko iş",
+      "angarya",
+      "boş uğraş",
+      "konoyebitsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Коноебица",
+        "alternateName": [
+          "Sikko iş",
+          "Angarya",
+          "Can sıkan boş uğraş"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikko iş, Angarya. Bireye hiçbir fayda sağlamayan, sadece zaman çalan ve sinir bozan süreç veya faaliyetler bütünüdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "Конец",
+    "word_latin": "Konets",
+    "meaning_tr": [
+      "Uç (Yarrak)",
+      "Son",
+      "Kafa (Penis)"
+    ],
+    "literal_translation_tr": "Son / Uç",
+    "category": "Argo / Eufemizm",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он сунул ей свой конец.",
+        "tr": "Ucunu (yarrağını) ona soktu."
+      }
+    ],
+    "cultural_context": "Kelimenin sözlük anlamı 'son' veya 'uç'tur. Erkek anatomisinin argosunda doğrudan penis, özellikle de penisin ucu anlamında kullanılır.",
+    "search_keywords": [
+      "uç",
+      "yarrak",
+      "konets"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Конец",
+        "alternateName": [
+          "Uç (Yarrak)",
+          "Son",
+          "Kafa (Penis)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Uç, Yarrak. Sözlük anlamı 'son' veya 'uç' olan kelimenin erkek organı (özellikle uç kısmı) için kullanılması."
+      }
+    ]
+  },
+  {
+    "word_ru": "Поймать на конец",
+    "word_latin": "Poymat' na konets",
+    "meaning_tr": [
+      "Uca bulaştırmak",
+      "Zührevi hastalık kapmak",
+      "Yarrağa hastalık almak"
+    ],
+    "literal_translation_tr": "Uçta (peniste) yakalamak",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Гулял без презерватива и поймал на конец.",
+        "tr": "Prezervatifsiz takıldı ve uca bulaştırdı (zührevi hastalık kaptı)."
+      }
+    ],
+    "cultural_context": "Bir erkeğin korunmasız cinsel ilişki sonrasında cinsel yolla bulaşan bir hastalığa (bel soğukluğu, frengi vb.) yakalanmasını anlatan meşhur deyim.",
+    "search_keywords": [
+      "uca bulaştırmak",
+      "hastalık kapmak",
+      "poymat na konets"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Поймать на конец",
+        "alternateName": [
+          "Uca bulaştırmak",
+          "Zührevi hastalık kapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Uca bulaştırmak, Zührevi hastalık kapmak. Korunmasız ilişki sonrası cinsel yolla bulaşan bir hastalığa yakalanmayı anlatan deyim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кончить",
+    "word_latin": "Konchit'",
+    "meaning_tr": [
+      "Boşalmak",
+      "İşi bitirmek"
+    ],
+    "literal_translation_tr": "Bitirmek",
+    "category": "Genel / Cinsel Bağlam",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Я хочу кончить.",
+        "tr": "Boşalmak istiyorum."
+      }
+    ],
+    "cultural_context": "Normalde 'bitirmek' anlamına gelen standart fiildir ancak cinsel bağlamda doğrudan orgazm olmak, boşalmak anlamına gelir.",
+    "search_keywords": [
+      "boşalmak",
+      "orgazm olmak",
+      "konchit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кончить",
+        "alternateName": [
+          "Boşalmak",
+          "İşi bitirmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Boşalmak. Normalde 'bitirmek' anlamına gelen fiilin cinsel bağlamda orgazm olmak anlamında kullanılması."
+      }
+    ]
+  },
+  {
+    "word_ru": "Копаться в говне",
+    "word_latin": "Kopat'sya v govne",
+    "meaning_tr": [
+      "Bok karıştırmak",
+      "Pis işlerle uğraşmak",
+      "Geçmişin kirli çamaşırlarını deşmek"
+    ],
+    "literal_translation_tr": "Bokun içinde kazı yapmak/eşelenmek",
+    "category": "Deyim / Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Хватит копаться в говне, оставим прошлое в покое.",
+        "tr": "Bok karıştırmayı (kirli çamaşırları deşmeyi) bırak, geçmişi rahat bırakalım."
+      }
+    ],
+    "cultural_context": "Hoş olmayan, aşağılayıcı, kirli ve gereksiz işlerle veya dedikodularla uğraşmak; birinin kirli sırlarını bulmaya çalışmak anlamına gelir.",
+    "search_keywords": [
+      "bok karıştırmak",
+      "pis işlerle uğraşmak",
+      "kopatsya v govne"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Копаться в говне",
+        "alternateName": [
+          "Bok karıştırmak",
+          "Pis işlerle uğraşmak",
+          "Kirli çamaşırları deşmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bok karıştırmak, Pis işlerle uğraşmak. Hoş olmayan kirli işlerle, dedikodularla uğraşmak veya sırları deşmek."
+      }
+    ]
+  },
+  {
+    "word_ru": "Копилка",
+    "word_latin": "Kopilka",
+    "meaning_tr": [
+      "Kumbara",
+      "Am (Yarık/Delik)"
+    ],
+    "literal_translation_tr": "Kumbara",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Брось монетку в ее копилку.",
+        "tr": "Onun kumbarasına (amına) bozuk para at."
+      }
+    ],
+    "cultural_context": "Para atılan deliğinden dolayı kadın cinsel organını (vajina) mizahi olarak 'kumbara'ya benzeten argo sözcüktür.",
+    "search_keywords": [
+      "kumbara",
+      "am",
+      "yarık",
+      "kopilka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Копилка",
+        "alternateName": [
+          "Kumbara",
+          "Am (Yarık/Delik)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kumbara, Am. Deliğinden dolayı kadın cinsel organını mizahi olarak 'kumbara'ya benzeten argo sözcük."
+      }
+    ]
+  },
+  {
+    "word_ru": "Копчик",
+    "word_latin": "Kopchik",
+    "meaning_tr": [
+      "Kuyruk sokumu",
+      "Pasif gey"
+    ],
+    "literal_translation_tr": "Kuyruk sokumu",
+    "category": "Argo / Homofobik",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он оказался типичным копчиком.",
+        "tr": "O tipik bir pasif gey (kuyruk sokumu) çıktı."
+      }
+    ],
+    "cultural_context": "Kelimenin tıbbi anlamı kuyruk sokumu kemiğidir. Argoda arka tarafı (götü) ima ettiği için pasif eşcinselleri tanımlamakta kullanılır.",
+    "search_keywords": [
+      "kuyruk sokumu",
+      "pasif gey",
+      "kopchik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Копчик",
+        "alternateName": [
+          "Kuyruk sokumu",
+          "Pasif gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kuyruk sokumu, Pasif gey. Kemiğin arkada olması sebebiyle pasif eşcinselleri tanımlamakta kullanılan argo."
+      }
+    ]
+  },
+  {
+    "word_ru": "Корешок",
+    "word_latin": "Koreshok",
+    "meaning_tr": [
+      "Kök",
+      "Yarrak",
+      "Dostum (Kanka)"
+    ],
+    "literal_translation_tr": "Küçük kök",
+    "category": "Argo / Çok Anlamlı",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ему повредили корешок.",
+        "tr": "Köküne (yarrağına) zarar verdiler."
+      }
+    ],
+    "cultural_context": "Normalde küçük ağaç kökü veya makbuz koçanı demektir. Argoda iki ana anlamı vardır: Ya 'kanka/dost' anlamında ('кореш' kelimesinden) ya da anatomik olarak erkek cinsel organının kökü/kendisi anlamındadır.",
+    "search_keywords": [
+      "kök",
+      "yarrak",
+      "kanka",
+      "koreshok"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Корешок",
+        "alternateName": [
+          "Kök",
+          "Yarrak",
+          "Dostum (Kanka)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kök, Yarrak, Kanka. Erkek cinsel organını veya kanka/dost anlamını taşıyan çok anlamlı kelime."
+      }
+    ]
+  },
+  {
+    "word_ru": "Коричневый душ",
+    "word_latin": "Korichnevyy dush",
+    "meaning_tr": [
+      "Kahverengi duş",
+      "Dışkı fantezisi (Koprofili)"
+    ],
+    "literal_translation_tr": "Kahverengi duş",
+    "category": "Fetiş Argosu / Tabu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Они искали партнеров для коричневого душа.",
+        "tr": "Kahverengi duş (dışkı fantezisi) için partner arıyorlardı."
+      }
+    ],
+    "cultural_context": "'Altın duş' (golden shower / idrar) teriminin bir tık ötesidir. Kişinin kendi veya başkasının dışkısıyla oynamasından/yemesinden (Koprofili) zevk almasını anlatan cinsel sapkınlık tabiridir.",
+    "search_keywords": [
+      "kahverengi duş",
+      "koprofili",
+      "dışkı fantezisi",
+      "korichnevyy dush"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Коричневый душ",
+        "alternateName": [
+          "Kahverengi duş",
+          "Dışkı fantezisi (Koprofili)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kahverengi duş, Dışkı fantezisi. Kişinin dışkıyla oynamaktan zevk almasını (Koprofili) anlatan cinsel sapkınlık tabiridir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Корма",
+    "word_latin": "Korma",
+    "meaning_tr": [
+      "Pupa",
+      "Kıç",
+      "Göt"
+    ],
+    "literal_translation_tr": "Geminin arka kısmı (Pupa)",
+    "category": "Denizci Argosu / Gündelik",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У этой девицы широкая корма.",
+        "tr": "Şu kızın pupası (kıçı) bayağı geniş."
+      }
+    ],
+    "cultural_context": "Denizcilik terimi olan gemi kıçı/pupa kelimesinin, şekli ve konumu nedeniyle insan kalçası (özellikle geniş kadın kalçaları) için mecazi kullanılmasıdır.",
+    "search_keywords": [
+      "pupa",
+      "kıç",
+      "göt",
+      "korma"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Корма",
+        "alternateName": [
+          "Pupa",
+          "Kıç",
+          "Göt"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pupa, Kıç, Göt. Gemi kıçı kelimesinin insan kalçası (özellikle kadın kalçası) için mecazi kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Коровка",
+    "word_latin": "Korovka",
+    "meaning_tr": [
+      "Pasif lezbiyen",
+      "İnek",
+      "Uğur böceği"
+    ],
+    "literal_translation_tr": "Küçük inek",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "В их паре она выступала как коровка.",
+        "tr": "İkili ilişkilerinde o inek (pasif lezbiyen) rolündeydi."
+      }
+    ],
+    "cultural_context": "Normalde küçük inek veya 'bozhia korovka' (uğur böceği) anlamına gelir. Lezbiyen jargonda, 'кобел' (erkek/aktif) karakterine karşılık uysal ve pasif rolü benimseyen kadınlar için kullanılır.",
+    "search_keywords": [
+      "pasif lezbiyen",
+      "inek",
+      "korovka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Коровка",
+        "alternateName": [
+          "Pasif lezbiyen",
+          "İnek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif lezbiyen, İnek. Lezbiyen jargonda uysal ve pasif rolü benimseyen kadınlar için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Королева СС (суперсекса)",
+    "word_latin": "Koroleva SS (superseksa)",
+    "meaning_tr": [
+      "Süper seks kraliçesi",
+      "Sınırsız fahişe",
+      "Her fanteziye açık hayat kadını"
+    ],
+    "literal_translation_tr": "Süper seks kraliçesi",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта бордель славится своими королевами СС.",
+        "tr": "Bu genelev süper seks kraliçeleriyle ünlüdür."
+      }
+    ],
+    "cultural_context": "Müşterinin her türlü fantezisini ve cinsel isteğini (oral, anal vb.) reddetmeden yerine getiren yüksek profilli fahişeleri tanımlamak için kullanılır.",
+    "search_keywords": [
+      "süper seks kraliçesi",
+      "sınırsız fahişe",
+      "koroleva ss"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Королева СС (суперсекса)",
+        "alternateName": [
+          "Süper seks kraliçesi",
+          "Sınırsız fahişe"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Süper seks kraliçesi. Müşterinin her türlü fantezisini reddetmeden yerine getiren fahişeleri tanımlamak için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Король",
+    "word_latin": "Korol'",
+    "meaning_tr": [
+      "Kral",
+      "Ortamın geyi",
+      "Çift yönlü (Biseksüel) ünlü"
+    ],
+    "literal_translation_tr": "Kral",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В этом клубе он настоящий король.",
+        "tr": "Bu kulüpte o tam bir kral (ünlü biseksüel gey)."
+      }
+    ],
+    "cultural_context": "Kendi çevresinde çok tanınan, popüler olan ve 'kentavr' (hem aktif hem pasif rol alabilen) olarak bilinen eşcinsel erkekler için kullanılan jargon.",
+    "search_keywords": [
+      "kral",
+      "çift yönlü",
+      "gey",
+      "korol"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Король",
+        "alternateName": [
+          "Kral",
+          "Ortamın geyi",
+          "Çift yönlü (Biseksüel) ünlü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kral, Ortamın geyi. Kendi çevresinde çok tanınan ve hem aktif hem pasif rol alabilen popüler eşcinsel erkekler için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Королек",
+    "word_latin": "Korolek",
+    "meaning_tr": [
+      "Önden amlı",
+      "Vajinası önde konumlanmış kadın"
+    ],
+    "literal_translation_tr": "Küçük kral / Kan portakalı / Çalıkuşu",
+    "category": "Anatomi / Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Таких женщин в народе называют королек.",
+        "tr": "Böyle kadınlara halk arasında çalıkuşu (önden amlı) derler."
+      }
+    ],
+    "cultural_context": "Anatomik olarak vulvası/vajinası normalden biraz daha ön tarafta (kasığa doğru) konumlanmış kadınları tanımlayan özel bir cinsel argo/halk tabiri.",
+    "search_keywords": [
+      "vajina konumu",
+      "önden amlı",
+      "korolek"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Королек",
+        "alternateName": [
+          "Önden amlı",
+          "Vajinası önde konumlanmış kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Önden amlı. Anatomik olarak vulvası normalden biraz daha ön tarafta konumlanmış kadınları tanımlayan cinsel argo tabiri."
+      }
+    ]
+  },
+  {
+    "word_ru": "Корыто",
+    "word_latin": "Koryto",
+    "meaning_tr": [
+      "Yalak",
+      "Am",
+      "Geniş vajina"
+    ],
+    "literal_translation_tr": "Hayvan yalağı / Çamaşır teknesi",
+    "category": "Argo / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "У этой старой бляди там не пизда, а корыто.",
+        "tr": "Bu yaşlı orospununki am değil resmen yalak (geniş vajina)."
+      }
+    ],
+    "cultural_context": "Domuzların yemek yediği 'yalak' veya eski tahta çamaşır teknesi anlamına gelir. Argoda kadın cinsel organını (genellikle geniş veya çok kullanılmış) aşağılamak için kullanılır.",
+    "search_keywords": [
+      "yalak",
+      "am",
+      "geniş vajina",
+      "koryto"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Корыто",
+        "alternateName": [
+          "Yalak",
+          "Am",
+          "Geniş vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yalak, Am. Argoda kadın cinsel organını, özellikle geniş veya çok kullanılmış olmasını aşağılamak için hayvan yalağına benzeten tabir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Коряга",
+    "word_latin": "Koryaga",
+    "meaning_tr": [
+      "Kütük",
+      "Yarrak",
+      "Kök"
+    ],
+    "literal_translation_tr": "Suyun altındaki ağaç kökü / Kütük",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он вытащил свою корягу.",
+        "tr": "Kütüğünü (yarrağını) dışarı çıkardı."
+      }
+    ],
+    "cultural_context": "Nehir dibine batmış kalın ve pürüzlü ağaç kökü/kütüğü demektir. Argoda iri, damarlı ve kalın erkek cinsel organı için kullanılan bir metafordur.",
+    "search_keywords": [
+      "kütük",
+      "yarrak",
+      "erkek cinsel organı",
+      "koryaga"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Коряга",
+        "alternateName": [
+          "Kütük",
+          "Yarrak",
+          "Kök"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kütük, Yarrak. Ağaç kökü/kütüğü anlamına gelir. Argoda iri ve damarlı erkek cinsel organı için kullanılan metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Косоёбить",
+    "word_latin": "Kosoyobit'",
+    "meaning_tr": [
+      "Amına koyarak bükmek",
+      "Eğip bükmek",
+      "Yamultmak"
+    ],
+    "literal_translation_tr": "Eğri sikmek / Çarpıtmak",
+    "category": "Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "От такой нагрузки начало косоёбить металл.",
+        "tr": "Böyle bir yükten dolayı metalin amına konulmaya (eğilip bükülmeye) başladı."
+      }
+    ],
+    "cultural_context": "'Косой' (eğri/çarpık) ve 'ебать' (sikmek) kelimelerinin birleşimidir. Bir nesneyi aşırı güç veya yanlış işlemle bükmeyi, yamultmayı veya bozmayı ifade eder.",
+    "search_keywords": [
+      "yamultmak",
+      "eğip bükmek",
+      "kosoyobit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Косоёбить",
+        "alternateName": [
+          "Amına koyarak bükmek",
+          "Eğip bükmek",
+          "Yamultmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Amına koyarak bükmek, Yamultmak. 'Eğri' ve 'sikmek' kelimelerinin birleşimidir. Bir nesneyi aşırı güçle bükmeyi veya bozmayı ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Косоёбиться",
+    "word_latin": "Kosoyobit'sya",
+    "meaning_tr": [
+      "Yüzünü ekşitmek",
+      "Şekilden şekle girmek",
+      "Surat asmak"
+    ],
+    "literal_translation_tr": "Kendi kendini çarpıtmak/yamultmak",
+    "category": "Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Хватит косоёбиться, ешь что дают.",
+        "tr": "Yüzünü ekşitmeyi (şekilden şekle girmeyi) bırak, ne veriliyorsa onu ye."
+      }
+    ],
+    "cultural_context": "Kişinin hoşnutsuzluktan, acıdan veya ekşi bir şey yemekten dolayı yüzünü buruşturmasını, suratını yamultmasını küfürlü bir abartıyla anlatır.",
+    "search_keywords": [
+      "yüzünü ekşitmek",
+      "surat asmak",
+      "kosoyobitsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Косоёбиться",
+        "alternateName": [
+          "Yüzünü ekşitmek",
+          "Şekilden şekle girmek",
+          "Surat asmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yüzünü ekşitmek, Surat asmak. Kişinin hoşnutsuzluktan veya acıdan yüzünü buruşturmasını, yamultmasını küfürlü abartıyla anlatır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Косточка",
+    "word_latin": "Kostochka",
+    "meaning_tr": [
+      "Kemik",
+      "Yarrak",
+      "Sik"
+    ],
+    "literal_translation_tr": "Küçük kemik / Çekirdek",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Она любит погрызть косточку.",
+        "tr": "Kemiği kemirmeyi (sakso çekmeyi) seviyor."
+      }
+    ],
+    "cultural_context": "Normalde meyve çekirdeği veya küçük kemik demektir. Sertliği ve oral seksteki 'kemirme' metaforu nedeniyle erkek cinsel organını belirtmek için kullanılır.",
+    "search_keywords": [
+      "kemik",
+      "yarrak",
+      "kostochka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Косточка",
+        "alternateName": [
+          "Kemik",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kemik, Yarrak. Sertliği ve oral seksteki 'kemirme' metaforu nedeniyle erkek cinsel organını belirtmek için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Косточку обглодать",
+    "word_latin": "Kostochku obglodat'",
+    "meaning_tr": [
+      "Kemiği sıyırmak",
+      "Sakso çekmek",
+      "Oral seks yapmak"
+    ],
+    "literal_translation_tr": "Kemiği kemirip bitirmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Она умеет косточку обглодать до блеска.",
+        "tr": "Kemiği parlayana kadar sıyırmayı (harika sakso çekmeyi) çok iyi biliyor."
+      }
+    ],
+    "cultural_context": "Erkek organını bir kemiğe benzeterek, 'iliklerine kadar sakso çekmek' veya tutkulu bir şekilde oral seks yapmak anlamında kullanılan sokak deyimidir.",
+    "search_keywords": [
+      "kemiği sıyırmak",
+      "sakso çekmek",
+      "oral seks",
+      "kostochku obglodat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Косточку обглодать",
+        "alternateName": [
+          "Kemiği sıyırmak",
+          "Sakso çekmek",
+          "Oral seks yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kemiği sıyırmak, Sakso çekmek. Erkek organını bir kemiğe benzeterek, tutkulu bir şekilde oral seks yapmak anlamında kullanılan deyim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Котлован",
+    "word_latin": "Kotlovan",
+    "meaning_tr": [
+      "Am",
+      "Geniş vajina",
+      "Temel çukuru"
+    ],
+    "literal_translation_tr": "Temel / Şantiye kazı çukuru",
+    "category": "Argo / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Да у нее там целый котлован, ничего не чувствую.",
+        "tr": "Onun orada resmen inşaat çukuru var, hiçbir şey hissetmiyorum."
+      }
+    ],
+    "cultural_context": "Büyük inşaat çukuru demektir. Kadın anatomisinde genişlemiş, derin ve şekli bozulmuş vajinaları abartılı bir şekilde aşağılamak için kullanılan argo kelimedir.",
+    "search_keywords": [
+      "geniş vajina",
+      "am",
+      "inşaat çukuru",
+      "kotlovan"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Котлован",
+        "alternateName": [
+          "Am",
+          "Geniş vajina",
+          "Temel çukuru"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am, Geniş vajina. İnşaat çukuru anlamına gelir. Genişlemiş ve derin vajinaları abartılı şekilde aşağılamak için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кочегар",
+    "word_latin": "Kochegar",
+    "meaning_tr": [
+      "Ateşçi",
+      "Aktif gey",
+      "Kömür atan"
+    ],
+    "literal_translation_tr": "Ateşçi (Gemi/Tren fırınına kömür atan kişi)",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Известно, что он в их паре кочегар.",
+        "tr": "İlişkilerinde ateşçi (aktif gey) rolünde olanın o olduğu biliniyor."
+      }
+    ],
+    "cultural_context": "Karanlık bir fırına 'kömür kürekleme' eyleminin anal penetrasyona benzetilmesiyle, eşcinsel ilişkilerde 'aktif' (sokan) rolü üstlenen erkekleri tanımlayan eski bir argodur.",
+    "search_keywords": [
+      "aktif gey",
+      "ateşçi",
+      "kochegar"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кочегар",
+        "alternateName": [
+          "Ateşçi",
+          "Aktif gey",
+          "Kömür atan"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ateşçi, Aktif gey. Karanlık fırına kömür atma eyleminin anal sekse benzetilmesiyle aktif eşcinselleri tanımlayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кошелка",
+    "word_latin": "Koshelka",
+    "meaning_tr": [
+      "Kevaşe",
+      "Sepet (Eski kadın)",
+      "Her türlü sikişen kadın"
+    ],
+    "literal_translation_tr": "Eski örgü pazar çantası / Sepet",
+    "category": "Hakaret / Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта старая кошелка согласна на всё.",
+        "tr": "Bu eski sepet (kevaşe) her şeye razı olur."
+      }
+    ],
+    "cultural_context": "Eskiden pazara gidilen yıpranmış file/sepet çantaları ifade eder. Argoda, şekli bozulmuş, yaşlı veya çok partnerli olup her türlü fanteziyi kabul eden hafifmeşrep kadınlar için kullanılır.",
+    "search_keywords": [
+      "kevaşe",
+      "sürtük",
+      "koshelka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кошелка",
+        "alternateName": [
+          "Kevaşe",
+          "Sepet (Eski kadın)",
+          "Her türlü sikişen kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kevaşe, Eski sepet. Yıpranmış pazar çantası anlamındadır. Şekli bozulmuş veya çok partnerli kadınlar için hakaret olarak kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кошка",
+    "word_latin": "Koshka",
+    "meaning_tr": [
+      "Kedi",
+      "Sürtük",
+      "Sokak kızı"
+    ],
+    "literal_translation_tr": "Dişi kedi",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Ночью эти кошки выходят на охоту.",
+        "tr": "Geceleri bu kediler (sürtükler) ava çıkıyor."
+      }
+    ],
+    "cultural_context": "Dişi kedilerin geceleri sokaklarda dolanması ve kızgınlık dönemlerindeki davranışları nedeniyle, sokak fahişeleri veya serbest takılan kadınlar için kullanılan bir metafordur.",
+    "search_keywords": [
+      "kedi",
+      "sürtük",
+      "sokak kızı",
+      "koshka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кошка",
+        "alternateName": [
+          "Kedi",
+          "Sürtük",
+          "Sokak kızı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kedi, Sürtük. Kedilerin gece sokağa çıkmasına atıfla sokak fahişeleri veya serbest takılan kadınlar için kullanılan metafor."
+      }
+    ]
+  },
+  {
+    "word_ru": "Красавец",
+    "word_latin": "Krasavets",
+    "meaning_tr": [
+      "Yakışıklı",
+      "Yarma yarrak (Büyük penis)"
+    ],
+    "literal_translation_tr": "Yakışıklı",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Она увидела его красавца и ахнула.",
+        "tr": "Onun yakışıklısını (büyük malafatını) gördü ve nefesi kesildi."
+      }
+    ],
+    "cultural_context": "Normalde 'yakışıklı erkek' demektir. Argoda estetik olarak hoş, gösterişli ve büyük boyuttaki erkek cinsel organını övmek için kullanılan bir tabirdir.",
+    "search_keywords": [
+      "yakışıklı",
+      "büyük yarrak",
+      "krasavets"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Красавец",
+        "alternateName": [
+          "Yakışıklı",
+          "Yarma yarrak (Büyük penis)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yakışıklı, Büyük penis. Normalde yakışıklı erkek demektir, argoda estetik olarak gösterişli erkek cinsel organını övmek için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Красавчик",
+    "word_latin": "Krasavchik",
+    "meaning_tr": [
+      "Tatlı çocuk",
+      "Gey"
+    ],
+    "literal_translation_tr": "Yakışıklı çocuk",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Этот красавчик из их компании.",
+        "tr": "O tatlı çocuk (gey) onların ortamından."
+      }
+    ],
+    "cultural_context": "Bakımlı, yakışıklı ve metroseksüel görünen erkekleri ifade ettiği gibi, cezaevi veya eski argo sözlüklerinde eşcinsel erkekler için kullanılan kod isimlerinden biridir.",
+    "search_keywords": [
+      "tatlı çocuk",
+      "gey",
+      "krasavchik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Красавчик",
+        "alternateName": [
+          "Tatlı çocuk",
+          "Gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tatlı çocuk, Gey. Bakımlı metroseksüel erkekleri veya eşcinselleri ifade eden kod kelimelerden biridir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Красная гвоздика",
+    "word_latin": "Krasnaya gvozdika",
+    "meaning_tr": [
+      "Kırmızı karanfil",
+      "Regl",
+      "Adet kanaması"
+    ],
+    "literal_translation_tr": "Kırmızı karanfil",
+    "category": "Kadın Argosu / Eufemizm",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "У нее расцвела красная гвоздика, в бассейн не пойдет.",
+        "tr": "Kırmızı karanfili açtı (regl oldu), havuza gitmeyecek."
+      }
+    ],
+    "cultural_context": "Adet kanamasını (menstrüasyon) belirtmek için kullanılan, renk benzerliğine dayanan ince, zarif ve üstü kapalı bir eufemizmdir.",
+    "search_keywords": [
+      "kırmızı karanfil",
+      "regl",
+      "adet kanaması",
+      "krasnaya gvozdika"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Красная гвоздика",
+        "alternateName": [
+          "Kırmızı karanfil",
+          "Regl",
+          "Adet kanaması"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kırmızı karanfil, Regl. Adet kanamasını belirtmek için renk benzerliğinden yola çıkarak kullanılan zarif bir eufemizmdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Красная косынка",
+    "word_latin": "Krasnaya kosynka",
+    "meaning_tr": [
+      "Kırmızı başörtüsü",
+      "Pasif gey"
+    ],
+    "literal_translation_tr": "Kırmızı üçgen eşarp",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В их тусовке он известен как красная косынка.",
+        "tr": "Kendi tayfalarında o kırmızı başörtüsü (pasif gey) olarak bilinir."
+      }
+    ],
+    "cultural_context": "Geleneksel kırsal kesim kadın başörtüsü üzerinden eşcinsel ilişkilerde kadın (pasif) rolünü benimseyen erkekleri tanımlamak için kullanılan, cezaevi/alt-kültür argosudur.",
+    "search_keywords": [
+      "kırmızı başörtüsü",
+      "pasif gey",
+      "krasnaya kosynka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Красная косынка",
+        "alternateName": [
+          "Kırmızı başörtüsü",
+          "Pasif gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kırmızı başörtüsü, Pasif gey. Eşcinsel ilişkilerde kadın rolünü benimseyen erkekleri tanımlamak için kullanılan alt kültür argosu."
+      }
+    ]
+  },
+  {
+    "word_ru": "Красная шапочка",
+    "word_latin": "Krasnaya shapochka",
+    "meaning_tr": [
+      "Kırmızı Başlıklı Kız",
+      "Frengi (Sifiliz)"
+    ],
+    "literal_translation_tr": "Kırmızı şapka (Kırmızı Başlıklı Kız)",
+    "category": "Tıbbi Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Привел домой путану, а теперь лечится от красной шапочки.",
+        "tr": "Eve orospu getirdi, şimdi Kırmızı Başlıklı Kız (frengi) tedavisi görüyor."
+      }
+    ],
+    "cultural_context": "Sifiliz (frengi) hastalığının birinci evresinde genital bölgede çıkan kırmızı renkli yaralara (şankr) veya penisteki kırmızı döküntülere 'Kırmızı Başlıklı Kız' masalı üzerinden yapılan kara mizah atfıdır.",
+    "search_keywords": [
+      "frengi",
+      "sifiliz",
+      "kırmızı başlıklı kız",
+      "krasnaya shapochka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Красная шапочка",
+        "alternateName": [
+          "Kırmızı Başlıklı Kız",
+          "Frengi (Sifiliz)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kırmızı Başlıklı Kız, Frengi. Frengi hastalığının genital bölgede çıkardığı kırmızı yaralara masal üzerinden yapılan kara mizah atfıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крепко выражаться",
+    "word_latin": "Krepko vyrazhat'sya",
+    "meaning_tr": [
+      "Okkalı küfretmek",
+      "Ağır konuşmak",
+      "Kaba tabir kullanmak"
+    ],
+    "literal_translation_tr": "Sağlam (sert) ifade etmek",
+    "category": "Eufemizm / Genel",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Мой дед любил крепко выражаться, когда чинил машину.",
+        "tr": "Dedem arabayı tamir ederken okkalı küfretmeyi (sert ifadeler kullanmayı) severdi."
+      }
+    ],
+    "cultural_context": "Açıktan 'küfür etmek' (ругаться матом) demek yerine edebi dilde ve toplum içinde 'sert ve argo kelimeler kullandı' manasında başvurulan kibar bir eufemizmdir.",
+    "search_keywords": [
+      "okkalı küfretmek",
+      "ağır konuşmak",
+      "krepko vyrazhatsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крепко выражаться",
+        "alternateName": [
+          "Okkalı küfretmek",
+          "Ağır konuşmak",
+          "Kaba tabir kullanmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Okkalı küfretmek, Ağır konuşmak. Açıktan küfür etmek yerine kibar dilde 'sert ve argo kelimeler kullandı' manasında başvurulan eufemizm."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кречет",
+    "word_latin": "Krechet",
+    "meaning_tr": [
+      "Akdoğan",
+      "Gey"
+    ],
+    "literal_translation_tr": "Akdoğan (Bir şahin türü)",
+    "category": "Argo / Eski Jargon",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В той колонии все знали, что он кречет.",
+        "tr": "O cezaevinde onun bir akdoğan (gey) olduğunu herkes biliyordu."
+      }
+    ],
+    "cultural_context": "Normalde bir yırtıcı kuş (akdoğan) adıdır. Eski cezaevi jargonunda veya alt kültürlerde eşcinsel erkekleri belirtmek için kullanılan şifreli/kodlu kelimelerden biridir.",
+    "search_keywords": [
+      "akdoğan",
+      "gey",
+      "krechet"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кречет",
+        "alternateName": [
+          "Akdoğan",
+          "Gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Akdoğan, Gey. Eski cezaevi jargonunda veya alt kültürlerde eşcinsel erkekleri belirtmek için kullanılan şifreli kelimelerdendir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кривоссачка",
+    "word_latin": "Krivossachka",
+    "meaning_tr": [
+      "Oynak kız",
+      "Hafifmeşrep",
+      "Dengesiz sürtük"
+    ],
+    "literal_translation_tr": "Çarpık işeyen",
+    "category": "Argo / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Эта кривоссачка меняет парней каждую неделю.",
+        "tr": "Bu oynak kız (hafifmeşrep) her hafta sevgili değiştiriyor."
+      }
+    ],
+    "cultural_context": "'Криво' (eğri/çarpık) ve 'ссать' (işemek) kelimelerinden türetilmiş, ahlaki pusulası bozuk, dengesiz, sadakatsiz ve ciddiyetsiz kadınları aşağılayan sokak tabiridir.",
+    "search_keywords": [
+      "oynak kız",
+      "hafifmeşrep",
+      "krivossachka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кривоссачка",
+        "alternateName": [
+          "Oynak kız",
+          "Hafifmeşrep",
+          "Dengesiz sürtük"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Oynak kız, Hafifmeşrep. Ahlaki pusulası bozuk, dengesiz, sadakatsiz ve ciddiyetsiz kadınları 'çarpık işeyen' diyerek aşağılayan sokak tabiridir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кривоссыкалка",
+    "word_latin": "Krivossykalka",
+    "meaning_tr": [
+      "Kıpır kıpır genç kız",
+      "Oynak ergen",
+      "Zilli"
+    ],
+    "literal_translation_tr": "Çarpık işeyen (küçük/genç)",
+    "category": "Argo / Hakaret (Hafif)",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Смотри на эту кривоссыкалку, уже глазки строит взрослым мужикам.",
+        "tr": "Şu oynak ergene (zilliye) bak, şimdiden yetişkin adamlara göz süzüyor."
+      }
+    ],
+    "cultural_context": "'Кривоссачка' kelimesinin küçültme ve sevimleştirme ekleri almış halidir. Yetişkin bir kadından ziyade, henüz çok genç, kıpır kıpır (vertlyavaya) ancak erkeklerle cilveleşen genç kızlara (zilli) denir.",
+    "search_keywords": [
+      "zilli",
+      "oynak ergen",
+      "krivossykalka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кривоссыкалка",
+        "alternateName": [
+          "Kıpır kıpır genç kız",
+          "Oynak ergen",
+          "Zilli"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kıpır kıpır genç kız, Zilli. 'Кривоссачка' kelimesinin küçültülmüş halidir. Erkeklerle cilveleşen, yerinde duramayan genç kızlara denir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кривохуй",
+    "word_latin": "Krivokhuy",
+    "meaning_tr": [
+      "Eğri sikli",
+      "Beceriksiz herif",
+      "Yamuk yarraklı"
+    ],
+    "literal_translation_tr": "Çarpık yarrak",
+    "category": "Mat / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Какой кривохуй строил эту стену?",
+        "tr": "Bu duvarı hangi eğri sikli (beceriksiz herif) ördü?"
+      }
+    ],
+    "cultural_context": "Sadece anatomik bir durumu (penis eğriliği) değil, genellikle elinden hiçbir iş gelmeyen, her şeyi eline yüzüne bulaştıran sakar ve beceriksiz adamları aşağılamak için kullanılan ağır küfürdür.",
+    "search_keywords": [
+      "eğri sikli",
+      "beceriksiz",
+      "krivokhuy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кривохуй",
+        "alternateName": [
+          "Eğri sikli",
+          "Beceriksiz herif",
+          "Yamuk yarraklı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Eğri sikli, Beceriksiz herif. Her şeyi eline yüzüne bulaştıran sakar ve beceriksiz adamları aşağılamak için kullanılan ağır küfürdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крикуша",
+    "word_latin": "Krikusha",
+    "meaning_tr": [
+      "Bağıran delik (Göt)",
+      "Kıç",
+      "Popo"
+    ],
+    "literal_translation_tr": "Bağırgan / Çığırtkan",
+    "category": "Argo / Mizah",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Упал прямо на свою крикушу.",
+        "tr": "Doğrudan kıçının (bağıran deliğinin) üstüne düştü."
+      }
+    ],
+    "cultural_context": "Normalde 'çok bağıran kişi/bebek' demektir. Argoda, osuruk seslerine esprili bir atıf yapılarak kalça/göt bölgesi için kullanılan komik isimdir.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "krikusha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крикуша",
+        "alternateName": [
+          "Bağıran delik (Göt)",
+          "Kıç",
+          "Popo"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bağıran delik, Kıç. Osuruk seslerine esprili bir atıf yapılarak kalça bölgesi için kullanılan komik bir argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Критические дни",
+    "word_latin": "Kriticheskiye dni",
+    "meaning_tr": [
+      "Kritik günler",
+      "Regl dönemi",
+      "Adet dönemi"
+    ],
+    "literal_translation_tr": "Kritik günler",
+    "category": "Eufemizm / Gündelik",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Она раздражена, у неё начались критические дни.",
+        "tr": "Çok sinirli, kritik günleri (regl dönemi) başladı."
+      }
+    ],
+    "cultural_context": "Özellikle 90'larda televizyon reklamları sayesinde Rus diline yerleşen, kadınların adet döngüsünü tıbbi ve kibar bir şekilde ifade eden en yaygın eufemizmdir.",
+    "search_keywords": [
+      "kritik günler",
+      "regl dönemi",
+      "adet dönemi",
+      "kriticheskiye dni"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Критические дни",
+        "alternateName": [
+          "Kritik günler",
+          "Regl dönemi",
+          "Adet dönemi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kritik günler, Regl dönemi. Kadınların adet döngüsünü tıbbi ve kibar bir şekilde ifade eden, reklamlardan dile yerleşmiş en yaygın eufemizmdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крови",
+    "word_latin": "Krovi",
+    "meaning_tr": [
+      "Regl",
+      "Adet kanaması",
+      "Kanamalar"
+    ],
+    "literal_translation_tr": "Kanlar",
+    "category": "Gündelik / Eufemizm",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "У нее пошли крови.",
+        "tr": "Onun kanamaları (regli) başladı."
+      }
+    ],
+    "cultural_context": "Kadınların adet kanamasını (menstrüasyon) belirtmek için kullanılan, doğrudan 'kanlar' kelimesinin çoğul haliyle oluşturulmuş yaygın ifadedir.",
+    "search_keywords": [
+      "regl",
+      "adet kanaması",
+      "krovi"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крови",
+        "alternateName": [
+          "Regl",
+          "Adet kanaması",
+          "Kanamalar"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Regl, Adet kanaması. Kadınların adet kanamasını belirtmek için kullanılan, 'kanlar' kelimesinin çoğul haliyle oluşturulmuş ifadedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кругляк",
+    "word_latin": "Kruglyak",
+    "meaning_tr": [
+      "Biseksüel erkek",
+      "Çift yönlü"
+    ],
+    "literal_translation_tr": "Yuvarlak nesne / Tomruk",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Говорят, он кругляк, спит и с теми, и с теми.",
+        "tr": "Onun çift yönlü (biseksüel) olduğunu, her iki taraf da yattığını söylüyorlar."
+      }
+    ],
+    "cultural_context": "Normalde 'yuvarlak kütük' veya 'tomruk' anlamına gelir. Argoda biseksüel erkekleri (her yöne dönebilen) tasvir etmek için kullanılır.",
+    "search_keywords": [
+      "biseksüel erkek",
+      "çift yönlü",
+      "kruglyak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кругляк",
+        "alternateName": [
+          "Biseksüel erkek",
+          "Çift yönlü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Biseksüel erkek, Çift yönlü. Argoda biseksüel erkekleri (her yöne dönebilen) tasvir etmek için kullanılan tabirdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кружить",
+    "word_latin": "Kruzhit'",
+    "meaning_tr": [
+      "Daldan dala konmak",
+      "Karı kız peşinde koşmak",
+      "Farklı kadınlarla yatmak"
+    ],
+    "literal_translation_tr": "Etrafında dönmek / Daire çizmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он любит кружить по клубам и цеплять девчонок.",
+        "tr": "O kulüplerde daldan dala konmayı (kız tavlamayı) sever."
+      }
+    ],
+    "cultural_context": "Sürekli farklı kadınlarla flört etmeyi, çapkınlık yapmayı ve birden fazla kişiyle ilişkiye girmeyi 'fır dönmek' metaforuyla anlatır.",
+    "search_keywords": [
+      "daldan dala konmak",
+      "çapkınlık yapmak",
+      "kruzhit"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кружить",
+        "alternateName": [
+          "Daldan dala konmak",
+          "Karı kız peşinde koşmak",
+          "Farklı kadınlarla yatmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Daldan dala konmak, Karı kız peşinde koşmak. Sürekli farklı kadınlarla flört etmeyi ve ilişkiye girmeyi 'fır dönmek' metaforuyla anlatır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крутить жопой",
+    "word_latin": "Krutit' zhopoy",
+    "meaning_tr": [
+      "Göt sallamak (Dikkat çekmek için)",
+      "Kıvırmak (Yan çizmek)"
+    ],
+    "literal_translation_tr": "Götünü çevirmek / sallamak",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Хватит крутить жопой, отвечай прямо!",
+        "tr": "Kıvırmayı (yan çizmeyi) bırak, doğrudan cevap ver!"
+      },
+      {
+        "ru": "Она специально крутит жопой перед парнями.",
+        "tr": "Erkeklerin önünde bilerek göt sallıyor (dikkat çekmeye çalışıyor)."
+      }
+    ],
+    "cultural_context": "Türkçedeki ile birebir aynıdır. Kadınların erkeklerin dikkatini çekmek için kalçalarını sallayarak yürümesi anlamına geldiği gibi, mecazi olarak bir sorumluluktan kaçmayı (kıvırmayı) da ifade eder.",
+    "search_keywords": [
+      "göt sallamak",
+      "kıvırmak",
+      "krutit zhopoy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крутить жопой",
+        "alternateName": [
+          "Göt sallamak",
+          "Kıvırmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt sallamak, Kıvırmak. Dikkat çekmek için kalçalarını sallayarak yürümek veya mecazi olarak sorumluluktan kaçmak, kıvırmak."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крутить яйца",
+    "word_latin": "Krutit' yaytsa",
+    "meaning_tr": [
+      "Taşak geçmek",
+      "Kafa sikmek",
+      "Oyalamak"
+    ],
+    "literal_translation_tr": "Taşakları burkmak / çevirmek",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Не крути мне яйца, скажи цену.",
+        "tr": "Benimle taşak geçmeyi (beni oyalamayı) bırak, fiyatı söyle."
+      }
+    ],
+    "cultural_context": "Birinin aklını karıştırmak, onu boş yere oyalamak, sinirlerini bozmak veya açıkça taşak geçmek anlamında kullanılan yaygın argo tabirdir.",
+    "search_keywords": [
+      "taşak geçmek",
+      "oyalamak",
+      "kafa sikmek",
+      "krutit yaytsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крутить яйца",
+        "alternateName": [
+          "Taşak geçmek",
+          "Kafa sikmek",
+          "Oyalamak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşak geçmek, Kafa sikmek, Oyalamak. Birinin aklını karıştırmak, onu boş yere oyalamak veya sinirlerini bozmak anlamında yaygın tabir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крутозадая",
+    "word_latin": "Krutozadaya",
+    "meaning_tr": [
+      "Koca götlü",
+      "Çıkık götlü",
+      "Dik götlü"
+    ],
+    "literal_translation_tr": "Dik arkalı",
+    "category": "Argo / Fiziksel Tanımlama",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Смотри, какая крутозадая пошла.",
+        "tr": "Bak, ne koca (dik) götlü bir kız geçiyor."
+      }
+    ],
+    "cultural_context": "Kalçaları büyük, dik ve belirgin olan kadınları tanımlamak için erkekler arasında kullanılan fiziksel argo sıfattır.",
+    "search_keywords": [
+      "koca götlü",
+      "çıkık götlü",
+      "krutozadaya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крутозадая",
+        "alternateName": [
+          "Koca götlü",
+          "Çıkık götlü",
+          "Dik götlü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Koca götlü, Çıkık götlü. Kalçaları büyük, dik ve belirgin olan kadınları tanımlamak için kullanılan fiziksel argo sıfat."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крыса",
+    "word_latin": "Krysa",
+    "meaning_tr": [
+      "Çocuk fahişe",
+      "Sübyan orospu",
+      "Sıçan (İspiyoncu)"
+    ],
+    "literal_translation_tr": "Fare / Sıçan",
+    "category": "Suç Argosu / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На вокзале полно таких крыс.",
+        "tr": "Tarihi garlarda böyle çocuk fahişeler (sıçanlar) çok var."
+      }
+    ],
+    "cultural_context": "Normalde argoda hırsız, ispiyoncu veya hain anlamına gelir (sıçan). Ancak belirli alt kültürlerde (fuhuş) reşit olmayan çocuk fahişeleri tanımlamak için kullanılır.",
+    "search_keywords": [
+      "çocuk fahişe",
+      "sübyan orospu",
+      "sıçan",
+      "krysa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крыса",
+        "alternateName": [
+          "Çocuk fahişe",
+          "Sübyan orospu",
+          "Sıçan (İspiyoncu)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çocuk fahişe, Sıçan. Normalde argoda hain anlamına gelse de belirli bağlamlarda reşit olmayan çocuk fahişeleri tanımlamak için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крыска",
+    "word_latin": "Kryska",
+    "meaning_tr": [
+      "Sakso çeken ergen kız",
+      "Sıçancık"
+    ],
+    "literal_translation_tr": "Küçük fare / Sıçancık",
+    "category": "Suç Argosu / Pedofilik Jargon",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Сутенер привел новую крыску.",
+        "tr": "Pezevenk yeni bir ergen (sakso çeken kız) getirdi."
+      }
+    ],
+    "cultural_context": "'Крыса' kelimesinin küçültme halidir. Sokakta yaşayan ve çoğunlukla oral seks yaparak para kazanan çok genç ergen kızları niteleyen karanlık bir jargondur.",
+    "search_keywords": [
+      "ergen kız",
+      "çocuk fahişe",
+      "kryska"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крыска",
+        "alternateName": [
+          "Sakso çeken ergen kız",
+          "Sıçancık"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sakso çeken ergen kız, Sıçancık. Sokakta yaşayan ve oral seks yaparak para kazanan genç ergen kızları niteleyen karanlık jargondur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крыть матом",
+    "word_latin": "Kryt' matom",
+    "meaning_tr": [
+      "Küfür kıyamet sövmek",
+      "Kalaylamak",
+      "Ağzına sıçmak (Sözlü)"
+    ],
+    "literal_translation_tr": "Mat (Rus küfür sistemi) ile örtmek/kaplamak",
+    "category": "Deyim",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Начальник начал крыть матом всех подряд.",
+        "tr": "Patron önüne gelene küfür kıyamet sövmeye (kalaylamaya) başladı."
+      }
+    ],
+    "cultural_context": "Birisine veya bir gruba art arda, kesintisiz bir şekilde en ağır Rus küfürlerini (mat) sıralamayı anlatan meşhur deyimdir.",
+    "search_keywords": [
+      "küfür kıyamet sövmek",
+      "kalaylamak",
+      "kryt matom"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крыть матом",
+        "alternateName": [
+          "Küfür kıyamet sövmek",
+          "Kalaylamak",
+          "Ağzına sıçmak (Sözlü)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Küfür kıyamet sövmek, Kalaylamak. Birisine veya bir gruba art arda, kesintisiz bir şekilde en ağır Rus küfürlerini sıralamayı anlatan deyim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крыть по матушке",
+    "word_latin": "Kryt' po matushke",
+    "meaning_tr": [
+      "Ana avrat sövmek",
+      "Sülalesine kaymak"
+    ],
+    "literal_translation_tr": "Ana üzerinden örtmek (küfretmek)",
+    "category": "Deyim",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Дед разозлился и пошел крыть по матушке.",
+        "tr": "Dedem sinirlendi ve ana avrat sövmeye başladı."
+      }
+    ],
+    "cultural_context": "'Крыть матом' eyleminin daha spesifik halidir. Küfürlerin direkt olarak anneye ('yob tvoyu mat' kalıpları) odaklandığını ve ana avrat düz gidildiğini belirtir.",
+    "search_keywords": [
+      "ana avrat sövmek",
+      "sülalesine kaymak",
+      "kryt po matushke"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крыть по матушке",
+        "alternateName": [
+          "Ana avrat sövmek",
+          "Sülalesine kaymak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ana avrat sövmek, Sülalesine kaymak. 'Крыть матом' eyleminin direkt anneye yönelik küfürlerle (yob tvoyu mat) yapıldığını belirten spesifik deyim."
+      }
+    ]
+  },
+  {
+    "word_ru": "Зацепить крюком",
+    "word_latin": "Zatsepit' kryukom",
+    "meaning_tr": [
+      "Kancayı takmak",
+      "Zıpkınlamak",
+      "Sikmek"
+    ],
+    "literal_translation_tr": "Kanca ile yakalamak / takmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Ему удалось зацепить её крюком в первый же вечер.",
+        "tr": "Daha ilk akşamdan ona kancayı takmayı (onu sikmeyi) başardı."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organının kancaya benzetilmesiyle, bir kadını ağa düşürmeyi veya cinsel ilişkiye girmeyi anlatan avcılık/balıkçılık metaforudur.",
+    "search_keywords": [
+      "kancayı takmak",
+      "zıpkınlamak",
+      "zatsepit kryukom"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Зацепить крюком",
+        "alternateName": [
+          "Kancayı takmak",
+          "Zıpkınlamak",
+          "Sikmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kancayı takmak, Zıpkınlamak. Erkek cinsel organının kancaya benzetilmesiyle, bir kadınla cinsel ilişkiye girmeyi anlatan avcılık metaforu."
+      }
+    ]
+  },
+  {
+    "word_ru": "Крючок",
+    "word_latin": "Kryuchok",
+    "meaning_tr": [
+      "Kanca",
+      "Çengel",
+      "Yarrak"
+    ],
+    "literal_translation_tr": "Küçük kanca",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он насадил её на свой крючок.",
+        "tr": "Onu kendi kancasına (yarrağına) geçirdi."
+      }
+    ],
+    "cultural_context": "Penis kelimesinin bir diğer argo karşılığıdır. Şekilsel bir benzetme ve avı (kadını) yakalama fantezisine dayanır.",
+    "search_keywords": [
+      "kanca",
+      "çengel",
+      "yarrak",
+      "kryuchok"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Крючок",
+        "alternateName": [
+          "Kanca",
+          "Çengel",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kanca, Çengel, Yarrak. Penis kelimesinin bir diğer argo karşılığıdır. Şekilsel bir benzetme ve avı yakalama fantezisine dayanır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кувыркаться",
+    "word_latin": "Kuvyrkat'sya",
+    "meaning_tr": [
+      "Yatakta yuvarlanmak (Sikişmek)",
+      "Oynaşmak",
+      "Takla atmak"
+    ],
+    "literal_translation_tr": "Takla atmak / Yuvarlanmak",
+    "category": "Eufemizm / Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Мы кувыркались с ней до самого утра.",
+        "tr": "Onunla sabaha kadar yatakta yuvarlandık (oynaşıp sikiştik)."
+      }
+    ],
+    "cultural_context": "Normalde jimnastikte takla atmak demektir. Ancak mecazi anlamda ('tumble in the hay') iki kişinin yatakta birbirine dolanarak seks yapmasını ifade eden naif bir argodur.",
+    "search_keywords": [
+      "yatakta yuvarlanmak",
+      "oynaşmak",
+      "kuvyrkatsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кувыркаться",
+        "alternateName": [
+          "Yatakta yuvarlanmak (Sikişmek)",
+          "Oynaşmak",
+          "Takla atmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yatakta yuvarlanmak, Oynaşmak. Normalde takla atmak demektir. Mecazi olarak iki kişinin yatakta birbirine dolanarak seks yapmasını ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Куда там на хуй",
+    "word_latin": "Kuda tam na khuy",
+    "meaning_tr": [
+      "Nereye sikime",
+      "Ne mümkün",
+      "Hangi yarrağıma (İmkansızlık)"
+    ],
+    "literal_translation_tr": "Oraya hangi yarrağıma",
+    "category": "Mat",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Думал всё успею, но куда там на хуй.",
+        "tr": "Her şeye yetişirim sanıyordum ama nereye sikime (ne mümkün, imkansız)."
+      }
+    ],
+    "cultural_context": "Bir şeyin tamamen imkansız olduğunu, bir işin başarılamayacağını veya beklentilerin boş çıktığını vurgulamak için kullanılan keskin ve küfürlü bir isyan ifadesidir.",
+    "search_keywords": [
+      "nereye sikime",
+      "ne mümkün",
+      "kuda tam na khuy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Куда там на хуй",
+        "alternateName": [
+          "Nereye sikime",
+          "Ne mümkün",
+          "Hangi yarrağıma"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Nereye sikime, Ne mümkün. Bir şeyin tamamen imkansız olduğunu veya başarılamayacağını vurgulamak için kullanılan küfürlü ifadedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кукурузник",
+    "word_latin": "Kukuruznik",
+    "meaning_tr": [
+      "İbne",
+      "Mısırcı (Gey)",
+      "Kırsal geyi"
+    ],
+    "literal_translation_tr": "Mısır tarlası işçisi / An-2 uçağı (mısır uçağı)",
+    "category": "Argo / Homofobik",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Не связывайся с ним, он местный кукурузник.",
+        "tr": "Onunla bulaşma, o yerel bir mısırcı (ibne)."
+      }
+    ],
+    "cultural_context": "Normalde Sovyet döneminden kalma ilaçlama uçağına veya mısır işçisine denir. Mısır koçanının ('kukuruza') fallik (penis) şeklinden yola çıkılarak argoda eşcinselleri aşağılamak için kullanılır.",
+    "search_keywords": [
+      "ibne",
+      "mısırcı",
+      "gey",
+      "kukuruznik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кукурузник",
+        "alternateName": [
+          "İbne",
+          "Mısırcı (Gey)",
+          "Kırsal geyi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: İbne, Mısırcı (Gey). Mısır koçanının fallik şeklinden yola çıkılarak argoda eşcinselleri aşağılamak için kullanılan bir tabirdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Культ-соска",
+    "word_latin": "Kul't-soska",
+    "meaning_tr": [
+      "Üniversiteli sakso çeken kız",
+      "Kültürlü emici"
+    ],
+    "literal_translation_tr": "Kült(ür) emziği / Kültürel emici",
+    "category": "Öğrenci Argosu / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "В общаге её называли культ-соской.",
+        "tr": "Yurtta ona kültürlü emici (üniversiteli sakso çeken kız) derlerdi."
+      }
+    ],
+    "cultural_context": "'Культурная' (Kültürlü/Eğitimli) ve 'Соска' (Emzik/Sakso çeken kız) kelimelerinin birleşimidir. Üniversite okuyan veya aydın geçinen ama aslında erkeklere oral seks hizmeti veren genç kızları anlatan alaycı bir argodur.",
+    "search_keywords": [
+      "sakso çeken kız",
+      "üniversiteli",
+      "kult soska"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Культ-соска",
+        "alternateName": [
+          "Üniversiteli sakso çeken kız",
+          "Kültürlü emici"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Üniversiteli sakso çeken kız. Üniversite okuyan veya aydın geçinen ama erkeklere oral seks hizmeti veren genç kızları anlatan alaycı argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Куна",
+    "word_latin": "Kuna",
+    "meaning_tr": [
+      "Am",
+      "Vajina"
+    ],
+    "literal_translation_tr": "Sansar (Eski Rusçada kürk parası) / Vajina",
+    "category": "Eski Argo / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Слово куна сейчас редко услышишь.",
+        "tr": "Kuna (am) kelimesini günümüzde nadiren duyarsın."
+      }
+    ],
+    "cultural_context": "Eski Slav kökenli bölgesel bir kelimedir. Modern sokak dilinde daha çok 'пизда' (pizda) kullanılsa da, taşrada kadın cinsel organını belirtmek için argo olarak yaşamaya devam etmektedir.",
+    "search_keywords": [
+      "am",
+      "vajina",
+      "kuna"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Куна",
+        "alternateName": [
+          "Am",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am, Vajina. Kadın cinsel organını belirtmek için taşrada veya eski dilde kullanılan argo kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кунка",
+    "word_latin": "Kunka",
+    "meaning_tr": [
+      "Amcık",
+      "Kuku"
+    ],
+    "literal_translation_tr": "Küçük am",
+    "category": "Eski Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он погладил ее по кунке.",
+        "tr": "Onun amcığını (kutusunu) okşadı."
+      }
+    ],
+    "cultural_context": "'Куна' kelimesinin küçültme ve sevimlilik eki (-ka) almış halidir. Daha çok erotik veya hafif alaycı bir bağlamda kullanılır.",
+    "search_keywords": [
+      "amcık",
+      "kuku",
+      "kunka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кунка",
+        "alternateName": [
+          "Amcık",
+          "Kuku"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Amcık, Kuku. 'Куна' kelimesinin küçültülmüş halidir. Erotik veya hafif alaycı bağlamda kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Купить розочку",
+    "word_latin": "Kupit' rozochku",
+    "meaning_tr": [
+      "Frengi kapmak",
+      "Zührevi hastalık almak"
+    ],
+    "literal_translation_tr": "Küçük gül satın almak",
+    "category": "Tıbbi Argo / Deyim",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Сходил к проститутке и купил розочку.",
+        "tr": "Fahişeye gitti ve gülü satın aldı (frengi kaptı)."
+      }
+    ],
+    "cultural_context": "Sifiliz (frengi) gibi zührevi hastalıkların genital bölgede kırmızı, gül rengi yaralar bırakmasından yola çıkılarak yapılmış alaycı bir benzetmedir.",
+    "search_keywords": [
+      "frengi kapmak",
+      "zührevi hastalık",
+      "kupit rozochku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Купить розочку",
+        "alternateName": [
+          "Frengi kapmak",
+          "Zührevi hastalık almak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Frengi kapmak. Zührevi hastalıkların genital bölgede bıraktığı kırmızı yaraları 'gül'e benzeterek oluşturulmuş alaycı deyimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курва",
+    "word_latin": "Kurva",
+    "meaning_tr": [
+      "Orospu",
+      "Kaltak",
+      "Kahpe"
+    ],
+    "literal_translation_tr": "Eğri / Yanlış yola sapan",
+    "category": "Mat / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Ах ты ж курва продажная!",
+        "tr": "Seni gidi satılık orospu (kahpe)!"
+      }
+    ],
+    "cultural_context": "Eski Slavca (ve Lehçede çok yaygın) kökenli, 'kıvrım / eğri yola girmiş' anlamından gelip günümüzde doğrudan 'orospu/kaltak' anlamında kullanılan, uluslararası bilinirliğe sahip sert bir küfürdür.",
+    "search_keywords": [
+      "orospu",
+      "kaltak",
+      "kahpe",
+      "kurva"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курва",
+        "alternateName": [
+          "Orospu",
+          "Kaltak",
+          "Kahpe"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Orospu, Kaltak, Kahpe. Eğri yola girmiş anlamından gelip doğrudan fahişeler için kullanılan çok meşhur sert bir küfürdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курвец",
+    "word_latin": "Kurvets",
+    "meaning_tr": [
+      "Şerefsiz",
+      "Pezevenk",
+      "Piç kurusu"
+    ],
+    "literal_translation_tr": "Erkek orospu",
+    "category": "Mat / Hakaret",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Этот курвец меня обманул.",
+        "tr": "Bu şerefsiz (pezevenk) beni dolandıırdı."
+      }
+    ],
+    "cultural_context": "'Курва' kelimesinin erkeğe uyarlanmış halidir. Ahlaksız, alçak, namussuz ve başkalarını satan kötü niyetli adamlar için kullanılır.",
+    "search_keywords": [
+      "şerefsiz",
+      "pezevenk",
+      "piç",
+      "kurvets"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курвец",
+        "alternateName": [
+          "Şerefsiz",
+          "Pezevenk",
+          "Piç kurusu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Şerefsiz, Pezevenk. 'Курва' kelimesinin erkeğe uyarlanmış halidir. Ahlaksız ve alçak adamlar için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курвиный",
+    "word_latin": "Kurvinyy",
+    "meaning_tr": [
+      "Orospuya ait",
+      "Kaltakça",
+      "Kahpe (Sıfat)"
+    ],
+    "literal_translation_tr": "Kurvanın olan",
+    "category": "Mat / Sıfat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Это его курвиный характер.",
+        "tr": "Bu onun kahpece (orospu) karakteridir."
+      }
+    ],
+    "cultural_context": "Bir insanın davranışlarının, tabiatının veya eşyalarının bir orospuya yaraşır, ahlaksızca veya sinir bozucu olduğunu belirten sıfattır.",
+    "search_keywords": [
+      "kaltakça",
+      "orospu",
+      "kurvinyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курвиный",
+        "alternateName": [
+          "Orospuya ait",
+          "Kaltakça",
+          "Kahpe (Sıfat)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Orospuya ait, Kaltakça. Bir insanın davranışlarının ahlaksızca veya kahpece olduğunu belirten sıfattır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курвяжиться",
+    "word_latin": "Kurvyazhit'sya",
+    "meaning_tr": [
+      "Orospuluk yapmak",
+      "Sürtüklük yapmak",
+      "Kevaşelerle takılmak"
+    ],
+    "literal_translation_tr": "Kurvalaşmak",
+    "category": "Mat",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Муж опять начал курвяжиться по выходным.",
+        "tr": "Kocam hafta sonları yine orospularla takılmaya (orospuluk yapmaya) başladı."
+      }
+    ],
+    "cultural_context": "Kişinin bir fahişe gibi davranmasını, hafifmeşrep eylemlerde bulunmasını veya fahişelerle (kötü ortamlarda) vakit geçirmesini anlatan fiildir.",
+    "search_keywords": [
+      "orospuluk yapmak",
+      "sürtüklük yapmak",
+      "kurvyazhitsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курвяжиться",
+        "alternateName": [
+          "Orospuluk yapmak",
+          "Sürtüklük yapmak",
+          "Kevaşelerle takılmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Orospuluk yapmak. Kişinin fahişe gibi davranmasını veya fahişelerle vakit geçirmesini anlatan fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курвяжища",
+    "word_latin": "Kurvyazhishcha",
+    "meaning_tr": [
+      "Koca kahpe",
+      "Baş orospu",
+      "Devasa kaltak"
+    ],
+    "literal_translation_tr": "Büyük kurva",
+    "category": "Mat / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Она не просто блядь, она настоящая курвяжища.",
+        "tr": "O sıradan bir orospu değil, resmen bir baş orospu (koca kahpe)."
+      }
+    ],
+    "cultural_context": "'Курва' kelimesinin büyütme eki (-ища) almış halidir. Çok deneyimli, iri yarı veya ahlaksızlığın dibine vurmuş kadınlara söylenir.",
+    "search_keywords": [
+      "koca kahpe",
+      "baş orospu",
+      "kurvyazhishcha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курвяжища",
+        "alternateName": [
+          "Koca kahpe",
+          "Baş orospu",
+          "Devasa kaltak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Koca kahpe, Baş orospu. 'Курва' kelimesinin büyütme eki almış halidir. Ahlaksızlığın dibine vurmuş kadınlara söylenir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курица",
+    "word_latin": "Kuritsa",
+    "meaning_tr": [
+      "Aptal karı",
+      "Am (Argo)",
+      "Tavuk"
+    ],
+    "literal_translation_tr": "Tavuk",
+    "category": "Argo / Hakaret",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Куда ты едешь, тупая курица!",
+        "tr": "Nereye sürüyorsun, aptal karı (tavuk)!"
+      },
+      {
+        "ru": "Покажи свою курицу.",
+        "tr": "Amını (tavuğunu) göster."
+      }
+    ],
+    "cultural_context": "Normalde tavuk demektir. Gündelik argoda çok konuşan, aptal ve şaşkın kadınlar için hakaret olarak kullanılır. Cinsel argoda ise kadın cinsel organını (vajina) ifade edebilir.",
+    "search_keywords": [
+      "aptal karı",
+      "tavuk",
+      "am",
+      "kuritsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курица",
+        "alternateName": [
+          "Aptal karı",
+          "Am (Argo)",
+          "Tavuk"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aptal karı, Am. Gündelik argoda aptal kadınlar için hakaret, cinsel argoda ise kadın cinsel organını ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курочка",
+    "word_latin": "Kurochka",
+    "meaning_tr": [
+      "Piliç",
+      "Pasif gey",
+      "Vurduran"
+    ],
+    "literal_translation_tr": "Küçük tavuk / Piliç",
+    "category": "Cezaevi Jargonu / Homofobik",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "На зоне из него быстро сделали курочку.",
+        "tr": "Hapishanede ondan çabucak bir pasif gey (piliç) yarattılar."
+      }
+    ],
+    "cultural_context": "Kuş kökenli ('петух/horoz' gibi) hapishane jargonunun bir parçasıdır. Feminenleştirilmiş, eşcinsel ilişkide pasif (kadın) rolüne zorlanan erkekler için kullanılır.",
+    "search_keywords": [
+      "piliç",
+      "pasif gey",
+      "vurduran",
+      "kurochka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курочка",
+        "alternateName": [
+          "Piliç",
+          "Pasif gey",
+          "Vurduran"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Piliç, Pasif gey. Kuş kökenli hapishane jargonunun bir parçası olup, pasif eşcinsel erkekleri aşağılamak için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Курсантка",
+    "word_latin": "Kursantka",
+    "meaning_tr": [
+      "Göt",
+      "Kıç",
+      "Kadet kızı"
+    ],
+    "literal_translation_tr": "Kadın askeri öğrenci / Kursiyer",
+    "category": "Askeri Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Дай потрогать твою курсантку.",
+        "tr": "Bırak da kıçına (kursantkana) bir dokunayım."
+      }
+    ],
+    "cultural_context": "Askeri çevrelerde veya belli jargon gruplarında, yuvarlaklık/kalça çağrışımı üzerinden 'göt' anlamına gelen şifreli ve mizahi bir argodur.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "kursantka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Курсантка",
+        "alternateName": [
+          "Göt",
+          "Kıç",
+          "Kadet kızı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt, Kıç. Askeri çevrelerde kalça çağrışımı üzerinden 'göt' anlamına gelen şifreli ve mizahi argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Куртизанка",
+    "word_latin": "Kurtizanka",
+    "meaning_tr": [
+      "Lüks fahişe",
+      "Kortizan",
+      "Sosyete eskortu"
+    ],
+    "literal_translation_tr": "Saraylı kadın / Kortizan",
+    "category": "Edebi / Eufemizm",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Она позиционирует себя не как проститутка, а как элитная куртизанка.",
+        "tr": "Kendisini bir fahişe olarak değil, seçkin bir kortizan (lüks fahişe) olarak konumluyor."
+      }
+    ],
+    "cultural_context": "Eskiden kralların veya asillerin metreslerine verilen isimdir. Günümüzde üst düzey bürokratlara veya zenginlere hizmet veren, görgülü lüks hayat kadınlarını (eskort) tanımlamak için kullanılan kibar kelimedir.",
+    "search_keywords": [
+      "lüks fahişe",
+      "kortizan",
+      "eskort",
+      "kurtizanka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Куртизанка",
+        "alternateName": [
+          "Lüks fahişe",
+          "Kortizan",
+          "Sosyete eskortu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lüks fahişe, Kortizan. Üst düzey zenginlere hizmet veren, görgülü lüks hayat kadınlarını tanımlamak için kullanılan kibar kelime."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кусок вонючего мяса",
+    "word_latin": "Kusok vonyuchego myasa",
+    "meaning_tr": [
+      "Kokuşmuş et parçası",
+      "Leş am",
+      "Vajina (Aşağılayıcı)"
+    ],
+    "literal_translation_tr": "Kokuşmuş et parçası",
+    "category": "Mat / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Спрячь свой кусок вонючего мяса.",
+        "tr": "O kokuşmuş et parçasını (amını) sakla."
+      }
+    ],
+    "cultural_context": "Kadın cinsel organını (vajina) sadece bedensel, cansız ve tiksindirici bir nesneye indirgeyerek yapılan çok ağır ve mide bulandırıcı bir hakarettir.",
+    "search_keywords": [
+      "kokuşmuş et",
+      "am",
+      "vajina",
+      "kusok vonyuchego myasa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кусок вонючего мяса",
+        "alternateName": [
+          "Kokuşmuş et parçası",
+          "Leş am",
+          "Vajina (Aşağılayıcı)"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kokuşmuş et parçası, Leş am. Kadın cinsel organını sadece cansız ve tiksindirici bir nesneye indirgeyen çok ağır hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кусок падлы",
+    "word_latin": "Kusok padly",
+    "meaning_tr": [
+      "Leş parçası",
+      "Pis orospu",
+      "Şerefsiz karı"
+    ],
+    "literal_translation_tr": "Leş (ölü hayvan) parçası",
+    "category": "Mat / Hakaret",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Эта баба — просто кусок падлы, обманула всех.",
+        "tr": "Bu karı resmen bir leş parçası (pis orospu), herkesi dolandırdı."
+      }
+    ],
+    "cultural_context": "'Падла' (leş/kokuşmuş ölü hayvan) kelimesinden türetilmiştir. İhanet eden, alçak karakterli ve ahlaksız kadınları tanımlamak için kullanılan ağır bir küfürdür.",
+    "search_keywords": [
+      "leş parçası",
+      "pis orospu",
+      "şerefsiz",
+      "kusok padly"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кусок падлы",
+        "alternateName": [
+          "Leş parçası",
+          "Pis orospu",
+          "Şerefsiz karı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Leş parçası, Pis orospu. İhanet eden, alçak karakterli ve ahlaksız kadınları tanımlamak için kullanılan ağır bir küfürdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кустотерапия",
+    "word_latin": "Kustoterapiya",
+    "meaning_tr": [
+      "Çalılık terapisi",
+      "Açık alanda seks",
+      "Çalı arkası sikiş"
+    ],
+    "literal_translation_tr": "Çalılık terapisi",
+    "category": "Argo / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Летом у них в парке сплошная кустотерапия.",
+        "tr": "Yazın parkta tam bir çalılık terapisi (çalı arkası seks) yapıyorlar."
+      }
+    ],
+    "cultural_context": "Gençlerin yer bulamadıkları için parklarda, ormanlarda veya çalı arkalarında gizlice seks yapmalarını esprili bir şekilde 'tedavi/terapi'ye benzeten argodur.",
+    "search_keywords": [
+      "çalılık terapisi",
+      "açık alanda seks",
+      "kustoterapiya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кустотерапия",
+        "alternateName": [
+          "Çalılık terapisi",
+          "Açık alanda seks",
+          "Çalı arkası sikiş"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çalılık terapisi, Açık alanda seks. Gençlerin parklarda veya çalı arkalarında gizlice seks yapmalarını esprili bir şekilde tedaviye benzeten argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Кутак",
+    "word_latin": "Kutak",
+    "meaning_tr": [
+      "Yarrak",
+      "Sik"
+    ],
+    "literal_translation_tr": "Penis (Tatarca/Başkırca)",
+    "category": "Yabancı Kökenli Argo",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Иди на кутак!",
+        "tr": "Siktir git (yarrağıma git)!"
+      }
+    ],
+    "cultural_context": "Tatarca ve Başkırca (Türk dilleri) gibi Rusya'daki etnik azınlıkların dillerinden Rus sokak argosuna 'yarrak' anlamında geçen, özellikle belirli bölgelerde yaygın olan bir küfürdür.",
+    "search_keywords": [
+      "yarrak",
+      "sik",
+      "kutak",
+      "кутак"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Кутак",
+        "alternateName": [
+          "Yarrak",
+          "Sik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Sik. Tatarca gibi Türk dillerinden Rus sokak argosuna 'yarrak' anlamında geçen bölgesel küfürdür."
+      }
+    ]
+  }
+]

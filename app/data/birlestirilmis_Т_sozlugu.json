@@ -1,0 +1,2709 @@
+[
+  {
+    "word_ru": "Так ее растак",
+    "word_latin": "Tak yeye rastak",
+    "meaning_tr": [
+      "Onu öyle böyle yapayım",
+      "Anasını avradını"
+    ],
+    "literal_translation_tr": "Onu öyle ve de böyle (yapayım)",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Так ее растак, эту машину, опять сломалась!",
+        "tr": "Onu öyle böyle yapayım (anasını avradını), bu araba yine bozuldu!"
+      }
+    ],
+    "cultural_context": "Ağır bir küfür olan 'еб ее мать' (anasını sikeyim) ifadesini sansürlemek için 'так' (öyle) kelimesinin kullanıldığı eski ve yaygın bir örtmecedir.",
+    "search_keywords": [
+      "onu öyle böyle yapayım",
+      "anasını avradını",
+      "tak yeye rastak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Так ее растак",
+        "alternateName": [
+          "Onu öyle böyle yapayım",
+          "Anasını avradını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Onu öyle böyle yapayım. Ağır bir ana küfrünü sansürlemek için kullanılan yaygın bir örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Так-перетак",
+    "word_latin": "Tak-peretak",
+    "meaning_tr": [
+      "Öyle böyle",
+      "Hay anasını"
+    ],
+    "literal_translation_tr": "Öyle ve de böyle",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ах ты, так-перетак, куда пошел?!",
+        "tr": "Seni gidi (öyle böyle yaptığım), nereye gidiyorsun?!"
+      }
+    ],
+    "cultural_context": "'Еб твою мать' (ananı sikeyim) küfrünün yerine kullanılan ritmik, eski moda ve zararsız bir şaşkınlık/kızgınlık ünlemidir.",
+    "search_keywords": [
+      "öyle böyle",
+      "hay anasını",
+      "tak peretak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Так-перетак",
+        "alternateName": [
+          "Öyle böyle",
+          "Hay anasını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Öyle böyle. Ana küfrü yerine kullanılan ritmik ve eski moda bir şaşkınlık ünlemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Так твою",
+    "word_latin": "Tak tvoyu",
+    "meaning_tr": [
+      "Senin o biçim...",
+      "Senin ta..."
+    ],
+    "literal_translation_tr": "Senin öyle...",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Да так твою, перестань уже!",
+        "tr": "Ya senin ta... (o biçim), yeter artık!"
+      }
+    ],
+    "cultural_context": "'Еб твою мать' ifadesindeki eylem (sikmek) ve nesne (anne) atılarak sadece cümlenin iskeletinin bırakıldığı bir küfür sansürüdür.",
+    "search_keywords": [
+      "senin o biçim",
+      "senin ta",
+      "tak tvoyu"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Так твою",
+        "alternateName": [
+          "Senin o biçim...",
+          "Senin ta..."
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Senin ta... Ana küfrünün eylem ve nesnesinin atılarak sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Так твою мать",
+    "word_latin": "Tak tvoyu mat'",
+    "meaning_tr": [
+      "Senin ananı öyle (yapayım)",
+      "Anasını satayım"
+    ],
+    "literal_translation_tr": "Senin ananı öyle...",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Так твою мать, опять опоздал!",
+        "tr": "Senin ananı öyle yapayım, yine geç kaldım!"
+      }
+    ],
+    "cultural_context": "'Еб' (sikmek) fiili yerine 'так' (öyle yapmak) eyleminin getirilmesiyle küfrün hafifletilmiş halidir.",
+    "search_keywords": [
+      "senin ananı öyle yapayım",
+      "anasını satayım",
+      "tak tvoyu mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Так твою мать",
+        "alternateName": [
+          "Senin ananı öyle (yapayım)",
+          "Anasını satayım"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Senin ananı öyle yapayım. Küfür fiili yerine 'öyle yapmak' kelimesinin kullanıldığı bir örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Такая и такая мать",
+    "word_latin": "Takaya i takaya mat'",
+    "meaning_tr": [
+      "O biçim ana",
+      "Vay anasını avradını"
+    ],
+    "literal_translation_tr": "Öyle ve böyle ana",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Чтоб тебя такая и такая мать!",
+        "tr": "Seni o biçim ana (kahrolasıca)!"
+      }
+    ],
+    "cultural_context": "'Ебаная и разъебаная мать' (sikilmiş ve darmadağın edilmiş ana) gibi çok katmanlı, aşırı ağır bir küfrün 'такая' (o biçim / öyle) sıfatıyla tamamen örtbas edilmesidir.",
+    "search_keywords": [
+      "o biçim ana",
+      "vay anasını avradını",
+      "takaya i takaya mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Такая и такая мать",
+        "alternateName": [
+          "O biçim ana",
+          "Vay anasını avradını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: O biçim ana. Çok katmanlı ağır bir küfrün 'o biçim' sıfatıyla örtbas edilmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Такая мать",
+    "word_latin": "Takaya mat'",
+    "meaning_tr": [
+      "Öyle ana",
+      "O biçim ana"
+    ],
+    "literal_translation_tr": "Öyle ana",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Вот такая мать ситуация получилась.",
+        "tr": "İşte o biçim (boktan) bir durum ortaya çıktı."
+      }
+    ],
+    "cultural_context": "Kötü ve olumsuz durumları betimlerken kullanılan 'ебаная' (sikik/lanet) sıfatı yerine 'такая' (öyle) sıfatının kullanılmasıdır.",
+    "search_keywords": [
+      "öyle ana",
+      "o biçim ana",
+      "takaya mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Такая мать",
+        "alternateName": [
+          "Öyle ana",
+          "O biçim ana"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: O biçim ana. Kötü durumları betimlerken küfür sıfatı yerine kullanılan örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "К такой-то матери",
+    "word_latin": "K takoy-to materi",
+    "meaning_tr": [
+      "Cehennemin dibine",
+      "Anasının amına (Sansürlü)",
+      "Defol"
+    ],
+    "literal_translation_tr": "Filanca anaya (doğru)",
+    "category": "Eufemizm / Deyim",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Иди ты к такой-то матери со своими советами!",
+        "tr": "Tavsiyelerinle birlikte cehennemin dibine (anasının amına) git!"
+      },
+      {
+        "ru": "Послать все к такой-то матери.",
+        "tr": "Her şeyi cehennemin dibine yollamak (boşvermek)."
+      }
+    ],
+    "cultural_context": "'К ебеной матери' (Sikik anaya doğru -> Anasının amına / Cehennemin dibine) deyiminin edebiyatta, sinemada ve günlük yaşamda kullanılan, herkesçe bilinen en standart ve popüler sansürlü (euphemistic) versiyonudur.",
+    "search_keywords": [
+      "cehennemin dibine",
+      "anasının amına",
+      "defol",
+      "k takoy-to materi"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "К такой-то матери",
+        "alternateName": [
+          "Cehennemin dibine",
+          "Anasının amına"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Cehennemin dibine. Küfürlü bir kovma deyiminin günlük yaşamda kullanılan en standart sansürlü versiyonudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Такую вашу",
+    "word_latin": "Takuyu vashu",
+    "meaning_tr": [
+      "Sizin o biçim...",
+      "Sizin yapacağınız işe..."
+    ],
+    "literal_translation_tr": "Sizin öyle (ananızı)...",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Такую вашу, опять всё сломали!",
+        "tr": "Sizin yapacağınız işe... (o biçim yapayım), yine her şeyi kırdınız!"
+      }
+    ],
+    "cultural_context": "'Ебаную вашу мать' (sizin o sikik ananızı) küfrünün, eylemin ve nesnenin (anne) gizlenerek sadece sıfat ve zamir üzerinden ifade edilmesidir.",
+    "search_keywords": [
+      "sizin o biçim",
+      "sizin yapacağınız işe",
+      "takuyu vashu"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Такую вашу",
+        "alternateName": [
+          "Sizin o biçim...",
+          "Sizin yapacağınız işe..."
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sizin yapacağınız işe. Bir gruba yönelik ağır küfrün gizlenerek ifade edilmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тащить за щеку",
+    "word_latin": "Tashchit' za shcheku",
+    "meaning_tr": [
+      "Sakso çekmek",
+      "Yarrağı ağzına almak",
+      "Oral seks yapmak"
+    ],
+    "literal_translation_tr": "Yanağın arkasına çekmek / taşımak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Она привыкла тащить за щеку.",
+        "tr": "O yanağının arkasına almaya (sakso çekmeye) alışkın."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organının ağzın içine, yanağın gerisine doğru alınmasını görsel ve kaba bir dille (делать минет) betimleyen bir ifadedir.",
+    "search_keywords": [
+      "sakso çekmek",
+      "oral seks yapmak",
+      "tashchit za shcheku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тащить за щеку",
+        "alternateName": [
+          "Sakso çekmek",
+          "Oral seks yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sakso çekmek, Oral seks yapmak. Erkek cinsel organının yanağın gerisine doğru alınmasını betimleyen ifadedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тварь",
+    "word_latin": "Tvar'",
+    "meaning_tr": [
+      "Yaratık",
+      "Pislik",
+      "Kaltak",
+      "Şırfıntı"
+    ],
+    "literal_translation_tr": "Yaratılmış olan / Mahluk",
+    "category": "Genel / Hakaret",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Уйди с глаз моих, тварь!",
+        "tr": "Gözümün önünden kaybol, pislik (yaratık)!"
+      },
+      {
+        "ru": "Эта тварь увела у меня мужа.",
+        "tr": "Bu kaltak benim kocamı elimden aldı."
+      }
+    ],
+    "cultural_context": "Düz anlamda Tanrı'nın yarattığı canlı (mahluk) demektir (örn: Божья тварь). Ancak modern Rusçada, iğrenç karakterli insanları, özellikle de ahlaksız, hain veya hafifmeşrep kadınları (блядь) tanımlamak için kullanılan çok sert ve yaygın bir hakarettir.",
+    "search_keywords": [
+      "yaratık",
+      "pislik",
+      "kaltak",
+      "şırfıntı",
+      "tvar"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тварь",
+        "alternateName": [
+          "Yaratık",
+          "Pislik",
+          "Kaltak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yaratık, Kaltak. Düz anlamda mahluk demek olup, modern dilde ahlaksız insanları tanımlayan sert bir hakarettir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Твою душу так",
+    "word_latin": "Tvoyu dushu tak",
+    "meaning_tr": [
+      "Senin ruhunu o biçim yapayım",
+      "Allah belanı versin"
+    ],
+    "literal_translation_tr": "Senin ruhunu öyle (yapayım)",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Твою душу так, где мои ключи?",
+        "tr": "Senin ruhunu o biçim yapayım, anahtarlarım nerede?"
+      }
+    ],
+    "cultural_context": "'Еби твою душу мать' (anan ruhunu siksin / ruhunu sikeyim) şeklindeki, ruhani/manevi değerlere de saldıran çok ağır bir küfrün sansürlenmiş, 'tak' (öyle) kelimesiyle hafifletilmiş halidir.",
+    "search_keywords": [
+      "senin ruhunu o biçim yapayım",
+      "allah belanı versin",
+      "tvoyu dushu tak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Твою душу так",
+        "alternateName": [
+          "Senin ruhunu o biçim yapayım",
+          "Allah belanı versin"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Senin ruhunu o biçim yapayım. Manevi değerlere saldıran ağır bir küfrün sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Твою так",
+    "word_latin": "Tvoyu tak",
+    "meaning_tr": [
+      "Senin ta...",
+      "Seni o biçim yapayım"
+    ],
+    "literal_translation_tr": "Senin öyle (yapayım)",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Твою так, я же просил не трогать!",
+        "tr": "Senin ta... (o biçim), dokunma demiştim ya!"
+      }
+    ],
+    "cultural_context": "Vurgunun değiştiği 'Мать твою еб' (Ananı sikeyim senin) cümlesinin sonundaki küfrün silinip yerine örtmece olan 'так' getirilmesiyle oluşan sinirlenme nidasıdır.",
+    "search_keywords": [
+      "senin ta",
+      "seni o biçim yapayım",
+      "tvoyu tak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Твою так",
+        "alternateName": [
+          "Senin ta...",
+          "Seni o biçim yapayım"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Senin ta... Ana küfrünün vurgusunun değiştirildiği ve eylemin sansürlendiği sinirlenme nidasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Телевизор",
+    "word_latin": "Televizor",
+    "meaning_tr": [
+      "Kasa (Göt)",
+      "Televizyon",
+      "Kıç"
+    ],
+    "literal_translation_tr": "Televizyon",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Она отрастила себе целый телевизор.",
+        "tr": "Kendine tam bir televizyon (kocaman bir göt/kasa) büyütmüş."
+      }
+    ],
+    "cultural_context": "Eski model tüplü televizyonların geniş, kare/dikdörtgen ve kaba yapısından ilham alınarak büyük, geniş kadın kalçaları (задница) için kullanılan esprili bir benzetmedir.",
+    "search_keywords": [
+      "kasa",
+      "göt",
+      "televizyon",
+      "televizor"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Телевизор",
+        "alternateName": [
+          "Kasa",
+          "Göt",
+          "Televizyon"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kasa, Göt. Eski model tüplü televizyonların geniş yapısından ilham alınarak büyük kadın kalçaları için kullanılan benzetmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Телка",
+    "word_latin": "Tyolka",
+    "meaning_tr": [
+      "Piliç",
+      "Fıstık",
+      "Yavru",
+      "Yollu kız"
+    ],
+    "literal_translation_tr": "Düve (Genç inek)",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "В клубе было много красивых телок.",
+        "tr": "Kulüpte bir sürü güzel piliç (fıstık/kız) vardı."
+      },
+      {
+        "ru": "Она просто тупая телка.",
+        "tr": "O sadece aptal bir yollu."
+      }
+    ],
+    "cultural_context": "Düz anlamda düve (genç dişi inek) demektir. Rus argosunda genç, çekici ve genellikle kolay elde edilebilir (hafifmeşrep) kızları tanımlayan, Türkçedeki 'piliç/yavru' karşılığına denk gelen çok yaygın bir nesneleştirici tabirdir.",
+    "search_keywords": [
+      "piliç",
+      "fıstık",
+      "yavru",
+      "yollu kız",
+      "tyolka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Телка",
+        "alternateName": [
+          "Piliç",
+          "Fıstık",
+          "Yavru"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Piliç, Fıstık. Düz anlamda düve demek olup, argoda genç ve çekici kızları tanımlayan çok yaygın bir tabirdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Теплое молочко",
+    "word_latin": "Tyoploye molochko",
+    "meaning_tr": [
+      "Sıcak süt (Sperm)"
+    ],
+    "literal_translation_tr": "Sıcak/Ilık süt",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он накормил её теплым молочком.",
+        "tr": "Onu sıcak sütle (spermle) besledi."
+      }
+    ],
+    "cultural_context": "Erkek menisinin (сперма) rengi, sıcaklığı ve kıvamı üzerinden yapılmış olan, cinsel/pornografik argoda sıkça karşılaşılan bir benzetmedir.",
+    "search_keywords": [
+      "sıcak süt",
+      "sperm",
+      "tyoploye molochko"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Теплое молочко",
+        "alternateName": [
+          "Sıcak süt"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sıcak süt (Sperm). Erkek menisinin rengi ve sıcaklığı üzerinden yapılmış cinsel bir benzetmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Теплый брат",
+    "word_latin": "Tyoplyy brat",
+    "meaning_tr": [
+      "Ilık (Gey)",
+      "Eşcinsel erkek"
+    ],
+    "literal_translation_tr": "Ilık/Sıcak kardeş",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Говорят, этот актер — теплый брат.",
+        "tr": "Bu aktörün bir ılık kardeş (gey) olduğunu söylüyorlar."
+      }
+    ],
+    "cultural_context": "Eski moda bir homoseksüel (педераст) tabiridir. İlginç bir tesadüf olarak Türkçedeki 'ılık' (gizli eşcinsel/efemine) argosuyla birebir aynı kavramsal altyapıya (sıcak/ılık olma) dayanır.",
+    "search_keywords": [
+      "ılık",
+      "gey",
+      "eşcinsel erkek",
+      "tyoplyy brat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Теплый брат",
+        "alternateName": [
+          "Ilık (Gey)",
+          "Eşcinsel erkek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ilık, Eşcinsel erkek. Eski moda bir gey tabiri olup Türkçedeki 'ılık' argosuyla aynı kavramsal altyapıya sahiptir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тереть",
+    "word_latin": "Teret'",
+    "meaning_tr": [
+      "Sürtmek",
+      "Sikmek"
+    ],
+    "literal_translation_tr": "Sürtmek / Ovalamak / Rendelemek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он начал тереть её прямо в машине.",
+        "tr": "Onu doğrudan arabada sürtmeye (sikmeye) başladı."
+      }
+    ],
+    "cultural_context": "Fiziksel temas ve sürtünme (friction) fiilinin, cinsel birleşmedeki ileri-geri hareketleri betimlemek (ебать) amacıyla kullanıldığı eski bir metafordur.",
+    "search_keywords": [
+      "sürtmek",
+      "sikmek",
+      "teret"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тереть",
+        "alternateName": [
+          "Sürtmek",
+          "Sikmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürtmek, Sikmek. Fiziksel sürtünme fiilinin, cinsel birleşmedeki hareketleri betimlemek amacıyla kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тереться",
+    "word_latin": "Teret'sya",
+    "meaning_tr": [
+      "Sürtüşmek",
+      "Sürtünmek",
+      "Sikişmek"
+    ],
+    "literal_translation_tr": "Karşılıklı sürtünmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Они закрылись в комнате и начали тереться.",
+        "tr": "Odaya kapandılar ve sürtüşmeye (sikişmeye) başladılar."
+      }
+    ],
+    "cultural_context": "Dönüşlü (reflexive) bir fiildir. İki kişinin karşılıklı olarak bedenlerini birbirine sürtmesi üzerinden cinsel ilişkiye girmesini (ебаться) ifade eder.",
+    "search_keywords": [
+      "sürtüşmek",
+      "sürtünmek",
+      "sikişmek",
+      "teretsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тереться",
+        "alternateName": [
+          "Sürtüşmek",
+          "Sikişmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürtüşmek, Sikişmek. İki kişinin karşılıklı olarak bedenlerini birbirine sürtmesi üzerinden cinsel ilişkiye girmesini ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тетка пришла",
+    "word_latin": "Tyotka prishla",
+    "meaning_tr": [
+      "Regl olmak",
+      "Teyzem/Halam geldi",
+      "Adet görmek"
+    ],
+    "literal_translation_tr": "Teyze geldi",
+    "category": "Genel / Eufemizm",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Извини, я сегодня не в настроении, тетка пришла.",
+        "tr": "Kusura bakma, bugün havamda değilim, teyzem geldi (regl oldum)."
+      }
+    ],
+    "cultural_context": "Kadınların menstrüasyon (началась менструация) döneminin başladığını kibar ve şifreli bir yolla bildirmesidir. Türkçedeki 'Halam geldi' veya 'Teyzem geldi' deyimiyle birebir aynı mantıkla kullanılır.",
+    "search_keywords": [
+      "regl olmak",
+      "teyzem geldi",
+      "halam geldi",
+      "adet görmek",
+      "tyotka prishla"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тетка пришла",
+        "alternateName": [
+          "Regl olmak",
+          "Teyzem/Halam geldi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Regl olmak. Kadınların menstrüasyon döneminin başladığını Türkçedeki 'halam geldi' gibi şifreli bir yolla bildirmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Течка",
+    "word_latin": "Techka",
+    "meaning_tr": [
+      "Regl",
+      "Kızgınlık dönemi (Hayvanlarda)"
+    ],
+    "literal_translation_tr": "Sızıntı / Akıntı",
+    "category": "Genel / Tıbbi / Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У собаки началась течка.",
+        "tr": "Köpeğin kızgınlık dönemi (kanaması) başladı."
+      },
+      {
+        "ru": "У нее сейчас течка, она нервная.",
+        "tr": "Şu an regli (akıntısı) var, sinirli."
+      }
+    ],
+    "cultural_context": "Resmi olarak memeli hayvanların (kedi, köpek vb.) çiftleşme dönemindeki kanamasını/kızgınlığını ifade eder. Kadınların menstrüasyon dönemi (менструация) için kullanıldığında kaba ve hayvani bir argoya dönüşür.",
+    "search_keywords": [
+      "regl",
+      "kızgınlık dönemi",
+      "adet",
+      "techka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Течка",
+        "alternateName": [
+          "Regl",
+          "Kızgınlık dönemi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Regl, Kızgınlık dönemi. Resmi olarak hayvanların kızgınlık dönemi iken, kadınların menstrüasyon dönemi için kaba bir argo olarak kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тибетчик",
+    "word_latin": "Tibetchik",
+    "meaning_tr": [
+      "Saksocu erkek",
+      "Oral seks yapan adam"
+    ],
+    "literal_translation_tr": "Tibetli",
+    "category": "Suç Argosu / Kelime Oyunu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "На зоне его прозвали тибетчиком.",
+        "tr": "Hapishanede ona saksocu erkek (Tibetli) lakabını taktılar."
+      }
+    ],
+    "cultural_context": "Kelimenin 'Tibetli' anlamına gelmesine rağmen, 'Минетчик' (saksocu erkek) kelimesine fonetik (ses) benzerliğinden dolayı türetilmiş şifreli ve alaycı bir hapishane argosudur.",
+    "search_keywords": [
+      "saksocu erkek",
+      "tibetchik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тибетчик",
+        "alternateName": [
+          "Saksocu erkek",
+          "Oral seks yapan adam"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Saksocu erkek. Minetchik kelimesine fonetik benzerliğinden dolayı türetilmiş şifreli hapishane argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тигрица",
+    "word_latin": "Tigritsa",
+    "meaning_tr": [
+      "Dişi kaplan",
+      "Seks açıcı kadın",
+      "Yırtıcı kadın"
+    ],
+    "literal_translation_tr": "Dişi kaplan",
+    "category": "Argo / Metafor",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "В постели она просто тигрица.",
+        "tr": "Yatakta o tam bir dişi kaplan (yırtıcı kadın)."
+      }
+    ],
+    "cultural_context": "Seks konusunda çok aç, saldırgan, ihtiraslı ve vahşi davranan kadınları (женщина, жадная до ебли) övmek veya tanımlamak için kullanılan evrensel bir metafordur.",
+    "search_keywords": [
+      "dişi kaplan",
+      "seks açıcı kadın",
+      "yırtıcı kadın",
+      "tigritsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тигрица",
+        "alternateName": [
+          "Dişi kaplan",
+          "Seks açıcı kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Dişi kaplan. Seks konusunda saldırgan, ihtiraslı ve vahşi davranan kadınları tanımlayan evrensel metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Титечка",
+    "word_latin": "Titechka",
+    "meaning_tr": [
+      "Memecik",
+      "Küçük göğüs"
+    ],
+    "literal_translation_tr": "Memecik",
+    "category": "Genel / Küçültme",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Она прикрыла свои титечки полотенцем.",
+        "tr": "Memeciklerini havluyla kapattı."
+      }
+    ],
+    "cultural_context": "'Титя/Титька' (meme) kelimesinin küçültme ve şefkat eki almış halidir. Genellikle küçük göğüsleri (женская грудь) şirin göstermek için kullanılır.",
+    "search_keywords": [
+      "memecik",
+      "küçük göğüs",
+      "titechka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Титечка",
+        "alternateName": [
+          "Memecik",
+          "Küçük göğüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Memecik. Meme kelimesinin küçültme eki almış hali olup, küçük göğüsleri şirin göstermek için kullanılır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Титька",
+    "word_latin": "Tit'ka",
+    "meaning_tr": [
+      "Meme",
+      "Göğüs"
+    ],
+    "literal_translation_tr": "Meme",
+    "category": "Genel / Argo",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Ребенок просит титьку.",
+        "tr": "Çocuk meme istiyor."
+      },
+      {
+        "ru": "У нее огромные титьки.",
+        "tr": "Onun kocaman memeleri var."
+      }
+    ],
+    "cultural_context": "Kadın göğsünü ifade eden eski, halk ağzı ve yaygın bir kelimedir. 'Сиська' kadar yaygındır ve çocuk emzirmekten cinsel argoya kadar her bağlamda karşımıza çıkar.",
+    "search_keywords": [
+      "meme",
+      "göğüs",
+      "titka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Титька",
+        "alternateName": [
+          "Meme",
+          "Göğüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Meme, Göğüs. Kadın göğsünü ifade eden eski ve yaygın bir halk ağzı kelimesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Титя",
+    "word_latin": "Titya",
+    "meaning_tr": [
+      "Meme",
+      "Göğüsler"
+    ],
+    "literal_translation_tr": "Meme",
+    "category": "Genel / Argo",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Какая большая титя!",
+        "tr": "Ne büyük bir meme!"
+      }
+    ],
+    "cultural_context": "'Титька' kelimesinin köküdür. Çoğunlukla 'сиськи' (memeler) anlamında, daha yumuşak ve çocuksu bir kelime olarak kullanılır.",
+    "search_keywords": [
+      "meme",
+      "göğüsler",
+      "titya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Титя",
+        "alternateName": [
+          "Meme",
+          "Göğüsler"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Meme. Göğüsler anlamında kullanılan daha yumuşak ve çocuksu bir kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Титястая",
+    "word_latin": "Tityastaya",
+    "meaning_tr": [
+      "İri memeli",
+      "Koca göğüslü kadın"
+    ],
+    "literal_translation_tr": "Memeli",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ему нравятся высокие и титястые.",
+        "tr": "O uzun boylu ve iri memeli olanlardan hoşlanıyor."
+      }
+    ],
+    "cultural_context": "'Сисястая' ile aynı anlama gelir. Göğüsleri çok belirgin ve büyük olan kadınları (с большой грудью) tanımlayan argovari bir sıfattır.",
+    "search_keywords": [
+      "iri memeli",
+      "koca göğüslü",
+      "tityastaya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Титястая",
+        "alternateName": [
+          "İri memeli",
+          "Koca göğüslü kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: İri memeli. Göğüsleri çok belirgin ve büyük olan kadınları tanımlayan sıfattır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Толкаться",
+    "word_latin": "Tolkat'sya",
+    "meaning_tr": [
+      "İtişmek",
+      "Sikişmek"
+    ],
+    "literal_translation_tr": "Karşılıklı itmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они пошли в спальню толкаться.",
+        "tr": "İtişmek (sikişmek) için yatak odasına gittiler."
+      }
+    ],
+    "cultural_context": "Normalde kalabalıkta birbirini itmek demektir. Cinsel bağlamda kalçaların ileri-geri hareketleri üzerinden cinsel ilişkiye girmeyi (ебаться) ifade eden esprili bir fiildir.",
+    "search_keywords": [
+      "itişmek",
+      "sikişmek",
+      "tolkatsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Толкаться",
+        "alternateName": [
+          "İtişmek",
+          "Sikişmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: İtişmek, Sikişmek. Normalde birbirini itmek demek olan kelimenin, kalçaların ileri-geri hareketleri üzerinden sikişmeyi ifade etmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Толкнуть хором, колхозом, вагоном, очередью",
+    "word_latin": "Tolknut' khorom, kolkhozom, vagonom, ochered'yu",
+    "meaning_tr": [
+      "Grup seks yapmak",
+      "Tren yapmak",
+      "Topluca sikmek"
+    ],
+    "literal_translation_tr": "Koro halinde, kolhozla, vagonla, sırayla itmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Братва решила толкнуть эту девку вагоном.",
+        "tr": "Çete bu kıza tren yapmaya (topluca sikmeye) karar verdi."
+      }
+    ],
+    "cultural_context": "Bir kadının birden fazla erkekle arka arkaya veya aynı anda cinsel ilişkiye girmesini (выебать группой) 'itmek' (толкнуть) fiili ve kalabalık belirten (vagon, koro, kooperatif-kolhoz) zarflarla anlatan argodur. Türkçedeki 'tren yapmak' tabirinin tam karşılığıdır.",
+    "search_keywords": [
+      "grup seks yapmak",
+      "tren yapmak",
+      "topluca sikmek",
+      "tolknut khorom",
+      "tolknut vagonom"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Толкнуть хором, колхозом, вагоном, очередью",
+        "alternateName": [
+          "Grup seks yapmak",
+          "Tren yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Tren yapmak, Grup seks. Bir kadının birden fazla erkekle arka arkaya ilişkiye girmesini kalabalık metaforlarıyla anlatan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Толстожопый",
+    "word_latin": "Tolstozhopyy",
+    "meaning_tr": [
+      "Koca götlü (Erkek/Genel)",
+      "Kalın kıçlı"
+    ],
+    "literal_translation_tr": "Kalın götlü",
+    "category": "Argo / Hakaret",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Этот толстожопый занял два сиденья.",
+        "tr": "Bu koca götlü iki koltuğu birden işgal etti."
+      }
+    ],
+    "cultural_context": "'Толстый' (kalın/şişman) ve 'жопа' (göt) kelimelerinden oluşur. Genellikle aşırı kilolu, kalçası büyük erkekleri (veya genel olarak insanları) aşağılamak veya tanımlamak için kullanılır.",
+    "search_keywords": [
+      "koca götlü",
+      "kalın kıçlı",
+      "tolstozhopyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Толстожопый",
+        "alternateName": [
+          "Koca götlü",
+          "Kalın kıçlı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Koca götlü. Aşırı kilolu, kalçası büyük kişileri aşağılamak için kullanılan sıfattır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Толстозадая",
+    "word_latin": "Tolstozadaya",
+    "meaning_tr": [
+      "Koca kıçlı (Kadın)",
+      "Büyük kalçalı"
+    ],
+    "literal_translation_tr": "Kalın kıçlı",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ему всегда нравились толстозадые брюнетки.",
+        "tr": "Her zaman koca kıçlı esmerlerden hoşlanırdı."
+      }
+    ],
+    "cultural_context": "'Жопа' (göt) yerine biraz daha edebi/anatomik olan 'зад' (arka/kıç) kelimesinden türetilen dişil sıfattır. Kalçası büyük kadınları (с большим задом) ifade eder; kullanıma göre hakaret veya cinsel bir iltifat olabilir.",
+    "search_keywords": [
+      "koca kıçlı",
+      "büyük kalçalı",
+      "tolstozadaya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Толстозадая",
+        "alternateName": [
+          "Koca kıçlı",
+          "Büyük kalçalı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Koca kıçlı. Kalçası büyük kadınları ifade eder; bağlama göre hakaret veya iltifat olabilir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Топтать",
+    "word_latin": "Toptat'",
+    "meaning_tr": [
+      "Sikmek",
+      "Becermek"
+    ],
+    "literal_translation_tr": "Çiğnemek / Tepinmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он любил топтать её каждую ночь.",
+        "tr": "Onu her gece sikmeyi (çiğnemeyi) severdi."
+      }
+    ],
+    "cultural_context": "Düz anlamı ayakla basmak, çiğnemektir. Erkeklerin egemen ve aktif rolde olduğu, sert ve mekanik cinsel ilişkiyi (ебать) kaba bir metaforla ifade eder. Çoğunlukla horozların tavuklarla çiftleşmesini anımsatır.",
+    "search_keywords": [
+      "sikmek",
+      "becermek",
+      "toptat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Топтать",
+        "alternateName": [
+          "Sikmek",
+          "Becermek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Becermek. Horozların tavuklarla çiftleşmesi metaforu üzerinden, erkeğin baskın olduğu cinsel ilişkiyi ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Топтун",
+    "word_latin": "Toptun",
+    "meaning_tr": [
+      "Aktif eşcinsel",
+      "Aktif gey"
+    ],
+    "literal_translation_tr": "Çiğneyici / Tepinici",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "На зоне все знали, что он топтун.",
+        "tr": "Hapishanede herkes onun aktif eşcinsel (çiğneyici) olduğunu bilirdi."
+      }
+    ],
+    "cultural_context": "'Топтать' (sikmek/çiğnemek) fiilinden türetilmiştir. Cezaevi veya yeraltı argosunda, eşcinsel ilişkilerde penetrasyonu gerçekleştiren (aktif) tarafı (активный педераст) tanımlayan kaba tabirdir.",
+    "search_keywords": [
+      "aktif eşcinsel",
+      "aktif gey",
+      "toptun"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Топтун",
+        "alternateName": [
+          "Aktif eşcinsel"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif eşcinsel. Çiğnemek/sikmek fiilinden türetilmiş, eşcinsel ilişkilerde aktif tarafı tanımlayan cezaevi argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Торчило",
+    "word_latin": "Torchilo",
+    "meaning_tr": [
+      "Kalkık alet",
+      "Dimdik yarrak",
+      "Ereksiyon halindeki penis"
+    ],
+    "literal_translation_tr": "Dikilmiş / Fırlamış şey",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Утром у него было такое торчило.",
+        "tr": "Sabah kalktığında öyle bir dikelmiş aleti vardı ki."
+      }
+    ],
+    "cultural_context": "Dışarı doğru çıkıntı yapmak, dikilmek anlamına gelen 'торчать' fiilinden türemiştir. Ereksiyon halindeki erkek cinsel organını (возбужденный хуй) esprili ve kaba bir dille tanımlar.",
+    "search_keywords": [
+      "kalkık alet",
+      "dimdik yarrak",
+      "ereksiyon",
+      "torchilo"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Торчило",
+        "alternateName": [
+          "Kalkık alet",
+          "Dimdik yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kalkık alet, Ereksiyon. Dışarı çıkıntı yapmak/dikilmek fiilinden türeyen, ereksiyon halindeki penisi tanımlayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Точить хуй",
+    "word_latin": "Tochit' khuy",
+    "meaning_tr": [
+      "Otuzbir çekmek",
+      "Mastürbasyon yapmak"
+    ],
+    "literal_translation_tr": "Yarrağı bilemek / Yarrağı yontmak",
+    "category": "Mat / Cinsel",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Хватит точить хуй, иди найди себе девушку.",
+        "tr": "Otuzbir çekmeyi (yarrağını bilemeyi) bırak da git kendine bir kız bul."
+      }
+    ],
+    "cultural_context": "Bıçak bileme veya kalem yontma gibi sürekli ve ritmik bir fiziksel eylemin, erkek mastürbasyonu (заниматься онанизмом) için küfürlü bir görsel metafor olarak kullanılmasıdır.",
+    "search_keywords": [
+      "otuzbir çekmek",
+      "mastürbasyon yapmak",
+      "tochit khuy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Точить хуй",
+        "alternateName": [
+          "Otuzbir çekmek",
+          "Mastürbasyon yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Otuzbir çekmek. Bıçak bileme ve yontma eyleminin, erkek mastürbasyonunu betimleyen küfürlü ve görsel bir metaforudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трали-вали",
+    "word_latin": "Trali-vali",
+    "meaning_tr": [
+      "Lezbiyen sikişi",
+      "Kadın kadına sevişme",
+      "Lay lay lom (Düz anlamı)"
+    ],
+    "literal_translation_tr": "Lay lay lom / Fasa fiso",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они устроили свои трали-вали в спальне.",
+        "tr": "Yatak odasında kendi lezbiyen sevişmelerini (lay lay lomlarını) yaptılar."
+      }
+    ],
+    "cultural_context": "Rusçada genellikle gereksiz konuşmalar, fasa fiso veya neşeli ıvır zıvırlar ('lay lay lom' gibi) için kullanılan bir tekerlemedir. Özel cinsel argoda ise lezbiyenlerin cinsel birleşmesini (ебля лесбиянок) alaycı ve esprili bir şekilde tanımlar.",
+    "search_keywords": [
+      "lezbiyen sikişi",
+      "kadın kadına sevişme",
+      "trali-vali"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трали-вали",
+        "alternateName": [
+          "Lezbiyen sikişi",
+          "Kadın kadına sevişme"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lezbiyen sikişi. Normalde fasa fiso anlamına gelen tekerlemenin, lezbiyenlerin cinsel ilişkisini alaycı bir şekilde tanımlamasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Транда",
+    "word_latin": "Tranda",
+    "meaning_tr": [
+      "Am",
+      "Kuku",
+      "Vajina"
+    ],
+    "literal_translation_tr": "Tranda (Pizda kelimesinin örtmecesi)",
+    "category": "Argo / Eufemizm",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Вот транда, опять я всё забыл!",
+        "tr": "Hay amına koyayım (hay kuku), yine her şeyi unuttum!"
+      }
+    ],
+    "cultural_context": "Ağır bir küfür olan 'Пизда' (Am) kelimesini doğrudan söylememek için, kelimenin başındaki ve sonundaki harflerin/seslerin değiştirilmesiyle oluşturulmuş zararsız bir sansürdür (влагалище).",
+    "search_keywords": [
+      "am",
+      "kuku",
+      "vajina",
+      "tranda"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Транда",
+        "alternateName": [
+          "Am",
+          "Kuku",
+          "Vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Am, Kuku. Pizda küfrünü doğrudan söylememek için türetilmiş zararsız bir sansür kelimesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трандюк",
+    "word_latin": "Trandyuk",
+    "meaning_tr": [
+      "Veled-i zina",
+      "Aptal",
+      "Salak",
+      "Gevşek"
+    ],
+    "literal_translation_tr": "Amcık (Tranda'dan türeme kişi formu)",
+    "category": "Argo / Eufemizm / Hakaret",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Какой же он трандюк, даже это не смог сделать.",
+        "tr": "Ne kadar aptal bir velet (trandyuk), bunu bile yapamadı."
+      }
+    ],
+    "cultural_context": "Ağır bir küfür olan 'Пиздюк' (Piç/Velet) kelimesinin sansürlenmiş (tranda kökünden), daha yumuşak ve şakacı bir hakaret versiyonudur. Gevşek, ahmak veya can sıkan küçük yaştaki kişileri (глупец, дурак) ifade eder.",
+    "search_keywords": [
+      "veled-i zina",
+      "aptal",
+      "salak",
+      "trandyuk"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трандюк",
+        "alternateName": [
+          "Veled-i zina",
+          "Aptal",
+          "Salak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aptal, Salak. Pizdyuk küfrünün sansürlenmiş, daha yumuşak ve şakacı bir hakaret versiyonudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Траханье",
+    "word_latin": "Trakhan'ye",
+    "meaning_tr": [
+      "Sikiş",
+      "Sikişme",
+      "Seks"
+    ],
+    "literal_translation_tr": "Vurma / Çarpma / Patlama sesi eylemi",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Громкое траханье за стеной мешало спать.",
+        "tr": "Duvarın arkasındaki yüksek sesli sikişme (seks) uyumayı engelliyordu."
+      }
+    ],
+    "cultural_context": "'Трахать' (Vurmak / Sikmek) fiilinden türeyen isimidir. Küfür içermez ancak cinsel eylemi kaba bir günlük dille (ебля) anlatır. Gençlik ve popüler kültürde 'seks' kelimesinin en yaygın argosudur.",
+    "search_keywords": [
+      "sikiş",
+      "sikişme",
+      "seks",
+      "trakhanye"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Траханье",
+        "alternateName": [
+          "Sikiş",
+          "Sikişme",
+          "Seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikiş, Seks. Vurmak/çarpmak fiilinden türeyen, cinsel eylemi popüler ve kaba bir dille anlatan kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трахать",
+    "word_latin": "Trakhat'",
+    "meaning_tr": [
+      "Sikmek",
+      "Becermek",
+      "Seks yapmak"
+    ],
+    "literal_translation_tr": "Vurmak / Gümlemek / Çarpmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он хочет трахать её каждый день.",
+        "tr": "Onu her gün sikmek (becermek) istiyor."
+      }
+    ],
+    "cultural_context": "Düz anlamda kapıyı çarpmak, sert bir şekilde vurmak (boom, bang) demektir. 90'lardan sonra 'ебать' (sikmek) küfrünün yerine geçen ve televizyonlarda bile sansürsüz kullanılabilen en meşhur Rus cinsel argosudur.",
+    "search_keywords": [
+      "sikmek",
+      "becermek",
+      "seks yapmak",
+      "trakhat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трахать",
+        "alternateName": [
+          "Sikmek",
+          "Becermek",
+          "Seks yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Becermek. Düz anlamda vurmak/çarpmak demek olup, ağır küfür yerine kullanılan en meşhur cinsel argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трахаться",
+    "word_latin": "Trakhat'sya",
+    "meaning_tr": [
+      "Sikişmek",
+      "Sevişmek",
+      "Seks yapmak"
+    ],
+    "literal_translation_tr": "Karşılıklı çarpışmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они начали трахаться на первом же свидании.",
+        "tr": "Daha ilk buluşmada sikişmeye (sevişmeye) başladılar."
+      }
+    ],
+    "cultural_context": "'Трахать' fiilinin dönüşlü (reflexive) halidir. İki kişinin karşılıklı olarak cinsel ilişkiye girmesini, seks yapmasını (ебаться) ifade eder. Günlük yaşamdaki en standart argodur.",
+    "search_keywords": [
+      "sikişmek",
+      "sevişmek",
+      "seks yapmak",
+      "trakhatsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трахаться",
+        "alternateName": [
+          "Sikişmek",
+          "Sevişmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikişmek, Sevişmek. İki kişinin karşılıklı olarak cinsel ilişkiye girmesini ifade eden standart ve yaygın argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трахнуть",
+    "word_latin": "Trakhnut'",
+    "meaning_tr": [
+      "1) Sikmek (Bir posta becermek)",
+      "2) Geçirmek, Vurmak",
+      "3) Kafaya dikmek, İçmek"
+    ],
+    "literal_translation_tr": "Bir kere gümletmek / Vurmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он мечтал трахнуть эту блондинку.",
+        "tr": "Bu sarışını (bir posta) sikmeyi (becermeyi) hayal ediyordu."
+      },
+      {
+        "ru": "Давай трахнем по пиву.",
+        "tr": "Hadi birer bira gömelim (kafaya dikelim)."
+      }
+    ],
+    "cultural_context": "'Трахать' eyleminin tamamlanmış (perfective) formudur. Birini tek seferlik cinsel olarak becermeyi (выебать) veya anlık olarak birine/bir şeye sertçe vurmayı, içkiyi bir dikişte içmeyi ifade eder.",
+    "search_keywords": [
+      "sikmek",
+      "geçirmek",
+      "kafaya dikmek",
+      "trakhnut"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трахнуть",
+        "alternateName": [
+          "1) Sikmek",
+          "2) Vurmak",
+          "3) Kafaya dikmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek, Vurmak, İçmek. Vurmak eyleminin tamamlanmış formu olup; tek seferlik becermeyi, vurmayı veya içki dikmeyi ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трахнуться",
+    "word_latin": "Trakhnut'sya",
+    "meaning_tr": [
+      "Sikişmek",
+      "Bir posta sevişmek"
+    ],
+    "literal_translation_tr": "Bir kere çarpışmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они закрылись в туалете, чтобы по-быстрому трахнуться.",
+        "tr": "Hızlıca sikişmek (bir posta sevişmek) için tuvalete kapandılar."
+      }
+    ],
+    "cultural_context": "'Трахаться' fiilinin tamamlanmış formudur. Karşılıklı olarak ve başarıyla cinsel ilişkinin yaşanıp bitirilmesini (поебаться) anlatır.",
+    "search_keywords": [
+      "sikişmek",
+      "bir posta sevişmek",
+      "trakhnutsya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трахнуться",
+        "alternateName": [
+          "Sikişmek",
+          "Bir posta sevişmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikişmek. Karşılıklı olarak cinsel ilişkinin yaşanıp bitirilmesini (tek seferlik eylemi) anlatır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трепак",
+    "word_latin": "Trepak",
+    "meaning_tr": [
+      "Belsoğukluğu",
+      "Gonore"
+    ],
+    "literal_translation_tr": "Trepak (Geleneksel bir Rus dansı)",
+    "category": "Argo / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "После того курорта он привез домой трепак.",
+        "tr": "O tatilden sonra eve belsoğukluğu (gonore) getirdi."
+      }
+    ],
+    "cultural_context": "Düz anlamı eski, hareketli, ritmik ve titremeli bir Rus halk dansıdır. Tıbbi terim olan 'Триппер' (Gonore) kelimesine fonetik benzerliğinden ve hastalığın verdiği titremeli/rahatsız edici histen dolayı argo bir kelime oyunudur.",
+    "search_keywords": [
+      "belsoğukluğu",
+      "gonore",
+      "trepak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трепак",
+        "alternateName": [
+          "Belsoğukluğu",
+          "Gonore"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Belsoğukluğu, Gonore. Geleneksel Rus dansı kelimesinin, hastalığa fonetik benzerliği nedeniyle şifreli olarak kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трепак очка",
+    "word_latin": "Trepak ochka",
+    "meaning_tr": [
+      "Anal belsoğukluğu",
+      "Anal gonore"
+    ],
+    "literal_translation_tr": "Deliğin trepakı",
+    "category": "Argo / Tıbbi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Врач диагностировал у него трепак очка.",
+        "tr": "Doktor onda anal belsoğukluğu teşhisi koydu."
+      }
+    ],
+    "cultural_context": "Anal yolla bulaşan spesifik bir gonore enfeksiyonunu (гонорея анального отверстия) 'Очко' (anüs/delik) argosuyla birleştirerek anlatan sokak ve yeraltı tıbbi jargonu.",
+    "search_keywords": [
+      "anal belsoğukluğu",
+      "anal gonore",
+      "trepak ochka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трепак очка",
+        "alternateName": [
+          "Anal belsoğukluğu",
+          "Anal gonore"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Anal belsoğukluğu. Anal yolla bulaşan gonore enfeksiyonunu anlatan sokak ve yeraltı tıbbi jargonu."
+      }
+    ]
+  },
+  {
+    "word_ru": "Треугольник",
+    "word_latin": "Treugol'nik",
+    "meaning_tr": [
+      "Vajina",
+      "Am"
+    ],
+    "literal_translation_tr": "Üçgen",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У нее там аккуратный волосатый треугольник.",
+        "tr": "Orasında düzenli, kıllı bir üçgen (vajina bölgesi) var."
+      }
+    ],
+    "cultural_context": "Kadın kasık bölgesindeki (mons pubis) pubik kılların veya anatomik yapının doğal şekline dayanan görsel ve geometrik bir metaforla (пизда, влагалище) kadın cinsel organını tanımlar.",
+    "search_keywords": [
+      "vajina",
+      "am",
+      "kasık",
+      "treugolnik"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Треугольник",
+        "alternateName": [
+          "Vajina",
+          "Am"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Vajina, Am. Kadın kasık bölgesinin doğal şekline dayanan görsel ve geometrik bir metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трехэтажная матерщина",
+    "word_latin": "Trekhėtazhnaya matershchina",
+    "meaning_tr": [
+      "Çok katlı küfür",
+      "Ardı ardına ağır küfür dizisi",
+      "Ana avrat dümdüz gitme"
+    ],
+    "literal_translation_tr": "Üç katlı küfür (mat)",
+    "category": "Genel / Deyim",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Когда он ударил молотком по пальцу, раздалась трехэтажная матерщина.",
+        "tr": "Çekiçle parmağına vurduğunda, üç katlı bir küfür koptu (ana avrat dümdüz gitti)."
+      }
+    ],
+    "cultural_context": "Rus kültürüne özgü meşhur bir kavramdır. Farklı küfür kelimelerinin, din ve aile değerlerinin ('anne', 'tanrı', 'yarrak', 'am' vb.) çok karmaşık, yaratıcı ve gramer açısından birbiri içine geçmiş uzun bir yapıda (длинный мат) art arda sıralanmasıdır.",
+    "search_keywords": [
+      "çok katlı küfür",
+      "ağır küfür dizisi",
+      "ana avrat düz gitme",
+      "trekhetazhnaya matershchina"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трехэтажная матерщина",
+        "alternateName": [
+          "Çok katlı küfür",
+          "Ardı ardına ağır küfür dizisi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Çok katlı küfür. Farklı küfür kelimelerinin çok karmaşık, yaratıcı ve birbiri içine geçmiş uzun bir yapıda art arda sıralanmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трещина",
+    "word_latin": "Treshchina",
+    "meaning_tr": [
+      "Vajina",
+      "Am",
+      "Yarık"
+    ],
+    "literal_translation_tr": "Çatlak / Yarık",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Попал прямо в трещину.",
+        "tr": "Tam çatlağa (amın içine) denk getirdi."
+      }
+    ],
+    "cultural_context": "Düz anlamda duvardaki veya yerdeki çatlak demektir. Kadın cinsel organının dudak yapısını ve açıklığını tasvir eden kaba, görsel bir argodur (пизда).",
+    "search_keywords": [
+      "vajina",
+      "am",
+      "yarık",
+      "treshchina"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трещина",
+        "alternateName": [
+          "Vajina",
+          "Am",
+          "Yarık"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Vajina, Am. Çatlak anlamına gelen kelimenin kadın cinsel organının şeklini tasvir eden görsel bir argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Три пера",
+    "word_latin": "Tri pera",
+    "meaning_tr": [
+      "Belsoğukluğu",
+      "Gonore"
+    ],
+    "literal_translation_tr": "Üç tüy",
+    "category": "Argo / Kelime Oyunu / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Лежит в больнице, лечит три пера.",
+        "tr": "Hastanede yatıyor, belsoğukluğunu (üç tüyünü) tedavi ettiriyor."
+      }
+    ],
+    "cultural_context": "Tıbbi terim olan 'Триппер' (Tripper - Gonore) kelimesine fonetik benzerliğinden ('Tri pera' - üç tüy) dolayı uydurulmuş şifreli ve mizahi bir argodur.",
+    "search_keywords": [
+      "belsoğukluğu",
+      "gonore",
+      "tri pera"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Три пера",
+        "alternateName": [
+          "Belsoğukluğu",
+          "Gonore"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Belsoğukluğu. Gonore (Tripper) kelimesine fonetik benzerliği nedeniyle türetilmiş şifreli ve mizahi bir argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Триппер",
+    "word_latin": "Tripper",
+    "meaning_tr": [
+      "Belsoğukluğu",
+      "Gonore"
+    ],
+    "literal_translation_tr": "Damlamak (Almanca 'tropfen' kökünden)",
+    "category": "Genel / Tıbbi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Триппер — это опасная венерическая болезнь.",
+        "tr": "Belsoğukluğu (tripper), tehlikeli bir zührevi hastalıktır."
+      }
+    ],
+    "cultural_context": "Almanca kökenli bir kelime olup, Rusçada cinsel yolla bulaşan zührevi hastalık olan Gonore'nin (гонорея) en yaygın tıbbi ve yarı-resmi adıdır. Akıntı/damlama semptomuna atfen isimlendirilmiştir.",
+    "search_keywords": [
+      "belsoğukluğu",
+      "gonore",
+      "zührevi hastalık",
+      "tripper"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Триппер",
+        "alternateName": [
+          "Belsoğukluğu",
+          "Gonore"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Belsoğukluğu, Gonore. Cinsel yolla bulaşan gonore hastalığının Rusçadaki en yaygın yarı-resmi ve tıbbi adıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Триппер-бар",
+    "word_latin": "Tripper-bar",
+    "meaning_tr": [
+      "Zührevi hastalıklar dispanseri",
+      "Belsoğukluğu kliniği"
+    ],
+    "literal_translation_tr": "Belsoğukluğu barı",
+    "category": "Argo / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Вам, батенька, прямая дорога в триппер-бар.",
+        "tr": "Senin doğrudan zührevi hastalıklar dispanserine (belsoğukluğu barına) gitmen lazım dostum."
+      }
+    ],
+    "cultural_context": "Deri ve zührevi hastalıkların (кожно-венерологический диспансер) teşhis ve tedavi edildiği sağlık merkezlerini alaycı bir şekilde barlara, eğlence mekanlarına benzeten ironik argodur.",
+    "search_keywords": [
+      "zührevi hastalıklar dispanseri",
+      "belsoğukluğu kliniği",
+      "tripper-bar"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Триппер-бар",
+        "alternateName": [
+          "Zührevi hastalıklar dispanseri",
+          "Belsoğukluğu kliniği"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zührevi hastalıklar kliniği. Deri ve zührevi hastalıkların tedavi edildiği merkezleri alaycı bir şekilde barlara benzeten ironik argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трипперный",
+    "word_latin": "Trippernyy",
+    "meaning_tr": [
+      "Belsoğukluğu hastası",
+      "Gonoreli"
+    ],
+    "literal_translation_tr": "Belsoğukluklu",
+    "category": "Genel / Tıbbi Argo",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Он лежал в отделении для трипперных больных.",
+        "tr": "Belsoğukluğu hastaları (gonoreliler) koğuşunda yatıyordu."
+      }
+    ],
+    "cultural_context": "Tripper (Gonore) hastalığı taşıyan kişiyi niteleyen ve tıbbi/gündelik dilde kullanılan doğrudan bir sıfattır (больной гонореей).",
+    "search_keywords": [
+      "belsoğukluğu hastası",
+      "gonoreli",
+      "trippernyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трипперный",
+        "alternateName": [
+          "Belsoğukluğu hastası",
+          "Gonoreli"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Belsoğukluğu hastası. Gonore hastalığı taşıyan kişiyi niteleyen gündelik ve tıbbi bir sıfattır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Триппер-дача",
+    "word_latin": "Tripper-dacha",
+    "meaning_tr": [
+      "Zührevi hastalıklar hastanesi",
+      "Cinsel hastalıklar kliniği"
+    ],
+    "literal_translation_tr": "Belsoğukluğu yazlığı (Daçası)",
+    "category": "Argo / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Месяц отдыхал на триппер-даче после курорта.",
+        "tr": "Tatilden sonra bir ay zührevi hastalıklar hastanesinde (belsoğukluğu yazlığında) yattı."
+      }
+    ],
+    "cultural_context": "Tıpkı 'Tripper-bar' gibi, deri ve zührevi hastalıklar (кожно-венерологическая больница) hastanesinde yatılı tedavi görme sürecini, Rus kırsal yazlıkları olan 'daça'lara benzeten esprili ve alaycı argodur.",
+    "search_keywords": [
+      "zührevi hastalıklar hastanesi",
+      "cinsel hastalıklar kliniği",
+      "tripper-dacha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Триппер-дача",
+        "alternateName": [
+          "Zührevi hastalıklar hastanesi",
+          "Cinsel hastalıklar kliniği"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zührevi hastalıklar hastanesi. Yatılı zührevi hastalıklar tedavisini Rus kırsal yazlıklarına (daça) benzeten alaycı argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трипперок",
+    "word_latin": "Tripperok",
+    "meaning_tr": [
+      "Ufak belsoğukluğu",
+      "Hafif gonore"
+    ],
+    "literal_translation_tr": "Küçük belsoğukluğu",
+    "category": "Argo / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Подхватил легкий трипперок на вечеринке.",
+        "tr": "Partide ufak bir belsoğukluğu (hafif gonore) kapmış."
+      }
+    ],
+    "cultural_context": "'Триппер' kelimesinin küçültme ve şefkat eki (-ok) almış halidir. Hastalığın ciddiyetini hafife almak, şaka yollu geçiştirmek için kullanılır.",
+    "search_keywords": [
+      "ufak belsoğukluğu",
+      "hafif gonore",
+      "tripperok"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трипперок",
+        "alternateName": [
+          "Ufak belsoğukluğu",
+          "Hafif gonore"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ufak belsoğukluğu. Hastalığın ciddiyetini hafife almak için küçültme ekiyle oluşturulmuş şakacı kullanımdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трихомудия",
+    "word_latin": "Trikhomudiya",
+    "meaning_tr": [
+      "Zırva",
+      "Saçmalık",
+      "Ivır zıvır"
+    ],
+    "literal_translation_tr": "Triko-Taşak hastalığı",
+    "category": "Mat / Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Что это за трихомудия написана в отчете?",
+        "tr": "Raporda yazan bu saçmalık (zırva) da neyin nesi?"
+      }
+    ],
+    "cultural_context": "Tıbbi 'Trichomonas' (Trikomoniyazis enfeksiyonu) kelimesi ile 'муде' (taşak/testis) kelimesinin birleştirilmesinden uydurulmuş absürt bir ifadedir. Herhangi bir saçmalığı, anlamsız karmaşayı veya gereksiz eşyayı (ерунда, чушь) ifade eder.",
+    "search_keywords": [
+      "zırva",
+      "saçmalık",
+      "ıvır zıvır",
+      "trikhomudiya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трихомудия",
+        "alternateName": [
+          "Zırva",
+          "Saçmalık",
+          "Ivır zıvır"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zırva, Saçmalık. Tıbbi terim ve taşak kelimesinin absürt birleşimiyle saçmalığı, anlamsız karmaşayı ifade eden argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трубадурша",
+    "word_latin": "Trubadursha",
+    "meaning_tr": [
+      "Saksocu eşcinsel",
+      "Yarrak emmeyi seven gey"
+    ],
+    "literal_translation_tr": "Kadın trubadur (Halk ozanı)",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Среди зеков он был известен как трубадурша.",
+        "tr": "Mahkumlar arasında o bir kadın ozan (saksocu eşcinsel) olarak bilinirdi."
+      }
+    ],
+    "cultural_context": "Ortaçağ Avrupa'sındaki gezici müzisyen/ozan anlamına gelen (boru/nefesli çalgı çalan) 'Trubadur' kelimesinin kadın formudur. Cezaevi argosunda, boruya üfleme metaforu üzerinden oral seks yapmayı seven pasif eşcinselleri (педераст, любящий сосать хуй) alaycı bir şekilde tanımlar.",
+    "search_keywords": [
+      "saksocu eşcinsel",
+      "yarrak emen gey",
+      "trubadursha"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трубадурша",
+        "alternateName": [
+          "Saksocu eşcinsel"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Saksocu eşcinsel. Nefesli çalgı çalan halk ozanı metaforuyla, oral seks yapmayı seven pasif eşcinselleri tanımlayan alaycı argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трубка",
+    "word_latin": "Trubka",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis",
+      "Boru"
+    ],
+    "literal_translation_tr": "Boru / Tüp / Telefon ahizesi",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он достал свою трубку.",
+        "tr": "Borusunu (yarrağını) çıkardı."
+      }
+    ],
+    "cultural_context": "Düz anlamda boru veya telefon ahizesi demektir. Silindirik şeklinden ötürü erkek cinsel organı (хуй) için kullanılan çok sayıdaki nesne metaforlarından biridir.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "boru",
+      "trubka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трубка",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Silindirik şeklinden ötürü erkek cinsel organı için kullanılan boru/tüp metaforudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трубочист",
+    "word_latin": "Trubochist",
+    "meaning_tr": [
+      "Aktif eşcinsel erkek"
+    ],
+    "literal_translation_tr": "Baca temizleyicisi",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В тюрьме таких называют трубочистами.",
+        "tr": "Hapishanede böylelerine baca temizleyicisi (aktif eşcinsel) derler."
+      }
+    ],
+    "cultural_context": "Uzun ve kirli bir borunun (bağırsağın/anüsün) içine girip çıkma işlemini (baca temizlemeyi), erkek erkeğe anal seksteki aktif rol alan kişiyle (активный педераст) eşleştiren son derece kaba ve betimsel bir cezaevi argosudur.",
+    "search_keywords": [
+      "aktif eşcinsel",
+      "trubochist"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трубочист",
+        "alternateName": [
+          "Aktif eşcinsel erkek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif eşcinsel erkek. Baca temizleme metaforu üzerinden, erkek erkeğe ilişkide aktif rolü anlatan betimsel cezaevi argosudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Труханина, Трухня",
+    "word_latin": "Trukhanina, Trukhnya",
+    "meaning_tr": [
+      "Sperm",
+      "Döl"
+    ],
+    "literal_translation_tr": "Toz, Döküntü, Çer çöp",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Вся простыня в его труханине.",
+        "tr": "Bütün çarşaf onun dölü (çer çöpü) içinde."
+      }
+    ],
+    "cultural_context": "Düz anlamda çürümüş odundan düşen toz, moloz veya talaş (труха) demektir. Erkek menisini (сперма) tanımlamak için kullanılan, sıvıyı değersiz ve iğrenç bir döküntüye benzeten kaba bir argodur.",
+    "search_keywords": [
+      "sperm",
+      "döl",
+      "trukhanina",
+      "trukhnya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Труханина, Трухня",
+        "alternateName": [
+          "Sperm",
+          "Döl"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sperm, Döl. Çürümüş ağaç tozu/talaş kelimesinden türeyen, erkek menisini değersiz bir döküntüye benzeten argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трухать",
+    "word_latin": "Trukhat'",
+    "meaning_tr": [
+      "Otuzbir çekmek",
+      "Mastürbasyon yapmak"
+    ],
+    "literal_translation_tr": "Silkelemek / Serpmek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он пошел в туалет трухать.",
+        "tr": "Tuvalete otuzbir çekmeye (silkelemeye) gitti."
+      }
+    ],
+    "cultural_context": "Bir nesneyi silkelemek, çırpmak veya üzerindeki tozu/talaşı düşürmek (трусить/труха) fiilinden türemiştir. Mastürbasyon eylemindeki ritmik el hareketini (заниматься онанизмом) tasvir eden argodur.",
+    "search_keywords": [
+      "otuzbir çekmek",
+      "mastürbasyon yapmak",
+      "trukhat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трухать",
+        "alternateName": [
+          "Otuzbir çekmek",
+          "Mastürbasyon yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Otuzbir çekmek. Bir nesneyi silkelemek/çırpmak eyleminin mastürbasyondaki el hareketini tasvir etmesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Трухнуть на ляжки",
+    "word_latin": "Trukhnut' na lyazhki",
+    "meaning_tr": [
+      "Erken boşalmak",
+      "Bacaklara boşalmak",
+      "Hemen attırmak"
+    ],
+    "literal_translation_tr": "Uyluklara/Bacaklara silkeleyivermek",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Не успел начать, как трухнул на ляжки.",
+        "tr": "Daha başlayamadan (erken) bacaklara boşalıverdi."
+      }
+    ],
+    "cultural_context": "'Трухать' (silkelemek/mastürbasyon yapmak) fiilinin anlık formu ile bacaklar kelimesinin birleşimidir. Cinsel ilişki tam başlamadan veya çok erken bir aşamada erkeğin kontrolünü kaybedip spermini dışarı, bacaklara boşaltmasını (быстро спустить) esprili ve biraz da alaycı şekilde ifade eder.",
+    "search_keywords": [
+      "erken boşalmak",
+      "bacaklara boşalmak",
+      "hemen attırmak",
+      "trukhnut na lyazhki"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Трухнуть на ляжки",
+        "alternateName": [
+          "Erken boşalmak",
+          "Bacaklara boşalmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Erken boşalmak. Cinsel ilişki tam başlamadan erkeğin kontrolünü kaybedip dışarı boşalmasını esprili şekilde ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туды вашу (его, твою) мать",
+    "word_latin": "Tudy vashu (yego, tvoyu) mat'",
+    "meaning_tr": [
+      "Sizin (onun, senin) ananızı öyle yapayım",
+      "Anasını satayım"
+    ],
+    "literal_translation_tr": "Sizin/onun/senin ananızı oraya (yapayım)",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Туды вашу мать, что вы наделали!",
+        "tr": "Ananızı öyle yapayım (anasını satayım), ne yaptınız siz!"
+      }
+    ],
+    "cultural_context": "'Еби вашу мать' (ananızı sikeyim) küfrünün yumuşatılmış, eylemin 'oraya yapmak' şeklinde gizlendiği sansürlü (euphemistic) halidir.",
+    "search_keywords": [
+      "ananızı öyle yapayım",
+      "anasını satayım",
+      "tudy vashu mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туды вашу (его, твою) мать",
+        "alternateName": [
+          "Sizin ananızı öyle yapayım",
+          "Anasını satayım"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ananızı öyle yapayım. 'Ananızı sikeyim' küfrünün eyleminin gizlendiği yumuşatılmış, sansürlü halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туды его в дышло",
+    "word_latin": "Tudy yego v dyshlo",
+    "meaning_tr": [
+      "Onun o biçim içine edeyim",
+      "Allah belasını versin"
+    ],
+    "literal_translation_tr": "Onu oraya çeki okuna (sallayayım)",
+    "category": "Deyim / Eufemizm",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Да туды его в дышло, этот мотор опять сломался!",
+        "tr": "Allah belasını versin (onun o biçim içine edeyim), bu motor yine bozuldu!"
+      }
+    ],
+    "cultural_context": "At arabalarındaki 'çeki oku' (дышло) metaforu kullanılarak, ağır bir küfrün komik ve zararsız bir şekilde sansürlenmesidir. İlginç ve eski moda bir şaşkınlık/kızgınlık nidasıdır.",
+    "search_keywords": [
+      "içine edeyim",
+      "allah belasını versin",
+      "tudy yego v dyshlo"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туды его в дышло",
+        "alternateName": [
+          "Onun o biçim içine edeyim",
+          "Allah belasını versin"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Onun içine edeyim, Allah belasını versin. At arabalarındaki çeki oku metaforu kullanılarak türetilmiş sansürlü bir küfür nidasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туды ее в качель",
+    "word_latin": "Tudy yeye v kachel'",
+    "meaning_tr": [
+      "Hay anasını satayım",
+      "Vay anasına"
+    ],
+    "literal_translation_tr": "Onu oraya salıncağa (sallayayım)",
+    "category": "Deyim / Eufemizm",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Туды ее в качель, опоздали на поезд!",
+        "tr": "Hay anasını satayım, trene geç kaldık!"
+      }
+    ],
+    "cultural_context": "Ünlü 'On İki Sandalye' (İlf ve Petrov) romanındaki karakter Bezençuk'un meşhur ettiği, küfür yerine kullanılan absürt, komik ve kültleşmiş bir şaşkınlık/kızgınlık ünlemidir.",
+    "search_keywords": [
+      "hay anasını satayım",
+      "vay anasına",
+      "tudy yeye v kachel"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туды ее в качель",
+        "alternateName": [
+          "Hay anasını satayım",
+          "Vay anasına"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hay anasını satayım. 'On İki Sandalye' romanıyla meşhur olmuş, küfür yerine kullanılan absürt bir şaşkınlık ünlemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тудыть твою мать",
+    "word_latin": "Tudyt' tvoyu mat'",
+    "meaning_tr": [
+      "Ananı öyle yapayım",
+      "Anasını satayım"
+    ],
+    "literal_translation_tr": "Senin ananı oraya yapmak",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Тудыть твою мать, вот это цены!",
+        "tr": "Anasını satayım, bu nasıl fiyatlar!"
+      }
+    ],
+    "cultural_context": "'Ебут твою мать' veya 'Ёб твою мать' küfrünün 'tuda' (oraya) kelimesinden türetilen anlamsız ve yumuşak bir fiille (tudyt') sansürlenmiş halidir.",
+    "search_keywords": [
+      "ananı öyle yapayım",
+      "anasını satayım",
+      "tudyt tvoyu mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тудыть твою мать",
+        "alternateName": [
+          "Ananı öyle yapayım",
+          "Anasını satayım"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ananı öyle yapayım. Ağır bir ana küfrünün anlamsız bir fiille sansürlenmiş ve yumuşatılmış halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тудыть вас перетудыть",
+    "word_latin": "Tudyt' vas peretudyt'",
+    "meaning_tr": [
+      "Sizi o biçim yapayım",
+      "Allah kahretsin sizi"
+    ],
+    "literal_translation_tr": "Sizi oraya ve de tekrar oraya (yapayım)",
+    "category": "Eufemizm / Örtmece",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Тудыть вас перетудыть, лентяи!",
+        "tr": "Sizi o biçim yapayım (Allah kahretsin sizi), tembeller!"
+      }
+    ],
+    "cultural_context": "'Ебать вас переебать' (Sizi defalarca sikeyim) şeklindeki çok ağır bir küfrün kafiyeli ve oldukça eğlenceli bir şekilde sansürlenmiş halidir.",
+    "search_keywords": [
+      "sizi o biçim yapayım",
+      "allah kahretsin sizi",
+      "tudyt vas peretudyt"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тудыть вас перетудыть",
+        "alternateName": [
+          "Sizi o biçim yapayım",
+          "Allah kahretsin sizi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sizi o biçim yapayım. Sizi defalarca sikeyim küfrünün kafiyeli ve eğlenceli bir şekilde sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туз",
+    "word_latin": "Tuz",
+    "meaning_tr": [
+      "Göt deliği",
+      "Anüs"
+    ],
+    "literal_translation_tr": "As (İskambil kağıdı)",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Получить пинок в туз.",
+        "tr": "Göt deliğine tekmeyi yemek."
+      }
+    ],
+    "cultural_context": "İskambil destesinde 'as' (kupa ası, maça ası) anlamına gelen kelimenin, kartın ortasındaki tekli işaretin şeklinden yola çıkarak anüs deliği için kullanıldığı bir metafordur.",
+    "search_keywords": [
+      "göt deliği",
+      "anüs",
+      "tuz"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туз",
+        "alternateName": [
+          "Göt deliği",
+          "Anüs"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt deliği, Anüs. İskambil kağıdı asının ortasındaki işaretten yola çıkarak anüs için kullanılan metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туз червонный",
+    "word_latin": "Tuz chervonnyy",
+    "meaning_tr": [
+      "Meşhur eşcinsel (Pasif)",
+      "Adı çıkmış gey"
+    ],
+    "literal_translation_tr": "Kupa ası",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "В камере он был как туз червонный.",
+        "tr": "Koğuşta o kupa ası (meşhur pasif eşcinsel) gibiydi."
+      }
+    ],
+    "cultural_context": "'Kupa' (черви) kırmızıyı, kalbi ve tutkuyu sembolize eder. Cezaevi argosunda eşcinsel (çoğunlukla pasif) ve bu özelliğiyle herkes tarafından tanınan mahkumlar için kullanılan şifreli bir terimdir.",
+    "search_keywords": [
+      "meşhur eşcinsel",
+      "adı çıkmış gey",
+      "tuz chervonnyy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туз червонный",
+        "alternateName": [
+          "Meşhur eşcinsel",
+          "Adı çıkmış gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Meşhur eşcinsel. Cezaevi argosunda pasifliğiyle tanınan eşcinsel mahkumlar için kupa ası metaforuyla kullanılan şifreli terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Туркать",
+    "word_latin": "Turkat'",
+    "meaning_tr": [
+      "Otuzbir çekmek",
+      "Mastürbasyon yapmak"
+    ],
+    "literal_translation_tr": "Dürtmek / Kurcalamak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Сидит дома и туркает целыми днями.",
+        "tr": "Evde oturup bütün gün otuzbir çekiyor (kurcalıyor)."
+      }
+    ],
+    "cultural_context": "Düz anlamda birini sürekli ve ritmik olarak dürtmek veya rahatsız etmek demektir. Bu ritmik hareket üzerinden mastürbasyon eylemini (онанировать) betimlemek için kullanılır.",
+    "search_keywords": [
+      "otuzbir çekmek",
+      "mastürbasyon yapmak",
+      "turkat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Туркать",
+        "alternateName": [
+          "Otuzbir çekmek",
+          "Mastürbasyon yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Otuzbir çekmek. Sürekli dürtmek anlamına gelen fiilin ritmik hareketinden dolayı mastürbasyonu betimlemesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тухлая вена",
+    "word_latin": "Tukhlaya vena",
+    "meaning_tr": [
+      "Kokuşmuş am",
+      "İğrenç vajina"
+    ],
+    "literal_translation_tr": "Kokuşmuş / Çürük damar",
+    "category": "Argo / Hakaret / Anatomi",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Не стоит даже прикасаться к этой тухлой вене.",
+        "tr": "Bu kokuşmuş damara (iğrenç vajinaya) dokunmaya bile değmez."
+      }
+    ],
+    "cultural_context": "Kadın cinsel organını (влагалище) son derece aşağılayıcı, nesneleştirici ve iğrençleştirici bir şekilde (kokuşmuş çürük damar) tanımlayan, daha çok yeraltı dünyasına ait ağır bir argodur.",
+    "search_keywords": [
+      "kokuşmuş am",
+      "iğrenç vajina",
+      "tukhlaya vena"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тухлая вена",
+        "alternateName": [
+          "Kokuşmuş am",
+          "İğrenç vajina"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kokuşmuş am. Kadın cinsel organını son derece aşağılayıcı ve iğrençleştirici bir şekilde tanımlayan ağır argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тяни-толкай",
+    "word_latin": "Tyani-tolkay",
+    "meaning_tr": [
+      "Lezbiyenlerin 69 pozisyonu",
+      "Karşılıklı am yalama"
+    ],
+    "literal_translation_tr": "Çek-İt (Efsanevi çift başlı hayvan)",
+    "category": "Argo / Cinsel / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Девушки устроили настоящий тяни-толкай в номере.",
+        "tr": "Kızlar otel odasında tam bir 'çek-it' (karşılıklı oral/69) yaptılar."
+      }
+    ],
+    "cultural_context": "'Doktor Aybolit' (Dr. Dolittle'ın Rus versiyonu) masalındaki, bir ucu çeken diğer ucu iten efsanevi iki başlı hayvan olan 'Tyani-Tolkay' (Çek-İt) üzerinden, lezbiyenlerin karşılıklı cunnilingus yapmasını (69 pozisyonu) tanımlayan esprili argodur.",
+    "search_keywords": [
+      "lezbiyenlerin 69 pozisyonu",
+      "karşılıklı am yalama",
+      "tyani-tolkay"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тяни-толкай",
+        "alternateName": [
+          "Lezbiyenlerin 69 pozisyonu",
+          "Karşılıklı am yalama"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lezbiyenlerin 69 pozisyonu. Masallardaki iki başlı efsanevi hayvan 'Çek-İt' metaforuyla lezbiyenlerin karşılıklı cunnilingus yapmasını tanımlar."
+      }
+    ]
+  },
+  {
+    "word_ru": "Тянуть",
+    "word_latin": "Tyanut'",
+    "meaning_tr": [
+      "Sikmek",
+      "Cinsel ilişkiye girmek"
+    ],
+    "literal_translation_tr": "Çekmek / Uzatmak",
+    "category": "Argo / Cinsel",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он собирается тянуть её всю ночь.",
+        "tr": "Onu bütün gece sikmeyi planlıyor."
+      }
+    ],
+    "cultural_context": "Temel anlamı çekmek, uzatmak veya bir işi sündürmektir. Argo bağlamında (muhtemelen uzun, yorucu ve ritmik bir eylem olması üzerinden) cinsel ilişkiye girmeyi (ебать) ifade eder.",
+    "search_keywords": [
+      "sikmek",
+      "cinsel ilişkiye girmek",
+      "tyanut"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Тянуть",
+        "alternateName": [
+          "Sikmek",
+          "Cinsel ilişkiye girmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikmek. Temel anlamı çekmek veya uzatmak olan fiilin, uzun ve ritmik eylem metaforuyla cinsel ilişkiyi ifade etmesidir."
+      }
+    ]
+  }
+]

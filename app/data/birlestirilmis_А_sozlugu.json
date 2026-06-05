@@ -1,0 +1,1072 @@
+[
+  {
+    "word_ru": "Аборт",
+    "word_latin": "Abort",
+    "meaning_tr": [
+      "Kürtaj",
+      "Düşük"
+    ],
+    "literal_translation_tr": "Kürtaj",
+    "category": "Tıbbi / Genel",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Она решила сделать аборт.",
+        "tr": "Kürtaj yaptırmaya karar verdi."
+      }
+    ],
+    "cultural_context": "Gebeliğin erken sonlandırılması veya düşük anlamına gelen standart tıbbi terimdir.",
+    "search_keywords": [
+      "kürtaj",
+      "düşük",
+      "abort"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Аборт",
+        "alternateName": [
+          "Kürtaj",
+          "Düşük"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kürtaj, Düşük. Gebeliğin erken sonlandırılmasını ifade eden standart tıbbi terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Аботаж",
+    "word_latin": "Abortazh",
+    "meaning_tr": [
+      "Kürtaj"
+    ],
+    "literal_translation_tr": "Kürtaj",
+    "category": "Argo / Tıbbi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "В клинике делают абортаж.",
+        "tr": "Klinikte kürtaj yapıyorlar."
+      }
+    ],
+    "cultural_context": "Fransızca '-age' ekine benzetilerek kelimenin hafifçe argolaştırılmış (jargon) halidir.",
+    "search_keywords": [
+      "kürtaj",
+      "abortazh"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Аботаж",
+        "alternateName": [
+          "Kürtaj"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kürtaj. Abort kelimesinin hafifçe argolaştırılmış halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Абортмахер",
+    "word_latin": "Abortmakher",
+    "meaning_tr": [
+      "Merdiven altı kürtajcı",
+      "Yasadışı kürtaj yapan kişi"
+    ],
+    "literal_translation_tr": "Kürtaj yapıcı",
+    "category": "Suç Argosu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Её отвезли к подпольному абортмахеру.",
+        "tr": "Onu merdiven altı bir kürtajcıya götürdüler."
+      }
+    ],
+    "cultural_context": "Almanca 'macher' (yapan/edici) ekinin eklenmesiyle türetilmiştir. Özellikle yasadışı (kriminal) ve gizli yollarla kürtaj işlemi yapan doktor veya kişileri tanımlar.",
+    "search_keywords": [
+      "merdiven altı kürtajcı",
+      "yasadışı kürtaj",
+      "abortmakher"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Абортмахер",
+        "alternateName": [
+          "Merdiven altı kürtajcı",
+          "Yasadışı kürtaj yapan kişi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Merdiven altı kürtajcı. Yasadışı yollarla kürtaj yapan kişileri tanımlayan argo terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Абортировать",
+    "word_latin": "Abortirovat'",
+    "meaning_tr": [
+      "Kürtaj yapmak",
+      "Gebeligi sonlandırmak"
+    ],
+    "literal_translation_tr": "Kürtaj etmek",
+    "category": "Tıbbi / Genel",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Врачи решили абортировать плод.",
+        "tr": "Doktorlar fetüsü kürtaj etmeye karar verdiler."
+      }
+    ],
+    "cultural_context": "Kürtaj işlemini gerçekleştirmek anlamına gelen standart tıbbi fiildir.",
+    "search_keywords": [
+      "kürtaj yapmak",
+      "abortirovat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Абортировать",
+        "alternateName": [
+          "Kürtaj yapmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kürtaj yapmak. Kürtaj işlemini gerçekleştirmek anlamına gelen tıbbi fiildir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Абортница",
+    "word_latin": "Abortnitsa",
+    "meaning_tr": [
+      "Sürekli kürtaj olan kadın"
+    ],
+    "literal_translation_tr": "Kürtajcı kadın",
+    "category": "Argo / Aşağılama",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Среди медсестер её прозвали абортницей.",
+        "tr": "Hemşireler arasında ona sürekli kürtaj olan kadın adını taktılar."
+      }
+    ],
+    "cultural_context": "Korunma yöntemlerini kullanmayan ve bu nedenle çok sık kürtaj yaptıran kadınları kınamak ve aşağılamak için kullanılan argodur.",
+    "search_keywords": [
+      "sürekli kürtaj olan kadın",
+      "abortnitsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Абортница",
+        "alternateName": [
+          "Sürekli kürtaj olan kadın"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sürekli kürtaj olan kadın. Çok sık kürtaj yaptıran kadınları kınamak için kullanılan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Автограф",
+    "word_latin": "Avtograf",
+    "meaning_tr": [
+      "Bok yığını",
+      "Pislik"
+    ],
+    "literal_translation_tr": "İmza",
+    "category": "Argo / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Собака оставила свой автограф на ковре.",
+        "tr": "Köpek halının üstüne kendi imzasını (bok yığınını) bırakmış."
+      }
+    ],
+    "cultural_context": "Bir insanın veya hayvanın uluorta yere bıraktığı dışkıyı (bok yığınını), 'kişiye özel bir iz/imza' bırakmakla bağdaştıran esprili bir sokak argosudur.",
+    "search_keywords": [
+      "bok yığını",
+      "imza",
+      "avtograf"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Автограф",
+        "alternateName": [
+          "Bok yığını",
+          "Pislik"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Bok yığını. Uluorta yere bırakılan dışkıyı esprili bir şekilde 'imza' olarak nitelendiren argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Авторитет",
+    "word_latin": "Avtoritet",
+    "meaning_tr": [
+      "Yarrak",
+      "Malafat"
+    ],
+    "literal_translation_tr": "Otorite",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он решил показать свой авторитет.",
+        "tr": "Kendi otoritesini (malafatını) göstermeye karar verdi."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını, ataerkil bir 'güç, söz hakkı ve otorite' sembolü olarak gören mizahi ve ironik bir benzetmedir.",
+    "search_keywords": [
+      "yarrak",
+      "malafat",
+      "otorite",
+      "avtoritet"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Авторитет",
+        "alternateName": [
+          "Yarrak",
+          "Malafat"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Malafat. Erkek cinsel organını güç ve otorite sembolü olarak gören mizahi benzetmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Агрегат",
+    "word_latin": "Agregat",
+    "meaning_tr": [
+      "Malafat",
+      "Yarrak",
+      "Alet"
+    ],
+    "literal_translation_tr": "Makine / Cihaz / Agrega",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "У него в штанах серьезный агрегат.",
+        "tr": "Pantolonunda ciddi bir makine (malafat) var."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını, işleyen, pompa görevi gören mekanik bir 'makine'ye veya 'cihaza' benzeten yaygın ve mizahi bir argodur.",
+    "search_keywords": [
+      "malafat",
+      "alet",
+      "yarrak",
+      "agregat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Агрегат",
+        "alternateName": [
+          "Malafat",
+          "Alet"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Malafat, Alet. Erkek organını işleyen bir makineye benzeten yaygın mekanik metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Агрессор",
+    "word_latin": "Agressor",
+    "meaning_tr": [
+      "Sübyancı",
+      "Çocuk tecavüzcüsü"
+    ],
+    "literal_translation_tr": "Saldırgan",
+    "category": "Suç Argosu",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "В камере сидел один агрессор.",
+        "tr": "Hücrede bir çocuk tecavüzcüsü (saldırgan) yatıyordu."
+      }
+    ],
+    "cultural_context": "Cezaevi jargonunda (Fenya) reşit olmayanlara cinsel istismarda bulunanları (pedofilleri) tanımlar. Bu tür suçlular hapishane hiyerarşisinde en alt tabakada yer alır.",
+    "search_keywords": [
+      "sübyancı",
+      "çocuk tecavüzcüsü",
+      "agressor"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Агрессор",
+        "alternateName": [
+          "Sübyancı",
+          "Çocuk tecavüzcüsü"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sübyancı. Cezaevi jargonunda reşit olmayanlara cinsel istismarda bulunan mahkumları tanımlar."
+      }
+    ]
+  },
+  {
+    "word_ru": "Аккумуляторы",
+    "word_latin": "Akkumulyatory",
+    "meaning_tr": [
+      "Taşaklar",
+      "Testisler"
+    ],
+    "literal_translation_tr": "Aküler / Bataryalar",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ему ударили прямо по аккумуляторам.",
+        "tr": "Ona tam akülerinden (taşaklarından) vurdular."
+      }
+    ],
+    "cultural_context": "Erkek testislerini, 'enerji ve güç (sperm) depolayan' mekanik piller/aküler olarak gören esprili bir benzetmedir.",
+    "search_keywords": [
+      "taşaklar",
+      "testisler",
+      "akkumulyatory"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Аккумуляторы",
+        "alternateName": [
+          "Taşaklar",
+          "Testisler"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklar, Testisler. Erkek testislerini enerji depolayan akülere benzeten esprili metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Акробат",
+    "word_latin": "Akrobat",
+    "meaning_tr": [
+      "Pasif gey",
+      "Esnek (Kinayeli)"
+    ],
+    "literal_translation_tr": "Akrobat",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Он оказался тем ещё акробатом.",
+        "tr": "O da tam bir akrobat (pasif gey) çıktı."
+      }
+    ],
+    "cultural_context": "Eşcinsel ilişkilerde pasif rolde olan kişilerin çeşitli fiziksel pozisyonlara girmesine atıfta bulunarak alaycı bir şekilde türetilmiş sözcüktür.",
+    "search_keywords": [
+      "pasif gey",
+      "akrobat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Акробат",
+        "alternateName": [
+          "Pasif gey"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif gey. Cinsel ilişkide girilen pozisyonlara atıfta bulunarak pasif eşcinselleri tanımlayan argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Актив",
+    "word_latin": "Aktiv",
+    "meaning_tr": [
+      "Aktif gey",
+      "Tokmakçı"
+    ],
+    "literal_translation_tr": "Aktif",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "В их паре он выступает как актив.",
+        "tr": "İlişkilerinde o aktif (tokmakçı) taraf olarak rol alıyor."
+      }
+    ],
+    "cultural_context": "Eşcinsel ilişkide penetrasyonu gerçekleştiren (aktif) tarafı belirten standart argo ve alt kültür kelimesidir.",
+    "search_keywords": [
+      "aktif gey",
+      "aktiv"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Актив",
+        "alternateName": [
+          "Aktif gey",
+          "Tokmakçı"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Aktif gey. Eşcinsel ilişkide aktif rol oynayan tarafı belirten standart argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Анал",
+    "word_latin": "Anal",
+    "meaning_tr": [
+      "Anüs",
+      "Anal seks"
+    ],
+    "literal_translation_tr": "Anal",
+    "category": "Tıbbi / Anatomi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Они предпочитают анал.",
+        "tr": "Onlar anal (seks) tercih ediyorlar."
+      }
+    ],
+    "cultural_context": "Tıbbi olarak anüs bölgesini ifade etmesinin yanı sıra, günlük dilde anal seksi kısaltmak için de yaygın olarak kullanılır.",
+    "search_keywords": [
+      "anüs",
+      "anal seks",
+      "anal"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Анал",
+        "alternateName": [
+          "Anüs",
+          "Anal seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Anüs, Anal seks. Anüs bölgesini ve günlük dilde anal seksi ifade etmek için kullanılan kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Анальное отверстие",
+    "word_latin": "Anal'noye otverstiye",
+    "meaning_tr": [
+      "Anüs açıklığı",
+      "Göt deliği"
+    ],
+    "literal_translation_tr": "Anal delik",
+    "category": "Tıbbi / Anatomi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Врач осмотрел анальное отверстие.",
+        "tr": "Doktor anal açıklığı muayene etti."
+      }
+    ],
+    "cultural_context": "Makatın / göt deliğinin tıbbi ve bilimsel adıdır. Argodaki karşılığı 'дырка' veya 'очко' olarak geçer.",
+    "search_keywords": [
+      "anüs açıklığı",
+      "göt deliği",
+      "analnoye otverstiye"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Анальное отверстие",
+        "alternateName": [
+          "Anüs açıklığı",
+          "Göt deliği"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Anüs açıklığı. Makatın veya göt deliğinin standart tıbbi ve bilimsel adıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Анальный секс",
+    "word_latin": "Anal'nyy seks",
+    "meaning_tr": [
+      "Anal seks",
+      "Götten sikiş"
+    ],
+    "literal_translation_tr": "Anal seks",
+    "category": "Genel / Cinsel",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Они практиковали анальный секс.",
+        "tr": "Anal seks (götten sikiş) yapıyorlardı."
+      }
+    ],
+    "cultural_context": "Anüs yoluyla gerçekleşen cinsel ilişkinin resmi ve genel dildeki standart ifadesidir.",
+    "search_keywords": [
+      "anal seks",
+      "analnyy seks"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Анальный секс",
+        "alternateName": [
+          "Anal seks"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Anal seks. Anüs yoluyla gerçekleşen cinsel ilişkinin standart dildeki ifadesidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Аноним",
+    "word_latin": "Anonim",
+    "meaning_tr": [
+      "Otuzbirci",
+      "Mastürbasyon yapan"
+    ],
+    "literal_translation_tr": "Anonim (Bilinmeyen)",
+    "category": "Argo / Kelime Oyunu",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Сидит там этот аноним.",
+        "tr": "Şu otuzbirci orada oturuyor."
+      }
+    ],
+    "cultural_context": "Rusçada 'онанист' (onanist - mastürbasyon yapan) kelimesiyle 'аноним' (anonim) kelimesi arasındaki fonetik (ses) benzerliğinden türetilmiş mizahi bir kelime oyunudur.",
+    "search_keywords": [
+      "otuzbirci",
+      "mastürbasyon yapan",
+      "anonim"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Аноним",
+        "alternateName": [
+          "Otuzbirci",
+          "Mastürbasyon yapan"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Otuzbirci. Onanist kelimesi ile fonetik benzerliğinden ötürü üretilmiş mizahi bir kelime oyunudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ансамбль",
+    "word_latin": "Ansambl'",
+    "meaning_tr": [
+      "Gey grubu",
+      "İbneler topluluğu"
+    ],
+    "literal_translation_tr": "Müzik grubu / Ansambl",
+    "category": "Argo / Homoseksüel Jargonu",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Весь их ансамбль собрался в клубе.",
+        "tr": "Bütün gey grupları (ansambl) kulüpte toplandı."
+      }
+    ],
+    "cultural_context": "Eşcinsel erkeklerin oluşturduğu kalabalık arkadaş gruplarını veya topluluklarını alaycı bir şekilde müzik/sanat topluluğuna (ensemble) benzeterek tanımlar.",
+    "search_keywords": [
+      "gey grubu",
+      "ibneler topluluğu",
+      "ansambl"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ансамбль",
+        "alternateName": [
+          "Gey grubu",
+          "İbneler topluluğu"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Gey grubu. Eşcinsel erkek gruplarını alaycı bir şekilde sanat topluluğuna benzeterek tanımlar."
+      }
+    ]
+  },
+  {
+    "word_ru": "Антихрист",
+    "word_latin": "Antikhrist",
+    "meaning_tr": [
+      "Yarrak",
+      "Penis"
+    ],
+    "literal_translation_tr": "Deccal",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Достал он своего антихриста.",
+        "tr": "Kendi Deccal'ini (yarrağını) çıkardı."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını, 'günahın kaynağı, baştan çıkarıcı ve kötülüğün simgesi' gibi dini bir motifle (Deccal) isimlendiren eski veya ironik bir argodur.",
+    "search_keywords": [
+      "yarrak",
+      "penis",
+      "deccal",
+      "antikhrist"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Антихрист",
+        "alternateName": [
+          "Yarrak",
+          "Penis"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Penis. Erkek organını günahın kaynağı gibi görüp Deccal motifiyle isimlendiren ironik argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Анус",
+    "word_latin": "Anus",
+    "meaning_tr": [
+      "Anüs",
+      "Göt"
+    ],
+    "literal_translation_tr": "Anüs",
+    "category": "Tıbbi / Anatomi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Боли в области ануса.",
+        "tr": "Anüs (göt) bölgesinde ağrılar."
+      }
+    ],
+    "cultural_context": "Rektumun dışa açılan kısmının resmi tıbbi Latince kökenli karşılığıdır. Küfürlü değildir ancak bağlama göre kaba kullanılabilir.",
+    "search_keywords": [
+      "anüs",
+      "göt",
+      "anus"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Анус",
+        "alternateName": [
+          "Anüs",
+          "Göt"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Anüs. Rektumun dışa açılan kısmının resmi tıbbi karşılığıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "А ну тебя в пизду",
+    "word_latin": "A nu tebya v pizdu",
+    "meaning_tr": [
+      "Siktir git",
+      "Amın dibine kadar yolun var",
+      "Benden uzak dur"
+    ],
+    "literal_translation_tr": "Haydi sen ama (git)",
+    "category": "Mat / Deyim",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "А ну тебя в пизду с твоими советами!",
+        "tr": "Tavsiyelerinle birlikte siktir git amın dibine!"
+      }
+    ],
+    "cultural_context": "Karşı tarafın saçmaladığını, sıktığını belirterek onu ofansif bir şekilde reddetmek, kovmak ve uzaklaştırmak için kullanılan ağır küfürdür.",
+    "search_keywords": [
+      "siktir git",
+      "amın dibine",
+      "a nu tebya v pizdu"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "А ну тебя в пизду",
+        "alternateName": [
+          "Siktir git",
+          "Benden uzak dur"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Siktir git. Karşı tarafı ofansif bir şekilde reddetmek ve kovmak için kullanılan küfürdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "А ну тебя к ёбаной матери",
+    "word_latin": "A nu tebya k yobanoy materi",
+    "meaning_tr": [
+      "Siktir git ananın amına kadar",
+      "Canı cehenneme"
+    ],
+    "literal_translation_tr": "Haydi sen sikilmiş anneye (git)",
+    "category": "Mat / Deyim",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Надоел уже, а ну тебя к ёбаной матери!",
+        "tr": "Artık bıktırdın, siktir git ananın amına kadar (canın cehenneme)!"
+      }
+    ],
+    "cultural_context": "Rusçadaki en ağır, en keskin ve agresif kovma beddualarından biridir. Karşıdaki kişiden tamamen bıktığını ve onu hayatından çıkardığını belirtir.",
+    "search_keywords": [
+      "siktir git",
+      "canı cehenneme",
+      "a nu tebya k yobanoy materi"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "А ну тебя к ёбаной матери",
+        "alternateName": [
+          "Siktir git ananın amına kadar",
+          "Canı cehenneme"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Siktir git, Canı cehenneme. En ağır ve agresif kovma beddualarından biri olup kişiden tamamen bıktığını belirtir."
+      }
+    ]
+  },
+  {
+    "word_ru": "А ну тебя на хуй",
+    "word_latin": "A nu tebya na khuy",
+    "meaning_tr": [
+      "Siktir git",
+      "Siktir ordan"
+    ],
+    "literal_translation_tr": "Haydi sen yarrağa (git)",
+    "category": "Mat / Deyim",
+    "severity_level": 5,
+    "examples": [
+      {
+        "ru": "Я не буду это делать, а ну тебя на хуй.",
+        "tr": "Bunu yapmayacağım, siktir git ordan."
+      }
+    ],
+    "cultural_context": "En popüler 'иди на хуй' (siktir git) kovma eyleminin alternatif bir kalıbıdır. Bıkkınlık ve reddetme bildirir.",
+    "search_keywords": [
+      "siktir git",
+      "siktir ordan",
+      "a nu tebya na khuy"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "А ну тебя на хуй",
+        "alternateName": [
+          "Siktir git",
+          "Siktir ordan"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Siktir git. İdi na khuy kalıbının alternatif bir kovma ve reddetme versiyonudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Аппарат",
+    "word_latin": "Apparat",
+    "meaning_tr": [
+      "Malafat",
+      "Yarrak"
+    ],
+    "literal_translation_tr": "Aparat / Cihaz",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "С таким аппаратом можно не волноваться.",
+        "tr": "Böyle bir aparatla (malafatla) endişe etmeye gerek yok."
+      }
+    ],
+    "cultural_context": "Tıpkı 'agregat' veya 'şlang' gibi erkek cinsel organını işleyen bir alet/mekanizma olarak nesneleştiren argodur.",
+    "search_keywords": [
+      "malafat",
+      "yarrak",
+      "apparat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Аппарат",
+        "alternateName": [
+          "Malafat",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Malafat, Yarrak. Erkek cinsel organını işleyen bir alet olarak nesneleştiren argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Арматурина",
+    "word_latin": "Armaturina",
+    "meaning_tr": [
+      "Yarrak",
+      "Demir (Penis)"
+    ],
+    "literal_translation_tr": "İnşaat demiri",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У него стояла настоящая арматурина.",
+        "tr": "Onda resmen bir inşaat demiri (dimdik yarrak) dikiliyordu."
+      }
+    ],
+    "cultural_context": "Erekte olmuş erkek cinsel organının sertliğini, düzlüğünü ve dayanıklılığını kalın bir inşaat demirine (armatür) benzeten görsel bir metafordur.",
+    "search_keywords": [
+      "yarrak",
+      "demir",
+      "armaturina"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Арматурина",
+        "alternateName": [
+          "Yarrak",
+          "Demir"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Yarrak, Demir. Erekte olmuş organın sertliğini inşaat demirine benzeten görsel metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Армянская королева",
+    "word_latin": "Armyanskaya koroleva",
+    "meaning_tr": [
+      "Pasif gey",
+      "Göt veren"
+    ],
+    "literal_translation_tr": "Ermeni kraliçesi",
+    "category": "Suç Argosu / Homoseksüel Jargonu",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "В этой камере он играл роль армянской королевы.",
+        "tr": "Bu hücrede o Ermeni kraliçesi (pasif gey) rolünü oynuyordu."
+      }
+    ],
+    "cultural_context": "Cezaevi jargonunda (fenya) uydurulmuş ırkçı ve homofobik bir şifredir. Hapishanede eşcinsel ilişkide pasif rolde olan (feminen) kişiyi tanımlar.",
+    "search_keywords": [
+      "pasif gey",
+      "göt veren",
+      "armyanskaya koroleva"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Армянская королева",
+        "alternateName": [
+          "Pasif gey",
+          "Göt veren"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Pasif gey. Cezaevi jargonunda eşcinsel ilişkide pasif rolde olan kişiyi tanımlayan şifreli terimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Армячок",
+    "word_latin": "Armyachok",
+    "meaning_tr": [
+      "Prezervatif",
+      "Kondom"
+    ],
+    "literal_translation_tr": "Köylü paltosu",
+    "category": "Argo",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Не забудь надеть армячок.",
+        "tr": "Köylü paltosunu (prezervatifi) takmayı unutma."
+      }
+    ],
+    "cultural_context": "Eski Rus köylülerinin giydiği bir tür kaban/palto olan 'armyakh' kelimesinin küçültme halidir. Penisi 'saran, giydiren ve koruyan' bir kıyafet mantığıyla kondom için kullanılır.",
+    "search_keywords": [
+      "prezervatif",
+      "kondom",
+      "armyachok"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Армячок",
+        "alternateName": [
+          "Prezervatif",
+          "Kondom"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Prezervatif. Penisi saran bir kıyafet mantığıyla köylü paltosu kelimesinin kondom için kullanılmasıdır."
+      }
+    ]
+  },
+  {
+    "word_ru": "Архамудия",
+    "word_latin": "Arkhamudiya",
+    "meaning_tr": [
+      "Zırva",
+      "Saçmalık",
+      "Taşak muhabbeti"
+    ],
+    "literal_translation_tr": "Mudi (Taşak) kökünden uydurma",
+    "category": "Argo",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Вся эта история — полная архамудия.",
+        "tr": "Bu hikayenin tamamı resmen bir zırva (taşak muhabbeti)."
+      }
+    ],
+    "cultural_context": "'Муди' (Mudi - taşaklar) kelimesinden türetilen anlamsız, fonetik olarak komik bir kelimedir. Söylenen bir şeyin tamamen asılsız, gereksiz ve absürt olduğunu belirtir.",
+    "search_keywords": [
+      "zırva",
+      "saçmalık",
+      "taşak muhabbeti",
+      "arkhamudiya"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Архамудия",
+        "alternateName": [
+          "Zırva",
+          "Saçmalık",
+          "Taşak muhabbeti"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Zırva, Saçmalık. Taşaklar kelimesinden türetilen ve asılsız, absürt durumları belirten argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Афедрон",
+    "word_latin": "Afedron",
+    "meaning_tr": [
+      "Göt",
+      "Kıç",
+      "Oturak"
+    ],
+    "literal_translation_tr": "Oturak (Yunanca'dan)",
+    "category": "Eski Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Он получил пинок в афедрон.",
+        "tr": "Kıçına (oturak yerine) bir tekme yedi."
+      }
+    ],
+    "cultural_context": "Antik Yunanca (aphedron - tuvalet/oturak) kökenli edebi ve eskimiş bir kelimedir. Günümüzde mizahi, ironik veya entelektüel görünmeye çalışan bir 'göt' argosudur.",
+    "search_keywords": [
+      "göt",
+      "kıç",
+      "afedron"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Афедрон",
+        "alternateName": [
+          "Göt",
+          "Kıç"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Göt, Kıç. Yunanca oturak kelimesinden gelen ve entelektüel bir argo olarak kullanılan kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "А хуй его знает",
+    "word_latin": "A khuy yego znayet",
+    "meaning_tr": [
+      "Sikim bilir",
+      "Kim bilir",
+      "Ben ne bileyim"
+    ],
+    "literal_translation_tr": "Yarrak onu bilir",
+    "category": "Mat / Deyim",
+    "severity_level": 4,
+    "examples": [
+      {
+        "ru": "Где он сейчас? — А хуй его знает.",
+        "tr": "O şimdi nerede? — Sikim bilir (ben ne bileyim)."
+      }
+    ],
+    "cultural_context": "Bir şeyin bilinmediğini veya sorulan sorunun cevabının hiçbir şekilde umursanmadığını ifade eden Rusçanın en popüler kaba/küfürlü deyimidir.",
+    "search_keywords": [
+      "sikim bilir",
+      "kim bilir",
+      "a khuy yego znayet"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "А хуй его знает",
+        "alternateName": [
+          "Sikim bilir",
+          "Kim bilir"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikim bilir. Bir şeyin bilinmediğini veya umursanmadığını ifade eden çok popüler küfürlü deyimdir."
+      }
+    ]
+  }
+]

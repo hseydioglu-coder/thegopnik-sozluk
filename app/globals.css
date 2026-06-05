@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('/fonts/Ethnocentric-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@import "tailwindcss";
+
+/* Ana zemin ve metin rengini garantiye alıyoruz */
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+/* Seçili metnin neon kırmızı ve beyaz olması */
+::selection {
+  background-color: #FF2A2A;
+  color: #ffffff;
+}
+
+/* Arama çubuğundaki gereksiz çarpı işaretlerini gizler */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

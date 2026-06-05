@@ -1,0 +1,759 @@
+[
+  {
+    "word_ru": "Ягодица",
+    "word_latin": "Yagoditsa",
+    "meaning_tr": [
+      "Kalça lobu",
+      "Kaba et"
+    ],
+    "literal_translation_tr": "Kaba etin yarısı",
+    "category": "Genel / Anatomi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "Укол делают в правую ягодицу.",
+        "tr": "İğne sağ kalça lobuna yapılır."
+      }
+    ],
+    "cultural_context": "İnsan kalçasının her bir yarısını (lobunu) ifade eden standart tıbbi ve günlük kelimedir.",
+    "search_keywords": [
+      "kalça lobu",
+      "kaba et",
+      "yagoditsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ягодица",
+        "alternateName": [
+          "Kalça lobu",
+          "Kaba et"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kalça lobu. Kalçanın her bir yarısını ifade eden standart kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядрёна мать",
+    "word_latin": "Yadryona mat'",
+    "meaning_tr": [
+      "Lanet olsun",
+      "Vay anasını"
+    ],
+    "literal_translation_tr": "Güçlü / Sağlam anne",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ядрёна мать, опять опоздали!",
+        "tr": "Vay anasını (lanet olsun), yine geciktik!"
+      }
+    ],
+    "cultural_context": "Çok ağır bir küfür olan 'Ебёна мать' (Sikik anne) ifadesinin, sesteş ve zararsız 'Ядрёная' (sağlam/güçlü) kelimesiyle yumuşatılmış en popüler sansürlü hallerinden biridir.",
+    "search_keywords": [
+      "lanet olsun",
+      "vay anasını",
+      "yadryona mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядрёна мать",
+        "alternateName": [
+          "Lanet olsun",
+          "Vay anasını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lanet olsun, Vay anasını. 'Yebyona mat' küfrünün yumuşatılmış ve sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядрёна мышь",
+    "word_latin": "Yadryona mysh'",
+    "meaning_tr": [
+      "Hay aksi",
+      "Vay canına"
+    ],
+    "literal_translation_tr": "Güçlü fare",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ядрёна мышь, ну и погодка сегодня!",
+        "tr": "Vay canına (hay aksi), bugünkü havaya da bak!"
+      }
+    ],
+    "cultural_context": "Tıpkı 'Ядрёна мать' gibi, ağır bir küfrü absürt ve komik bir benzetmeyle (fare) yumuşatarak şaşkınlık veya hafif sinir belirtmek için kullanılır.",
+    "search_keywords": [
+      "hay aksi",
+      "vay canına",
+      "yadryona mysh"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядрёна мышь",
+        "alternateName": [
+          "Hay aksi",
+          "Vay canına"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Hay aksi. Ağır bir küfrü absürt bir fare benzetmesiyle yumuşatan şaşkınlık ünlemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядрёна палка",
+    "word_latin": "Yadryona palka",
+    "meaning_tr": [
+      "Vay be",
+      "Hay anasını"
+    ],
+    "literal_translation_tr": "Güçlü sopa",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ядрёна палка, вот это цены!",
+        "tr": "Hay anasını satayım, fiyatlara bak!"
+      }
+    ],
+    "cultural_context": "'Ебёна мать' veya 'Ёлки-палки' tarzı küfürlerin/ünlemlerin birleşimiyle oluşmuş, oldukça zararsız ve yaygın bir şaşkınlık ünlemidir.",
+    "search_keywords": [
+      "vay be",
+      "hay anasını",
+      "yadryona palka"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядрёна палка",
+        "alternateName": [
+          "Vay be",
+          "Hay anasını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Vay be, Hay anasını. Küfürlerin yerini tutan zararsız ve yaygın bir şaşkınlık ünlemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядрёне-фене",
+    "word_latin": "Yadryone-fene",
+    "meaning_tr": [
+      "Cehennemin dibine",
+      "Canı cehenneme"
+    ],
+    "literal_translation_tr": "Yadryona-fenya'ya (Kafiyeli uydurma kelime)",
+    "category": "Eufemizm / Deyim",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Выбрось это к ядрёне-фене!",
+        "tr": "Bunu cehennemin dibine fırlat at!"
+      }
+    ],
+    "cultural_context": "'К ебене матери' (Anasının amına / Cehennemin dibine) şeklindeki ağır küfrün, kafiyeli ve komik bir kelime oyunuyla tamamen sansürlenmiş halidir.",
+    "search_keywords": [
+      "cehennemin dibine",
+      "canı cehenneme",
+      "yadryone-fene"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядрёне-фене",
+        "alternateName": [
+          "Cehennemin dibine",
+          "Canı cehenneme"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Cehennemin dibine. 'K yebene materi' küfrünün kafiyeli ve komik bir kelime oyunuyla sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядрёны лапти",
+    "word_latin": "Yadryony lapti",
+    "meaning_tr": [
+      "Vay anasını",
+      "Yok artık"
+    ],
+    "literal_translation_tr": "Sağlam çarıklar",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ядрёны лапти, как же я устал!",
+        "tr": "Vay anasını, ne kadar yoruldum!"
+      }
+    ],
+    "cultural_context": "Geleneksel Rus köylü ayakkabısı olan 'Lapti' ile yapılan, şaşkınlık veya yorgunluk anında küfür yerine kullanılan folklorik ve şakacı bir ünlemdir.",
+    "search_keywords": [
+      "vay anasını",
+      "yok artık",
+      "yadryony lapti"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядрёны лапти",
+        "alternateName": [
+          "Vay anasını",
+          "Yok artık"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Vay anasını. Geleneksel çarık kelimesiyle yapılan folklorik ve şakacı bir şaşkınlık ünlemidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядри его в качалку",
+    "word_latin": "Yadri yego v kachalku",
+    "meaning_tr": [
+      "Canı cehenneme",
+      "Kahretsin"
+    ],
+    "literal_translation_tr": "Çekirdeği beşiğe / sallanan sandalyeye vur",
+    "category": "Eufemizm / Deyim",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Сломался телевизор, ядри его в качалку!",
+        "tr": "Televizyon bozuldu, canı cehenneme (kahretsin)!"
+      }
+    ],
+    "cultural_context": "'Еби его...' (Onu sikeyim) ile başlayan agresif küfür kalıplarının, ses benzerliği olan 'Yadro' (Çekirdek) ve uydurma nesnelerle değiştirilerek sansürlenmiş argo formudur.",
+    "search_keywords": [
+      "canı cehenneme",
+      "kahretsin",
+      "yadri yego v kachalku"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядри его в качалку",
+        "alternateName": [
+          "Canı cehenneme",
+          "Kahretsin"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Canı cehenneme, Kahretsin. 'Yebi yego' ile başlayan küfür kalıplarının ses benzerliğiyle sansürlenmiş halidir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ядри ее мать",
+    "word_latin": "Yadri yeye mat'",
+    "meaning_tr": [
+      "Lanet olsun",
+      "Hay anasını"
+    ],
+    "literal_translation_tr": "Onun annesinin çekirdeği",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Ядри ее мать, опять дождь пошел.",
+        "tr": "Hay anasını satayım, yine yağmur başladı."
+      }
+    ],
+    "cultural_context": "'Еби ее мать' (Anasını sikeyim) küfrünün yumuşatılmış ve halk arasında çok sık kullanılan sansürlü versiyonudur.",
+    "search_keywords": [
+      "lanet olsun",
+      "hay anasını",
+      "yadri yeye mat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ядри ее мать",
+        "alternateName": [
+          "Lanet olsun",
+          "Hay anasını"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Lanet olsun. 'Yebi yeye mat' küfrünün yumuşatılmış ve sık kullanılan sansürlü versiyonudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Язви",
+    "word_latin": "Yazvi",
+    "meaning_tr": [
+      "Sikeyim",
+      "Kahretsin"
+    ],
+    "literal_translation_tr": "Yara aç / Zehirle",
+    "category": "Eufemizm / Ünlem",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Язви тебя, куда ты лезешь?",
+        "tr": "Kahretsin seni (sikeyim), nereye dalıyorsun?"
+      }
+    ],
+    "cultural_context": "Düz anlamda ülser (yazva) veya yara/zehir açmak demektir. 'Еби' (Sik) eyleminin yerine hem ses benzerliği hem de kötülük dileme metaforu olarak kullanılan eski bir örtmecedir.",
+    "search_keywords": [
+      "sikeyim",
+      "kahretsin",
+      "yazvi"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Язви",
+        "alternateName": [
+          "Sikeyim",
+          "Kahretsin"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Sikeyim, Kahretsin. 'Yebi' (Sik) eyleminin yerine kötülük dileme metaforu olarak kullanılan eski bir örtmecedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Язви его душу",
+    "word_latin": "Yazvi yego dushu",
+    "meaning_tr": [
+      "Ruhunu sikeyim",
+      "Canı cehenneme",
+      "Geçmişini sikeyim"
+    ],
+    "literal_translation_tr": "Ruhunu zehirlesin / yaralasın",
+    "category": "Eufemizm / Beddua",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Опять он всё испортил, язви его душу!",
+        "tr": "Yine her şeyi mahvetti, ruhunu sikeyim onun!"
+      }
+    ],
+    "cultural_context": "'Еби его душу' (Ruhunu sikeyim) şeklindeki son derece ağır ve dindar toplumda tabu olan bir bedduanın ('yebi' yerine 'yazvi' kullanılarak) yumuşatılmış formudur.",
+    "search_keywords": [
+      "ruhunu sikeyim",
+      "canı cehenneme",
+      "yazvi yego dushu"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Язви его душу",
+        "alternateName": [
+          "Ruhunu sikeyim",
+          "Canı cehenneme"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Ruhunu sikeyim. 'Yebi yego dushu' şeklindeki ağır bedduanın yumuşatılmış formudur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Яичко",
+    "word_latin": "Yaichko",
+    "meaning_tr": [
+      "Testis",
+      "Erbezi"
+    ],
+    "literal_translation_tr": "Küçük yumurta",
+    "category": "Genel / Tıbbi",
+    "severity_level": 1,
+    "examples": [
+      {
+        "ru": "У мальчика одно яичко не опустилось.",
+        "tr": "Çocuğun bir testisi inmemiş."
+      }
+    ],
+    "cultural_context": "'Яйцо' (Yumurta) kelimesinin küçültme ekli halidir. Hem tıbbi alanda hem de günlük hayatta testisleri (erbezlerini) nitelemek için standart olarak kullanılır.",
+    "search_keywords": [
+      "testis",
+      "erbezi",
+      "yaichko"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Яичко",
+        "alternateName": [
+          "Testis",
+          "Erbezi"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Testis. Hem tıbbi hem de günlük hayatta erbezlerini nitelemek için kullanılan standart kelimedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Сделать яичницу",
+    "word_latin": "Sdelat' yaichnitsu",
+    "meaning_tr": [
+      "Taşaklarına vurmak",
+      "Taşaklarını ezmek"
+    ],
+    "literal_translation_tr": "Omlet yapmak",
+    "category": "Argo / Şiddet",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Если не отстанешь, я тебе яичницу сделаю.",
+        "tr": "Eğer peşimi bırakmazsan senin taşaklarını ezerim (sana omlet yaparım)."
+      }
+    ],
+    "cultural_context": "Erkeklik organına (testislere) çok sert bir tekme atıp onlara zarar vermeyi 'omlet yapmak' metaforuyla betimleyen esprili ancak can yakıcı bir tehdittir.",
+    "search_keywords": [
+      "taşaklarına vurmak",
+      "taşaklarını ezmek",
+      "sdelat yaichnitsu"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Сделать яичницу",
+        "alternateName": [
+          "Taşaklarına vurmak",
+          "Taşaklarını ezmek"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklarına vurmak. Testislere sert bir tekme atıp zarar vermeyi 'omlet yapmak' metaforuyla betimleyen tehdittir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Яйца",
+    "word_latin": "Yaytsa",
+    "meaning_tr": [
+      "Taşaklar",
+      "Testisler",
+      "Toplar"
+    ],
+    "literal_translation_tr": "Yumurtalar",
+    "category": "Argo / Anatomi",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Мне по яйцам ударили.",
+        "tr": "Benim taşaklarıma vurdular."
+      }
+    ],
+    "cultural_context": "Düz anlamı 'yumurtalar' olsa da, argoda doğrudan ve en yaygın şekilde erkek testislerini ifade etmek için kullanılır. İngilizcedeki 'balls' kelimesiyle birebir aynı kullanıma sahiptir.",
+    "search_keywords": [
+      "taşaklar",
+      "testisler",
+      "yaytsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Яйца",
+        "alternateName": [
+          "Taşaklar",
+          "Testisler"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklar, Testisler. Düz anlamı yumurtalar olan kelimenin argoda doğrudan testisleri ifade etmesi."
+      }
+    ]
+  },
+  {
+    "word_ru": "Взять за яйца",
+    "word_latin": "Vzyat' za yaytsa",
+    "meaning_tr": [
+      "Taşaklarından yakalamak",
+      "Köşeye sıkıştırmak",
+      "Zorla yaptırmak"
+    ],
+    "literal_translation_tr": "Yumurtalarından (taşaklarından) tutmak",
+    "category": "Argo / Deyim",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Они взяли его за яйца, и он во всем признался.",
+        "tr": "Onu taşaklarından yakaladılar (köşeye sıkıştırdılar) ve o her şeyi itiraf etti."
+      }
+    ],
+    "cultural_context": "Bir kişiyi en hassas noktasından yakalayarak (şantaj, tehdit veya baskı yoluyla) bir şeye mecbur bırakmayı, tam bir hakimiyet kurmayı ifade eden deyimdir.",
+    "search_keywords": [
+      "taşaklarından yakalamak",
+      "köşeye sıkıştırmak",
+      "zorla yaptırmak",
+      "vzyat za yaytsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Взять за яйца",
+        "alternateName": [
+          "Taşaklarından yakalamak",
+          "Köşeye sıkıştırmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklarından yakalamak, Köşeye sıkıştırmak. Bir kişiyi hassas noktasından yakalayarak bir şeye mecbur bırakmayı ifade eder."
+      }
+    ]
+  },
+  {
+    "word_ru": "Морочить яйца",
+    "word_latin": "Morochit' yaytsa",
+    "meaning_tr": [
+      "Kafa sikmek",
+      "Taşak geçmek",
+      "Oyalamak"
+    ],
+    "literal_translation_tr": "Yumurtaları (taşakları) bulandırmak / oyalamak",
+    "category": "Argo / Deyim",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Хватит мне яйца морочить, говори прямо!",
+        "tr": "Kafamı sikmeyi (beni oyalamayı/taşak geçmeyi) bırak, doğrudan söyle!"
+      }
+    ],
+    "cultural_context": "'Морочить голову' (Kafa karıştırmak / Oyalamak) deyiminin çok daha kaba ve argo versiyonudur. Birinin boş laflarla zaman çalmasını veya yalan söyleyerek oyalamasını belirtir.",
+    "search_keywords": [
+      "kafa sikmek",
+      "taşak geçmek",
+      "oyalamak",
+      "morochit yaytsa"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Морочить яйца",
+        "alternateName": [
+          "Kafa sikmek",
+          "Taşak geçmek",
+          "Oyalamak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Kafa sikmek, Oyalamak. Birinin boş laflarla zaman çalmasını veya yalanla oyalamasını belirten kaba deyimdir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Яйца чесать",
+    "word_latin": "Yaytsa chesat'",
+    "meaning_tr": [
+      "Taşak kaşımak",
+      "Boş boş oturmak",
+      "Aylaklık etmek"
+    ],
+    "literal_translation_tr": "Taşakları kaşımak",
+    "category": "Argo / Deyim",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Весь день сидит на диване и яйца чешет.",
+        "tr": "Bütün gün kanepede oturuyor ve taşak kaşıyor (boş boş oturuyor)."
+      }
+    ],
+    "cultural_context": "Hiçbir iş yapmadan, aşırı rahat ve tembel bir şekilde zaman geçirmeyi ifade eden görsel ve çok yaygın bir sokak argosudur.",
+    "search_keywords": [
+      "taşak kaşımak",
+      "boş boş oturmak",
+      "aylaklık etmek",
+      "yaytsa chesat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Яйца чесать",
+        "alternateName": [
+          "Taşak kaşımak",
+          "Boş boş oturmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşak kaşımak, Boş boş oturmak. Hiçbir iş yapmadan tembel bir şekilde zaman geçirmeyi ifade eden yaygın argodur."
+      }
+    ]
+  },
+  {
+    "word_ru": "Слону яйца качать",
+    "word_latin": "Slonu yaytsa kachat'",
+    "meaning_tr": [
+      "Havanda su dövmek",
+      "Boş işlerle uğraşmak"
+    ],
+    "literal_translation_tr": "Filin taşaklarını sallamak",
+    "category": "Argo / Deyim / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Это не работа, а слону яйца качать.",
+        "tr": "Bu bir iş değil, havanda su dövmek (boş işle uğraşmak)."
+      }
+    ],
+    "cultural_context": "Tamamen faydasız, anlamsız, zaman kaybı olan ve hiçbir pratik sonuç doğurmayacak eylemlerle meşgul olmayı betimleyen son derece absürt bir metafordur.",
+    "search_keywords": [
+      "havanda su dövmek",
+      "boş işlerle uğraşmak",
+      "slonu yaytsa kachat"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Слону яйца качать",
+        "alternateName": [
+          "Havanda su dövmek",
+          "Boş işlerle uğraşmak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Havanda su dövmek. Tamamen faydasız ve sonuçsuz eylemlerle meşgul olmayı betimleyen absürt metafordur."
+      }
+    ]
+  },
+  {
+    "word_ru": "С яйцами",
+    "word_latin": "S yaytsami",
+    "meaning_tr": [
+      "Taşaklı",
+      "Cesur",
+      "Karakterli"
+    ],
+    "literal_translation_tr": "Yumurtalı (Taşaklı)",
+    "category": "Argo / Övgü",
+    "severity_level": 2,
+    "examples": [
+      {
+        "ru": "Этот парень с яйцами, он не сдастся.",
+        "tr": "Bu çocuk taşaklı biri, pes etmeyecek."
+      },
+      {
+        "ru": "Она женщина с яйцами.",
+        "tr": "O taşaklı (çok güçlü/karakterli) bir kadındır."
+      }
+    ],
+    "cultural_context": "Bir kişinin (erkek veya kadın fark etmeksizin) cesur, iradeli, kararlı ve zorluklar karşısında dik durabilen bir karaktere sahip olduğunu belirten yaygın bir övgüdür.",
+    "search_keywords": [
+      "taşaklı",
+      "cesur",
+      "karakterli",
+      "s yaytsami"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "С яйцами",
+        "alternateName": [
+          "Taşaklı",
+          "Cesur"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Taşaklı, Cesur. Bir kişinin cesur, iradeli ve güçlü bir karaktere sahip olduğunu belirten yaygın övgüdür."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ялда, Ялдак",
+    "word_latin": "Yalda, Yaldak",
+    "meaning_tr": [
+      "Malafat",
+      "Yarrak",
+      "Koca alet"
+    ],
+    "literal_translation_tr": "Yalda / Yaldak (Argo türetme)",
+    "category": "Argo / Anatomi",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "У него в штанах здоровенная ялда.",
+        "tr": "Onun pantolonunda kocaman bir malafat var."
+      }
+    ],
+    "cultural_context": "Erkek cinsel organını (özellikle iri olanını) ifade eden, kökeni eski argolara veya yerel ağızlara dayanan spesifik bir isimlendirmedir.",
+    "search_keywords": [
+      "malafat",
+      "yarrak",
+      "yalda",
+      "yaldak"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ялда, Ялдак",
+        "alternateName": [
+          "Malafat",
+          "Yarrak"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Malafat, Yarrak. Erkek cinsel organını ifade eden ve genellikle büyük boyutu vurgulayan spesifik argo isimlendirmedir."
+      }
+    ]
+  },
+  {
+    "word_ru": "Ялдометр",
+    "word_latin": "Yaldometr",
+    "meaning_tr": [
+      "Koca yarrak",
+      "Metrelik malafat"
+    ],
+    "literal_translation_tr": "Yarrak-metre",
+    "category": "Argo / Anatomi / Mizah",
+    "severity_level": 3,
+    "examples": [
+      {
+        "ru": "Да у него там целый ялдометр.",
+        "tr": "Onda resmen metrelik bir malafat (koca yarrak) var."
+      }
+    ],
+    "cultural_context": "'Ялда' (yarrak) ve 'метр' (metre) kelimelerinin birleşimiyle oluşturulmuş; çok uzun, devasa boyuttaki bir erkek cinsel organını abartılı ve mizahi bir şekilde tanımlar.",
+    "search_keywords": [
+      "koca yarrak",
+      "metrelik malafat",
+      "yaldometr"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Ялдометр",
+        "alternateName": [
+          "Koca yarrak",
+          "Metrelik malafat"
+        ],
+        "inLanguage": "ru",
+        "inDefinedTermSet": "https://www.thegopnik.com",
+        "description": "Anlamı: Koca yarrak. Yalda ve metre kelimelerinin birleşimiyle devasa boyuttaki erkek organını abartılı şekilde tanımlar."
+      }
+    ]
+  }
+]
