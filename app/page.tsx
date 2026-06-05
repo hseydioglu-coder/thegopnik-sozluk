@@ -167,32 +167,40 @@ export default function Home() {
 
         {/* Sonuç Listesi */}
 {results.length > 0 && (
-  <div className="w-full max-w-lg px-4 text-left space-y-4 mb-12">
+  <div className="w-full max-w-3xl px-4 text-left space-y-6 mb-12 mx-auto">
     {results.map((item: any, index: number) => (
-      <div key={index} className="p-5 rounded-xl bg-[#1F1F1F] border border-[#222] shadow-md">
-        <div className="flex justify-between items-start mb-2">
-          {/* 1. Değişiklik: Okunuşu hemen altında parantez içinde */}
+      <div key={index} className="p-8 rounded-2xl bg-[#1a1a1a] border border-[#333] shadow-2xl">
+        <div className="flex justify-between items-start mb-6">
           <div className="flex flex-col">
-            <h3 className="text-xl font-bold text-white">{item.word_ru}</h3>
-            <span className="text-sm text-gray-500 font-mono">({item.word_latin})</span>
+            <h3 className="text-3xl font-black text-white">{item.word_ru}</h3>
+            <span className="text-lg text-gray-400 font-mono mt-1">({item.word_latin})</span>
           </div>
-          
-          <span className="text-[10px] px-2 py-0.5 rounded bg-[#C61010]/20 text-[#C61010] border border-[#C61010]/30 font-bold">
+          <span className="text-xs px-3 py-1 rounded bg-[#C61010]/10 text-[#C61010] border border-[#C61010]/30 font-bold uppercase tracking-wider">
             Seviye: {item.severity_level}
           </span>
         </div>
 
-        {/* 2. Değişiklik: Kültürel Açıklama başlığı */}
-        <p className="text-sm text-gray-300 mb-3">
-          <span className="text-xs text-[#C61010] font-bold block mb-0.5">Kültürel Açıklama:</span> 
-          {item.cultural_context || "Bu ifade için özel bir kültürel not bulunmuyor."}
-        </p>
+        {/* Türkçe Anlamı */}
+        <div className="mb-6">
+          <span className="text-sm text-[#C61010] font-bold uppercase tracking-widest block mb-1">Türkçe Anlamı:</span>
+          <p className="text-xl text-[#E0E0E0] font-medium leading-relaxed">
+            {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
+          </p>
+        </div>
+
+        {/* Kültürel Açıklama */}
+        <div className="mb-6">
+          <span className="text-sm text-[#C61010] font-bold uppercase tracking-widest block mb-1">Kültürel Açıklama:</span> 
+          <p className="text-lg text-gray-300 leading-relaxed italic">
+            {item.cultural_context || "Bu ifade için özel bir kültürel not bulunmuyor."}
+          </p>
+        </div>
         
-        {/* 3. Değişiklik: Örnek kutusu renkleri ve okunabilirlik */}
+        {/* Örnek Kutusu - Neon Mavi ve Kırmızı ile */}
         {item.examples && item.examples.length > 0 && (
-          <div className="p-4 bg-[#161616] rounded border border-[#333] text-sm">
-            <p className="text-[#E0E0E0] font-serif mb-2 italic">“{item.examples[0].ru}”</p>
-            <p className="text-[#A0A0A0]">→ {item.examples[0].tr}</p>
+          <div className="p-6 bg-[#0f0f0f] rounded-xl border-l-4 border-[#00d4ff] text-base">
+            <p className="text-[#00d4ff] font-bold mb-2">“{item.examples[0].ru}”</p>
+            <p className="text-[#C61010] font-semibold">→ {item.examples[0].tr}</p>
           </div>
         )}
       </div>
