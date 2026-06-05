@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from 'next/image';
 import { initializeApp, getApps } from "firebase/app";
-import { getFirestore, collection, query, where, getDocs } from "firebase/firestore";
+import { getFirestore, collection, query, getDocs } from "firebase/firestore";
 
 // Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
 const firebaseConfig = {
@@ -40,6 +40,14 @@ export default function Home() {
     },
   };
 
+  // Harf dönüştürücü: Kullanıcı Latin harfi yazarsa, doğru Rusça klasörünü bulması için
+  const latinToCyrillicMap: { [key: string]: string } = {
+    "A": "А", "B": "Б", "V": "В", "G": "Г", "D": "Д", "E": "Е", "YO": "Ё", "ZH": "Ж", 
+    "Z": "З", "I": "И", "J": "Й", "K": "К", "L": "Л", "M": "М", "N": "Н", "O": "О", 
+    "P": "П", "R": "Р", "S": "С", "T": "Т", "U": "У", "F": "Ф", "H": "Х", "C": "Ц", 
+    "CH": "Ч", "SH": "Ш", "SHCH": "Щ", "Y": "Ы", "YU": "Ю", "YA": "Я"
+  };
+
   useEffect(() => {
     async function searchWords() {
       if (searchQuery.trim() === "") {
@@ -48,14 +56,18 @@ export default function Home() {
       }
 
       const rawQuery = searchQuery.trim();
-      const firstChar = rawQuery.charAt(0).toUpperCase(); // İlk harfi büyük yap (А, Б için)
+      let firstChar = rawQuery.charAt(0).toUpperCase(); 
       
+      // Eğer Latin harfi yazıldıysa, klasörü bulabilmek için Kiril eşdeğerine çeviriyoruz
+      if (latinToCyrillicMap[firstChar]) {
+        firstChar = latinToCyrillicMap[firstChar];
+      }
+
       const searchStr = rawQuery.toLowerCase();
 
       try {
-        // Gohrega Tekniği: Sadece ilgili harfin koleksiyonuna (tablosuna) sorgu atıyoruz
-        // Firebase koleksiyon isimleri: "birlestirilmis_А_sozlugu", "birlestirilmis_Б_sozlugu" olacak
-        const collectionName = `birlestirilmis_${firstChar}_sozlugu`;
+        // İŞTE ÇÖZÜM BURADA: Firebase'deki tam adına uyması için sonuna .json eklendi
+        const collectionName = `birlestirilmis_${firstChar}_sozlugu.json`;
         const wordRef = collection(db, collectionName);
         
         const q = query(wordRef);
@@ -85,7 +97,7 @@ export default function Home() {
 
     const delayDebounceFn = setTimeout(() => {
       searchWords();
-    }, 300); // Kullanıcı yazmayı bitirdikten 300ms sonra ara (Firebase kotasını korur)
+    }, 300);
 
     return () => clearTimeout(delayDebounceFn);
   }, [searchQuery]);
@@ -116,7 +128,7 @@ export default function Home() {
           <Image alt="logogopnik.png" src="/logogopnik.png" fill className="object-contain" priority />
         </div>
         
-        {/* Başlık: +18 yerleşimi (-top-0 -right-4) */}
+        {/* Başlık */}
         <h1 className="text-3xl sm:text-4xl font-black uppercase tracking-tight text-[#C61010] pt-2">
           {lang === "tr" ? (
             <>
