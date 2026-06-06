@@ -1,9 +1,9 @@
 "use client";
-
 import { useState } from "react";
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 
+// BURAYA KENDİ GERÇEK FİREBASE ŞİFRELERİNİ YAZMAYI UNUTMA
 // Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
 const firebaseConfig = {
   apiKey: "AIzaSyBYdaNaMFJ1yheOXuuac-Aadts9RjUjTxc",
@@ -33,11 +33,11 @@ export default function SearchPage() {
       const searchStr = searchQuery.toLowerCase();
       const colRef = collection(db, "sozluk");
       const querySnapshot = await getDocs(colRef);
-      
+
       const filtered: any[] = [];
       querySnapshot.forEach((doc) => {
         const item = doc.data();
-        
+
         const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
         const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
         const matchMeaningTr = Array.isArray(item.meaning_tr)
@@ -60,61 +60,65 @@ export default function SearchPage() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white p-8">
+    <div style={{ minHeight: '100vh', backgroundColor: '#0a0a0a', color: 'white', padding: '2rem', fontFamily: 'sans-serif' }}>
+      
       {/* Arama Çubuğu */}
-      <div className="max-w-4xl mx-auto flex gap-4 mb-12 mt-10">
-        <input 
-          type="text" 
-          value={searchQuery} 
+      <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', gap: '1rem', marginBottom: '3rem', paddingTop: '2rem' }}>
+        <input
+          type="text"
+          value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Kelime ara (Rusça veya Türkçe)..." 
-          className="flex-1 p-6 bg-neutral-900 border border-neutral-700 rounded-xl text-2xl text-white focus:outline-none focus:border-cyan-400"
+          placeholder="Kelime ara (Rusça veya Türkçe)..."
+          style={{ flex: 1, padding: '1.5rem', backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '0.5rem', fontSize: '1.5rem', color: 'white' }}
         />
-        <button onClick={searchWords} className="px-12 py-6 bg-red-600 text-white font-bold rounded-xl text-2xl hover:bg-red-700 transition-colors">
+        <button
+          onClick={searchWords}
+          style={{ padding: '1.5rem 3rem', backgroundColor: '#cc0000', color: 'white', fontWeight: 'bold', borderRadius: '0.5rem', fontSize: '1.5rem', border: 'none', cursor: 'pointer' }}
+        >
           Ara
         </button>
       </div>
 
       {/* Sonuçlar */}
-      <div className="max-w-4xl mx-auto space-y-10">
+      <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
         {results.map((item: any, index: number) => (
-          <div key={index} className="p-10 bg-neutral-900 border border-neutral-800 rounded-2xl shadow-xl flex flex-col gap-6">
-            
-            {/* Rusça Kelime */}
-            <div>
-              <h2 className="text-6xl font-black text-cyan-400">
+          <div key={index} style={{ padding: '2.5rem', backgroundColor: '#141414', border: '1px solid #222', borderRadius: '1rem', boxShadow: '0 10px 25px rgba(0,0,0,0.5)' }}>
+
+            {/* Rusça Kelime (Neon Mavi) */}
+            <div style={{ marginBottom: '1.5rem' }}>
+              <h2 style={{ fontSize: '3.5rem', fontWeight: '900', color: '#00ffff', margin: 0, textShadow: '0 0 10px rgba(0,255,255,0.4)' }}>
                 {item.word_ru}
               </h2>
               {item.word_latin && (
-                <span className="text-2xl text-gray-500 mt-2 block">({item.word_latin})</span>
+                <span style={{ fontSize: '1.5rem', color: '#888', display: 'block', marginTop: '0.5rem' }}>({item.word_latin})</span>
               )}
             </div>
 
-            <hr className="border-neutral-700 my-2" />
+            <hr style={{ borderColor: '#333', margin: '1.5rem 0' }} />
 
             {/* Kök Fiil Alanı */}
             {(item.base_verb || item.base_verb_tr) && (
-              <div className="bg-black p-6 rounded-xl border border-neutral-800">
-                <span className="text-sm text-gray-400 uppercase tracking-widest block mb-2">Kök Fiil:</span>
-                {item.base_verb && <p className="text-3xl font-bold text-cyan-400">{item.base_verb}</p>}
-                {item.base_verb_tr && <p className="text-2xl font-bold text-red-500 mt-2">Anlamı: {item.base_verb_tr}</p>}
+              <div style={{ backgroundColor: '#0a0a0a', padding: '1.5rem', borderRadius: '0.5rem', border: '1px solid #333', marginBottom: '1.5rem' }}>
+                <span style={{ fontSize: '0.875rem', color: '#888', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '0.5rem' }}>Kök Fiil:</span>
+                {item.base_verb && <p style={{ fontSize: '2rem', fontWeight: 'bold', color: '#00ffff', margin: 0 }}>{item.base_verb}</p>}
+                {item.base_verb_tr && <p style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#ff4444', margin: '0.5rem 0 0 0' }}>Anlamı: {item.base_verb_tr}</p>}
               </div>
             )}
 
-            {/* Türkçe Anlam */}
-            <div>
-              <span className="text-sm text-gray-400 uppercase tracking-widest block mb-2">Türkçe Anlamı:</span>
-              <p className="text-4xl font-bold text-red-500 leading-tight">
+            {/* Türkçe Anlam (Kırmızı) */}
+            <div style={{ marginBottom: '1.5rem' }}>
+              <span style={{ fontSize: '0.875rem', color: '#888', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '0.5rem' }}>Türkçe Anlamı:</span>
+              <p style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#ff0000', margin: 0, lineHeight: '1.2' }}>
                 {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
               </p>
             </div>
 
             {/* Örnek Cümleler */}
             {item.examples && item.examples.length > 0 && (
-              <div className="mt-4 p-8 bg-black rounded-xl border-l-4 border-cyan-400">
-                <span className="text-sm text-gray-500 uppercase tracking-widest block mb-4">Örnek Kullanım:</span>
-                <p className="text-2xl text-cyan-400 font-medium mb-3">{item.examples[0].ru}</p>
-                <p className="text-2xl text-red-500 font-medium">{item.examples[0].tr}</p>
+              <div style={{ padding: '1.5rem', backgroundColor: '#000', borderRadius: '0.5rem', borderLeft: '4px solid #00ffff', marginTop: '1.5rem' }}>
+                <span style={{ fontSize: '0.875rem', color: '#666', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '1rem' }}>Örnek Kullanım:</span>
+                <p style={{ fontSize: '1.5rem', color: '#00ffff', fontWeight: '500', margin: '0 0 0.5rem 0' }}>{item.examples[0].ru}</p>
+                <p style={{ fontSize: '1.5rem', color: '#ff4444', fontWeight: '500', margin: 0 }}>{item.examples[0].tr}</p>
               </div>
             )}
           </div>
