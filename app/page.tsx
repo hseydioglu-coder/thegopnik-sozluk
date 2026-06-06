@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, query, getDocs } from "firebase/firestore";
 
-// Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
+// Firebase Kurulumu
 const firebaseConfig = {
   apiKey: "AIzaSyBYdaNaMFJ1yheOXuuac-Aadts9RjUjTxc",
   authDomain: "thegopnik-fb24e.firebaseapp.com",
@@ -52,9 +52,7 @@ export default function Home() {
       const searchStr = searchQuery.trim().toLowerCase();
 
       try {
-        // Doğrudan yeni tekli "sozluk" koleksiyonuna bağlanıyoruz
         const wordRef = collection(db, "sozluk");
-        
         const q = query(wordRef);
         const querySnapshot = await getDocs(q);
         
@@ -64,8 +62,6 @@ export default function Home() {
           
           const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
           const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
-          
-          // Türkçe anlamı içinde arama yapıyoruz (Array veya düz metin olabilir)
           const matchMeaningTr = Array.isArray(item.meaning_tr)
             ? item.meaning_tr.some((m: string) => m?.toLowerCase().includes(searchStr))
             : item.meaning_tr?.toLowerCase().includes(searchStr);
@@ -74,7 +70,6 @@ export default function Home() {
             keyword.toLowerCase().includes(searchStr)
           );
 
-          // Eşleşme varsa listeye ekle
           if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
             filtered.push(item);
           }
@@ -95,19 +90,19 @@ export default function Home() {
   }, [searchQuery]);
 
   return (
-    <div className="min-h-screen bg-[#121212] text-[#E0E0E0] flex flex-col">
+    <div className="min-h-screen bg-[#0d0d0d] text-[#E0E0E0] flex flex-col font-sans antialiased">
       {/* Header - Dil Seçimi */}
       <header className="w-full flex justify-end p-4">
-        <div className="flex border border-[#333]">
+        <div className="flex border border-[#333] rounded overflow-hidden">
           <button 
             onClick={() => setLang("tr")} 
-            className={`px-3 py-1 text-xs font-bold transition-colors ${lang === "tr" ? "bg-[#C61010] text-white" : "bg-transparent text-[#E0E0E0]"}`}
+            className={`px-4 py-1.5 text-sm font-bold transition-colors ${lang === "tr" ? "bg-[#C61010] text-white" : "bg-[#1a1a1a] text-[#a0a0a0] hover:text-white"}`}
           >
             TR
           </button>
           <button 
             onClick={() => setLang("ru")} 
-            className={`px-3 py-1 text-xs font-bold border-l border-[#333] transition-colors ${lang === "ru" ? "bg-[#C61010] text-white" : "bg-transparent text-[#E0E0E0]"}`}
+            className={`px-4 py-1.5 text-sm font-bold border-l border-[#333] transition-colors ${lang === "ru" ? "bg-[#C61010] text-white" : "bg-[#1a1a1a] text-[#a0a0a0] hover:text-white"}`}
           >
             RU
           </button>
@@ -115,66 +110,111 @@ export default function Home() {
       </header>
 
       {/* Ana İçerik */}
-      <main className="flex-grow flex flex-col items-center pt-[15vh] px-4 text-center">
-        <div className="relative w-20 h-20 sm:w-24 sm:h-24 mb-6 opacity-90">
+      <main className="flex-grow flex flex-col items-center pt-[8vh] sm:pt-[12vh] px-4 sm:px-8 text-center w-full">
+        <div className="relative w-24 h-24 sm:w-32 sm:h-32 mb-6 opacity-95">
           <Image alt="logogopnik.png" src="/logogopnik.png" fill className="object-contain" priority />
         </div>
         
         {/* Başlık */}
-        <h1 className="text-3xl sm:text-4xl font-black uppercase tracking-tight text-[#C61010] pt-2">
+        <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-[#C61010] pt-2 drop-shadow-md">
           {lang === "tr" ? (
-            <>
-              THE GOPNİ<span className="relative">K<span className="absolute -top-0 -right-4 text-[10px] font-black leading-none">+18</span></span>
-            </>
+            <>THE GOPNİ<span className="relative">K<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           ) : (
-            <>
-              THE ГОПНИ<span className="relative">К<span className="absolute -top-0 -right-4 text-[10px] font-black leading-none">+18</span></span>
-            </>
+            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           )}
         </h1>
         
-        <p className="text-[10px] sm:text-xs font-semibold text-[#B3B3B3] tracking-[0.2em] uppercase mt-4 mb-10 max-w-md whitespace-nowrap px-2">
+        <p className="text-xs sm:text-sm font-semibold text-[#8a8a8a] tracking-[0.25em] uppercase mt-4 mb-12 px-2">
           {content[lang].subtitle}
         </p>
 
-        {/* Arama Kutusu */}
-        <div className="w-full max-w-lg px-4 mb-8">
-          <div className="relative flex items-center w-full h-12 rounded-full shadow-lg bg-[#1F1F1F] border border-[#333] pl-5 pr-2">
+        {/* Arama Kutusu (Orantısal Olarak Büyütüldü) */}
+        <div className="w-full w-11/12 max-w-4xl mb-10">
+          <div className="relative flex items-center w-full h-16 sm:h-20 rounded-2xl shadow-2xl bg-[#1a1a1a] border border-[#333] pl-6 pr-3 focus-within:border-[#00ffff] transition-colors">
             <input 
-              className="h-full w-full outline-none text-sm text-[#E0E0E0] font-medium bg-transparent placeholder-[#777] placeholder:text-xs" 
+              className="h-full w-full outline-none text-lg sm:text-2xl text-white font-medium bg-transparent placeholder-[#666]" 
               placeholder={content[lang].placeholder}
               type="text" 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
             <button 
-              className="h-8 px-5 rounded-full bg-[#C61010] text-white font-bold text-xs hover:bg-[#a30d0d] transition-colors"
+              className="h-12 sm:h-14 px-8 rounded-xl bg-[#C61010] text-white font-bold text-sm sm:text-lg hover:bg-[#ff3333] transition-colors shadow-[0_0_10px_rgba(198,16,16,0.5)]"
             >
               {content[lang].btnText}
             </button>
           </div>
         </div>
 
-        {/* Sonuç Listesi */}
+        {/* Sonuç Listesi (Genişletildi ve Düzenlendi) */}
         {results.length > 0 && (
-          <div className="w-full max-w-lg px-4 text-left space-y-4 mb-12">
+          <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16">
             {results.map((item: any, index: number) => (
-              <div key={index} className="p-5 rounded-xl bg-[#1F1F1F] border border-[#222] shadow-md">
-                <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-bold text-white">{item.word_ru} <span className="text-xs font-normal text-gray-500">({item.word_latin})</span></h3>
-                  <span className="text-[10px] px-2 py-0.5 rounded bg-[#C61010]/20 text-[#C61010] border border-[#C61010]/30 font-bold">
-                    Seviye: {item.severity_level}
-                  </span>
-                </div>
-                <p className="text-sm text-gray-400 mb-1"><span className="text-xs text-gray-600 font-bold">Anlamı:</span> {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}</p>
-                <p className="text-xs text-gray-500 italic mb-3"><span className="text-[10px] text-gray-600 font-bold">Mecaz/Birebir:</span> {item.literal_translation_tr}</p>
+              <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
                 
-                {item.examples && item.examples.length > 0 && (
-                  <div className="p-3 bg-[#121212] rounded border border-[#252525] text-xs">
-                    <p className="text-gray-300 font-serif mb-1">“{item.examples[0].ru}”</p>
-                    <p className="text-gray-500">→ {item.examples[0].tr}</p>
+                {/* Üst Kısım: Rusça Kelime ve Seviye */}
+                <div className="flex justify-between items-start mb-6 border-b border-[#2a2a2a] pb-6">
+                  <div>
+                    {/* Rusça Kelime (Neon Mavi ve Büyük) */}
+                    <h3 className="text-4xl sm:text-5xl font-black text-[#00ffff] drop-shadow-[0_0_10px_rgba(0,255,255,0.6)] tracking-wide">
+                      {item.word_ru}
+                    </h3>
+                    {/* Okunuş (Hemen Alt Satırda) */}
+                    {item.word_latin && (
+                      <span className="block text-xl sm:text-2xl text-[#888] font-medium mt-3">
+                        ({item.word_latin})
+                      </span>
+                    )}
                   </div>
-                )}
+                  
+                  {item.severity_level && (
+                    <span className="text-xs sm:text-sm px-3 py-1 rounded bg-[#C61010]/10 text-[#ff3333] border border-[#C61010]/40 font-bold uppercase tracking-wider shrink-0 ml-4">
+                      Seviye: {item.severity_level}
+                    </span>
+                  )}
+                </div>
+
+                <div className="space-y-6">
+                  {/* Anlamsal Çeviri (Neon Kırmızı) */}
+                  <div>
+                    <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-2">Anlamsal Çeviri:</span>
+                    <p className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
+                      {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
+                    </p>
+                  </div>
+
+                  {/* Kültürel Açıklama */}
+                  {item.cultural_context && (
+                    <div className="bg-[#1a1a1a] p-5 rounded-xl border border-[#333]">
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-2">Kültürel Açıklama:</span>
+                      <p className="text-base sm:text-lg text-[#d0d0d0] leading-relaxed">
+                        {item.cultural_context}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Birebir Çeviri */}
+                  {item.literal_translation_tr && (
+                    <div>
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-1">Birebir Çeviri:</span>
+                      <p className="text-base sm:text-lg text-[#a0a0a0] italic">
+                        {item.literal_translation_tr}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Örnek Kullanım */}
+                  {item.examples && item.examples.length > 0 && (
+                    <div className="pt-4 mt-4 border-t border-[#2a2a2a]">
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-3">Örnek Kullanım:</span>
+                      <div className="p-5 bg-[#0a0a0a] rounded-xl border-l-4 border-[#00ffff]">
+                        <p className="text-[#00ffff] font-medium text-lg sm:text-xl mb-2">“{item.examples[0].ru}”</p>
+                        <p className="text-[#ff3333] text-base sm:text-lg">→ {item.examples[0].tr}</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
               </div>
             ))}
           </div>
@@ -182,8 +222,8 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full text-center py-6 mt-auto">
-        <p className="text-[9px] sm:text-[10px] text-[#C61010] font-bold uppercase tracking-[0.2em] border-t border-[#333] pt-4">
+      <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a]">
+        <p className="text-xs sm:text-sm text-[#888] font-bold uppercase tracking-[0.2em]">
           {content[lang].warning}
         </p>
       </footer>
