@@ -41,8 +41,11 @@ export default function SearchPage() {
         const matchMeaningTr = Array.isArray(item.meaning_tr)
           ? item.meaning_tr.some((m: any) => m?.toLowerCase().includes(searchStr))
           : item.meaning_tr?.toLowerCase().includes(searchStr);
+        const matchKeywords = Array.isArray(item.search_keywords)
+          ? item.search_keywords.some((k: any) => k?.toLowerCase().includes(searchStr))
+          : false;
 
-        if (matchRu || matchLatin || matchMeaningTr) {
+        if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
           filtered.push(item);
         }
       });
@@ -55,7 +58,7 @@ export default function SearchPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white p-8">
+    <div className="min-h-screen bg-black text-white p-8">
       {/* Arama Çubuğu */}
       <div className="max-w-4xl mx-auto flex gap-4 mb-12 mt-10">
         <input 
@@ -63,9 +66,9 @@ export default function SearchPage() {
           value={searchQuery} 
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Kelime ara (Rusça veya Türkçe)..." 
-          className="flex-1 p-6 bg-[#1a1a1a] border border-[#333] rounded-lg text-2xl text-white focus:outline-none focus:border-[#00ffff]"
+          className="flex-1 p-6 bg-neutral-900 border border-neutral-700 rounded-xl text-2xl text-white focus:outline-none focus:border-cyan-400"
         />
-        <button onClick={searchWords} className="px-12 py-6 bg-[#ff0000] text-white font-bold rounded-lg text-2xl hover:bg-[#cc0000]">
+        <button onClick={searchWords} className="px-12 py-6 bg-red-600 text-white font-bold rounded-xl text-2xl hover:bg-red-700 transition-colors">
           Ara
         </button>
       </div>
@@ -73,11 +76,11 @@ export default function SearchPage() {
       {/* Sonuçlar */}
       <div className="max-w-4xl mx-auto space-y-10">
         {results.map((item: any, index: number) => (
-          <div key={index} className="p-10 bg-[#141414] border border-[#222] rounded-xl shadow-2xl flex flex-col gap-6">
+          <div key={index} className="p-10 bg-neutral-900 border border-neutral-800 rounded-2xl shadow-xl flex flex-col gap-6">
             
-            {/* Rusça Kelime (Neon Mavi) */}
+            {/* Rusça Kelime */}
             <div>
-              <h2 className="text-6xl font-black text-[#00ffff] drop-shadow-[0_0_10px_rgba(0,255,255,0.6)]">
+              <h2 className="text-6xl font-black text-cyan-400">
                 {item.word_ru}
               </h2>
               {item.word_latin && (
@@ -85,31 +88,31 @@ export default function SearchPage() {
               )}
             </div>
 
-            <hr className="border-[#333] my-2" />
+            <hr className="border-neutral-700 my-2" />
 
             {/* Kök Fiil Alanı */}
             {(item.base_verb || item.base_verb_tr) && (
-              <div className="bg-[#1a1a1a] p-5 rounded-lg border border-[#333]">
+              <div className="bg-black p-6 rounded-xl border border-neutral-800">
                 <span className="text-sm text-gray-400 uppercase tracking-widest block mb-2">Kök Fiil:</span>
-                {item.base_verb && <p className="text-3xl font-bold text-[#00ffff]">{item.base_verb}</p>}
-                {item.base_verb_tr && <p className="text-xl font-bold text-[#ff0000] mt-1">Anlamı: {item.base_verb_tr}</p>}
+                {item.base_verb && <p className="text-3xl font-bold text-cyan-400">{item.base_verb}</p>}
+                {item.base_verb_tr && <p className="text-2xl font-bold text-red-500 mt-2">Anlamı: {item.base_verb_tr}</p>}
               </div>
             )}
 
-            {/* Türkçe Anlam (Kırmızı) */}
+            {/* Türkçe Anlam */}
             <div>
               <span className="text-sm text-gray-400 uppercase tracking-widest block mb-2">Türkçe Anlamı:</span>
-              <p className="text-4xl font-bold text-[#ff0000] drop-shadow-[0_0_8px_rgba(255,0,0,0.5)] leading-tight">
+              <p className="text-4xl font-bold text-red-500 leading-tight">
                 {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
               </p>
             </div>
 
             {/* Örnek Cümleler */}
             {item.examples && item.examples.length > 0 && (
-              <div className="mt-4 p-8 bg-[#0a0a0a] rounded-lg border-l-4 border-[#00ffff] shadow-inner">
+              <div className="mt-4 p-8 bg-black rounded-xl border-l-4 border-cyan-400">
                 <span className="text-sm text-gray-500 uppercase tracking-widest block mb-4">Örnek Kullanım:</span>
-                <p className="text-2xl text-[#00ffff] font-medium mb-3">{item.examples[0].ru}</p>
-                <p className="text-2xl text-[#ff0000] font-medium">{item.examples[0].tr}</p>
+                <p className="text-2xl text-cyan-400 font-medium mb-3">{item.examples[0].ru}</p>
+                <p className="text-2xl text-red-500 font-medium">{item.examples[0].tr}</p>
               </div>
             )}
           </div>
