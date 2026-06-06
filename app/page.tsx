@@ -34,7 +34,7 @@ export default function Home() {
       warning: "+18 | İÇERİK ARGO VE SOKAK DİLİ İÇERMEKTEDİR!",
       warningBoxTitle: "UYARI / ПРЕДУПРЕЖДЕНИЕ",
       warningBoxText: "Bu platformdaki içerikler yetişkinlere yöneliktir ve ağır argo, küfür ile sokak jargonu barındırır. Lütfen hassasiyetiniz varsa siteyi kullanmayınız.",
-      examplesTitle: "Örnek Argo İfadeler (Göster)",
+      examplesTitle: "Örnek Argo İfadeler",
     },
     ru: {
       title: "THE ГОПНИК",
