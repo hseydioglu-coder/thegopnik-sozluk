@@ -42,14 +42,6 @@ export default function Home() {
     },
   };
 
-  // Harf dönüştürücü: Kullanıcı Latin harfi yazarsa, doğru Rusça klasörünü bulması için
-  const latinToCyrillicMap: { [key: string]: string } = {
-    "A": "А", "B": "Б", "V": "В", "G": "Г", "D": "Д", "E": "Е", "YO": "Ё", "ZH": "Ж", 
-    "Z": "З", "I": "И", "J": "Й", "K": "К", "L": "Л", "M": "М", "N": "Н", "O": "О", 
-    "P": "П", "R": "Р", "S": "С", "T": "Т", "U": "У", "F": "Ф", "H": "Х", "C": "Ц", 
-    "CH": "Ч", "SH": "Ш", "SHCH": "Щ", "Y": "Ы", "YU": "Ю", "YA": "Я"
-  };
-
   useEffect(() => {
     async function searchWords() {
       if (searchQuery.trim() === "") {
@@ -57,20 +49,11 @@ export default function Home() {
         return;
       }
 
-      const rawQuery = searchQuery.trim();
-      let firstChar = rawQuery.charAt(0).toUpperCase(); 
-      
-      // Eğer Latin harfi yazıldıysa, klasörü bulabilmek için Kiril eşdeğerine çeviriyoruz
-      if (latinToCyrillicMap[firstChar]) {
-        firstChar = latinToCyrillicMap[firstChar];
-      }
-
-      const searchStr = rawQuery.toLowerCase();
+      const searchStr = searchQuery.trim().toLowerCase();
 
       try {
-        // İŞTE ÇÖZÜM BURADA: Firebase'deki tam adına uyması için sonuna .json eklendi
-        const collectionName = `birlestirilmis_${firstChar}_sozlugu.json`;
-        const wordRef = collection(db, collectionName);
+        // Doğrudan yeni tekli "sozluk" koleksiyonuna bağlanıyoruz
+        const wordRef = collection(db, "sozluk");
         
         const q = query(wordRef);
         const querySnapshot = await getDocs(q);
@@ -81,11 +64,18 @@ export default function Home() {
           
           const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
           const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
+          
+          // Türkçe anlamı içinde arama yapıyoruz (Array veya düz metin olabilir)
+          const matchMeaningTr = Array.isArray(item.meaning_tr)
+            ? item.meaning_tr.some((m: string) => m?.toLowerCase().includes(searchStr))
+            : item.meaning_tr?.toLowerCase().includes(searchStr);
+            
           const matchKeywords = item.search_keywords?.some((keyword: string) => 
             keyword.toLowerCase().includes(searchStr)
           );
 
-          if (matchRu || matchLatin || matchKeywords) {
+          // Eşleşme varsa listeye ekle
+          if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
             filtered.push(item);
           }
         });
