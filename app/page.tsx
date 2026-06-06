@@ -24,40 +24,37 @@ export default function SearchPage() {
   const [results, setResults] = useState<any[]>([]);
 
   async function searchWords() {
-    if (searchQuery.trim() === "") {
-      setResults([]);
-      return;
-    }
-
-    try {
-      const searchStr = searchQuery.toLowerCase();
-      const colRef = collection(db, "sozluk");
-      const querySnapshot = await getDocs(colRef);
-      
-      const filtered: any[] = [];
-      querySnapshot.forEach((doc) => {
-        const item = doc.data();
-        
-        const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
-        const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
-        const matchMeaningTr = Array.isArray(item.meaning_tr)
-          ? item.meaning_tr.some((m: any) => m?.toLowerCase().includes(searchStr))
-          : item.meaning_tr?.toLowerCase().includes(searchStr);
-        const matchKeywords = Array.isArray(item.search_keywords)
-          ? item.search_keywords.some((k: any) => k?.toLowerCase().includes(searchStr))
-          : false;
-
-        if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
-          filtered.push(item);
-        }
-      });
-
-      setResults(filtered);
-    } catch (error) {
-      console.error("Arama hatası:", error);
-      setResults([]);
-    }
+  if (searchQuery.trim() === "") {
+    setResults([]);
+    return;
   }
+
+  try {
+    const searchStr = searchQuery.toLowerCase();
+    const colRef = collection(db, "sozluk");
+    const querySnapshot = await getDocs(colRef);
+    
+    const filtered: any[] = [];
+    querySnapshot.forEach((doc) => {
+      const item = doc.data();
+      
+      const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
+      const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
+      const matchMeaningTr = Array.isArray(item.meaning_tr)
+        ? item.meaning_tr.some((m: any) => m?.toLowerCase().includes(searchStr))
+        : item.meaning_tr?.toLowerCase().includes(searchStr);
+
+      if (matchRu || matchLatin || matchMeaningTr) {
+        filtered.push(item);
+      }
+    });
+
+    setResults(filtered);
+  } catch (error) {
+    console.error("Arama hatası:", error);
+    setResults([]);
+  }
+}
 
   return (
     <div className="min-h-screen bg-[#121212] text-white flex flex-col items-center pt-12">
