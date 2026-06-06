@@ -31,16 +31,33 @@ export default function Home() {
       subtitle: "RUS SOKAK DİLİ ve EDEBİYATI SÖZLÜĞÜ",
       placeholder: "Bir kelime veya argo deyim ara...",
       btnText: "BUL",
-      warning: "+18 | İÇERİK ARGO VE SOKAK DİLİ İÇERMEKTEDİR",
+      warning: "+18 | İÇERİK ARGO VE SOKAK DİLİ İÇERMEKTEDİR!",
+      warningBoxTitle: "UYARI / ПРЕДУПРЕЖДЕНИЕ",
+      warningBoxText: "Bu platformdaki içerikler yetişkinlere yöneliktir ve ağır argo, küfür ile sokak jargonu barındırır. Lütfen hassasiyetiniz varsa siteyi kullanmayınız.",
+      examplesTitle: "Örnek Argo İfadeler (Göster)",
     },
     ru: {
       title: "THE ГОПНИК",
       subtitle: "СЛОВАРЬ РУССКОГО УЛИЧНОГО ЯЗЫКА И ЛИТЕРАТУРЫ",
       placeholder: "Введите слово или сленговое выражение...",
       btnText: "ИСКАТЬ",
-      warning: "+18 | СОДЕРЖИТ НЕНОРМАТИВНУЮ ЛЕКСИКУ И УЛИЧНЫЙ ЖАРГОН",
+      warning: "+18 | СОДЕРЖИТ НЕНОРМАТИВНУЮ ЛЕКСИКУ И УЛИЧНЫЙ ЖАРГОН!",
+      warningBoxTitle: "ВНИМАНИЕ / UYARI",
+      warningBoxText: "Контент на этой платформе предназначен для взрослых и содержит тяжелый сленг, мат и уличный жаргон. Если вы чувствительны к подобному, пожалуйста, покиньте сайт.",
+      examplesTitle: "Примеры Сленга (Показать)",
     },
   };
+
+  const sampleSlang = [
+    { ru: "Бл...ь", tr: "Kahretsin" },
+    { ru: "Пиз...ц", tr: "Felaket" },
+    { ru: "Х...й", tr: "Y...k" },
+    { ru: "Еб...ть", tr: "S...mek" },
+    { ru: "Муд...к", tr: "P...t" },
+    { ru: "Су...а", tr: "O...pu" },
+    { ru: "Зае...л", tr: "Bıktırdı" },
+    { ru: "Ганд...н", tr: "P...şt" }
+  ];
 
   useEffect(() => {
     async function searchWords() {
@@ -110,8 +127,8 @@ export default function Home() {
       </header>
 
       {/* Ana İçerik */}
-      <main className="flex-grow flex flex-col items-center pt-[8vh] sm:pt-[12vh] px-4 sm:px-8 text-center w-full">
-        <div className="relative w-24 h-24 sm:w-32 sm:h-32 mb-6 opacity-95">
+      <main className="flex-grow flex flex-col items-center pt-[5vh] sm:pt-[8vh] px-4 sm:px-8 text-center w-full">
+        <div className="relative w-20 h-20 sm:w-28 sm:h-28 mb-4 opacity-95">
           <Image alt="logogopnik.png" src="/logogopnik.png" fill className="object-contain" priority />
         </div>
         
@@ -124,12 +141,12 @@ export default function Home() {
           )}
         </h1>
         
-        <p className="text-xs sm:text-sm font-semibold text-[#8a8a8a] tracking-[0.25em] uppercase mt-4 mb-12 px-2">
+        <p className="text-xs sm:text-sm font-semibold text-[#8a8a8a] tracking-[0.25em] uppercase mt-4 mb-10 px-2">
           {content[lang].subtitle}
         </p>
 
-        {/* Arama Kutusu (Orantısal Olarak Büyütüldü) */}
-        <div className="w-full w-11/12 max-w-4xl mb-10">
+        {/* Arama Kutusu */}
+        <div className="w-full w-11/12 max-w-4xl mb-8">
           <div className="relative flex items-center w-full h-16 sm:h-20 rounded-2xl shadow-2xl bg-[#1a1a1a] border border-[#333] pl-6 pr-3 focus-within:border-[#00ffff] transition-colors">
             <input 
               className="h-full w-full outline-none text-lg sm:text-2xl text-white font-medium bg-transparent placeholder-[#666]" 
@@ -146,20 +163,59 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Sonuç Listesi (Genişletildi ve Düzenlendi) */}
+        {/* Ana Sayfa Uyarı Kutusu ve Örnek Kelimeler (Sadece arama yapılmamışsa görünür) */}
+        {results.length === 0 && (
+          <div className="w-full w-11/12 max-w-4xl flex flex-col items-center">
+            
+            {/* Uyarı Kutusu */}
+            <div className="w-full mb-8 p-6 bg-[#1a0505] border border-[#ff0000]/30 rounded-2xl shadow-[0_0_15px_rgba(255,0,0,0.15)] text-center">
+              <h2 className="text-lg sm:text-xl font-black text-[#ff0000] mb-3 drop-shadow-[0_0_5px_rgba(255,0,0,0.8)]">
+                ⚠️ {content[lang].warningBoxTitle} ⚠️
+              </h2>
+              <p className="text-[#c0c0c0] text-sm sm:text-base font-medium leading-relaxed">
+                {content[lang].warningBoxText}
+              </p>
+            </div>
+
+            {/* Örnek Argo İfadeler */}
+            <div className="w-full mb-16">
+              <h3 className="text-xs sm:text-sm font-bold text-[#666] uppercase tracking-widest mb-4 border-b border-[#333] pb-2 inline-block">
+                {content[lang].examplesTitle}
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {sampleSlang.map((ex, i) => (
+                  <div 
+                    key={i} 
+                    className="group p-4 bg-[#141414] border border-[#2a2a2a] rounded-xl hover:border-[#ff0000]/50 transition-all duration-300 flex flex-col items-center justify-center text-center cursor-crosshair"
+                  >
+                    {/* Hover ile bulanıklıktan netleşen Rusça kelime */}
+                    <span className="text-[#00ffff] font-black text-lg sm:text-xl blur-sm group-hover:blur-none transition-all duration-300 drop-shadow-[0_0_5px_rgba(0,255,255,0.3)]">
+                      {ex.ru}
+                    </span>
+                    {/* Hover ile bulanıklıktan netleşen Türkçe kelime */}
+                    <span className="text-[#ff3333] font-bold text-xs sm:text-sm mt-2 blur-sm group-hover:blur-none transition-all duration-300">
+                      {ex.tr}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        )}
+
+        {/* Sonuç Listesi */}
         {results.length > 0 && (
-          <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16">
+          <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16 mt-4">
             {results.map((item: any, index: number) => (
               <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
                 
                 {/* Üst Kısım: Rusça Kelime ve Seviye */}
                 <div className="flex justify-between items-start mb-6 border-b border-[#2a2a2a] pb-6">
                   <div>
-                    {/* Rusça Kelime (Neon Mavi ve Büyük) */}
                     <h3 className="text-4xl sm:text-5xl font-black text-[#00ffff] drop-shadow-[0_0_10px_rgba(0,255,255,0.6)] tracking-wide">
                       {item.word_ru}
                     </h3>
-                    {/* Okunuş (Hemen Alt Satırda) */}
                     {item.word_latin && (
                       <span className="block text-xl sm:text-2xl text-[#888] font-medium mt-3">
                         ({item.word_latin})
@@ -175,7 +231,7 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-6">
-                  {/* Anlamsal Çeviri (Neon Kırmızı) */}
+                  {/* Anlamsal Çeviri */}
                   <div>
                     <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-2">Anlamsal Çeviri:</span>
                     <p className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
@@ -223,7 +279,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a]">
-        <p className="text-xs sm:text-sm text-[#888] font-bold uppercase tracking-[0.2em]">
+        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_rgba(255,0,0,0.9)]">
           {content[lang].warning}
         </p>
       </footer>
