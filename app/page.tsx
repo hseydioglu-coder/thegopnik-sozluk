@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from 'next/image';
 import { initializeApp, getApps } from "firebase/app";
-import { getFirestore, collection, doc, writeBatch } from "firebase/firestore";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 // Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
 const firebaseConfig = {
