@@ -59,31 +59,59 @@ async function searchWords() {
 
   try {
     const searchStr = searchQuery.toLowerCase();
+    const firstChar = searchQuery.trim().charAt(0).toUpperCase();
     
-    // collectionGroup kullanarak tüm koleksiyonları veya tek koleksiyonu tarıyoruz
-    // Firestore'da 'sozluk' koleksiyonunda olduğumuzdan emin ol
-    const colRef = collection(db, "sozluk"); 
-    
-    // Veritabanının tamamını çekmek yerine sadece bir sorgu atıyoruz
-    // NOT: Basit bir filtreleme için tümünü çekip burada filtreliyoruz, 
-    // ama verilerin çok büyükse 'search_keywords' dizini üzerinden sorgu atılmalı.
-    const querySnapshot = await getDocs(colRef);
-    
-    const filtered: any[] = [];
-    querySnapshot.forEach((doc) => {
-      const item = doc.data();
-      
-      const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
-      const matchMeaningTr = Array.isArray(item.meaning_tr) 
-        ? item.meaning_tr.some(m => m?.toLowerCase().includes(searchStr))
-        : item.meaning_tr?.toLowerCase().includes(searchStr);
-      
-      const matchKeywords = item.search_keywords?.some((k: string) => k.toLowerCase().includes(searchStr));
+    // Firebase'deki gerçek koleksiyon listesi
+    const collectionsList = [
+      "birlestirilmis_А_sozlugu.json", "birlestirilmis_Б_sozlugu.json", "birlestirilmis_В_sozlugu.json",
+      "birlestirilmis_Г_sozlugu.json", "birlestirilmis_Д_sozlugu.json", "birlestirilmis_Е_sozlugu.json",
+      "birlestirilmis_Ж_sozlugu.json", "birlestirilmis_З_sozlugu.json", "birlestirilmis_И_sozlugu.json",
+      "birlestirilmis_К_sozlugu.json", "birlestirilmis_Л_sozlugu.json", "birlestirilmis_М_sozlugu.json",
+      "birlestirilmis_Н_sozlugu.json", "birlestirilmis_О_sozlugu.json", "birlestirilmis_П_sozlugu.json",
+      "birlestirilmis_Р_sozlugu.json", "birlestirilmis_С_sozlugu.json", "birlestirilmis_Т_sozlugu.json",
+      "birlestirilmis_У_sozlugu.json", "birlestirilmis_Ф_sozlugu.json", "birlestirilmis_Х_sozlugu.json",
+      "birlestirilmis_Ц_sozlugu.json", "birlestirilmis_Ч_sozlugu.json", "birlestirilmis_Ш_sozlugu.json",
+      "birlestirilmis_Щ_sozlugu.json", "birlestirilmis_Э_sozlugu.json", "birlestirilmis_Ю_sozlugu.json",
+      "birlestirilmis_Я_sozlugu.json"
+    ];
 
-      if (matchRu || matchMeaningTr || matchKeywords) {
-        filtered.push(item);
-      }
-    });
+    // Eğer arama Rusça bir harfle başlıyorsa sadece o harfin klasörüne baksın (Hız için)
+    let targetCollections = collectionsList;
+    const cyrillicMatch = collectionsList.find(c => c.includes(`_${firstChar}_`));
+    if (cyrillicMatch) {
+      targetCollections = [cyrillicMatch];
+    }
+
+    const filtered: any[] = [];
+
+    // Belirlenen klasörleri eşzamanlı olarak tara
+    await Promise.all(
+      targetCollections.map(async (colName) => {
+        const colRef = collection(db, colName);
+        const querySnapshot = await getDocs(colRef);
+        
+        querySnapshot.forEach((doc) => {
+          const item = doc.data();
+          
+          const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
+          const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
+          
+          // Türkçe anlam dizisi veya metni içinde ara
+          const matchMeaningTr = Array.isArray(item.meaning_tr)
+            ? item.meaning_tr.some((m: string) => m?.toLowerCase().includes(searchStr))
+            : item.meaning_tr?.toLowerCase().includes(searchStr);
+            
+          // Anahtar kelimeler içinde ara
+          const matchKeywords = Array.isArray(item.search_keywords)
+            ? item.search_keywords.some((k: string) => k?.toLowerCase().includes(searchStr))
+            : false;
+
+          if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
+            filtered.push(item);
+          }
+        });
+      })
+    );
 
     setResults(filtered);
   } catch (error) {
