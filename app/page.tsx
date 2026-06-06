@@ -68,6 +68,21 @@ export default function Home() {
 
       const searchStr = searchQuery.trim().toLowerCase();
 
+      // Akıllı Eşleşme Mantığı
+      const isSmartMatch = (text: string | undefined, queryStr: string) => {
+        if (!text) return false;
+        const lowerText = text.toLowerCase();
+        
+        // Kullanıcı birden fazla kelime yazdıysa, tam metin eşleşmesi yap
+        if (queryStr.includes(" ")) {
+          return lowerText.includes(queryStr);
+        }
+        
+        // Tek kelimeyse, alakasız harf kombinasyonlarını elemek için kelime başlarına bak
+        const words = lowerText.split(/[\s,.-]+/);
+        return words.some(word => word.startsWith(queryStr));
+      };
+
       try {
         const wordRef = collection(db, "sozluk");
         const q = query(wordRef);
@@ -77,14 +92,14 @@ export default function Home() {
         querySnapshot.forEach((doc) => {
           const item = doc.data();
           
-          const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
-          const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
+          const matchRu = isSmartMatch(item.word_ru, searchStr);
+          const matchLatin = isSmartMatch(item.word_latin, searchStr);
           const matchMeaningTr = Array.isArray(item.meaning_tr)
-            ? item.meaning_tr.some((m: string) => m?.toLowerCase().includes(searchStr))
-            : item.meaning_tr?.toLowerCase().includes(searchStr);
+            ? item.meaning_tr.some((m: string) => isSmartMatch(m, searchStr))
+            : isSmartMatch(item.meaning_tr, searchStr);
             
           const matchKeywords = item.search_keywords?.some((keyword: string) => 
-            keyword.toLowerCase().includes(searchStr)
+            isSmartMatch(keyword, searchStr)
           );
 
           if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
@@ -163,7 +178,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Ana Sayfa Uyarı Kutusu ve Örnek Kelimeler (Sadece arama yapılmamışsa görünür) */}
+        {/* Ana Sayfa Uyarı Kutusu ve Örnek Kelimeler */}
         {results.length === 0 && (
           <div className="w-full w-11/12 max-w-4xl flex flex-col items-center">
             
@@ -188,11 +203,9 @@ export default function Home() {
                     key={i} 
                     className="group p-4 bg-[#141414] border border-[#2a2a2a] rounded-xl hover:border-[#ff0000]/50 transition-all duration-300 flex flex-col items-center justify-center text-center cursor-crosshair"
                   >
-                    {/* Hover ile bulanıklıktan netleşen Rusça kelime */}
                     <span className="text-[#00ffff] font-black text-lg sm:text-xl blur-sm group-hover:blur-none transition-all duration-300 drop-shadow-[0_0_5px_rgba(0,255,255,0.3)]">
                       {ex.ru}
                     </span>
-                    {/* Hover ile bulanıklıktan netleşen Türkçe kelime */}
                     <span className="text-[#ff3333] font-bold text-xs sm:text-sm mt-2 blur-sm group-hover:blur-none transition-all duration-300">
                       {ex.tr}
                     </span>
