@@ -51,30 +51,36 @@ export default function Home() {
   };
 
   useEffect(() => {
-    async function searchWords() {
+async function searchWords() {
   if (searchQuery.trim() === "") {
     setResults([]);
     return;
   }
 
   try {
-    // BURAYI GÜNCELLİYORUZ
+    const searchStr = searchQuery.toLowerCase();
+    
+    // collectionGroup kullanarak tüm koleksiyonları veya tek koleksiyonu tarıyoruz
+    // Firestore'da 'sozluk' koleksiyonunda olduğumuzdan emin ol
     const colRef = collection(db, "sozluk"); 
-    const q = query(colRef); 
-    const querySnapshot = await getDocs(q);
-
+    
+    // Veritabanının tamamını çekmek yerine sadece bir sorgu atıyoruz
+    // NOT: Basit bir filtreleme için tümünü çekip burada filtreliyoruz, 
+    // ama verilerin çok büyükse 'search_keywords' dizini üzerinden sorgu atılmalı.
+    const querySnapshot = await getDocs(colRef);
+    
     const filtered: any[] = [];
     querySnapshot.forEach((doc) => {
       const item = doc.data();
-      const searchStr = searchQuery.toLowerCase();
-
-      // Kelime veya anlam içinde arama yap
+      
       const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
       const matchMeaningTr = Array.isArray(item.meaning_tr) 
         ? item.meaning_tr.some(m => m?.toLowerCase().includes(searchStr))
         : item.meaning_tr?.toLowerCase().includes(searchStr);
+      
+      const matchKeywords = item.search_keywords?.some((k: string) => k.toLowerCase().includes(searchStr));
 
-      if (matchRu || matchMeaningTr) {
+      if (matchRu || matchMeaningTr || matchKeywords) {
         filtered.push(item);
       }
     });
@@ -82,6 +88,7 @@ export default function Home() {
     setResults(filtered);
   } catch (error) {
     console.error("Arama hatası:", error);
+    setResults([]);
   }
 }
 
