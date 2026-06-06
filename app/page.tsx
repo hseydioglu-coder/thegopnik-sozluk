@@ -118,9 +118,9 @@ export default function Home() {
         {/* Başlık */}
         <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-[#C61010] pt-2 drop-shadow-md">
           {lang === "tr" ? (
-            <>THE GOPNİ<span className="relative">K<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE GOPNİ<span className="relative">K<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           ) : (
-            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           )}
         </h1>
         
