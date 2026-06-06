@@ -75,20 +75,34 @@ export default function Home() {
         const q = query(wordRef);
         const querySnapshot = await getDocs(q);
         
-        const filtered: any[] = [];
-        querySnapshot.forEach((doc) => {
-          const item = doc.data();
-          
-          const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
-          const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
-          const matchKeywords = item.search_keywords?.some((keyword: string) => 
-            keyword.toLowerCase().includes(searchStr)
-          );
+        // ... (Kodun üst kısımları aynı kalacak)
 
-          if (matchRu || matchLatin || matchKeywords) {
-            filtered.push(item);
-          }
-        });
+const filtered: any[] = [];
+querySnapshot.forEach((doc) => {
+  const item = doc.data();
+  
+  // Arama yapılacak alanları genişletiyoruz:
+  const searchStr = searchQuery.toLowerCase();
+  
+  const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
+  const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
+  
+  // YENİ EKLEME: Türkçe anlamı (meaning_tr) içinde de arama yap
+  const matchMeaningTr = Array.isArray(item.meaning_tr) 
+    ? item.meaning_tr.some(m => m.toLowerCase().includes(searchStr))
+    : item.meaning_tr?.toLowerCase().includes(searchStr);
+
+  const matchKeywords = item.search_keywords?.some((keyword: string) => 
+    keyword.toLowerCase().includes(searchStr)
+  );
+
+  // Şimdi tüm bu alanları kontrol ediyoruz
+  if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
+    filtered.push(item);
+  }
+});
+
+// ... (Kodun geri kalanı aynı)
 
         setResults(filtered);
       } catch (error) {
