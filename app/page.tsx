@@ -52,64 +52,38 @@ export default function Home() {
 
   useEffect(() => {
     async function searchWords() {
-      if (searchQuery.trim() === "") {
-        setResults([]);
-        return;
-      }
-
-      const rawQuery = searchQuery.trim();
-      let firstChar = rawQuery.charAt(0).toUpperCase(); 
-      
-      // Eğer Latin harfi yazıldıysa, klasörü bulabilmek için Kiril eşdeğerine çeviriyoruz
-      if (latinToCyrillicMap[firstChar]) {
-        firstChar = latinToCyrillicMap[firstChar];
-      }
-
-      const searchStr = rawQuery.toLowerCase();
-
-      try {
-        // İŞTE ÇÖZÜM BURADA: Firebase'deki tam adına uyması için sonuna .json eklendi
-        const collectionName = `birlestirilmis_${firstChar}_sozlugu.json`;
-        const wordRef = collection(db, collectionName);
-        
-        const q = query(wordRef);
-        const querySnapshot = await getDocs(q);
-        
-        // ... (Kodun üst kısımları aynı kalacak)
-
-const filtered: any[] = [];
-querySnapshot.forEach((doc) => {
-  const item = doc.data();
-  
-  // Arama yapılacak alanları genişletiyoruz:
-  const searchStr = searchQuery.toLowerCase();
-  
-  const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
-  const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
-  
-  // YENİ EKLEME: Türkçe anlamı (meaning_tr) içinde de arama yap
-  const matchMeaningTr = Array.isArray(item.meaning_tr) 
-    ? item.meaning_tr.some(m => m.toLowerCase().includes(searchStr))
-    : item.meaning_tr?.toLowerCase().includes(searchStr);
-
-  const matchKeywords = item.search_keywords?.some((keyword: string) => 
-    keyword.toLowerCase().includes(searchStr)
-  );
-
-  // Şimdi tüm bu alanları kontrol ediyoruz
-  if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
-    filtered.push(item);
+  if (searchQuery.trim() === "") {
+    setResults([]);
+    return;
   }
-});
 
-// ... (Kodun geri kalanı aynı)
+  try {
+    // BURAYI GÜNCELLİYORUZ
+    const colRef = collection(db, "sozluk"); 
+    const q = query(colRef); 
+    const querySnapshot = await getDocs(q);
 
-        setResults(filtered);
-      } catch (error) {
-        console.error("Veri çekme hatası:", error);
-        setResults([]);
+    const filtered: any[] = [];
+    querySnapshot.forEach((doc) => {
+      const item = doc.data();
+      const searchStr = searchQuery.toLowerCase();
+
+      // Kelime veya anlam içinde arama yap
+      const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
+      const matchMeaningTr = Array.isArray(item.meaning_tr) 
+        ? item.meaning_tr.some(m => m?.toLowerCase().includes(searchStr))
+        : item.meaning_tr?.toLowerCase().includes(searchStr);
+
+      if (matchRu || matchMeaningTr) {
+        filtered.push(item);
       }
-    }
+    });
+
+    setResults(filtered);
+  } catch (error) {
+    console.error("Arama hatası:", error);
+  }
+}
 
     const delayDebounceFn = setTimeout(() => {
       searchWords();

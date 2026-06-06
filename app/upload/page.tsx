@@ -30,7 +30,7 @@ export default function UploadPage() {
     reader.onload = async (event) => {
       try {
         const data = JSON.parse(event.target?.result as string);
-        const collectionName = file.name; // Örn: birlestirilmis_А_sozlugu.json
+        const collectionName = "sozluk"; // Artık her şey buraya gidecek
         setStatus(`${collectionName} yükleniyor... Bu işlem dosya boyutuna göre birkaç saniye sürebilir.`);
 
         const colRef = collection(db, collectionName);
