@@ -1,9 +1,10 @@
 "use client";
+
 import { useState } from "react";
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 
-// BURAYA KENDİ GERÇEK FİREBASE ŞİFRELERİNİ YAZMAYI UNUTMA
+// BURAYA KENDİ GERÇEK FİREBASE ŞİFRELERİNİ YAPIŞTIR
 // Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
 const firebaseConfig = {
   apiKey: "AIzaSyBYdaNaMFJ1yheOXuuac-Aadts9RjUjTxc",
@@ -33,11 +34,11 @@ export default function SearchPage() {
       const searchStr = searchQuery.toLowerCase();
       const colRef = collection(db, "sozluk");
       const querySnapshot = await getDocs(colRef);
-
+      
       const filtered: any[] = [];
       querySnapshot.forEach((doc) => {
         const item = doc.data();
-
+        
         const matchRu = item.word_ru?.toLowerCase().includes(searchStr);
         const matchLatin = item.word_latin?.toLowerCase().includes(searchStr);
         const matchMeaningTr = Array.isArray(item.meaning_tr)
@@ -60,70 +61,63 @@ export default function SearchPage() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: '#0a0a0a', color: 'white', padding: '2rem', fontFamily: 'sans-serif' }}>
-      
-      {/* Arama Çubuğu */}
-      <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', gap: '1rem', marginBottom: '3rem', paddingTop: '2rem' }}>
-        <input
-          type="text"
-          value={searchQuery}
+    <div className="min-h-screen bg-[#121212] text-white flex flex-col items-center pt-12">
+      {/* Arama Alanı */}
+      <div className="w-full max-w-3xl px-4 mb-8 flex gap-4">
+        <input 
+          type="text" 
+          value={searchQuery} 
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Kelime ara (Rusça veya Türkçe)..."
-          style={{ flex: 1, padding: '1.5rem', backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '0.5rem', fontSize: '1.5rem', color: 'white' }}
+          placeholder="Kelime ara (Ru / Tr)..." 
+          className="flex-1 p-4 bg-[#1F1F1F] border border-[#333] rounded-xl text-xl text-white focus:outline-none focus:border-[#00d4ff]"
         />
-        <button
-          onClick={searchWords}
-          style={{ padding: '1.5rem 3rem', backgroundColor: '#cc0000', color: 'white', fontWeight: 'bold', borderRadius: '0.5rem', fontSize: '1.5rem', border: 'none', cursor: 'pointer' }}
-        >
+        <button onClick={searchWords} className="px-8 py-4 bg-[#C61010] text-white font-bold rounded-xl text-xl hover:bg-[#a30d0d] transition-colors">
           Ara
         </button>
       </div>
 
-      {/* Sonuçlar */}
-      <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
-        {results.map((item: any, index: number) => (
-          <div key={index} style={{ padding: '2.5rem', backgroundColor: '#141414', border: '1px solid #222', borderRadius: '1rem', boxShadow: '0 10px 25px rgba(0,0,0,0.5)' }}>
+      {/* Sonuç Listesi */}
+      {results.length > 0 && (
+        <div className="w-full max-w-3xl px-4 text-left space-y-6 mb-12 mx-auto">
+          {results.map((item: any, index: number) => (
+            <div key={index} className="p-8 rounded-2xl bg-[#1a1a1a] border border-[#333] shadow-2xl w-full">
+              <div className="flex justify-between items-start mb-6">
+                <div className="flex flex-col">
+                  <h3 className="text-4xl font-black text-[#00d4ff]">{item.word_ru}</h3>
+                  <span className="text-xl text-gray-400 font-mono mt-1">({item.word_latin})</span>
+                </div>
+                <span className="text-xs px-3 py-1 rounded bg-[#C61010]/10 text-[#C61010] border border-[#C61010]/30 font-bold uppercase tracking-wider">
+                  Seviye: {item.severity_level}
+                </span>
+              </div>
 
-            {/* Rusça Kelime (Neon Mavi) */}
-            <div style={{ marginBottom: '1.5rem' }}>
-              <h2 style={{ fontSize: '3.5rem', fontWeight: '900', color: '#00ffff', margin: 0, textShadow: '0 0 10px rgba(0,255,255,0.4)' }}>
-                {item.word_ru}
-              </h2>
-              {item.word_latin && (
-                <span style={{ fontSize: '1.5rem', color: '#888', display: 'block', marginTop: '0.5rem' }}>({item.word_latin})</span>
+              {/* Türkçe Anlamı */}
+              <div className="mb-6">
+                <span className="text-sm text-[#C61010] font-bold uppercase tracking-widest block mb-1">Türkçe Anlamı:</span>
+                <p className="text-2xl text-[#C61010] font-bold leading-relaxed">
+                  {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
+                </p>
+              </div>
+
+              {/* Kültürel Açıklama */}
+              <div className="mb-6">
+                <span className="text-sm text-[#C61010] font-bold uppercase tracking-widest block mb-1">Kültürel Açıklama:</span> 
+                <p className="text-xl text-gray-300 leading-relaxed">
+                  {item.cultural_context || "Bu ifade için özel bir kültürel not bulunmuyor."}
+                </p>
+              </div>
+              
+              {/* Örnek Kutusu */}
+              {item.examples && item.examples.length > 0 && (
+                <div className="p-6 bg-[#0f0f0f] rounded-xl border-l-4 border-[#00d4ff] text-xl">
+                  <p className="text-[#00d4ff] font-bold mb-2">“{item.examples[0].ru}”</p>
+                  <p className="text-[#C61010] font-bold">→ {item.examples[0].tr}</p>
+                </div>
               )}
             </div>
-
-            <hr style={{ borderColor: '#333', margin: '1.5rem 0' }} />
-
-            {/* Kök Fiil Alanı */}
-            {(item.base_verb || item.base_verb_tr) && (
-              <div style={{ backgroundColor: '#0a0a0a', padding: '1.5rem', borderRadius: '0.5rem', border: '1px solid #333', marginBottom: '1.5rem' }}>
-                <span style={{ fontSize: '0.875rem', color: '#888', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '0.5rem' }}>Kök Fiil:</span>
-                {item.base_verb && <p style={{ fontSize: '2rem', fontWeight: 'bold', color: '#00ffff', margin: 0 }}>{item.base_verb}</p>}
-                {item.base_verb_tr && <p style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#ff4444', margin: '0.5rem 0 0 0' }}>Anlamı: {item.base_verb_tr}</p>}
-              </div>
-            )}
-
-            {/* Türkçe Anlam (Kırmızı) */}
-            <div style={{ marginBottom: '1.5rem' }}>
-              <span style={{ fontSize: '0.875rem', color: '#888', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '0.5rem' }}>Türkçe Anlamı:</span>
-              <p style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#ff0000', margin: 0, lineHeight: '1.2' }}>
-                {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
-              </p>
-            </div>
-
-            {/* Örnek Cümleler */}
-            {item.examples && item.examples.length > 0 && (
-              <div style={{ padding: '1.5rem', backgroundColor: '#000', borderRadius: '0.5rem', borderLeft: '4px solid #00ffff', marginTop: '1.5rem' }}>
-                <span style={{ fontSize: '0.875rem', color: '#666', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '1rem' }}>Örnek Kullanım:</span>
-                <p style={{ fontSize: '1.5rem', color: '#00ffff', fontWeight: '500', margin: '0 0 0.5rem 0' }}>{item.examples[0].ru}</p>
-                <p style={{ fontSize: '1.5rem', color: '#ff4444', fontWeight: '500', margin: 0 }}>{item.examples[0].tr}</p>
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
