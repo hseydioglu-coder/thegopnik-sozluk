@@ -73,12 +73,10 @@ export default function Home() {
         if (!text) return false;
         const lowerText = text.toLowerCase();
         
-        // Kullanıcı birden fazla kelime yazdıysa, tam metin eşleşmesi yap
         if (queryStr.includes(" ")) {
           return lowerText.includes(queryStr);
         }
         
-        // Tek kelimeyse, alakasız harf kombinasyonlarını elemek için kelime başlarına bak
         const words = lowerText.split(/[\s,.-]+/);
         return words.some(word => word.startsWith(queryStr));
       };
@@ -182,7 +180,6 @@ export default function Home() {
         {results.length === 0 && (
           <div className="w-full w-11/12 max-w-4xl flex flex-col items-center">
             
-            {/* Uyarı Kutusu */}
             <div className="w-full mb-8 p-6 bg-[#1a0505] border border-[#ff0000]/30 rounded-2xl shadow-[0_0_15px_rgba(255,0,0,0.15)] text-center">
               <h2 className="text-lg sm:text-xl font-black text-[#ff0000] mb-3 drop-shadow-[0_0_5px_rgba(255,0,0,0.8)]">
                 ⚠️ {content[lang].warningBoxTitle} ⚠️
@@ -192,7 +189,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Örnek Argo İfadeler */}
             <div className="w-full mb-16">
               <h3 className="text-xs sm:text-sm font-bold text-[#666] uppercase tracking-widest mb-4 border-b border-[#333] pb-2 inline-block">
                 {content[lang].examplesTitle}
@@ -244,12 +240,24 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-6">
-                  {/* Anlamsal Çeviri */}
+                  {/* Anlamsal Çeviri (Alt Alta Düzenlendi) */}
                   <div>
-                    <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-2">Anlamsal Çeviri:</span>
-                    <p className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
-                      {Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr}
-                    </p>
+                    <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-3">Anlamsal Çeviri:</span>
+                    <div className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
+                      {Array.isArray(item.meaning_tr) ? (
+                        item.meaning_tr.map((meaning: string, i: number) => (
+                          <span key={i} className="block mb-3 last:mb-0">
+                            {meaning}
+                          </span>
+                        ))
+                      ) : (
+                        item.meaning_tr?.split(".,").map((meaning: string, i: number) => (
+                          <span key={i} className="block mb-3 last:mb-0">
+                            {meaning.trim()}
+                          </span>
+                        ))
+                      )}
+                    </div>
                   </div>
 
                   {/* Kültürel Açıklama */}
