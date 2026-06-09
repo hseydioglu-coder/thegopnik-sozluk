@@ -20,11 +20,28 @@ const firebaseConfig = {
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const db = getFirestore(app);
 
+// Kelime havuzunu bileşenin dışına aldık (Performans ve kararlılık için)
+const allSampleSlang = [
+  { display: "Бл...ь", search: "блядь", tr: "Kahretsin" },
+  { display: "Пиз...ц", search: "пиздец", tr: "Felaket" },
+  { display: "Х...й", search: "хуй", tr: "Y...k" },
+  { display: "Еб...ть", search: "ебать", tr: "S...mek" },
+  { display: "Муд...к", search: "мудак", tr: "P...t" },
+  { display: "Су...а", search: "сука", tr: "O...pu" },
+  { display: "Зае...л", search: "заебал", tr: "Bıktırdı" },
+  { display: "Ганд...н", search: "гандон", tr: "P...şt" },
+  { display: "Шлю...а", search: "шлюха", tr: "F...şe" },
+  { display: "Ху...ня", search: "хуйня", tr: "Saçmalık" },
+  { display: "Долбо...б", search: "долбоёб", tr: "G...zekalı" },
+  { display: "Пи...ор", search: "пидор", tr: "İ...ne" }
+];
+
 export default function Home() {
   const [lang, setLang] = useState<"tr" | "ru">("tr");
   const [searchQuery, setSearchQuery] = useState("");
   const [results, setResults] = useState<any[]>([]);
   const [randomSlangs, setRandomSlangs] = useState<any[]>([]);
+  const [isMounted, setIsMounted] = useState(false);
 
   const content = {
     tr: {
@@ -49,22 +66,9 @@ export default function Home() {
     },
   };
 
-  const allSampleSlang = [
-    { display: "Бл...ь", search: "блядь", tr: "Kahretsin" },
-    { display: "Пиз...ц", search: "пиздец", tr: "Felaket" },
-    { display: "Х...й", search: "хуй", tr: "Y...k" },
-    { display: "Еб...ть", search: "ебать", tr: "S...mek" },
-    { display: "Муд...к", search: "мудак", tr: "P...t" },
-    { display: "Су...а", search: "сука", tr: "O...pu" },
-    { display: "Зае...л", search: "заебал", tr: "Bıktırdı" },
-    { display: "Ганд...н", search: "гандон", tr: "P...şt" },
-    { display: "Шлю...а", search: "шлюха", tr: "F...şe" },
-    { display: "Ху...ня", search: "хуйня", tr: "Saçmalık" },
-    { display: "Долбо...б", search: "долбоёб", tr: "G...zekalı" },
-    { display: "Пи...ор", search: "пидор", tr: "İ...ne" }
-  ];
-
+  // Sayfa yüklendiğinde rastgele kelimeleri seç (Hydration hatasını engellemek için)
   useEffect(() => {
+    setIsMounted(true);
     const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
     setRandomSlangs(shuffled.slice(0, 8));
   }, []);
@@ -203,7 +207,7 @@ export default function Home() {
                 {content[lang].examplesTitle}
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                {randomSlangs.map((ex, i) => (
+                {isMounted && randomSlangs.map((ex, i) => (
                   <div 
                     key={i}
                     onClick={() => setSearchQuery(ex.search)}
