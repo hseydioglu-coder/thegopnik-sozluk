@@ -116,25 +116,43 @@ export default function Home() {
           }
         });
 
-        // BİREBİR EŞLEŞME VE ALFABETİK SIRALAMA MANTIĞI
-        filtered.sort((a, b) => {
-          const aRu = (a.word_ru || "").toLowerCase();
-          const bRu = (b.word_ru || "").toLowerCase();
+        // GELİŞMİŞ PUANLAMA VE SIRALAMA SİSTEMİ
+        const getRank = (item: any, qStr: string) => {
+          const ru = (item.word_ru || "").trim().toLowerCase();
           
-          // A kelimesi tam eşleşiyor mu?
-          const aExact = aRu === searchStr || 
-            (Array.isArray(a.meaning_tr) ? a.meaning_tr.some((m: string) => m.toLowerCase() === searchStr) : (a.meaning_tr || "").toLowerCase() === searchStr);
-            
-          // B kelimesi tam eşleşiyor mu?
-          const bExact = bRu === searchStr || 
-            (Array.isArray(b.meaning_tr) ? b.meaning_tr.some((m: string) => m.toLowerCase() === searchStr) : (b.meaning_tr || "").toLowerCase() === searchStr);
+          // 1. Tam eşleşme (Örn: хуй)
+          if (ru === qStr) return 1;
+          
+          // 2. Ayrı bir kelime grubu olarak başlayanlar (Örn: хуй важный)
+          if (ru.startsWith(qStr + " ")) return 2;
+          
+          // 3. Birleşik harf olarak başlayanlar (Örn: хуйня)
+          if (ru.startsWith(qStr)) return 3;
 
-          // Kural 1: Birebir eşleşenleri her zaman en başa al
-          if (aExact && !bExact) return -1;
-          if (!aExact && bExact) return 1;
+          // Türkçe Anlam Kontrolleri
+          const trMeanings = Array.isArray(item.meaning_tr) ? item.meaning_tr : [item.meaning_tr || ""];
+          
+          // 4. Türkçe tam eşleşme
+          if (trMeanings.some((m: string) => m.trim().toLowerCase() === qStr)) return 4;
+          
+          // 5. Türkçe tam kelime veya harf olarak başlayanlar
+          if (trMeanings.some((m: string) => m.trim().toLowerCase().startsWith(qStr))) return 5;
+          
+          // 6. Cümle ortasında veya arama kelimelerinde (keywords) eşleşen diğerleri
+          return 6;
+        };
 
-          // Kural 2: İkisi de birebir eşleşiyorsa veya ikisi de eşleşmiyorsa, sözlük sırasına (alfabetik) göre diz
-          return aRu.localeCompare(bRu, 'ru');
+        filtered.sort((a, b) => {
+          const rankA = getRank(a, searchStr);
+          const rankB = getRank(b, searchStr);
+
+          // Puanı küçük olan (yani 1, 2, 3...) üstte çıksın
+          if (rankA !== rankB) {
+            return rankA - rankB;
+          }
+
+          // Eğer puanları eşitse (ikisi de Rank 2 ise mesela), o zaman Rusça alfabesine göre diz
+          return (a.word_ru || "").localeCompare(b.word_ru || "", 'ru');
         });
 
         setResults(filtered);
