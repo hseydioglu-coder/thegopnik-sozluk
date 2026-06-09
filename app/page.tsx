@@ -49,7 +49,6 @@ export default function Home() {
     },
   };
 
-  // Ekranda görünen sansürlü kelime ve arka planda aranacak gerçek kelime
   const allSampleSlang = [
     { display: "Бл...ь", search: "блядь", tr: "Kahretsin" },
     { display: "Пиз...ц", search: "пиздец", tr: "Felaket" },
@@ -65,7 +64,6 @@ export default function Home() {
     { display: "Пи...ор", search: "пидор", tr: "İ...ne" }
   ];
 
-  // Sayfa yüklendiğinde rastgele 8 kelime seç
   useEffect(() => {
     const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
     setRandomSlangs(shuffled.slice(0, 8));
@@ -312,4 +310,10 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a]">
-        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_rgba(2
+        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_#ff0000]">
+          {content[lang].warning}
+        </p>
+      </footer>
+    </div>
+  );
+}
