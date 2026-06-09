@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from 'next/image';
+import Link from 'next/link'; // Sayfa geçişleri için Link bileşeni eklendi
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, query, getDocs } from "firebase/firestore";
 
@@ -116,29 +117,18 @@ export default function Home() {
           }
         });
 
-        // GELİŞMİŞ PUANLAMA VE SIRALAMA SİSTEMİ
         const getRank = (item: any, qStr: string) => {
           const ru = (item.word_ru || "").trim().toLowerCase();
           
-          // 1. Tam eşleşme (Örn: хуй)
           if (ru === qStr) return 1;
-          
-          // 2. Ayrı bir kelime grubu olarak başlayanlar (Örn: хуй важный)
           if (ru.startsWith(qStr + " ")) return 2;
-          
-          // 3. Birleşik harf olarak başlayanlar (Örn: хуйня)
           if (ru.startsWith(qStr)) return 3;
 
-          // Türkçe Anlam Kontrolleri
           const trMeanings = Array.isArray(item.meaning_tr) ? item.meaning_tr : [item.meaning_tr || ""];
           
-          // 4. Türkçe tam eşleşme
           if (trMeanings.some((m: string) => m.trim().toLowerCase() === qStr)) return 4;
-          
-          // 5. Türkçe tam kelime veya harf olarak başlayanlar
           if (trMeanings.some((m: string) => m.trim().toLowerCase().startsWith(qStr))) return 5;
           
-          // 6. Cümle ortasında veya arama kelimelerinde (keywords) eşleşen diğerleri
           return 6;
         };
 
@@ -160,7 +150,6 @@ export default function Home() {
       }
     }
 
-    // YARIM SANİYELİK GECİKME (DEBOUNCE) BURADA 300'DEN 500'E ÇIKARILDI
     const delayDebounceFn = setTimeout(() => {
       searchWords();
     }, 500);
@@ -170,7 +159,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#0d0d0d] text-[#E0E0E0] flex flex-col font-sans antialiased">
-      {/* Header - Dil Seçimi */}
       <header className="w-full flex justify-end p-4">
         <div className="flex border border-[#333] rounded overflow-hidden">
           <button 
@@ -188,13 +176,11 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Ana İçerik */}
       <main className="flex-grow flex flex-col items-center pt-[5vh] sm:pt-[8vh] px-4 sm:px-8 text-center w-full">
         <div className="relative w-20 h-20 sm:w-28 sm:h-28 mb-4 opacity-95">
           <Image alt="logogopnik.png" src="/logogopnik.png" fill className="object-contain" priority />
         </div>
         
-        {/* Başlık */}
         <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-[#C61010] pt-2 drop-shadow-md">
           {lang === "tr" ? (
             <>THE GOPNİ<span className="relative">K<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
@@ -207,7 +193,6 @@ export default function Home() {
           {content[lang].subtitle}
         </p>
 
-        {/* Arama Kutusu */}
         <div className="w-full w-11/12 max-w-4xl mb-8">
           <div className="relative flex items-center w-full h-16 sm:h-20 rounded-2xl shadow-2xl bg-[#1a1a1a] border border-[#333] pl-6 pr-3 focus-within:border-[#00ffff] transition-colors">
             <input 
@@ -225,10 +210,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Ana Sayfa Uyarı Kutusu ve Örnek Kelimeler */}
         {results.length === 0 && (
           <div className="w-full w-11/12 max-w-4xl flex flex-col items-center">
-            
             <div className="w-full mb-8 p-6 bg-[#1a0505] border border-[#ff0000]/30 rounded-2xl shadow-[0_0_15px_rgba(255,0,0,0.15)] text-center">
               <h2 className="text-lg sm:text-xl font-black text-[#ff0000] mb-3 drop-shadow-[0_0_5px_rgba(255,0,0,0.8)]">
                 ⚠️ {content[lang].warningBoxTitle} ⚠️
@@ -259,113 +242,120 @@ export default function Home() {
                 ))}
               </div>
             </div>
-
           </div>
         )}
 
-        {/* Sonuç Listesi */}
         {results.length > 0 && (
           <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16 mt-4">
             {results.map((item: any, index: number) => (
-  <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
-    
-    {/* Schema.org Yapılandırılmış Veri */}
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "DefinedTerm",
-          "termCode": item.word_ru,
-          "name": item.word_ru,
-          "description": Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr,
-          "inDefinedTermSet": "https://thegopnik.com/sozluk"
-        })
-      }}
-    />
+              <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "DefinedTerm",
+                      "termCode": item.word_ru,
+                      "name": item.word_ru,
+                      "description": Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr,
+                      "inDefinedTermSet": "https://thegopnik.com/sozluk"
+                    })
+                  }}
+                />
 
-    {/* Üst Kısım: Rusça Kelime ve Seviye */}
-    <div className="flex justify-between items-start mb-6 border-b border-[#2a2a2a] pb-6">
-      <div>
-        <h3 className="text-4xl sm:text-5xl font-black text-[#00ffff] drop-shadow-[0_0_10px_rgba(0,255,255,0.6)] tracking-wide">
-          {item.word_ru}
-        </h3>
-        {item.word_latin && (
-          <span className="block text-xl sm:text-2xl text-[#888] font-medium mt-3">
-            ({item.word_latin})
-          </span>
-        )}
-      </div>
-      
-      {item.severity_level && (
-        <span className="text-xs sm:text-sm px-3 py-1 rounded bg-[#C61010]/10 text-[#ff3333] border border-[#C61010]/40 font-bold uppercase tracking-wider shrink-0 ml-4">
-          Seviye: {item.severity_level}
-        </span>
-      )}
-    </div>
+                <div className="flex justify-between items-start mb-6 border-b border-[#2a2a2a] pb-6">
+                  <div>
+                    <h3 className="text-4xl sm:text-5xl font-black text-[#00ffff] drop-shadow-[0_0_10px_rgba(0,255,255,0.6)] tracking-wide">
+                      {item.word_ru}
+                    </h3>
+                    {item.word_latin && (
+                      <span className="block text-xl sm:text-2xl text-[#888] font-medium mt-3">
+                        ({item.word_latin})
+                      </span>
+                    )}
+                  </div>
+                  
+                  {item.severity_level && (
+                    <span className="text-xs sm:text-sm px-3 py-1 rounded bg-[#C61010]/10 text-[#ff3333] border border-[#C61010]/40 font-bold uppercase tracking-wider shrink-0 ml-4">
+                      Seviye: {item.severity_level}
+                    </span>
+                  )}
+                </div>
 
-    <div className="space-y-6">
-      {/* Anlamsal Çeviri */}
-      <div>
-        <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-3">Anlamsal Çeviri:</span>
-        <div className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
-          {Array.isArray(item.meaning_tr) ? (
-            item.meaning_tr.map((meaning: string, i: number) => (
-              <span key={i} className="block mb-3 last:mb-0">
-                {meaning}
-              </span>
-            ))
-          ) : (
-            item.meaning_tr?.split(".,").map((meaning: string, i: number) => (
-              <span key={i} className="block mb-3 last:mb-0">
-                {meaning.trim()}
-              </span>
-            ))
-          )}
-        </div>
-      </div>
+                <div className="space-y-6">
+                  <div>
+                    <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-3">Anlamsal Çeviri:</span>
+                    <div className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
+                      {Array.isArray(item.meaning_tr) ? (
+                        item.meaning_tr.map((meaning: string, i: number) => (
+                          <span key={i} className="block mb-3 last:mb-0">
+                            {meaning}
+                          </span>
+                        ))
+                      ) : (
+                        item.meaning_tr?.split(".,").map((meaning: string, i: number) => (
+                          <span key={i} className="block mb-3 last:mb-0">
+                            {meaning.trim()}
+                          </span>
+                        ))
+                      )}
+                    </div>
+                  </div>
 
-      {/* Kültürel Açıklama */}
-      {item.cultural_context && (
-        <div className="bg-[#1a1a1a] p-5 rounded-xl border border-[#333]">
-          <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-2">Kültürel Açıklama:</span>
-          <p className="text-base sm:text-lg text-[#d0d0d0] leading-relaxed">
-            {item.cultural_context}
-          </p>
-        </div>
-      )}
+                  {item.cultural_context && (
+                    <div className="bg-[#1a1a1a] p-5 rounded-xl border border-[#333]">
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-2">Kültürel Açıklama:</span>
+                      <p className="text-base sm:text-lg text-[#d0d0d0] leading-relaxed">
+                        {item.cultural_context}
+                      </p>
+                    </div>
+                  )}
 
-      {/* Birebir Çeviri */}
-      {item.literal_translation_tr && (
-        <div>
-          <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-1">Birebir Çeviri:</span>
-          <p className="text-base sm:text-lg text-[#a0a0a0] italic">
-            {item.literal_translation_tr}
-          </p>
-        </div>
-      )}
+                  {item.literal_translation_tr && (
+                    <div>
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-1">Birebir Çeviri:</span>
+                      <p className="text-base sm:text-lg text-[#a0a0a0] italic">
+                        {item.literal_translation_tr}
+                      </p>
+                    </div>
+                  )}
 
-      {/* Örnek Kullanım */}
-      {item.examples && item.examples.length > 0 && (
-        <div className="pt-4 mt-4 border-t border-[#2a2a2a]">
-          <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-3">Örnek Kullanım:</span>
-          <div className="p-5 bg-[#0a0a0a] rounded-xl border-l-4 border-[#00ffff]">
-            <p className="text-[#00ffff] font-medium text-lg sm:text-xl mb-2">“{item.examples[0].ru}”</p>
-            <p className="text-[#ff3333] text-base sm:text-lg">→ {item.examples[0].tr}</p>
-          </div>
-        </div>
-      )}
-    </div>
-  </div>
-))}
+                  {item.examples && item.examples.length > 0 && (
+                    <div className="pt-4 mt-4 border-t border-[#2a2a2a]">
+                      <span className="text-xs font-bold text-[#666] uppercase tracking-widest block mb-3">Örnek Kullanım:</span>
+                      <div className="p-5 bg-[#0a0a0a] rounded-xl border-l-4 border-[#00ffff]">
+                        <p className="text-[#00ffff] font-medium text-lg sm:text-xl mb-2">“{item.examples[0].ru}”</p>
+                        <p className="text-[#ff3333] text-base sm:text-lg">→ {item.examples[0].tr}</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a]">
-        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_#ff0000]">
+      {/* Yenilenmiş Footer (Kurumsal Sayfa Linkleri İle) */}
+      <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a] flex flex-col items-center gap-6">
+        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_#ff0000] px-4">
           {content[lang].warning}
+        </p>
+        
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-10 text-xs sm:text-sm font-bold tracking-widest text-[#666]">
+          <Link href="/hakkimizda" className="hover:text-[#00ffff] transition-colors duration-300">
+            HAKKIMIZDA
+          </Link>
+          <Link href="/iletisim" className="hover:text-[#00ffff] transition-colors duration-300">
+            İLETİŞİM
+          </Link>
+          <Link href="/gizlilik-politikasi" className="hover:text-[#00ffff] transition-colors duration-300">
+            GİZLİLİK POLİTİKASI
+          </Link>
+        </div>
+        
+        <p className="text-[#333] text-xs font-bold tracking-widest uppercase">
+          © {new Date().getFullYear()} THE GOPNİK
         </p>
       </footer>
     </div>
