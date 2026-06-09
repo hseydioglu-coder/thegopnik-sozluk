@@ -265,10 +265,34 @@ export default function Home() {
         )}
 
         {/* Sonuç Listesi */}
-        {results.length > 0 && (
-          <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16 mt-4">
-            {results.map((item: any, index: number) => (
-              <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
+{results.length > 0 && (
+  <div className="w-full w-11/12 max-w-4xl text-left space-y-8 mb-16 mt-4">
+    {results.map((item: any, index: number) => (
+      <div key={index} className="p-8 sm:p-10 rounded-2xl bg-[#141414] border border-[#2a2a2a] shadow-2xl">
+        
+        {/* Schema.org Yapılandırılmış Veri - BURAYA YAPIŞTIR */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "DefinedTerm",
+              "termCode": item.word_ru,
+              "name": item.word_ru,
+              "description": Array.isArray(item.meaning_tr) ? item.meaning_tr.join(", ") : item.meaning_tr,
+              "inDefinedTermSet": "https://thegopnik.com/sozluk"
+            })
+          }}
+        />
+
+        {/* Mevcut içeriklerin (başlıklar, anlamlar vs.) olduğu yer burasıdır, dokunma */}
+        <h2 className="text-3xl font-black text-[#00ffff] mb-2">{item.word_ru}</h2>
+        {/* ... diğer kodların burada devam edecek ... */}
+        
+      </div>
+    ))}
+  </div>
+)}
                 
                 {/* Üst Kısım: Rusça Kelime ve Seviye */}
                 <div className="flex justify-between items-start mb-6 border-b border-[#2a2a2a] pb-6">
