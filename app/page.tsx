@@ -20,7 +20,6 @@ const firebaseConfig = {
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const db = getFirestore(app);
 
-// Kelime havuzunu bileşenin dışına aldık (Performans ve kararlılık için)
 const allSampleSlang = [
   { display: "Бл...ь", search: "блядь", tr: "Kahretsin" },
   { display: "Пиз...ц", search: "пиздец", tr: "Felaket" },
@@ -66,7 +65,6 @@ export default function Home() {
     },
   };
 
-  // Sayfa yüklendiğinde rastgele kelimeleri seç (Hydration hatasını engellemek için)
   useEffect(() => {
     setIsMounted(true);
     const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
@@ -116,6 +114,27 @@ export default function Home() {
           if (matchRu || matchLatin || matchMeaningTr || matchKeywords) {
             filtered.push(item);
           }
+        });
+
+        // BİREBİR EŞLEŞME VE ALFABETİK SIRALAMA MANTIĞI
+        filtered.sort((a, b) => {
+          const aRu = (a.word_ru || "").toLowerCase();
+          const bRu = (b.word_ru || "").toLowerCase();
+          
+          // A kelimesi tam eşleşiyor mu?
+          const aExact = aRu === searchStr || 
+            (Array.isArray(a.meaning_tr) ? a.meaning_tr.some((m: string) => m.toLowerCase() === searchStr) : (a.meaning_tr || "").toLowerCase() === searchStr);
+            
+          // B kelimesi tam eşleşiyor mu?
+          const bExact = bRu === searchStr || 
+            (Array.isArray(b.meaning_tr) ? b.meaning_tr.some((m: string) => m.toLowerCase() === searchStr) : (b.meaning_tr || "").toLowerCase() === searchStr);
+
+          // Kural 1: Birebir eşleşenleri her zaman en başa al
+          if (aExact && !bExact) return -1;
+          if (!aExact && bExact) return 1;
+
+          // Kural 2: İkisi de birebir eşleşiyorsa veya ikisi de eşleşmiyorsa, sözlük sırasına (alfabetik) göre diz
+          return aRu.localeCompare(bRu, 'ru');
         });
 
         setResults(filtered);
