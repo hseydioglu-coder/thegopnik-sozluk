@@ -146,12 +146,10 @@ export default function Home() {
           const rankA = getRank(a, searchStr);
           const rankB = getRank(b, searchStr);
 
-          // Puanı küçük olan (yani 1, 2, 3...) üstte çıksın
           if (rankA !== rankB) {
             return rankA - rankB;
           }
 
-          // Eğer puanları eşitse (ikisi de Rank 2 ise mesela), o zaman Rusça alfabesine göre diz
           return (a.word_ru || "").localeCompare(b.word_ru || "", 'ru');
         });
 
@@ -162,9 +160,10 @@ export default function Home() {
       }
     }
 
+    // YARIM SANİYELİK GECİKME (DEBOUNCE) BURADA 300'DEN 500'E ÇIKARILDI
     const delayDebounceFn = setTimeout(() => {
       searchWords();
-    }, 300);
+    }, 500);
 
     return () => clearTimeout(delayDebounceFn);
   }, [searchQuery]);
