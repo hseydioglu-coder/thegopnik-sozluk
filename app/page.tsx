@@ -24,6 +24,7 @@ export default function Home() {
   const [lang, setLang] = useState<"tr" | "ru">("tr");
   const [searchQuery, setSearchQuery] = useState("");
   const [results, setResults] = useState<any[]>([]);
+  const [randomSlangs, setRandomSlangs] = useState<any[]>([]);
 
   const content = {
     tr: {
@@ -44,20 +45,31 @@ export default function Home() {
       warning: "+18 | СОДЕРЖИТ НЕНОРМАТИВНУЮ ЛЕКСИКУ И УЛИЧНЫЙ ЖАРГОН!",
       warningBoxTitle: "ВНИМАНИЕ / UYARI",
       warningBoxText: "Контент на этой платформе предназначен для взрослых и содержит тяжелый сленг, мат и уличный жаргон. Если вы чувствительны к подобному, пожалуйста, покиньте сайт.",
-      examplesTitle: "Примеры Сленга (Показать)",
+      examplesTitle: "Примеры Сленга",
     },
   };
 
-  const sampleSlang = [
-    { ru: "Бл...ь", tr: "Kahretsin" },
-    { ru: "Пиз...ц", tr: "Felaket" },
-    { ru: "Х...й", tr: "Y...k" },
-    { ru: "Еб...ть", tr: "S...mek" },
-    { ru: "Муд...к", tr: "P...t" },
-    { ru: "Су...а", tr: "O...pu" },
-    { ru: "Зае...л", tr: "Bıktırdı" },
-    { ru: "Ганд...н", tr: "P...şt" }
+  // Ekranda görünen sansürlü kelime ve arka planda aranacak gerçek kelime
+  const allSampleSlang = [
+    { display: "Бл...ь", search: "блядь", tr: "Kahretsin" },
+    { display: "Пиз...ц", search: "пиздец", tr: "Felaket" },
+    { display: "Х...й", search: "хуй", tr: "Y...k" },
+    { display: "Еб...ть", search: "ебать", tr: "S...mek" },
+    { display: "Муд...к", search: "мудак", tr: "P...t" },
+    { display: "Су...а", search: "сука", tr: "O...pu" },
+    { display: "Зае...л", search: "заебал", tr: "Bıktırdı" },
+    { display: "Ганд...н", search: "гандон", tr: "P...şt" },
+    { display: "Шлю...а", search: "шлюха", tr: "F...şe" },
+    { display: "Ху...ня", search: "хуйня", tr: "Saçmalık" },
+    { display: "Долбо...б", search: "долбоёб", tr: "G...zekalı" },
+    { display: "Пи...ор", search: "пидор", tr: "İ...ne" }
   ];
+
+  // Sayfa yüklendiğinde rastgele 8 kelime seç
+  useEffect(() => {
+    const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
+    setRandomSlangs(shuffled.slice(0, 8));
+  }, []);
 
   useEffect(() => {
     async function searchWords() {
@@ -68,7 +80,6 @@ export default function Home() {
 
       const searchStr = searchQuery.trim().toLowerCase();
 
-      // Akıllı Eşleşme Mantığı
       const isSmartMatch = (text: string | undefined, queryStr: string) => {
         if (!text) return false;
         const lowerText = text.toLowerCase();
@@ -148,9 +159,9 @@ export default function Home() {
         {/* Başlık */}
         <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-[#C61010] pt-2 drop-shadow-md">
           {lang === "tr" ? (
-            <>THE GOPNİ<span className="relative">K<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE GOPNİ<span className="relative">K<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           ) : (
-            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           )}
         </h1>
         
@@ -194,15 +205,16 @@ export default function Home() {
                 {content[lang].examplesTitle}
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                {sampleSlang.map((ex, i) => (
+                {randomSlangs.map((ex, i) => (
                   <div 
-                    key={i} 
-                    className="group p-4 bg-[#141414] border border-[#2a2a2a] rounded-xl hover:border-[#ff0000]/50 transition-all duration-300 flex flex-col items-center justify-center text-center cursor-crosshair"
+                    key={i}
+                    onClick={() => setSearchQuery(ex.search)}
+                    className="group p-4 bg-[#141414] border border-[#2a2a2a] rounded-xl hover:border-[#ff0000]/50 hover:bg-[#1a0505] transition-all duration-300 flex flex-col items-center justify-center text-center cursor-pointer shadow-md hover:shadow-[0_0_15px_rgba(255,0,0,0.2)]"
                   >
-                    <span className="text-[#00ffff] font-black text-lg sm:text-xl blur-sm group-hover:blur-none transition-all duration-300 drop-shadow-[0_0_5px_rgba(0,255,255,0.3)]">
-                      {ex.ru}
+                    <span className="text-[#00ffff] font-black text-lg sm:text-xl transition-all duration-300 drop-shadow-[0_0_5px_rgba(0,255,255,0.3)] group-hover:text-white group-hover:scale-105">
+                      {ex.display}
                     </span>
-                    <span className="text-[#ff3333] font-bold text-xs sm:text-sm mt-2 blur-sm group-hover:blur-none transition-all duration-300">
+                    <span className="text-[#ff3333] font-bold text-xs sm:text-sm mt-2 transition-all duration-300">
                       {ex.tr}
                     </span>
                   </div>
@@ -240,7 +252,7 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-6">
-                  {/* Anlamsal Çeviri (Alt Alta Düzenlendi) */}
+                  {/* Anlamsal Çeviri */}
                   <div>
                     <span className="text-sm font-bold text-[#666] uppercase tracking-widest block mb-3">Anlamsal Çeviri:</span>
                     <div className="text-2xl sm:text-3xl font-bold text-[#ff3333] drop-shadow-[0_0_8px_rgba(255,51,51,0.5)] leading-snug">
@@ -300,10 +312,4 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a]">
-        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_rgba(255,0,0,0.9)]">
-          {content[lang].warning}
-        </p>
-      </footer>
-    </div>
-  );
-}
+        <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_rgba(2
