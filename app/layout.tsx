@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import "./globals.css";
-import Script from 'next/script'; // Bunu eklemeyi unutma
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,9 +17,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="tr">
       <head>
-        {/* Google Analytics Script'i */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></Script>
-        <Script id="google-analytics">
+        {/* Google Analytics - Google Etiketi */}
+        <Script 
+          async 
+          src="https://www.googletagmanager.com/gtag/js?id=G-YLWZWH0GC4"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
