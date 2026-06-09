@@ -5,7 +5,6 @@ import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from "firebase/firestore";
 
 // Firebase Kurulumu
-// Firebase Kurulumu (Vercel Çevre Değişkenlerinden Okuyacak)
 const firebaseConfig = {
   apiKey: "AIzaSyBYdaNaMFJ1yheOXuuac-Aadts9RjUjTxc",
   authDomain: "thegopnik-fb24e.firebaseapp.com",
@@ -36,7 +35,7 @@ export default function AdminPage() {
   };
   const [formData, setFormData] = useState(initialForm);
 
-  // ŞİFRE KONTROLÜ (Buradaki 123456'yı istediğin şifreyle değiştir)
+  // ŞİFRE KONTROLÜ
   const handleLogin = () => {
     if (password === "Xzx+1461!AHS") {
       setIsAuthenticated(true);
@@ -64,7 +63,7 @@ export default function AdminPage() {
     const dataToSave = {
       word_ru: formData.word_ru,
       word_latin: formData.word_latin,
-      meaning_tr: formData.meaning_tr.split(",").map(s => s.trim()), // Virgülle ayırıp dizi yapar
+      meaning_tr: formData.meaning_tr.split(",").map(s => s.trim()),
       cultural_context: formData.cultural_context,
       literal_translation_tr: formData.literal_translation_tr,
       severity_level: formData.severity_level,
@@ -198,7 +197,14 @@ export default function AdminPage() {
           </div>
 
           <div className="space-y-4">
-            {words.filter(w => w.word_ru?.toLowerCase().includes(searchTerm.toLowerCase()) || Array.isArray(w.meaning_tr) ? w.meaning_tr.join().toLowerCase().includes(searchTerm.toLowerCase()) : w.meaning_tr?.toLowerCase().includes(searchTerm.toLowerCase())).map((item) => (
+            {words.filter(w => {
+              const term = searchTerm.toLowerCase();
+              const matchRu = w.word_ru?.toLowerCase().includes(term);
+              const matchTr = Array.isArray(w.meaning_tr) 
+                ? w.meaning_tr.join(" ").toLowerCase().includes(term) 
+                : w.meaning_tr?.toLowerCase().includes(term);
+              return matchRu || matchTr;
+            }).map((item) => (
               <div key={item.id} className="flex justify-between items-center p-4 bg-[#111] border border-[#222] rounded-xl hover:border-[#444] transition-colors">
                 <div>
                   <h3 className="text-xl font-bold text-[#00ffff]">{item.word_ru}</h3>
