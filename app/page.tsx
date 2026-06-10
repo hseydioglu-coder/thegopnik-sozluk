@@ -350,16 +350,16 @@ export default function Home() {
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 sm:gap-10 text-xs sm:text-sm font-bold tracking-widest text-[#666]">
-          <Link href="/hakkimizda" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-            {content[lang].about}
-          </Link>
-          <Link href="/iletisim" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-            {content[lang].contact}
-          </Link>
-          <Link href="/gizlilik-politikasi" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-            {content[lang].privacy}
-          </Link>
-        </div>
+  <Link href={`/hakkimizda?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+    {content[lang].about}
+  </Link>
+  <Link href={`/iletisim?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+    {content[lang].contact}
+  </Link>
+  <Link href={`/gizlilik-politikasi?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+    {content[lang].privacy}
+  </Link>
+</div>
         
         <p className="text-[#333] text-xs font-bold tracking-widest uppercase">
           © {new Date().getFullYear()} THE GOPNİK
