@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from 'next/image';
-import Link from 'next/link'; // Sayfa geçişleri için Link bileşeni eklendi
+import Link from 'next/link';
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, query, getDocs } from "firebase/firestore";
 
@@ -43,6 +43,7 @@ export default function Home() {
   const [randomSlangs, setRandomSlangs] = useState<any[]>([]);
   const [isMounted, setIsMounted] = useState(false);
 
+  // ÇEVİRİLERİN TUTULDUĞU NESNE (FOOTER LİNKLERİ BURAYA EKLENDİ)
   const content = {
     tr: {
       title: "THE GOPNİK",
@@ -53,6 +54,9 @@ export default function Home() {
       warningBoxTitle: "UYARI / ПРЕДУПРЕЖДЕНИЕ",
       warningBoxText: "Bu platformdaki içerikler yetişkinlere yöneliktir ve ağır argo, küfür ile sokak jargonu barındırır. Lütfen hassasiyetiniz varsa siteyi kullanmayınız.",
       examplesTitle: "Örnek Argo İfadeler",
+      about: "HAKKIMIZDA",
+      contact: "İLETİŞİM",
+      privacy: "GİZLİLİK POLİTİKASI"
     },
     ru: {
       title: "THE ГОПНИК",
@@ -63,6 +67,9 @@ export default function Home() {
       warningBoxTitle: "ВНИМАНИЕ / UYARI",
       warningBoxText: "Контент на этой платформе предназначен для взрослых и содержит тяжелый сленг, мат и уличный жаргон. Если вы чувствительны к подобному, пожалуйста, покиньте сайт.",
       examplesTitle: "Примеры Сленга",
+      about: "О НАС",
+      contact: "КОНТАКТЫ",
+      privacy: "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
     },
   };
 
@@ -336,21 +343,21 @@ export default function Home() {
         )}
       </main>
 
-      {/* Yenilenmiş Footer (Kurumsal Sayfa Linkleri İle) */}
+      {/* DİNAMİK YAPILAN FOOTER */}
       <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a] flex flex-col items-center gap-6">
         <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_#ff0000] px-4">
           {content[lang].warning}
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 sm:gap-10 text-xs sm:text-sm font-bold tracking-widest text-[#666]">
-          <Link href="/hakkimizda" className="hover:text-[#00ffff] transition-colors duration-300">
-            HAKKIMIZDA
+          <Link href="/hakkimizda" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].about}
           </Link>
-          <Link href="/iletisim" className="hover:text-[#00ffff] transition-colors duration-300">
-            İLETİŞİM
+          <Link href="/iletisim" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].contact}
           </Link>
-          <Link href="/gizlilik-politikasi" className="hover:text-[#00ffff] transition-colors duration-300">
-            GİZLİLİK POLİTİKASI
+          <Link href="/gizlilik-politikasi" className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].privacy}
           </Link>
         </div>
         
