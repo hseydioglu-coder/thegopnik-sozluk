@@ -29,7 +29,7 @@ const allSampleSlang = [
   { display: "Муд...к", search: "мудак", tr: "P...t" },
   { display: "Су...а", search: "сука", tr: "O...pu" },
   { display: "Зае...л", search: "заебал", tr: "Bıktırdı" },
-  { display: "Ганд...н", search: "гандон", tr: "P...şt" },
+  { display: "Гонд...н", search: "гондон", tr: "P...şt" },
   { display: "Шлю...а", search: "шлюха", tr: "F...şe" },
   { display: "Ху...ня", search: "хуйня", tr: "Saçmalık" },
   { display: "Долбо...б", search: "долбоёб", tr: "G...zekalı" },
