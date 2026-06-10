@@ -8,9 +8,14 @@ export default function GizlilikPolitikasi() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const params = new URLSearchParams(window.location.search);
-      if (params.get('lang') === 'ru') {
+      const savedLang = localStorage.getItem('gopnik_lang');
+      if (savedLang === 'ru') {
         setLang('ru');
+      } else if (!savedLang) {
+        const browserLang = navigator.language.toLowerCase();
+        if (browserLang.startsWith("ru") || browserLang.startsWith("be") || browserLang.startsWith("uk") || browserLang.startsWith("kk")) {
+          setLang('ru');
+        }
       }
     }
   }, []);
