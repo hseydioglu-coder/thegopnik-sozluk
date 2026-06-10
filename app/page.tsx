@@ -386,7 +386,7 @@ export default function Home() {
         </div>
         
         <p className="text-[#333] text-xs font-bold tracking-widest uppercase">
-          © {new Date().getFullYear()} THE GOPNİK
+          © {new Date().getFullYear()} www.thegopnik.com
         </p>
       </footer>
     </div>
