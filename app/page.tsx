@@ -29,7 +29,7 @@ const allSampleSlang = [
   { display: "Муд...к", search: "мудак", tr: "P...t" },
   { display: "Су...а", search: "сука", tr: "O...pu" },
   { display: "Зае...л", search: "заебал", tr: "Bıktırdı" },
-  { display: "Гонд...н", search: "гондон", tr: "P...şt" },
+  { display: "Гонд...н", search: "гондон", tr: "P...şt" }, // Arama hatasını önlemek için düzeltildi
   { display: "Шлю...а", search: "шлюха", tr: "F...şe" },
   { display: "Ху...ня", search: "хуйня", tr: "Saçmalık" },
   { display: "Долбо...б", search: "долбоёб", tr: "G...zekalı" },
@@ -43,7 +43,38 @@ export default function Home() {
   const [randomSlangs, setRandomSlangs] = useState<any[]>([]);
   const [isMounted, setIsMounted] = useState(false);
 
-  // ÇEVİRİLERİN TUTULDUĞU NESNE (FOOTER LİNKLERİ BURAYA EKLENDİ)
+  // 1. HAFIZA VE OTOMATİK DİL TANIMA
+  useEffect(() => {
+    setIsMounted(true);
+    
+    // Rastgele kelimeleri ayarla
+    const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
+    setRandomSlangs(shuffled.slice(0, 8));
+
+    // Dil ayarını kontrol et
+    const savedLang = localStorage.getItem("gopnik_lang");
+    if (savedLang === "tr" || savedLang === "ru") {
+      // Hafızada varsa onu kullan
+      setLang(savedLang);
+    } else {
+      // Hafızada yoksa kullanıcının tarayıcı diline bak
+      const browserLang = navigator.language.toLowerCase();
+      // Rusça, Belarusça, Ukraynaca veya Kazakça tarayıcı kullanıyorsa RU yap
+      if (browserLang.startsWith("ru") || browserLang.startsWith("be") || browserLang.startsWith("uk") || browserLang.startsWith("kk")) {
+        setLang("ru");
+        localStorage.setItem("gopnik_lang", "ru");
+      } else {
+        localStorage.setItem("gopnik_lang", "tr");
+      }
+    }
+  }, []);
+
+  // 2. DİL DEĞİŞTİRME VE HAFIZAYA YAZMA FONKSİYONU
+  const changeLanguage = (newLang: "tr" | "ru") => {
+    setLang(newLang);
+    localStorage.setItem("gopnik_lang", newLang);
+  };
+
   const content = {
     tr: {
       title: "THE GOPNİK",
@@ -72,12 +103,6 @@ export default function Home() {
       privacy: "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
     },
   };
-
-  useEffect(() => {
-    setIsMounted(true);
-    const shuffled = [...allSampleSlang].sort(() => 0.5 - Math.random());
-    setRandomSlangs(shuffled.slice(0, 8));
-  }, []);
 
   useEffect(() => {
     async function searchWords() {
@@ -169,13 +194,13 @@ export default function Home() {
       <header className="w-full flex justify-end p-4">
         <div className="flex border border-[#333] rounded overflow-hidden">
           <button 
-            onClick={() => setLang("tr")} 
+            onClick={() => changeLanguage("tr")} 
             className={`px-4 py-1.5 text-sm font-bold transition-colors ${lang === "tr" ? "bg-[#C61010] text-white" : "bg-[#1a1a1a] text-[#a0a0a0] hover:text-white"}`}
           >
             TR
           </button>
           <button 
-            onClick={() => setLang("ru")} 
+            onClick={() => changeLanguage("ru")} 
             className={`px-4 py-1.5 text-sm font-bold border-l border-[#333] transition-colors ${lang === "ru" ? "bg-[#C61010] text-white" : "bg-[#1a1a1a] text-[#a0a0a0] hover:text-white"}`}
           >
             RU
@@ -190,9 +215,9 @@ export default function Home() {
         
         <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-[#C61010] pt-2 drop-shadow-md">
           {lang === "tr" ? (
-            <>THE GOPNİ<span className="relative">K<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE GOPNİ<span className="relative">K<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           ) : (
-            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-1 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
+            <>THE ГОПНИ<span className="relative">К<span className="absolute -top-0 -right-6 text-xs sm:text-sm font-black leading-none text-[#ff3333]">+18</span></span></>
           )}
         </h1>
         
@@ -343,23 +368,22 @@ export default function Home() {
         )}
       </main>
 
-      {/* DİNAMİK YAPILAN FOOTER */}
       <footer className="w-full text-center py-8 mt-auto bg-[#0a0a0a] border-t border-[#1a1a1a] flex flex-col items-center gap-6">
         <p className="text-xs sm:text-sm text-[#ff0000] font-black uppercase tracking-[0.2em] drop-shadow-[0_0_8px_#ff0000] px-4">
           {content[lang].warning}
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 sm:gap-10 text-xs sm:text-sm font-bold tracking-widest text-[#666]">
-  <Link href={`/hakkimizda?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-    {content[lang].about}
-  </Link>
-  <Link href={`/iletisim?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-    {content[lang].contact}
-  </Link>
-  <Link href={`/gizlilik-politikasi?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
-    {content[lang].privacy}
-  </Link>
-</div>
+          <Link href={`/hakkimizda?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].about}
+          </Link>
+          <Link href={`/iletisim?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].contact}
+          </Link>
+          <Link href={`/gizlilik-politikasi?lang=${lang}`} className="hover:text-[#00ffff] transition-colors duration-300 uppercase">
+            {content[lang].privacy}
+          </Link>
+        </div>
         
         <p className="text-[#333] text-xs font-bold tracking-widest uppercase">
           © {new Date().getFullYear()} THE GOPNİK
